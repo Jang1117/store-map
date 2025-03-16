@@ -1,6 +1,6 @@
 [
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "2교시간식시간",
     "main_item": "돈가스",
     "price": "9,000",
@@ -24,7 +24,7 @@
     "region_2depth": "청주시 청원구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "9.9추어탕",
     "main_item": "추어탕",
     "price": "10,000",
@@ -36,19 +36,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "미용업",
-    "name": "가든미용실",
-    "main_item": "커트",
-    "price": "5,000",
-    "phone": "043-223-8097",
-    "address": "충청북도 청주시 상당구 청남로2197번길 12 (석교동)",
-    "lat": 36.6278271128724,
-    "lng": 127.490164264559,
-    "region_1depth": "충북",
-    "region_2depth": "청주시 상당구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "가이오청년밥상",
     "main_item": "김치찌개",
     "price": "3,000",
@@ -60,7 +48,7 @@
     "region_2depth": "청주시 서원구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "감촌삼겹살",
     "main_item": "생삼겹살(180g)",
     "price": "10,000",
@@ -72,7 +60,7 @@
     "region_2depth": "청주시 청원구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "개미돈까스",
     "main_item": "돈가스",
     "price": "8,000",
@@ -84,7 +72,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "고가네왕돈까스",
     "main_item": "왕돈까스",
     "price": "8,000",
@@ -96,7 +84,7 @@
     "region_2depth": "청주시 청원구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "고가네행복밥상",
     "main_item": "동태찌개",
     "price": "8,000",
@@ -108,7 +96,7 @@
     "region_2depth": "청주시 서원구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "고드미손두부",
     "main_item": "국산콩순두부",
     "price": "9,000",
@@ -120,19 +108,7 @@
     "region_2depth": "청주시 흥덕구"
   },
   {
-    "category": "미용업",
-    "name": "고려미용실",
-    "main_item": "커트",
-    "price": "7,000",
-    "phone": "043-274-6207",
-    "address": "충청북도 청주시 서원구 모충로 98-1 (모충동)",
-    "lat": 36.6277882283516,
-    "lng": 127.474142701453,
-    "region_1depth": "충북",
-    "region_2depth": "청주시 서원구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "괴산식당",
     "main_item": "청국장",
     "price": "7,000",
@@ -144,7 +120,7 @@
     "region_2depth": "청주시 서원구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "국가대표",
     "main_item": "순두부찌개",
     "price": "6,000",
@@ -156,7 +132,7 @@
     "region_2depth": "청주시 청원구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "국수좋은날",
     "main_item": "잔치국수",
     "price": "5,000",
@@ -180,7 +156,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "그레이스 칼국수",
     "main_item": "칼국수",
     "price": "7,000",
@@ -192,7 +168,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "금와가든",
     "main_item": "한식뷔페",
     "price": "6,000",
@@ -204,7 +180,7 @@
     "region_2depth": "청주시 청원구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "기쁨가득 엄마밥상",
     "main_item": "된장찌개",
     "price": "6,000",
@@ -216,7 +192,7 @@
     "region_2depth": "청주시 흥덕구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "김정현밥&면연구소1997",
     "main_item": "물냉면",
     "price": "6,000",
@@ -228,19 +204,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "미용업",
-    "name": "김진헤어",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "043-239-4129",
-    "address": "충청북도 청주시 흥덕구 증안로 44 (복대동) 2층",
-    "lat": 36.6365231134074,
-    "lng": 127.428127914284,
-    "region_1depth": "충북",
-    "region_2depth": "청주시 흥덕구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "꼬마김밥",
     "main_item": "꼬마김밥(10줄)",
     "price": "6,000",
@@ -252,7 +216,7 @@
     "region_2depth": "청주시 서원구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "꽃돼지댁",
     "main_item": "1인보쌈정식",
     "price": "10,000",
@@ -264,19 +228,7 @@
     "region_2depth": "청주시 서원구"
   },
   {
-    "category": "한식_일반",
-    "name": "꽃재약선보쌈족발",
-    "main_item": "족발(대)",
-    "price": "40,000",
-    "phone": "043-238-7979",
-    "address": "충청북도 청주시 흥덕구 풍년로 80 (가경동) 가경동 1503-1",
-    "lat": 36.6203492623501,
-    "lng": 127.437426968139,
-    "region_1depth": "충북",
-    "region_2depth": "청주시 흥덕구"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "나누리장터",
     "main_item": "장터칼국수",
     "price": "4,000",
@@ -288,7 +240,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "나성불고기",
     "main_item": "된장찌개",
     "price": "6,000",
@@ -300,7 +252,7 @@
     "region_2depth": "청주시 청원구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "남매식당",
     "main_item": "삼겹살(200g)",
     "price": "14,000",
@@ -312,7 +264,7 @@
     "region_2depth": "청주시 흥덕구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "남원추어탕",
     "main_item": "찰솥밥추어탕",
     "price": "10,000",
@@ -324,7 +276,7 @@
     "region_2depth": "청주시 흥덕구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "남이네숯불구이",
     "main_item": "소갈비살(150g)",
     "price": "13,000",
@@ -336,7 +288,7 @@
     "region_2depth": "청주시 청원구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "내고향맛집",
     "main_item": "청국장",
     "price": "7,000",
@@ -348,19 +300,7 @@
     "region_2depth": "청주시 흥덕구"
   },
   {
-    "category": "미용업",
-    "name": "내수시민미용실",
-    "main_item": "커트",
-    "price": "6,000",
-    "phone": "043-214-5124",
-    "address": "충청북도 청주시 청원구 내수읍 내수로 729-2",
-    "lat": 36.7267310217428,
-    "lng": 127.536102873142,
-    "region_1depth": "충북",
-    "region_2depth": "청주시 청원구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "네모샘밥집",
     "main_item": "보리밥",
     "price": "6,000",
@@ -372,7 +312,7 @@
     "region_2depth": "청주시 청원구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "늘푸른삼겹쌈",
     "main_item": "항정살(200g)",
     "price": "16,000",
@@ -384,7 +324,7 @@
     "region_2depth": "청주시 흥덕구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "다정순대국",
     "main_item": "순대국밥",
     "price": "8,000",
@@ -408,7 +348,7 @@
     "region_2depth": "청주시 서원구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "닭이야",
     "main_item": "닭갈비(250g)",
     "price": "12,000",
@@ -420,7 +360,7 @@
     "region_2depth": "청주시 흥덕구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "대가",
     "main_item": "생삼겹살(200g)",
     "price": "13,000",
@@ -432,7 +372,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "대길식당",
     "main_item": "한우내장탕(보통)",
     "price": "7,000",
@@ -456,7 +396,7 @@
     "region_2depth": "청주시 청원구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "대박삼겹살",
     "main_item": "삼겹살(200g)",
     "price": "13,000",
@@ -468,7 +408,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "대복분식",
     "main_item": "된장찌개",
     "price": "7,000",
@@ -480,7 +420,7 @@
     "region_2depth": "청주시 흥덕구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "대선집",
     "main_item": "돌솥제육정식",
     "price": "10,000",
@@ -492,7 +432,7 @@
     "region_2depth": "청주시 서원구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "대성식당",
     "main_item": "가정식백반",
     "price": "6,000",
@@ -504,7 +444,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "대운분식",
     "main_item": "콩나물밥",
     "price": "6,000",
@@ -516,31 +456,7 @@
     "region_2depth": "청주시 흥덕구"
   },
   {
-    "category": "미용업",
-    "name": "더 맨",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "043-214-2500",
-    "address": "충청북도 청주시 청원구 율봉로 258 (율량동)",
-    "lat": 36.6667034133353,
-    "lng": 127.497208816079,
-    "region_1depth": "충북",
-    "region_2depth": "청주시 청원구"
-  },
-  {
-    "category": "미용업",
-    "name": "더핸섬가경점",
-    "main_item": "커트",
-    "price": "11,000",
-    "phone": "",
-    "address": "충청북도 청주시 흥덕구 서경로 28 (가경동) 1층",
-    "lat": 36.6179120947712,
-    "lng": 127.442978850804,
-    "region_1depth": "충북",
-    "region_2depth": "청주시 흥덕구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "덤블식당",
     "main_item": "된장찌개",
     "price": "7,000",
@@ -552,7 +468,7 @@
     "region_2depth": "청주시 청원구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "도니수제돈까스",
     "main_item": "등심돈까스정식",
     "price": "6,000",
@@ -564,7 +480,7 @@
     "region_2depth": "청주시 서원구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "도토리명가",
     "main_item": "도토리묵밥",
     "price": "7,000",
@@ -576,7 +492,7 @@
     "region_2depth": "청주시 흥덕구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "동의명가 뼈해장국,순대국,감자탕",
     "main_item": "순대국밥",
     "price": "6,900",
@@ -588,7 +504,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "돼지마을",
     "main_item": "삼겹살(200g)",
     "price": "13,000",
@@ -600,7 +516,7 @@
     "region_2depth": "청주시 청원구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "돼풍이국내산생고기",
     "main_item": "삼겹살(150g)",
     "price": "9,000",
@@ -612,7 +528,7 @@
     "region_2depth": "청주시 청원구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "두릅소한우",
     "main_item": "한우등심(100g)",
     "price": "15,000",
@@ -624,7 +540,7 @@
     "region_2depth": "청주시 서원구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "또또와식당",
     "main_item": "순두부찌개",
     "price": "6,000",
@@ -648,7 +564,7 @@
     "region_2depth": "청주시 서원구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "마당돌판삼겹살",
     "main_item": "삼겹살(200g)",
     "price": "13,000",
@@ -660,7 +576,7 @@
     "region_2depth": "청주시 흥덕구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "마루왕족발",
     "main_item": "왕족발(중)",
     "price": "27,000",
@@ -684,7 +600,7 @@
     "region_2depth": "청주시 서원구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "만나김치식당",
     "main_item": "백반",
     "price": "6,000",
@@ -720,7 +636,7 @@
     "region_2depth": "청주시 흥덕구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "맘이가",
     "main_item": "백반",
     "price": "6,000",
@@ -732,7 +648,7 @@
     "region_2depth": "청주시 청원구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "명동식당",
     "main_item": "청국장",
     "price": "7,000",
@@ -744,19 +660,7 @@
     "region_2depth": "청주시 흥덕구"
   },
   {
-    "category": "미용업",
-    "name": "명인헤어샵",
-    "main_item": "커트",
-    "price": "13,000",
-    "phone": "043-232-5530",
-    "address": "충청북도 청주시 흥덕구 풍년로 26 (가경동)",
-    "lat": 36.6162129239555,
-    "lng": 127.440839187828,
-    "region_1depth": "충북",
-    "region_2depth": "청주시 흥덕구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "몽키만두",
     "main_item": "고기만두",
     "price": "5,000",
@@ -768,7 +672,7 @@
     "region_2depth": "청주시 흥덕구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "미소국밥",
     "main_item": "바지락순두부",
     "price": "7,000",
@@ -804,7 +708,7 @@
     "region_2depth": "청주시 흥덕구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "민들레식당",
     "main_item": "된장찌개(백반)",
     "price": "7,000",
@@ -816,7 +720,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "밀숲",
     "main_item": "사골칼국수",
     "price": "4,500",
@@ -828,7 +732,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "바우골",
     "main_item": "염소탕",
     "price": "17,000",
@@ -840,31 +744,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "미용업",
-    "name": "박현순헤어",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "043-211-7623",
-    "address": "충청북도 청주시 청원구 율봉로159번길 48-20 1층(율량동)",
-    "lat": 36.6705031580318,
-    "lng": 127.486655068416,
-    "region_1depth": "충북",
-    "region_2depth": "청주시 청원구"
-  },
-  {
-    "category": "미용업",
-    "name": "백합미용실",
-    "main_item": "커트(남성)",
-    "price": "7,000",
-    "phone": "043-224-8890",
-    "address": "충청북도 청주시 상당구 당산로 10-1 (대성동)",
-    "lat": 36.632960183362,
-    "lng": 127.497023017908,
-    "region_1depth": "충북",
-    "region_2depth": "청주시 상당구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "보글보글식당",
     "main_item": "가정식백반",
     "price": "6,000",
@@ -876,31 +756,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "기타비요식업",
-    "name": "보떼짐",
-    "main_item": "헬스장 1개월 이용료",
-    "price": "66,000",
-    "phone": "",
-    "address": "충청북도 청주시 상당구 중고개로141번길 13-10 (용암동) 9층",
-    "lat": 36.6165983843694,
-    "lng": 127.516202419338,
-    "region_1depth": "충북",
-    "region_2depth": "청주시 상당구"
-  },
-  {
-    "category": "미용업",
-    "name": "보라매 미용타운",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "043-223-3044",
-    "address": "충청북도 청주시 청원구 1순환로342번길 16-1 (내덕동)",
-    "lat": 36.6591492446858,
-    "lng": 127.476182211428,
-    "region_1depth": "충북",
-    "region_2depth": "청주시 청원구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "복실이 식당",
     "main_item": "칼국수",
     "price": "6,000",
@@ -912,7 +768,7 @@
     "region_2depth": "청주시 서원구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "봄날의보리밥",
     "main_item": "시래기국",
     "price": "6,000",
@@ -924,7 +780,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "봉평메밀 율량점",
     "main_item": "메밀막국수",
     "price": "7,000",
@@ -936,7 +792,7 @@
     "region_2depth": "청주시 청원구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "부대89",
     "main_item": "부대찌개(1인분)",
     "price": "9,000",
@@ -948,7 +804,7 @@
     "region_2depth": "청주시 서원구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "부부꼼장어",
     "main_item": "야채꼼장어(1인분)",
     "price": "13,000",
@@ -960,19 +816,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "한식_육류",
-    "name": "부흥식당",
-    "main_item": "오리더덕주물럭(중)",
-    "price": "40,000",
-    "phone": "",
-    "address": "충청북도 청주시 흥덕구 흥덕로 163 (운천동)",
-    "lat": 36.6484150899169,
-    "lng": 127.476843577287,
-    "region_1depth": "충북",
-    "region_2depth": "청주시 흥덕구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "북일곰탕",
     "main_item": "한우곰탕",
     "price": "8,000",
@@ -984,7 +828,7 @@
     "region_2depth": "청주시 청원구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "브라보식당",
     "main_item": "콩나물국밥",
     "price": "6,000",
@@ -1008,7 +852,7 @@
     "region_2depth": "청주시 서원구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "사랑방",
     "main_item": "소갈비살(150g)",
     "price": "12,000",
@@ -1032,7 +876,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "삼남매생삼겹살",
     "main_item": "삼겹살(200g)",
     "price": "13,000",
@@ -1044,7 +888,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "삼촌네고기로와",
     "main_item": "생삼겹살(200g)",
     "price": "13,000",
@@ -1068,7 +912,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "서원해장국",
     "main_item": "뼈다귀해장국",
     "price": "7,000",
@@ -1080,7 +924,7 @@
     "region_2depth": "청주시 흥덕구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "선우손칼국수",
     "main_item": "칼국수",
     "price": "7,000",
@@ -1092,7 +936,7 @@
     "region_2depth": "청주시 흥덕구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "성진식당",
     "main_item": "뚝배기닭볶음탕",
     "price": "8,000",
@@ -1104,7 +948,7 @@
     "region_2depth": "청주시 청원구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "소문난올갱이해장국",
     "main_item": "올갱이국",
     "price": "10,000",
@@ -1116,7 +960,7 @@
     "region_2depth": "청주시 청원구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "소주신랑보쌈부인",
     "main_item": "보쌈정식",
     "price": "9,000",
@@ -1128,7 +972,7 @@
     "region_2depth": "청주시 서원구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "송원칼국수",
     "main_item": "조개칼국수",
     "price": "6,000",
@@ -1140,7 +984,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "송정식당",
     "main_item": "삼겹살(200g)",
     "price": "13,000",
@@ -1152,7 +996,7 @@
     "region_2depth": "청주시 흥덕구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "수레로돈가스&메밀",
     "main_item": "수제돈가스",
     "price": "9,000",
@@ -1164,7 +1008,7 @@
     "region_2depth": "청주시 청원구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "순신토불이식당",
     "main_item": "삼겹살(250g)",
     "price": "14,000",
@@ -1176,7 +1020,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "술이술술생고기육회신",
     "main_item": "생삼겹살(200g)",
     "price": "13,000",
@@ -1188,7 +1032,7 @@
     "region_2depth": "청주시 청원구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "시골밥상",
     "main_item": "백반",
     "price": "7,000",
@@ -1200,7 +1044,7 @@
     "region_2depth": "청주시 서원구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "시골생고기본점",
     "main_item": "생삼겹살(200g)",
     "price": "12,000",
@@ -1212,7 +1056,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "신가네칼국수만두",
     "main_item": "칼만두",
     "price": "7,000",
@@ -1224,7 +1068,7 @@
     "region_2depth": "청주시 서원구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "신거산생막창 오창직영점",
     "main_item": "돼지막창(200g)",
     "price": "13,000",
@@ -1236,7 +1080,7 @@
     "region_2depth": "청주시 청원구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "신거산생막창구이",
     "main_item": "생막창구이(200g)",
     "price": "13,000",
@@ -1248,7 +1092,7 @@
     "region_2depth": "청주시 흥덕구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "신항도복집",
     "main_item": "밀복탕",
     "price": "11,000",
@@ -1260,7 +1104,7 @@
     "region_2depth": "청주시 청원구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "신화당분식",
     "main_item": "우동",
     "price": "5,000",
@@ -1270,42 +1114,6 @@
     "lng": 127.493715394525,
     "region_1depth": "충북",
     "region_2depth": "청주시 상당구"
-  },
-  {
-    "category": "미용업",
-    "name": "아름다운사람들",
-    "main_item": "컷트",
-    "price": "8,000",
-    "phone": "043-252-6267",
-    "address": "충청북도 청주시 상당구 용담로63번길 42 (탑동)",
-    "lat": 36.6324721814131,
-    "lng": 127.49946769104,
-    "region_1depth": "충북",
-    "region_2depth": "청주시 상당구"
-  },
-  {
-    "category": "세탁업",
-    "name": "아리랑세탁소",
-    "main_item": "일반세탁",
-    "price": "8,000",
-    "phone": "043-296-2993",
-    "address": "충청북도 청주시 서원구 매봉로 84 (수곡동)",
-    "lat": 36.6176443311531,
-    "lng": 127.47855058429,
-    "region_1depth": "충북",
-    "region_2depth": "청주시 서원구"
-  },
-  {
-    "category": "미용업",
-    "name": "아토미헤어",
-    "main_item": "커트(여자)",
-    "price": "13,000",
-    "phone": "043-235-0370",
-    "address": "충청북도 청주시 서원구 사직대로144번길 23 (사창동) 1층",
-    "lat": 36.6340670042628,
-    "lng": 127.463315117672,
-    "region_1depth": "충북",
-    "region_2depth": "청주시 서원구"
   },
   {
     "category": "기타요식업",
@@ -1320,7 +1128,7 @@
     "region_2depth": "청주시 흥덕구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "앵천식당",
     "main_item": "백반",
     "price": "7,000",
@@ -1332,7 +1140,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "야간비행",
     "main_item": "삼겹살(200g)",
     "price": "13,000",
@@ -1356,19 +1164,7 @@
     "region_2depth": "청주시 서원구"
   },
   {
-    "category": "미용업",
-    "name": "에이치오(HO) 791 헤어샵",
-    "main_item": "커트(여)",
-    "price": "10,000",
-    "phone": "043-274-9874",
-    "address": "충청북도 청주시 서원구 모충로 108 (모충동) 1층",
-    "lat": 36.6282126413933,
-    "lng": 127.474984596767,
-    "region_1depth": "충북",
-    "region_2depth": "청주시 서원구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "에제르 푸드시스템",
     "main_item": "보리밥",
     "price": "6,000",
@@ -1380,31 +1176,7 @@
     "region_2depth": "청주시 서원구"
   },
   {
-    "category": "미용업",
-    "name": "영헤어라인",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "",
-    "address": "충청북도 청주시 청원구 대성로254번길 24 (우암동) 1층",
-    "lat": 36.6484120373657,
-    "lng": 127.492804059225,
-    "region_1depth": "충북",
-    "region_2depth": "청주시 청원구"
-  },
-  {
-    "category": "이용업",
-    "name": "옛날이발소",
-    "main_item": "커트",
-    "price": "8,000",
-    "phone": "043-260-5319",
-    "address": "충청북도 청주시 흥덕구 풍년로108번길 8-5 1층 102호(가경동)",
-    "lat": 36.6224206220589,
-    "lng": 127.436463943576,
-    "region_1depth": "충북",
-    "region_2depth": "청주시 흥덕구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "옛날칼국수",
     "main_item": "칼국수",
     "price": "6,000",
@@ -1416,7 +1188,7 @@
     "region_2depth": "청주시 서원구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "오!자네왔는가·365곰탕",
     "main_item": "한우소머리곰탕",
     "price": "10,000",
@@ -1428,7 +1200,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "오가네옛날국수",
     "main_item": "수제비",
     "price": "6,000",
@@ -1440,7 +1212,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "오돈생고기",
     "main_item": "삼겹살(200g)",
     "price": "13,000",
@@ -1452,7 +1224,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "오뚜기포차",
     "main_item": "주먹고기",
     "price": "10,000",
@@ -1476,7 +1248,7 @@
     "region_2depth": "청주시 서원구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "오성당",
     "main_item": "쫄면",
     "price": "5,000",
@@ -1488,7 +1260,7 @@
     "region_2depth": "청주시 흥덕구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "온심",
     "main_item": "삼겹살(180g)",
     "price": "11,000",
@@ -1500,7 +1272,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "온정(청주흥덕시니어클럽)",
     "main_item": "백반",
     "price": "7,000",
@@ -1512,7 +1284,7 @@
     "region_2depth": "청주시 흥덕구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "왔다국수",
     "main_item": "잔치국수",
     "price": "5,000",
@@ -1536,7 +1308,7 @@
     "region_2depth": "청주시 청원구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "왕조숯불갈비",
     "main_item": "돼지갈비(국내산 250g)",
     "price": "13,000",
@@ -1548,7 +1320,7 @@
     "region_2depth": "청주시 청원구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "요리조리쿡쿡",
     "main_item": "쿡쿡알밥",
     "price": "6,500",
@@ -1560,7 +1332,7 @@
     "region_2depth": "청주시 서원구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "용정당우동",
     "main_item": "우동",
     "price": "5,000",
@@ -1572,31 +1344,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "기타비요식업",
-    "name": "우미교복",
-    "main_item": "바지/스커트",
-    "price": "68,000",
-    "phone": "043-221-1318",
-    "address": "충청북도 청주시 상당구 상당로 27 (남문로1가)",
-    "lat": 36.6307373346364,
-    "lng": 127.490902274021,
-    "region_1depth": "충북",
-    "region_2depth": "청주시 상당구"
-  },
-  {
-    "category": "미용업",
-    "name": "원미용실",
-    "main_item": "커트(여)",
-    "price": "5,000",
-    "phone": "043-212-4200",
-    "address": "충청북도 청주시 청원구 율봉로94번길 27 (율량동)",
-    "lat": 36.6654896584325,
-    "lng": 127.480643814831,
-    "region_1depth": "충북",
-    "region_2depth": "청주시 청원구"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "육거리 삼십일미&삼삼오삼",
     "main_item": "삼겹살(200g)",
     "price": "13,000",
@@ -1608,7 +1356,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "육거리소문난만두",
     "main_item": "사골 떡만두국",
     "price": "8,000",
@@ -1620,7 +1368,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "윤뚱",
     "main_item": "삼겹살(180g)",
     "price": "12,000",
@@ -1632,7 +1380,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "이모네김밥",
     "main_item": "야채김밥",
     "price": "2,500",
@@ -1644,7 +1392,7 @@
     "region_2depth": "청주시 청원구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "이쉐프컵밥",
     "main_item": "스팸컵밥",
     "price": "4,100",
@@ -1656,7 +1404,7 @@
     "region_2depth": "청주시 청원구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "이향복손칼국수",
     "main_item": "칼국수",
     "price": "6,000",
@@ -1680,7 +1428,7 @@
     "region_2depth": "청주시 흥덕구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "장미본가 생고기",
     "main_item": "삼겹살(200g)",
     "price": "12,000",
@@ -1692,7 +1440,7 @@
     "region_2depth": "청주시 흥덕구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "점심시간엔",
     "main_item": "한식뷔페",
     "price": "4,500",
@@ -1704,7 +1452,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "정동진식당",
     "main_item": "삼겹살(180g)",
     "price": "1,200",
@@ -1716,43 +1464,7 @@
     "region_2depth": "청주시 흥덕구"
   },
   {
-    "category": "미용업",
-    "name": "정헤어",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "",
-    "address": "충청북도 청주시 흥덕구 서경로 20 (가경동)",
-    "lat": 36.6175333229511,
-    "lng": 127.442063724036,
-    "region_1depth": "충북",
-    "region_2depth": "청주시 흥덕구"
-  },
-  {
-    "category": "미용업",
-    "name": "주은헤어사랑",
-    "main_item": "커트(여)",
-    "price": "12,000",
-    "phone": "043-268-1589",
-    "address": "충청북도 청주시 서원구 1순환로648번길 58 (사창동) 1층",
-    "lat": 36.6354996781974,
-    "lng": 127.45653065016,
-    "region_1depth": "충북",
-    "region_2depth": "청주시 서원구"
-  },
-  {
-    "category": "이용업",
-    "name": "주중이발관",
-    "main_item": "커트(남)",
-    "price": "5,000",
-    "phone": "043-255-7160",
-    "address": "충청북도 청주시 상당구 대성로169번길 5 (수동) 1층",
-    "lat": 36.640343124132,
-    "lng": 127.491724369337,
-    "region_1depth": "충북",
-    "region_2depth": "청주시 상당구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "지경골생고기",
     "main_item": "김치찌개",
     "price": "8,000",
@@ -1764,7 +1476,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "진천장터순대",
     "main_item": "순대국밥",
     "price": "7,000",
@@ -1774,18 +1486,6 @@
     "lng": 127.467426134602,
     "region_1depth": "충북",
     "region_2depth": "청주시 흥덕구"
-  },
-  {
-    "category": "미용업",
-    "name": "진헤어",
-    "main_item": "커트",
-    "price": "8,000",
-    "phone": "",
-    "address": "충청북도 청주시 서원구 천석로 8 (사창동)",
-    "lat": 36.6360089657931,
-    "lng": 127.465642392761,
-    "region_1depth": "충북",
-    "region_2depth": "청주시 서원구"
   },
   {
     "category": "중식",
@@ -1800,7 +1500,7 @@
     "region_2depth": "청주시 청원구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "찌개 먹고 달려",
     "main_item": "칼국수",
     "price": "7,000",
@@ -1810,54 +1510,6 @@
     "lng": 127.461896644405,
     "region_1depth": "충북",
     "region_2depth": "청주시 흥덕구"
-  },
-  {
-    "category": "미용업",
-    "name": "착한미용실",
-    "main_item": "커트(여)",
-    "price": "13,000",
-    "phone": "043-221-7221",
-    "address": "충청북도 청주시 상당구 사직대로361번길 30 (북문로2가)",
-    "lat": 36.6382622567242,
-    "lng": 127.487642713471,
-    "region_1depth": "충북",
-    "region_2depth": "청주시 상당구"
-  },
-  {
-    "category": "기타비요식업",
-    "name": "착한카 주식회사",
-    "main_item": "엔진오일(소나타)",
-    "price": "58,000",
-    "phone": "043-288-1234",
-    "address": "충청북도 청주시 서원구 용평로93번길 57 (분평동)",
-    "lat": 36.6030796267718,
-    "lng": 127.486798190003,
-    "region_1depth": "충북",
-    "region_2depth": "청주시 서원구"
-  },
-  {
-    "category": "한식_육류",
-    "name": "참살이 오리 전문점",
-    "main_item": "오리정식(4인)",
-    "price": "75,000",
-    "phone": "043-287-5233",
-    "address": "충청북도 청주시 상당구 용암북로 124-1 (용암동)",
-    "lat": 36.6202316809174,
-    "lng": 127.511598424333,
-    "region_1depth": "충북",
-    "region_2depth": "청주시 상당구"
-  },
-  {
-    "category": "미용업",
-    "name": "창조헤어",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "",
-    "address": "충청북도 청주시 청원구 1순환로341번길 33 (내덕동)",
-    "lat": 36.6569511608311,
-    "lng": 127.478064081698,
-    "region_1depth": "충북",
-    "region_2depth": "청주시 청원구"
   },
   {
     "category": "중식",
@@ -1872,7 +1524,7 @@
     "region_2depth": "청주시 청원구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "청전주",
     "main_item": "뼈다귀해장국",
     "price": "9,000",
@@ -1884,7 +1536,7 @@
     "region_2depth": "청주시 청원구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "청주 힘찬낙지 명가",
     "main_item": "낙지볶음",
     "price": "10,000",
@@ -1908,7 +1560,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "충주돌구이",
     "main_item": "삼겹살(200g)",
     "price": "12,000",
@@ -1930,18 +1582,6 @@
     "lng": 127.424106647552,
     "region_1depth": "충북",
     "region_2depth": "청주시 흥덕구"
-  },
-  {
-    "category": "기타비요식업",
-    "name": "카마인드",
-    "main_item": "후방카메라(부가세 별도)",
-    "price": "70,000",
-    "phone": "",
-    "address": "충청북도 청주시 청원구 향군로 7 (우암동) (내덕동)",
-    "lat": 36.6469026769774,
-    "lng": 127.488465779198,
-    "region_1depth": "충북",
-    "region_2depth": "청주시 청원구"
   },
   {
     "category": "기타요식업",
@@ -1968,19 +1608,7 @@
     "region_2depth": "청주시 청원구"
   },
   {
-    "category": "미용업",
-    "name": "컷트마당",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "043-293-9123",
-    "address": "충청북도 청주시 상당구 월평로 206 (용암동)",
-    "lat": 36.6086837375626,
-    "lng": 127.506482950857,
-    "region_1depth": "충북",
-    "region_2depth": "청주시 상당구"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "콩가루생삼겹살",
     "main_item": "삼겹살(200g)",
     "price": "12,000",
@@ -2016,7 +1644,7 @@
     "region_2depth": "청주시 흥덕구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "통일식당",
     "main_item": "삼겹살(200g)",
     "price": "13,000",
@@ -2028,7 +1656,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "풍년고을",
     "main_item": "청국장",
     "price": "8,000",
@@ -2052,7 +1680,7 @@
     "region_2depth": "청주시 서원구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "한끼밥상",
     "main_item": "청국장",
     "price": "7,000",
@@ -2064,7 +1692,7 @@
     "region_2depth": "청주시 서원구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "한복남칼국수",
     "main_item": "칼국수",
     "price": "3,500",
@@ -2076,7 +1704,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "한식더고기",
     "main_item": "삼겹살(200g)",
     "price": "13,000",
@@ -2088,7 +1716,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "한우일번지",
     "main_item": "한우샤브샤브",
     "price": "15,000",
@@ -2100,7 +1728,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "한식_기타",
+    "category": "한식",
     "name": "해늘두부",
     "main_item": "두부(600g)",
     "price": "5,000",
@@ -2112,19 +1740,7 @@
     "region_2depth": "청주시 서원구"
   },
   {
-    "category": "이용업",
-    "name": "행복나눔이발소",
-    "main_item": "커트(남)",
-    "price": "7,000",
-    "phone": "",
-    "address": "충청북도 청주시 서원구 수영로59번길 2 (수곡동) 1층",
-    "lat": 36.6158364435707,
-    "lng": 127.492667429929,
-    "region_1depth": "충북",
-    "region_2depth": "청주시 서원구"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "행복한국수집",
     "main_item": "칼국수",
     "price": "6,000",
@@ -2136,7 +1752,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "행복한밥상",
     "main_item": "한식뷔페",
     "price": "6,000",
@@ -2148,19 +1764,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "미용업",
-    "name": "행운미용실",
-    "main_item": "커트",
-    "price": "7,000",
-    "phone": "",
-    "address": "충청북도 청주시 상당구 영운천로 33-6 (영운동)",
-    "lat": 36.6175651427003,
-    "lng": 127.50260035094,
-    "region_1depth": "충북",
-    "region_2depth": "청주시 상당구"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "행운삼겹살",
     "main_item": "삼겹살(200g)",
     "price": "13,000",
@@ -2170,30 +1774,6 @@
     "lng": 127.485615466023,
     "region_1depth": "충북",
     "region_2depth": "청주시 상당구"
-  },
-  {
-    "category": "미용업",
-    "name": "헤어풍경",
-    "main_item": "커트(여)",
-    "price": "8,000",
-    "phone": "043-285-3385",
-    "address": "충청북도 청주시 서원구 원마루로 18 (분평동) 1층",
-    "lat": 36.6097906269366,
-    "lng": 127.495306318453,
-    "region_1depth": "충북",
-    "region_2depth": "청주시 서원구"
-  },
-  {
-    "category": "미용업",
-    "name": "헤이븐헤어",
-    "main_item": "커트",
-    "price": "12,000",
-    "phone": "043-250-4583",
-    "address": "충청북도 청주시 청원구 중앙로 180 (내덕동)",
-    "lat": 36.6532594180158,
-    "lng": 127.487801797602,
-    "region_1depth": "충북",
-    "region_2depth": "청주시 청원구"
   },
   {
     "category": "중식",
@@ -2208,7 +1788,7 @@
     "region_2depth": "청주시 흥덕구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "화당털보식당",
     "main_item": "삼겹살(220g)",
     "price": "14,000",
@@ -2220,7 +1800,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "황제왕갈비왕냉면",
     "main_item": "양념갈비(250g)",
     "price": "15,000",
@@ -2232,7 +1812,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "후생식당",
     "main_item": "칼국수",
     "price": "7,000",
@@ -2244,19 +1824,7 @@
     "region_2depth": "청주시 상당구"
   },
   {
-    "category": "기타비요식업",
-    "name": "강남종합상사",
-    "main_item": "온돌기본",
-    "price": "24,000",
-    "phone": "043-851-8225",
-    "address": "충청북도 충주시 동량면 충원대로 1315-4",
-    "lat": 37.0422765168413,
-    "lng": 127.927737807665,
-    "region_1depth": "충북",
-    "region_2depth": "충주시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "거꾸로콩나물국밥",
     "main_item": "콩나물국밥",
     "price": "5,000",
@@ -2268,7 +1836,7 @@
     "region_2depth": "충주시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "금강감자탕",
     "main_item": "김치찌개",
     "price": "8,000",
@@ -2280,7 +1848,7 @@
     "region_2depth": "충주시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "금주네가야밀면",
     "main_item": "밀면(얼큰한 물 / 물 / 비빔 / 물같은 비빔 )",
     "price": "7,000",
@@ -2292,7 +1860,7 @@
     "region_2depth": "충주시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "김가네원조설악추어탕",
     "main_item": "돌솥추어탕",
     "price": "8,000",
@@ -2304,7 +1872,7 @@
     "region_2depth": "충주시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "도토리고을",
     "main_item": "도토리묵밥",
     "price": "8,000",
@@ -2316,7 +1884,7 @@
     "region_2depth": "충주시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "돈이랑칼국수",
     "main_item": "김치찌개",
     "price": "5,000",
@@ -2328,19 +1896,7 @@
     "region_2depth": "충주시"
   },
   {
-    "category": "숙박업",
-    "name": "래미안느",
-    "main_item": "일반객실",
-    "price": "35,000",
-    "phone": "043-857-8855",
-    "address": "충청북도 충주시 동량면 김생로 58",
-    "lat": 37.0255496437375,
-    "lng": 127.919887552974,
-    "region_1depth": "충북",
-    "region_2depth": "충주시"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "마사밥상슈퍼",
     "main_item": "마사밥상",
     "price": "8,000",
@@ -2352,31 +1908,7 @@
     "region_2depth": "충주시"
   },
   {
-    "category": "이용업",
-    "name": "마을이발관",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "043-855-8444",
-    "address": "충청북도 충주시 원호암3길1 (호암동)",
-    "lat": 36.9536671138053,
-    "lng": 127.940427268487,
-    "region_1depth": "충북",
-    "region_2depth": "충주시"
-  },
-  {
-    "category": "미용업",
-    "name": "만나미용실",
-    "main_item": "커트 (남자)",
-    "price": "10,000",
-    "phone": "043-844-7234",
-    "address": "충청북도 충주시 봉계10길 33 (봉방동) 1층",
-    "lat": 36.9768499247831,
-    "lng": 127.916911560155,
-    "region_1depth": "충북",
-    "region_2depth": "충주시"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "메밀마당",
     "main_item": "메밀 새싹 물 막국수",
     "price": "8,000",
@@ -2388,7 +1920,7 @@
     "region_2depth": "충주시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "명진관",
     "main_item": "보리밥",
     "price": "5,000",
@@ -2400,7 +1932,7 @@
     "region_2depth": "충주시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "목행짱구네",
     "main_item": "소머리국밥",
     "price": "10,000",
@@ -2412,7 +1944,7 @@
     "region_2depth": "충주시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "무림장",
     "main_item": "감자탕(소)",
     "price": "15,000",
@@ -2424,7 +1956,7 @@
     "region_2depth": "충주시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "박가네식당",
     "main_item": "청국장",
     "price": "6,000",
@@ -2436,7 +1968,7 @@
     "region_2depth": "충주시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "밤안개식당",
     "main_item": "청국장",
     "price": "8,000",
@@ -2448,7 +1980,7 @@
     "region_2depth": "충주시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "백세보리밥(충주시니어클럽)",
     "main_item": "보리밥",
     "price": "6,500",
@@ -2460,7 +1992,7 @@
     "region_2depth": "충주시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "백송식당",
     "main_item": "칼국수",
     "price": "4,000",
@@ -2472,7 +2004,7 @@
     "region_2depth": "충주시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "버드나무집",
     "main_item": "황태구이정식",
     "price": "10,000",
@@ -2484,19 +2016,7 @@
     "region_2depth": "충주시"
   },
   {
-    "category": "이용업",
-    "name": "사랑이용원",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "043-843-4624",
-    "address": "충청북도 충주시 연원5길 5 (연수동)",
-    "lat": 36.9838269417592,
-    "lng": 127.929024323415,
-    "region_1depth": "충북",
-    "region_2depth": "충주시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "산꼴",
     "main_item": "옛날 선지해장국",
     "price": "3,500",
@@ -2508,7 +2028,7 @@
     "region_2depth": "충주시"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "산수촌숯불갈비",
     "main_item": "한방돼지갈비",
     "price": "10,000",
@@ -2520,7 +2040,7 @@
     "region_2depth": "충주시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "선이네밥집",
     "main_item": "보리밥",
     "price": "6,000",
@@ -2532,19 +2052,7 @@
     "region_2depth": "충주시"
   },
   {
-    "category": "세탁업",
-    "name": "성서옷수선",
-    "main_item": "바지수선",
-    "price": "2,000",
-    "phone": "043-845-7477",
-    "address": "충청북도 충주시 자유시장길 33-2 (충인동) (성내충인동)",
-    "lat": 36.9734740451293,
-    "lng": 127.932745357037,
-    "region_1depth": "충북",
-    "region_2depth": "충주시"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "수산칼국수",
     "main_item": "칼국수",
     "price": "6,000",
@@ -2556,7 +2064,7 @@
     "region_2depth": "충주시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "수억식당",
     "main_item": "손칼국수",
     "price": "5,000",
@@ -2580,19 +2088,7 @@
     "region_2depth": "충주시"
   },
   {
-    "category": "기타요식업",
-    "name": "양지찐빵",
-    "main_item": "찐빵(4개)",
-    "price": "2,000",
-    "phone": "0507-1401-8957",
-    "address": "충청북도 충주시 대현6길15-1 (교현동)",
-    "lat": 36.9838215809126,
-    "lng": 127.92643591484,
-    "region_1depth": "충북",
-    "region_2depth": "충주시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "엄정우리집",
     "main_item": "백반",
     "price": "8,000",
@@ -2604,19 +2100,7 @@
     "region_2depth": "충주시"
   },
   {
-    "category": "기타비요식업",
-    "name": "연수꽃화원",
-    "main_item": "꽃다발",
-    "price": "30,000",
-    "phone": "043-843-0991",
-    "address": "충청북도 충주시 지곡10길40 (지현동)",
-    "lat": 36.9645524084375,
-    "lng": 127.933013339598,
-    "region_1depth": "충북",
-    "region_2depth": "충주시"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "오륙도식육식당",
     "main_item": "생고기모듬(200g)",
     "price": "13,000",
@@ -2628,7 +2112,7 @@
     "region_2depth": "충주시"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "오리본가",
     "main_item": "누룽지닭백숙",
     "price": "25,000",
@@ -2640,7 +2124,7 @@
     "region_2depth": "충주시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "오복쌈밥",
     "main_item": "우렁이쌈밥",
     "price": "9,000",
@@ -2652,7 +2136,7 @@
     "region_2depth": "충주시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "은영갈비",
     "main_item": "생삼겹살",
     "price": "14,000",
@@ -2664,7 +2148,7 @@
     "region_2depth": "충주시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "장수맛집",
     "main_item": "가정식 백반",
     "price": "6,000",
@@ -2676,7 +2160,7 @@
     "region_2depth": "충주시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "주혜옹심이칼국수",
     "main_item": "옹심이메밀칼국수",
     "price": "8,000",
@@ -2688,7 +2172,7 @@
     "region_2depth": "충주시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "착한국밥",
     "main_item": "착한국밥",
     "price": "7,000",
@@ -2712,7 +2196,7 @@
     "region_2depth": "충주시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "청정야채버섯칼국수",
     "main_item": "고기샤브칼국수",
     "price": "9,000",
@@ -2724,7 +2208,7 @@
     "region_2depth": "충주시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "청춘밥상(시니어클럽)",
     "main_item": "뷔페식백반",
     "price": "6,000",
@@ -2736,7 +2220,7 @@
     "region_2depth": "충주시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "청향가든",
     "main_item": "청국장",
     "price": "7,000",
@@ -2744,18 +2228,6 @@
     "address": "충청북도 충주시 노은면 감노로 746",
     "lat": 37.0470392412736,
     "lng": 127.685995000183,
-    "region_1depth": "충북",
-    "region_2depth": "충주시"
-  },
-  {
-    "category": "이용업",
-    "name": "충일이용원",
-    "main_item": "커트",
-    "price": "7,000",
-    "phone": "043-847-7251",
-    "address": "충청북도 충주시 동촌5길5 (교현안림동)",
-    "lat": 36.9693013559244,
-    "lng": 127.940841925012,
     "region_1depth": "충북",
     "region_2depth": "충주시"
   },
@@ -2784,31 +2256,7 @@
     "region_2depth": "충주시"
   },
   {
-    "category": "미용업",
-    "name": "하나미용실",
-    "main_item": "커트",
-    "price": "9,000",
-    "phone": "043-847-6943",
-    "address": "충청북도 충주시 사직산21길35 (문화동)",
-    "lat": 36.9725448128903,
-    "lng": 127.928224148317,
-    "region_1depth": "충북",
-    "region_2depth": "충주시"
-  },
-  {
-    "category": "미용업",
-    "name": "헤어센스미용실",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "043-852-1141",
-    "address": "충청북도 충주시 신니면 용원1길3",
-    "lat": 36.9970344717918,
-    "lng": 127.737089719387,
-    "region_1depth": "충북",
-    "region_2depth": "충주시"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "홍천식당",
     "main_item": "메밀칼국수",
     "price": "7,000",
@@ -2820,7 +2268,7 @@
     "region_2depth": "충주시"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "대복이네 밥집",
     "main_item": "수육정식",
     "price": "10,000",
@@ -2832,7 +2280,7 @@
     "region_2depth": "제천시"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "대패꽃피네",
     "main_item": "돼지고기(대패)",
     "price": "4,200",
@@ -2844,7 +2292,7 @@
     "region_2depth": "제천시"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "돼지세상",
     "main_item": "돼지왕갈비",
     "price": "14,000",
@@ -2856,19 +2304,7 @@
     "region_2depth": "제천시"
   },
   {
-    "category": "미용업",
-    "name": "드라마헤어샵",
-    "main_item": "파마",
-    "price": "30,000",
-    "phone": "043-647-5074",
-    "address": "충청북도 제천시 의병대로55 (명동)",
-    "lat": 37.1372908200093,
-    "lng": 128.207293997405,
-    "region_1depth": "충북",
-    "region_2depth": "제천시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "맹이네촌가",
     "main_item": "두부찌개",
     "price": "8,000",
@@ -2880,7 +2316,7 @@
     "region_2depth": "제천시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "미락정",
     "main_item": "염소탕",
     "price": "14,000",
@@ -2892,7 +2328,7 @@
     "region_2depth": "제천시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "미성설렁탕",
     "main_item": "설렁탕",
     "price": "9,000",
@@ -2904,7 +2340,7 @@
     "region_2depth": "제천시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "미성식당",
     "main_item": "삼겹살(250g)",
     "price": "12,000",
@@ -2916,7 +2352,7 @@
     "region_2depth": "제천시"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "밥상위의보약한첩",
     "main_item": "약고추장더덕삼겹",
     "price": "13,000",
@@ -2928,7 +2364,7 @@
     "region_2depth": "제천시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "비룡한우육개장",
     "main_item": "한우육개장",
     "price": "9,000",
@@ -2940,7 +2376,7 @@
     "region_2depth": "제천시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "사또가든",
     "main_item": "청국장",
     "price": "8,000",
@@ -2952,7 +2388,7 @@
     "region_2depth": "제천시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "선미식당",
     "main_item": "청국장",
     "price": "8,000",
@@ -2964,19 +2400,7 @@
     "region_2depth": "제천시"
   },
   {
-    "category": "미용업",
-    "name": "선미용실",
-    "main_item": "파마",
-    "price": "25,000",
-    "phone": "043-644-7424",
-    "address": "충청북도 제천시 용두천로 16길 7 (교동)",
-    "lat": 37.1396919464834,
-    "lng": 128.214776955187,
-    "region_1depth": "충북",
-    "region_2depth": "제천시"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "소뜰애",
     "main_item": "갈비살(100g)",
     "price": "13,000",
@@ -2988,7 +2412,7 @@
     "region_2depth": "제천시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "소백산육개장",
     "main_item": "육개장",
     "price": "6,000",
@@ -3012,7 +2436,7 @@
     "region_2depth": "제천시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "양지말해장국",
     "main_item": "황태콩나물해장국",
     "price": "8,000",
@@ -3024,7 +2448,7 @@
     "region_2depth": "제천시"
   },
   {
-    "category": "한식_찌개류",
+    "category": "한식",
     "name": "옛골식당",
     "main_item": "두부전골",
     "price": "10,000",
@@ -3036,7 +2460,7 @@
     "region_2depth": "제천시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "옹심이칼국수",
     "main_item": "옹심이칼국수",
     "price": "8,000",
@@ -3048,7 +2472,7 @@
     "region_2depth": "제천시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "용천막국수 본점",
     "main_item": "물막국수",
     "price": "8,000",
@@ -3060,7 +2484,7 @@
     "region_2depth": "제천시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "용천막국수 장락직영점",
     "main_item": "물막국수",
     "price": "8,000",
@@ -3072,7 +2496,7 @@
     "region_2depth": "제천시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "우돈명가",
     "main_item": "백반정식",
     "price": "8,000",
@@ -3084,7 +2508,7 @@
     "region_2depth": "제천시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "울산식당",
     "main_item": "칼국수",
     "price": "7,000",
@@ -3096,7 +2520,7 @@
     "region_2depth": "제천시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "자매해물칼국수",
     "main_item": "해물칼국수",
     "price": "7,000",
@@ -3108,31 +2532,7 @@
     "region_2depth": "제천시"
   },
   {
-    "category": "미용업",
-    "name": "정미용실",
-    "main_item": "파마",
-    "price": "30,000",
-    "phone": "",
-    "address": "충청북도 제천시 독순로 91-8 (중앙로2가) 정미용실",
-    "lat": 37.1384932448932,
-    "lng": 128.213264349137,
-    "region_1depth": "충북",
-    "region_2depth": "제천시"
-  },
-  {
-    "category": "미용업",
-    "name": "제일미용실",
-    "main_item": "파마",
-    "price": "25,000",
-    "phone": "043-644-5419",
-    "address": "충청북도 제천시 내제로15길 22 (청전동)",
-    "lat": 37.1453957580692,
-    "lng": 128.204812279618,
-    "region_1depth": "충북",
-    "region_2depth": "제천시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "쥐눈이콩마을",
     "main_item": "두부전골",
     "price": "9,000",
@@ -3144,7 +2544,7 @@
     "region_2depth": "제천시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "집밥",
     "main_item": "찌개류",
     "price": "8,000",
@@ -3156,31 +2556,7 @@
     "region_2depth": "제천시"
   },
   {
-    "category": "이용업",
-    "name": "착한이용원",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "",
-    "address": "충청북도 제천시 의림대로26길 8 (청전동)",
-    "lat": 37.144708900381,
-    "lng": 128.214533159704,
-    "region_1depth": "충북",
-    "region_2depth": "제천시"
-  },
-  {
-    "category": "미용업",
-    "name": "착한헤어",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "043-643-3303",
-    "address": "충청북도 제천시 의림대로26길 13-2 (청전동)",
-    "lat": 37.14468918291,
-    "lng": 128.215164596163,
-    "region_1depth": "충북",
-    "region_2depth": "제천시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "청풍호 청정한우",
     "main_item": "황기사골곰탕",
     "price": "8,000",
@@ -3192,7 +2568,7 @@
     "region_2depth": "제천시"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "춘천호반닭갈비막국수",
     "main_item": "닭갈비(300g)",
     "price": "13,000",
@@ -3216,7 +2592,7 @@
     "region_2depth": "제천시"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "한방고기타운",
     "main_item": "뽈살",
     "price": "11,000",
@@ -3228,7 +2604,7 @@
     "region_2depth": "제천시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "한일제면소",
     "main_item": "차돌육칼국수",
     "price": "8,000",
@@ -3240,19 +2616,7 @@
     "region_2depth": "제천시"
   },
   {
-    "category": "세탁업",
-    "name": "향기나는세탁소",
-    "main_item": "세탁수선",
-    "price": "9,000",
-    "phone": "043-652-8284",
-    "address": "충청북도 제천시 장락로 130 (장락동)",
-    "lat": 37.1535042356549,
-    "lng": 128.225917013658,
-    "region_1depth": "충북",
-    "region_2depth": "제천시"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "향촌",
     "main_item": "닭갈비\n(250g)",
     "price": "12,000",
@@ -3264,7 +2628,7 @@
     "region_2depth": "제천시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "현금식당",
     "main_item": "가락국수",
     "price": "5,000",
@@ -3276,7 +2640,7 @@
     "region_2depth": "제천시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "홍굴부추칼국수",
     "main_item": "홍굴부추칼국수",
     "price": "8,000",
@@ -3288,7 +2652,7 @@
     "region_2depth": "제천시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "갈비천국",
     "main_item": "삼겹살(200g)",
     "price": "13,000",
@@ -3300,7 +2664,7 @@
     "region_2depth": "보은군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "기사님식당",
     "main_item": "더덕구이 산채정식(청국장 기본제공)",
     "price": "16,000",
@@ -3312,7 +2676,7 @@
     "region_2depth": "보은군"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "보은생고기",
     "main_item": "삼겹살(200g)",
     "price": "12,000",
@@ -3324,7 +2688,7 @@
     "region_2depth": "보은군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "삼보정",
     "main_item": "삼겹살(200g)",
     "price": "14,000",
@@ -3336,19 +2700,7 @@
     "region_2depth": "보은군"
   },
   {
-    "category": "미용업",
-    "name": "성모미용실",
-    "main_item": "커트(일반)",
-    "price": "8,000",
-    "phone": "043-544-4051",
-    "address": "충청북도 보은군 보은읍 보은로 116-5",
-    "lat": 36.4846023245407,
-    "lng": 127.71829101279,
-    "region_1depth": "충북",
-    "region_2depth": "보은군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "성별식당",
     "main_item": "김치찌개",
     "price": "8,000",
@@ -3360,7 +2712,7 @@
     "region_2depth": "보은군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "송림식당",
     "main_item": "산채비빔밥",
     "price": "10,000",
@@ -3372,7 +2724,7 @@
     "region_2depth": "보은군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "수한식당",
     "main_item": "백반(1인)",
     "price": "8,000",
@@ -3384,7 +2736,7 @@
     "region_2depth": "보은군"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "수한칼국수",
     "main_item": "손칼국수",
     "price": "7,000",
@@ -3396,19 +2748,7 @@
     "region_2depth": "보은군"
   },
   {
-    "category": "한식_육류",
-    "name": "신사동왕족발",
-    "main_item": "보쌈(대)",
-    "price": "42,000",
-    "phone": "043-542-3187",
-    "address": "충청북도 보은군 보은읍 보은로 124-5",
-    "lat": 36.4854289171818,
-    "lng": 127.718354664283,
-    "region_1depth": "충북",
-    "region_2depth": "보은군"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "원남식당(숯불구이)",
     "main_item": "소금구이(삼겹살.목살)(200g)",
     "price": "12,000",
@@ -3420,7 +2760,7 @@
     "region_2depth": "보은군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "은현이네 부대찌개, 생삼겹살",
     "main_item": "생삼겹살(200g)",
     "price": "14,000",
@@ -3432,7 +2772,7 @@
     "region_2depth": "보은군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "정이품식당",
     "main_item": "돌솥비빔밥",
     "price": "12,000",
@@ -3444,7 +2784,7 @@
     "region_2depth": "보은군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "중앙식당",
     "main_item": "백반",
     "price": "8,000",
@@ -3456,19 +2796,7 @@
     "region_2depth": "보은군"
   },
   {
-    "category": "한식_일반",
-    "name": "초가집가든",
-    "main_item": "오리백숙",
-    "price": "45,000",
-    "phone": "043-543-2859",
-    "address": "충청북도 보은군 회인면 보청대로 3876",
-    "lat": 36.5212537434734,
-    "lng": 127.586813989995,
-    "region_1depth": "충북",
-    "region_2depth": "보은군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "팔도식당",
     "main_item": "돌솥비빔밥",
     "price": "11,000",
@@ -3480,7 +2808,7 @@
     "region_2depth": "보은군"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "혜성정육점식당",
     "main_item": "삼겹살(200g)",
     "price": "13,000",
@@ -3492,31 +2820,7 @@
     "region_2depth": "보은군"
   },
   {
-    "category": "한식_일반",
-    "name": "환요성",
-    "main_item": "오리주물럭",
-    "price": "50,000",
-    "phone": "043-543-0395",
-    "address": "충청북도 보은군 보은읍 보은로 114-4",
-    "lat": 36.4841023862684,
-    "lng": 127.718243769151,
-    "region_1depth": "충북",
-    "region_2depth": "보은군"
-  },
-  {
-    "category": "이용업",
-    "name": "공주이용원",
-    "main_item": "이발",
-    "price": "12,000",
-    "phone": "043-733-1501",
-    "address": "충청북도 옥천군 군북면 옥천로 1122",
-    "lat": 36.3303307198831,
-    "lng": 127.534621982118,
-    "region_1depth": "충북",
-    "region_2depth": "옥천군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "군서보리밥",
     "main_item": "잔치국수",
     "price": "6,000",
@@ -3528,7 +2832,7 @@
     "region_2depth": "옥천군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "김밥천냥",
     "main_item": "김밥",
     "price": "1,500",
@@ -3540,7 +2844,7 @@
     "region_2depth": "옥천군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "달달이치킨",
     "main_item": "후라이드",
     "price": "16,000",
@@ -3552,19 +2856,7 @@
     "region_2depth": "옥천군"
   },
   {
-    "category": "미용업",
-    "name": "대원미용실",
-    "main_item": "커트",
-    "price": "6,000",
-    "phone": "043-732-9898",
-    "address": "충청북도 옥천군 옥천읍 옥천로 1632",
-    "lat": 36.2974771391219,
-    "lng": 127.56612135215,
-    "region_1depth": "충북",
-    "region_2depth": "옥천군"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "만족",
     "main_item": "왕족발",
     "price": "23,000",
@@ -3576,7 +2868,7 @@
     "region_2depth": "옥천군"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "매화칼국수",
     "main_item": "콩나물비빔밥",
     "price": "6,000",
@@ -3588,7 +2880,7 @@
     "region_2depth": "옥천군"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "메밀고개 시골막국수",
     "main_item": "메밀물막국수",
     "price": "8,500",
@@ -3600,7 +2892,7 @@
     "region_2depth": "옥천군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "모녀손만두(종합상가점)",
     "main_item": "고기만두",
     "price": "5,000",
@@ -3612,7 +2904,7 @@
     "region_2depth": "옥천군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "민들레",
     "main_item": "삼겹살",
     "price": "13,000",
@@ -3624,7 +2916,7 @@
     "region_2depth": "옥천군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "보리촌복돼지",
     "main_item": "보리밥",
     "price": "7,500",
@@ -3648,7 +2940,7 @@
     "region_2depth": "옥천군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "시장백반",
     "main_item": "북어칼국수",
     "price": "5,000",
@@ -3660,7 +2952,7 @@
     "region_2depth": "옥천군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "안덕벌 돈까스",
     "main_item": "안덕벌 돈까스",
     "price": "9,000",
@@ -3672,7 +2964,7 @@
     "region_2depth": "옥천군"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "옛장터숯불갈비",
     "main_item": "돼지갈비",
     "price": "13,000",
@@ -3684,7 +2976,7 @@
     "region_2depth": "옥천군"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "옥천숯불촌",
     "main_item": "삼겹살",
     "price": "13,000",
@@ -3696,7 +2988,7 @@
     "region_2depth": "옥천군"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "옥천푸줏간",
     "main_item": "삼겹살",
     "price": "13,000",
@@ -3708,31 +3000,7 @@
     "region_2depth": "옥천군"
   },
   {
-    "category": "기타요식업",
-    "name": "은경이네",
-    "main_item": "계란빵",
-    "price": "1,000",
-    "phone": "",
-    "address": "충청북도 옥천군 옥천읍 삼금로5길 5-14 122호",
-    "lat": 36.3025129601443,
-    "lng": 127.56791516095,
-    "region_1depth": "충북",
-    "region_2depth": "옥천군"
-  },
-  {
-    "category": "한식_일반",
-    "name": "이은희 해물전문점",
-    "main_item": "해물찜",
-    "price": "49,000",
-    "phone": "",
-    "address": "충청북도 옥천군 안내면 현리4길 52",
-    "lat": 36.3944104736335,
-    "lng": 127.658745009193,
-    "region_1depth": "충북",
-    "region_2depth": "옥천군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "정자가든식당",
     "main_item": "삼계탕",
     "price": "13,000",
@@ -3740,18 +3008,6 @@
     "address": "충청북도 옥천군 군북면 이백길 3",
     "lat": 36.3297616856602,
     "lng": 127.535515318998,
-    "region_1depth": "충북",
-    "region_2depth": "옥천군"
-  },
-  {
-    "category": "미용업",
-    "name": "제일미용실",
-    "main_item": "커트",
-    "price": "7,000",
-    "phone": "043-732-2339",
-    "address": "충청북도 옥천군 이원면 신흥길 10-1",
-    "lat": 36.2458367872058,
-    "lng": 127.620813016702,
     "region_1depth": "충북",
     "region_2depth": "옥천군"
   },
@@ -3768,7 +3024,7 @@
     "region_2depth": "옥천군"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "중앙옥",
     "main_item": "김치찌개",
     "price": "7,000",
@@ -3780,7 +3036,7 @@
     "region_2depth": "옥천군"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "진달래가든 2호점",
     "main_item": "흑염소탕",
     "price": "15,000",
@@ -3792,19 +3048,7 @@
     "region_2depth": "옥천군"
   },
   {
-    "category": "미용업",
-    "name": "진실미용실",
-    "main_item": "커트",
-    "price": "7,000",
-    "phone": "043-732-0132",
-    "address": "충청북도 옥천군 군북면 옥천로 1122-1",
-    "lat": 36.33024832648,
-    "lng": 127.534748719848,
-    "region_1depth": "충북",
-    "region_2depth": "옥천군"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "초롱식당",
     "main_item": "칼국수",
     "price": "7,500",
@@ -3816,7 +3060,7 @@
     "region_2depth": "옥천군"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "친구네칼국수",
     "main_item": "잔치국수",
     "price": "4,000",
@@ -3852,7 +3096,7 @@
     "region_2depth": "옥천군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "칼국수 전문점 해와달",
     "main_item": "칼국수",
     "price": "7,000",
@@ -3864,7 +3108,7 @@
     "region_2depth": "옥천군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "콩쥐야팥쥐야",
     "main_item": "콩죽",
     "price": "5,000",
@@ -3872,18 +3116,6 @@
     "address": "충청북도 옥천군 옥천읍 삼금로5길 5-14 207호",
     "lat": 36.3025129601443,
     "lng": 127.56791516095,
-    "region_1depth": "충북",
-    "region_2depth": "옥천군"
-  },
-  {
-    "category": "미용업",
-    "name": "파파머리방",
-    "main_item": "커트",
-    "price": "6,000",
-    "phone": "043-731-2298",
-    "address": "충청북도 옥천군 옥천읍 중앙로6길 3",
-    "lat": 36.3015187963311,
-    "lng": 127.56893611432,
     "region_1depth": "충북",
     "region_2depth": "옥천군"
   },
@@ -3900,7 +3132,7 @@
     "region_2depth": "옥천군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "향수올갱이",
     "main_item": "올갱이국",
     "price": "10,000",
@@ -3912,19 +3144,7 @@
     "region_2depth": "옥천군"
   },
   {
-    "category": "한식_육류",
-    "name": "갈기산농원식당",
-    "main_item": "토종닭백숙",
-    "price": "50,000",
-    "phone": "043-744-7600",
-    "address": "충청북도 영동군 학산면 갈기산로 581",
-    "lat": 36.1172059700416,
-    "lng": 127.640477032183,
-    "region_1depth": "충북",
-    "region_2depth": "영동군"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "구이돈",
     "main_item": "국내산삼겹살(180g)",
     "price": "10,000",
@@ -3936,19 +3156,7 @@
     "region_2depth": "영동군"
   },
   {
-    "category": "한식_일반",
-    "name": "놀부식당",
-    "main_item": "-",
-    "price": "",
-    "phone": "043-742-6903",
-    "address": "충청북도 영동군 심천면 양산심천로 1189-4 놀부식당",
-    "lat": 36.2074041383885,
-    "lng": 127.70127464429,
-    "region_1depth": "충북",
-    "region_2depth": "영동군"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "덕성식육식당",
     "main_item": "생삼겹살(180g)",
     "price": "12,000",
@@ -3956,54 +3164,6 @@
     "address": "충청북도 영동군 영동읍 중앙로1길 3",
     "lat": 36.1740785408943,
     "lng": 127.776040863034,
-    "region_1depth": "충북",
-    "region_2depth": "영동군"
-  },
-  {
-    "category": "일식",
-    "name": "동해바다횟집",
-    "main_item": "-",
-    "price": "",
-    "phone": "043-742-0832",
-    "address": "충청북도 영동군 영동읍 영동시장1길 18 동해바다횟집",
-    "lat": 36.1756004881408,
-    "lng": 127.774923108901,
-    "region_1depth": "충북",
-    "region_2depth": "영동군"
-  },
-  {
-    "category": "한식_육류",
-    "name": "매봉가든",
-    "main_item": "오리정식(4인분)",
-    "price": "45,000",
-    "phone": "043-742-0399",
-    "address": "충청북도 영동군 용산면 서신항길 12",
-    "lat": 36.2572569963522,
-    "lng": 127.816173317028,
-    "region_1depth": "충북",
-    "region_2depth": "영동군"
-  },
-  {
-    "category": "한식_일반",
-    "name": "매화골",
-    "main_item": "-",
-    "price": "",
-    "phone": "043-742-3355",
-    "address": "충청북도 영동군 매곡면 민주지산로 3467 매화골",
-    "lat": 36.180623947683,
-    "lng": 127.925941329197,
-    "region_1depth": "충북",
-    "region_2depth": "영동군"
-  },
-  {
-    "category": "한식_육류",
-    "name": "백호정육식당",
-    "main_item": "-",
-    "price": "",
-    "phone": "043-744-1515",
-    "address": "충청북도 영동군 영동읍 영산로3길 16 백호정육식당",
-    "lat": 36.1763358541855,
-    "lng": 127.774992485638,
     "region_1depth": "충북",
     "region_2depth": "영동군"
   },
@@ -4020,7 +3180,7 @@
     "region_2depth": "영동군"
   },
   {
-    "category": "한식_기타",
+    "category": "한식",
     "name": "순이네식당",
     "main_item": "순대국밥",
     "price": "7,000",
@@ -4032,19 +3192,7 @@
     "region_2depth": "영동군"
   },
   {
-    "category": "미용업",
-    "name": "쎄븐미용실",
-    "main_item": "-",
-    "price": "",
-    "phone": "043-743-0932",
-    "address": "충청북도 영동군 영동읍 영동시장4길 10 쎄븐미용실",
-    "lat": 36.1757784235155,
-    "lng": 127.776710541693,
-    "region_1depth": "충북",
-    "region_2depth": "영동군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "오목식당",
     "main_item": "추어탕",
     "price": "7,000",
@@ -4052,18 +3200,6 @@
     "address": "충청북도 영동군 영동읍 부용5길 11",
     "lat": 36.1741668465174,
     "lng": 127.772656734811,
-    "region_1depth": "충북",
-    "region_2depth": "영동군"
-  },
-  {
-    "category": "한식_육류",
-    "name": "장생생고기",
-    "main_item": "-",
-    "price": "",
-    "phone": "043-744-5989",
-    "address": "충청북도 영동군 영동읍 영동시장1길 19-1 장생생고기",
-    "lat": 36.1756491195075,
-    "lng": 127.774635700736,
     "region_1depth": "충북",
     "region_2depth": "영동군"
   },
@@ -4080,7 +3216,7 @@
     "region_2depth": "영동군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "코끼리만두",
     "main_item": "고기만두(1인분)",
     "price": "5,000",
@@ -4092,19 +3228,7 @@
     "region_2depth": "영동군"
   },
   {
-    "category": "세탁업",
-    "name": "토탈크리닝",
-    "main_item": "와이셔츠",
-    "price": "4,000",
-    "phone": "043-745-1023",
-    "address": "충청북도 영동군 영동읍 중앙로1길 6-7",
-    "lat": 36.1735765256006,
-    "lng": 127.775854959953,
-    "region_1depth": "충북",
-    "region_2depth": "영동군"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "홍능갈비",
     "main_item": "돼지갈비(220g)",
     "price": "9,000",
@@ -4128,7 +3252,7 @@
     "region_2depth": "증평군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "금강고을",
     "main_item": "백반",
     "price": "7,000",
@@ -4140,19 +3264,7 @@
     "region_2depth": "증평군"
   },
   {
-    "category": "한식_육류",
-    "name": "금호돈&오리",
-    "main_item": "오리주물럭",
-    "price": "55,000",
-    "phone": "043-838-7892",
-    "address": "충청북도 증평군 증평읍 초중3길 3",
-    "lat": 36.7762062823539,
-    "lng": 127.57083698105,
-    "region_1depth": "충북",
-    "region_2depth": "증평군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "나래분식",
     "main_item": "쫄면",
     "price": "5,500",
@@ -4176,7 +3288,7 @@
     "region_2depth": "증평군"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "대흥정육식당",
     "main_item": "삼겹살",
     "price": "13,000",
@@ -4200,7 +3312,7 @@
     "region_2depth": "증평군"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "시장축산물식당",
     "main_item": "삼겹살",
     "price": "13,000",
@@ -4212,7 +3324,7 @@
     "region_2depth": "증평군"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "신일생고기촌",
     "main_item": "삼겹살",
     "price": "13,000",
@@ -4220,42 +3332,6 @@
     "address": "충청북도 증평군 증평읍 장뜰로 41",
     "lat": 36.7824056351344,
     "lng": 127.581379678691,
-    "region_1depth": "충북",
-    "region_2depth": "증평군"
-  },
-  {
-    "category": "세탁업",
-    "name": "우리세탁소",
-    "main_item": "양복상하 드라이클리닝",
-    "price": "7,000",
-    "phone": "043-836-5808",
-    "address": "충청북도 증평군 증평읍 두름로1길 17",
-    "lat": 36.7887420762938,
-    "lng": 127.591127673266,
-    "region_1depth": "충북",
-    "region_2depth": "증평군"
-  },
-  {
-    "category": "미용업",
-    "name": "이화순미용실",
-    "main_item": "커트",
-    "price": "4,000",
-    "phone": "043-838-4672",
-    "address": "충청북도 증평군 증평읍 중앙로8길 38",
-    "lat": 36.782199073525,
-    "lng": 127.584859838157,
-    "region_1depth": "충북",
-    "region_2depth": "증평군"
-  },
-  {
-    "category": "미용업",
-    "name": "헤어아트",
-    "main_item": "커트(남)",
-    "price": "10,000",
-    "phone": "043-836-0734",
-    "address": "충청북도 증평군 증평읍 윗장뜰길 75-1 2층",
-    "lat": 36.7860252165924,
-    "lng": 127.584535012327,
     "region_1depth": "충북",
     "region_2depth": "증평군"
   },
@@ -4272,7 +3348,7 @@
     "region_2depth": "증평군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "고려식당",
     "main_item": "손칼국수",
     "price": "6,000",
@@ -4284,7 +3360,7 @@
     "region_2depth": "진천군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "골목식당",
     "main_item": "동태찌개",
     "price": "8,000",
@@ -4296,7 +3372,7 @@
     "region_2depth": "진천군"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "공주얼큰이칼국수",
     "main_item": "흰칼국수",
     "price": "6,500",
@@ -4308,19 +3384,7 @@
     "region_2depth": "진천군"
   },
   {
-    "category": "미용업",
-    "name": "금잔디미용실",
-    "main_item": "커트(여성)",
-    "price": "6,000",
-    "phone": "043-532-9889",
-    "address": "충청북도 진천군 덕산읍 초금로 756-5",
-    "lat": 36.9119187642297,
-    "lng": 127.506874706942,
-    "region_1depth": "충북",
-    "region_2depth": "진천군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "김밥세상",
     "main_item": "김밥",
     "price": "2,500",
@@ -4332,19 +3396,7 @@
     "region_2depth": "진천군"
   },
   {
-    "category": "세탁업",
-    "name": "또또크리닝",
-    "main_item": "신사복(상의)",
-    "price": "6,000",
-    "phone": "043-532-8884",
-    "address": "충청북도 진천군 진천읍 중앙동6길 19",
-    "lat": 36.8569355592321,
-    "lng": 127.442824891007,
-    "region_1depth": "충북",
-    "region_2depth": "진천군"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "마당한우촌",
     "main_item": "동태찌개",
     "price": "8,000",
@@ -4356,7 +3408,7 @@
     "region_2depth": "진천군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "미소가득꼬마김밥",
     "main_item": "꼬마김밥(6줄)",
     "price": "3,000",
@@ -4368,7 +3420,7 @@
     "region_2depth": "진천군"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "사석한우촌",
     "main_item": "암소한우설렁탕",
     "price": "8,000",
@@ -4380,7 +3432,7 @@
     "region_2depth": "진천군"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "산수고기마을",
     "main_item": "삼겹살(200g)",
     "price": "13,000",
@@ -4392,7 +3444,7 @@
     "region_2depth": "진천군"
   },
   {
-    "category": "한식_기타",
+    "category": "한식",
     "name": "안반과떡메",
     "main_item": "떡(1팩)",
     "price": "2,000",
@@ -4404,7 +3456,7 @@
     "region_2depth": "진천군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "양양손만두",
     "main_item": "콩나물밥",
     "price": "5,000",
@@ -4416,7 +3468,7 @@
     "region_2depth": "진천군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "어전",
     "main_item": "된장찌개",
     "price": "6,000",
@@ -4428,7 +3480,7 @@
     "region_2depth": "진천군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "연형식당",
     "main_item": "된장찌개",
     "price": "8,000",
@@ -4440,7 +3492,7 @@
     "region_2depth": "진천군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "오가네착한밥집앤포차",
     "main_item": "콩나물해장국",
     "price": "6,000",
@@ -4452,7 +3504,7 @@
     "region_2depth": "진천군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "왕갈비를 품은닭",
     "main_item": "닭곰탕",
     "price": "7,000",
@@ -4464,7 +3516,7 @@
     "region_2depth": "진천군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "외갓집",
     "main_item": "된장찌개",
     "price": "6,000",
@@ -4476,43 +3528,7 @@
     "region_2depth": "진천군"
   },
   {
-    "category": "미용업",
-    "name": "원미용실",
-    "main_item": "커트",
-    "price": "7,000",
-    "phone": "043-536-4233",
-    "address": "충청북도 진천군 이월면 진광로 797",
-    "lat": 36.9312498741371,
-    "lng": 127.428653507168,
-    "region_1depth": "충북",
-    "region_2depth": "진천군"
-  },
-  {
-    "category": "미용업",
-    "name": "젠틀맨헤어클럽",
-    "main_item": "남성커트",
-    "price": "8,000",
-    "phone": "010-4727-6916",
-    "address": "충청북도 진천군 진천읍 대촌길 32",
-    "lat": 36.8608347476874,
-    "lng": 127.449341068046,
-    "region_1depth": "충북",
-    "region_2depth": "진천군"
-  },
-  {
-    "category": "기타비요식업",
-    "name": "진천컴세상",
-    "main_item": "출장수리비",
-    "price": "10,000",
-    "phone": "043-537-4001",
-    "address": "충청북도 진천군 진천읍 원덕로 313",
-    "lat": 36.8540616308327,
-    "lng": 127.448918944442,
-    "region_1depth": "충북",
-    "region_2depth": "진천군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "초평농부식당",
     "main_item": "칼국수",
     "price": "6,000",
@@ -4536,19 +3552,7 @@
     "region_2depth": "진천군"
   },
   {
-    "category": "미용업",
-    "name": "헤어테크",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "043-537-7337",
-    "address": "충청북도 진천군 진천읍 중앙동로 52",
-    "lat": 36.8545069449414,
-    "lng": 127.444677743053,
-    "region_1depth": "충북",
-    "region_2depth": "진천군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "강은네",
     "main_item": "청국장",
     "price": "7,000",
@@ -4560,7 +3564,7 @@
     "region_2depth": "괴산군"
   },
   {
-    "category": "한식_찌개류",
+    "category": "한식",
     "name": "금봉이네",
     "main_item": "시래기소고기해장국",
     "price": "7,000",
@@ -4572,19 +3576,7 @@
     "region_2depth": "괴산군"
   },
   {
-    "category": "미용업",
-    "name": "김민영미용실",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "043-834-1387",
-    "address": "충청북도 괴산군 괴산읍 읍내로15길 6-1",
-    "lat": 36.81098055352,
-    "lng": 127.794867914984,
-    "region_1depth": "충북",
-    "region_2depth": "괴산군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "김홍도 손두부",
     "main_item": "두부전골(소)",
     "price": "20,000",
@@ -4596,31 +3588,7 @@
     "region_2depth": "괴산군"
   },
   {
-    "category": "한식_일반",
-    "name": "남촌식당",
-    "main_item": "오삼불고기(大)",
-    "price": "35,000",
-    "phone": "043-832-3018",
-    "address": "충청북도 괴산군 괴산읍 읍내로 19길 6",
-    "lat": 36.811103373258,
-    "lng": 127.796268429926,
-    "region_1depth": "충북",
-    "region_2depth": "괴산군"
-  },
-  {
-    "category": "숙박업",
-    "name": "놀러와펜션",
-    "main_item": "2인실(주중)",
-    "price": "65,000",
-    "phone": "",
-    "address": "충청북도 괴산군 칠성면 칠성로7길 85",
-    "lat": 36.7709988579706,
-    "lng": 127.857423107884,
-    "region_1depth": "충북",
-    "region_2depth": "괴산군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "담소",
     "main_item": "두부전골",
     "price": "10,000",
@@ -4632,7 +3600,7 @@
     "region_2depth": "괴산군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "대하식당",
     "main_item": "된장보리밥",
     "price": "7,000",
@@ -4644,19 +3612,7 @@
     "region_2depth": "괴산군"
   },
   {
-    "category": "미용업",
-    "name": "머리하기좋은날",
-    "main_item": "남성커트",
-    "price": "10,000",
-    "phone": "043-832-8128",
-    "address": "충청북도 괴산군 청천면 청천3길 12 머리하기좋은날",
-    "lat": 36.6592378569211,
-    "lng": 127.736822480931,
-    "region_1depth": "충북",
-    "region_2depth": "괴산군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "멍석집",
     "main_item": "올갱이해장국",
     "price": "9,000",
@@ -4680,7 +3636,7 @@
     "region_2depth": "괴산군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "민물촌식당",
     "main_item": "올갱이국",
     "price": "8,000",
@@ -4692,7 +3648,7 @@
     "region_2depth": "괴산군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "병천순대(청천점)",
     "main_item": "순대만국밥",
     "price": "7,500",
@@ -4704,7 +3660,7 @@
     "region_2depth": "괴산군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "상록숯불갈비",
     "main_item": "김치찌개",
     "price": "7,000",
@@ -4716,7 +3672,7 @@
     "region_2depth": "괴산군"
   },
   {
-    "category": "한식_분식",
+    "category": "한식",
     "name": "엄니네",
     "main_item": "손칼국수",
     "price": "8,000",
@@ -4728,7 +3684,7 @@
     "region_2depth": "괴산군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "원기정",
     "main_item": "추어탕",
     "price": "9,000",
@@ -4740,19 +3696,7 @@
     "region_2depth": "괴산군"
   },
   {
-    "category": "미용업",
-    "name": "유미용실",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "043-832-3080",
-    "address": "충청북도 괴산군 괴산읍 읍내로10길 9",
-    "lat": 36.8090588988157,
-    "lng": 127.793896304956,
-    "region_1depth": "충북",
-    "region_2depth": "괴산군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "일미손순대",
     "main_item": "순대",
     "price": "9,000",
@@ -4764,43 +3708,7 @@
     "region_2depth": "괴산군"
   },
   {
-    "category": "미용업",
-    "name": "제일미용실",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "043-832-2621",
-    "address": "충청북도 괴산군 괴산읍 읍내로13길 20",
-    "lat": 36.8108945572489,
-    "lng": 127.793780109113,
-    "region_1depth": "충북",
-    "region_2depth": "괴산군"
-  },
-  {
-    "category": "미용업",
-    "name": "청안미용실",
-    "main_item": "커트",
-    "price": "5,000",
-    "phone": "043-836-5969",
-    "address": "충청북도 괴산군 청안면 청안읍내로 49",
-    "lat": 36.77430612688,
-    "lng": 127.638002252615,
-    "region_1depth": "충북",
-    "region_2depth": "괴산군"
-  },
-  {
-    "category": "미용업",
-    "name": "추산리미용실",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "043-832-5294",
-    "address": "충청북도 괴산군 불정면 추산로 112 추산리미용실",
-    "lat": 36.9010005458997,
-    "lng": 127.81716050341,
-    "region_1depth": "충북",
-    "region_2depth": "괴산군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "친구네",
     "main_item": "모듬생선구이",
     "price": "10,000",
@@ -4824,7 +3732,7 @@
     "region_2depth": "괴산군"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "한솔식당",
     "main_item": "소고기국수전골",
     "price": "9,000",
@@ -4836,43 +3744,7 @@
     "region_2depth": "괴산군"
   },
   {
-    "category": "기타비요식업",
-    "name": "YES컴퓨터",
-    "main_item": "출장비",
-    "price": "10,000",
-    "phone": "043-878-4655",
-    "address": "충청북도 음성군 감곡면 장감로 119 예스컴퓨터",
-    "lat": 37.1186933156258,
-    "lng": 127.63574261876,
-    "region_1depth": "충북",
-    "region_2depth": "음성군"
-  },
-  {
-    "category": "미용업",
-    "name": "가보세미용실",
-    "main_item": "커트(성인)",
-    "price": "12,000",
-    "phone": "043-873-3900",
-    "address": "충청북도 음성군 음성읍 읍내리 307-1 가보세미용실",
-    "lat": 36.9373896485908,
-    "lng": 127.691356640812,
-    "region_1depth": "충북",
-    "region_2depth": "음성군"
-  },
-  {
-    "category": "목욕업",
-    "name": "개나리휴사우나",
-    "main_item": "목욕(대인)",
-    "price": "5,000",
-    "phone": "043-882-3337",
-    "address": "충청북도 음성군 대소면 대금로 410-5 개나리휴사우나",
-    "lat": 36.9716948644729,
-    "lng": 127.484651280907,
-    "region_1depth": "충북",
-    "region_2depth": "음성군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "경서네 국수",
     "main_item": "잔치국수",
     "price": "6,000",
@@ -4884,19 +3756,7 @@
     "region_2depth": "음성군"
   },
   {
-    "category": "미용업",
-    "name": "경희미용타운",
-    "main_item": "커트",
-    "price": "12,000",
-    "phone": "043-881-5756",
-    "address": "충청북도 음성군 감곡면 장감로 163 경희미용실",
-    "lat": 37.1187420204752,
-    "lng": 127.640571403361,
-    "region_1depth": "충북",
-    "region_2depth": "음성군"
-  },
-  {
-    "category": "한식_기타",
+    "category": "한식",
     "name": "고은떡전문",
     "main_item": "송편",
     "price": "2,500",
@@ -4908,7 +3768,7 @@
     "region_2depth": "음성군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "국화식당",
     "main_item": "김치찌개",
     "price": "6,000",
@@ -4920,7 +3780,7 @@
     "region_2depth": "음성군"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "맛디아식당",
     "main_item": "칼국수",
     "price": "7,000",
@@ -4932,19 +3792,7 @@
     "region_2depth": "음성군"
   },
   {
-    "category": "숙박업",
-    "name": "모텔첼로",
-    "main_item": "대실",
-    "price": "25,000",
-    "phone": "043-877-8705",
-    "address": "충청북도 음성군 금왕읍 대금로 1629 모텔첼로",
-    "lat": 36.9934609702773,
-    "lng": 127.612187414498,
-    "region_1depth": "충북",
-    "region_2depth": "음성군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "무너미밥집",
     "main_item": "정식(고추장불고기+청국장+생선)",
     "price": "12,000",
@@ -4968,7 +3816,7 @@
     "region_2depth": "음성군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "소문난갈비",
     "main_item": "칼국수",
     "price": "5,000",
@@ -4992,7 +3840,7 @@
     "region_2depth": "음성군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "시골보리밥감자탕",
     "main_item": "보리밥",
     "price": "8,000",
@@ -5004,19 +3852,7 @@
     "region_2depth": "음성군"
   },
   {
-    "category": "미용업",
-    "name": "씨헤어클럽",
-    "main_item": "커트",
-    "price": "15,000",
-    "phone": "043-872-2500",
-    "address": "충청북도 음성군 음성읍 시장로 66-1 씨헤어클럽",
-    "lat": 36.9336897865442,
-    "lng": 127.694146522187,
-    "region_1depth": "충북",
-    "region_2depth": "음성군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "엄마손밥상",
     "main_item": "백반",
     "price": "6,000",
@@ -5028,7 +3864,7 @@
     "region_2depth": "음성군"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "왕장정육식당",
     "main_item": "삼겹살(200g)",
     "price": "13,000",
@@ -5040,7 +3876,7 @@
     "region_2depth": "음성군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "용궁",
     "main_item": "칼국수",
     "price": "6,000",
@@ -5064,7 +3900,7 @@
     "region_2depth": "음성군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "우리집옛날보리밥칼국수",
     "main_item": "김치찌개",
     "price": "6,000",
@@ -5072,18 +3908,6 @@
     "address": "충청북도 음성군 감곡면 장감로 149번길 4 우리집옛날보리밥",
     "lat": 37.1191529806727,
     "lng": 127.639220703208,
-    "region_1depth": "충북",
-    "region_2depth": "음성군"
-  },
-  {
-    "category": "미용업",
-    "name": "윤정미용실",
-    "main_item": "커트",
-    "price": "6,000",
-    "phone": "043-872-3488",
-    "address": "충청북도 음성군 음성읍 중앙로 150 윤정미용실",
-    "lat": 36.9373466655283,
-    "lng": 127.690319057956,
     "region_1depth": "충북",
     "region_2depth": "음성군"
   },
@@ -5100,7 +3924,7 @@
     "region_2depth": "음성군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "토종마을",
     "main_item": "돼지국밥",
     "price": "4,000",
@@ -5124,7 +3948,7 @@
     "region_2depth": "음성군"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "풍미식당",
     "main_item": "삼겹살(200g)",
     "price": "14,000",
@@ -5136,19 +3960,7 @@
     "region_2depth": "음성군"
   },
   {
-    "category": "미용업",
-    "name": "헤어스타",
-    "main_item": "커트",
-    "price": "12,000",
-    "phone": "043-873-4261",
-    "address": "충청북도 음성군 음성읍 읍내리 536-37 헤어스타",
-    "lat": 36.935062553832,
-    "lng": 127.690129524382,
-    "region_1depth": "충북",
-    "region_2depth": "음성군"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "홍두깨손칼국수",
     "main_item": "칼국수",
     "price": "5,000",
@@ -5160,7 +3972,7 @@
     "region_2depth": "음성군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "감골묵촌",
     "main_item": "도토리묵밥",
     "price": "8,000",
@@ -5172,7 +3984,7 @@
     "region_2depth": "단양군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "경남식당",
     "main_item": "모둠한정식",
     "price": "10,000",
@@ -5184,7 +3996,7 @@
     "region_2depth": "단양군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "놀부순대",
     "main_item": "한식부페",
     "price": "8,000",
@@ -5196,7 +4008,7 @@
     "region_2depth": "단양군"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "대구소막창홍봉근꼼장어",
     "main_item": "돼지막창(200g/수입)",
     "price": "7,900",
@@ -5208,19 +4020,7 @@
     "region_2depth": "단양군"
   },
   {
-    "category": "기타비요식업",
-    "name": "들골건강원",
-    "main_item": "한약(공임)",
-    "price": "40,000",
-    "phone": "043-422-3578",
-    "address": "충청북도 단양군 매포읍 평동24길 3-8 1층",
-    "lat": 37.0347155579186,
-    "lng": 128.299728072449,
-    "region_1depth": "충북",
-    "region_2depth": "단양군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "맛집소백산",
     "main_item": "도토리묵밥",
     "price": "8,000",
@@ -5232,7 +4032,7 @@
     "region_2depth": "단양군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "미성명가",
     "main_item": "닭개장",
     "price": "9,000",
@@ -5244,31 +4044,7 @@
     "region_2depth": "단양군"
   },
   {
-    "category": "미용업",
-    "name": "보람머리방",
-    "main_item": "커트(학생)",
-    "price": "7,000",
-    "phone": "043-423-3978",
-    "address": "충청북도 단양군 단양읍 상진7길 5",
-    "lat": 36.9801941995632,
-    "lng": 128.353203220291,
-    "region_1depth": "충북",
-    "region_2depth": "단양군"
-  },
-  {
-    "category": "미용업",
-    "name": "서현미용실",
-    "main_item": "커트(학생)",
-    "price": "8,000",
-    "phone": "043-421-8189",
-    "address": "충청북도 단양군 매포읍 평동24길 3-4",
-    "lat": 37.0345226120784,
-    "lng": 128.299427293555,
-    "region_1depth": "충북",
-    "region_2depth": "단양군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "소담정 단양농가레스토랑",
     "main_item": "버섯두부전골",
     "price": "10,000",
@@ -5280,19 +4056,7 @@
     "region_2depth": "단양군"
   },
   {
-    "category": "미용업",
-    "name": "수냐미용실",
-    "main_item": "커트(학생)",
-    "price": "7,000",
-    "phone": "043-422-1558",
-    "address": "충청북도 단양군 매포읍 평동3로 10 수냐미용실",
-    "lat": 37.0348241847895,
-    "lng": 128.299171917189,
-    "region_1depth": "충북",
-    "region_2depth": "단양군"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "숙이네칼국수",
     "main_item": "칼국수",
     "price": "5,000",
@@ -5304,7 +4068,7 @@
     "region_2depth": "단양군"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "시골왕족",
     "main_item": "족발(소)",
     "price": "25,000",
@@ -5316,7 +4080,7 @@
     "region_2depth": "단양군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "오뎅과튀김",
     "main_item": "우동",
     "price": "3,000",
@@ -5328,7 +4092,7 @@
     "region_2depth": "단양군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "우리돼지마늘순대",
     "main_item": "순대국밥",
     "price": "8,000",
@@ -5340,7 +4104,7 @@
     "region_2depth": "단양군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "유성감자탕",
     "main_item": "감자탕(소)",
     "price": "25,000",
@@ -5352,7 +4116,7 @@
     "region_2depth": "단양군"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "은미정",
     "main_item": "한우갈비살(160g)",
     "price": "28,000",
@@ -5364,7 +4128,7 @@
     "region_2depth": "단양군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "준이네",
     "main_item": "뼈해장국",
     "price": "7,000",
@@ -5376,31 +4140,7 @@
     "region_2depth": "단양군"
   },
   {
-    "category": "미용업",
-    "name": "준헤어샵",
-    "main_item": "커트(학생)",
-    "price": "8,000",
-    "phone": "043-423-1655",
-    "address": "충청북도 단양군 단양읍 도전7길 13-3",
-    "lat": 36.9813941952257,
-    "lng": 128.368057074807,
-    "region_1depth": "충북",
-    "region_2depth": "단양군"
-  },
-  {
-    "category": "미용업",
-    "name": "한별미용실",
-    "main_item": "커트(성인)",
-    "price": "10,000",
-    "phone": "043-422-4247",
-    "address": "충청북도 단양군 단양읍 상진로 66 1층",
-    "lat": 36.979583710757,
-    "lng": 128.355797570888,
-    "region_1depth": "충북",
-    "region_2depth": "단양군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "할매주막",
     "main_item": "손칼국수",
     "price": "6,000",

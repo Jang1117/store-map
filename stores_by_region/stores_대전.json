@@ -1,6 +1,6 @@
 [
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "24시서울식당",
     "main_item": "김치찌개 백반",
     "price": "7,000",
@@ -12,7 +12,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "2900냥식당",
     "main_item": "선지해장국",
     "price": "5,000",
@@ -24,7 +24,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "강청골순대국밥",
     "main_item": "순대국밥",
     "price": "7,000",
@@ -36,7 +36,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "개천식당",
     "main_item": "만둣국",
     "price": "9,000",
@@ -48,7 +48,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "경성화로",
     "main_item": "삼겹살(150g)",
     "price": "6,500",
@@ -60,19 +60,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "미용업",
-    "name": "곽은아미용실",
-    "main_item": "미용료(커트)",
-    "price": "9,000",
-    "phone": "042-272-4478",
-    "address": "대전광역시 동구 새울로 100 (용운동)",
-    "lat": 36.3271167002537,
-    "lng": 127.461826711325,
-    "region_1depth": "대전",
-    "region_2depth": "동구"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "국수한그릇",
     "main_item": "잔치국수",
     "price": "5,000",
@@ -84,19 +72,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "미용업",
-    "name": "그리오다",
-    "main_item": "미용료(커트)",
-    "price": "7,000",
-    "phone": "",
-    "address": "대전광역시 동구 동서대로 1692번길 153 (성남동)",
-    "lat": 36.3424896102607,
-    "lng": 127.438366074824,
-    "region_1depth": "대전",
-    "region_2depth": "동구"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "김화칼국수",
     "main_item": "칼국수",
     "price": "6,000",
@@ -108,31 +84,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "이용업",
-    "name": "뉴모델이용원",
-    "main_item": "이용료",
-    "price": "7,000",
-    "phone": "042-282-1933",
-    "address": "대전광역시 동구 계족로 103 (신흥동)",
-    "lat": 36.3235977678715,
-    "lng": 127.445302754,
-    "region_1depth": "대전",
-    "region_2depth": "동구"
-  },
-  {
-    "category": "이용업",
-    "name": "대광이용원",
-    "main_item": "이용료",
-    "price": "7,000",
-    "phone": "",
-    "address": "대전광역시 동구 계족로 73-2 (신흥동)",
-    "lat": 36.3212528089861,
-    "lng": 127.443947726738,
-    "region_1depth": "대전",
-    "region_2depth": "동구"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "대동식당",
     "main_item": "삼겹살(200g)",
     "price": "13,000",
@@ -156,19 +108,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "기타비요식업",
-    "name": "동양전자",
-    "main_item": "마이크",
-    "price": "10,000",
-    "phone": "",
-    "address": "대전광역시 동구 대전로 797번길 11 (중동)",
-    "lat": 36.3304315762194,
-    "lng": 127.432265782557,
-    "region_1depth": "대전",
-    "region_2depth": "동구"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "돼지꿈이야기",
     "main_item": "삼겹살(150G)",
     "price": "13,000",
@@ -180,7 +120,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "뒤집어진뚝배기",
     "main_item": "제육",
     "price": "6,500",
@@ -192,19 +132,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "기타비요식업",
-    "name": "드림안경콘텍트",
-    "main_item": "안경태",
-    "price": "30,000",
-    "phone": "",
-    "address": "대전광역시 동구 홍도로 14-5 (홍도동)",
-    "lat": 36.3477988804796,
-    "lng": 127.430056346229,
-    "region_1depth": "대전",
-    "region_2depth": "동구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "마실",
     "main_item": "수제비",
     "price": "7,000",
@@ -240,7 +168,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "메밀고개 시골막국수",
     "main_item": "메밀만두",
     "price": "6,000",
@@ -252,7 +180,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_기타",
+    "category": "한식",
     "name": "명동만두",
     "main_item": "콩나물국밥",
     "price": "6,000",
@@ -264,7 +192,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "미가칼국수",
     "main_item": "칼국수",
     "price": "6,000",
@@ -276,7 +204,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "배부른돼지",
     "main_item": "삼겹살(200g)",
     "price": "12,000",
@@ -288,7 +216,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "별난왕갈비",
     "main_item": "삼겹살(200g)",
     "price": "12,000",
@@ -300,19 +228,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "이용업",
-    "name": "복지이용원",
-    "main_item": "이용료",
-    "price": "7,000",
-    "phone": "",
-    "address": "대전광역시 동구 대전로 791번길 50 (중동)",
-    "lat": 36.3295205271986,
-    "lng": 127.430506838139,
-    "region_1depth": "대전",
-    "region_2depth": "동구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "부림식당",
     "main_item": "된장찌개 백반",
     "price": "7,000",
@@ -324,7 +240,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "부산꼼장어",
     "main_item": "숯불소금꼼장어(300g)",
     "price": "17,000",
@@ -336,19 +252,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "미용업",
-    "name": "뿌리미용실",
-    "main_item": "미용료(커트)",
-    "price": "8,000",
-    "phone": "",
-    "address": "대전광역시 동구 충무로 219 (인동)",
-    "lat": 36.3225191758149,
-    "lng": 127.440235253078,
-    "region_1depth": "대전",
-    "region_2depth": "동구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "산천",
     "main_item": "삼계탕",
     "price": "13,000",
@@ -360,7 +264,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "삼대째전통칼국수",
     "main_item": "칼국수",
     "price": "7,000",
@@ -372,7 +276,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "삼용이네삼겹살",
     "main_item": "삼겹살(180g)",
     "price": "12,000",
@@ -384,7 +288,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "생일집",
     "main_item": "순대국밥",
     "price": "8,000",
@@ -408,19 +312,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "미용업",
-    "name": "성화미용실",
-    "main_item": "미용료(커트)",
-    "price": "4,000",
-    "phone": "042-672-2768",
-    "address": "대전광역시 동구 동대전로248번길 151 (가양동)",
-    "lat": 36.3467831178822,
-    "lng": 127.454776360664,
-    "region_1depth": "대전",
-    "region_2depth": "동구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "손복순수라상뷔페",
     "main_item": "뷔페(~7세)",
     "price": "3,000",
@@ -432,31 +324,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "미용업",
-    "name": "송미용실",
-    "main_item": "미용료(커트)",
-    "price": "8,000",
-    "phone": "",
-    "address": "대전광역시 동구 산내로 1346 (낭월동)",
-    "lat": 36.2835149695714,
-    "lng": 127.466676057522,
-    "region_1depth": "대전",
-    "region_2depth": "동구"
-  },
-  {
-    "category": "목욕업",
-    "name": "수정목욕탕",
-    "main_item": "목욕료",
-    "price": "6,000",
-    "phone": "",
-    "address": "대전광역시 동구 비래서로62번길 103 (가양동)",
-    "lat": 36.3498831171768,
-    "lng": 127.449018725201,
-    "region_1depth": "대전",
-    "region_2depth": "동구"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "신도칼국수",
     "main_item": "칼국수",
     "price": "7,000",
@@ -468,7 +336,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "신바람숯불갈비",
     "main_item": "돼지갈비(250g)",
     "price": "12,000",
@@ -480,7 +348,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "양반고을",
     "main_item": "돼지갈비(250g)",
     "price": "15,000",
@@ -492,7 +360,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "옛고을식당",
     "main_item": "비빔밥",
     "price": "7,000",
@@ -504,19 +372,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_육류",
-    "name": "와라칼국수와족발",
-    "main_item": "족발보쌈",
-    "price": "38,000",
-    "phone": "",
-    "address": "대전광역시 동구 동서대로 1668번길 23 (성남동)",
-    "lat": 36.3473010728109,
-    "lng": 127.435332470057,
-    "region_1depth": "대전",
-    "region_2depth": "동구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "왕관식당",
     "main_item": "콩나물밥",
     "price": "5,000",
@@ -528,7 +384,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "왕산",
     "main_item": "갈비탕",
     "price": "7,000",
@@ -540,31 +396,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "미용업",
-    "name": "우리헤어클럽",
-    "main_item": "미용료(커트)",
-    "price": "10,000",
-    "phone": "0507-1367-4071",
-    "address": "대전광역시 동구 백룡로57번길 118 (자양동) 자양동",
-    "lat": 36.3383966376704,
-    "lng": 127.451013429751,
-    "region_1depth": "대전",
-    "region_2depth": "동구"
-  },
-  {
-    "category": "세탁업",
-    "name": "운동화목욕한날",
-    "main_item": "운동화 빨래",
-    "price": "5,000",
-    "phone": "",
-    "address": "대전광역시 동구 용운로 170가동 102호(용운동)",
-    "lat": 36.3276734373929,
-    "lng": 127.460965313411,
-    "region_1depth": "대전",
-    "region_2depth": "동구"
-  },
-  {
-    "category": "한식_분식",
+    "category": "한식",
     "name": "유성즉석떡볶이",
     "main_item": "즉석떡볶이",
     "price": "5,900",
@@ -572,30 +404,6 @@
     "address": "대전광역시 동구 은어송로77번길 13 (가오동) 1층",
     "lat": 36.3078491290905,
     "lng": 127.456677369961,
-    "region_1depth": "대전",
-    "region_2depth": "동구"
-  },
-  {
-    "category": "미용업",
-    "name": "은성미용실",
-    "main_item": "미용료(커트)",
-    "price": "8,000",
-    "phone": "",
-    "address": "대전광역시 동구 새터2길 26 (신흥동)",
-    "lat": 36.3227027931205,
-    "lng": 127.443901827716,
-    "region_1depth": "대전",
-    "region_2depth": "동구"
-  },
-  {
-    "category": "한식_일반",
-    "name": "인동왕만두",
-    "main_item": "찐빵",
-    "price": "6,000",
-    "phone": "042-285-5060",
-    "address": "대전광역시 동구 대전로 697 (인동) 인동",
-    "lat": 36.3224203640765,
-    "lng": 127.43717765824,
     "region_1depth": "대전",
     "region_2depth": "동구"
   },
@@ -624,7 +432,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "조선옥",
     "main_item": "삼계탕",
     "price": "12,000",
@@ -636,7 +444,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "주연칼국수",
     "main_item": "바지락 칼국수",
     "price": "5,500",
@@ -672,31 +480,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "미용업",
-    "name": "지선미용실",
-    "main_item": "미용료(커트)",
-    "price": "5,000",
-    "phone": "",
-    "address": "대전광역시 동구 솔랑시울길 87 (소제동)",
-    "lat": 36.3353609397276,
-    "lng": 127.434496484742,
-    "region_1depth": "대전",
-    "region_2depth": "동구"
-  },
-  {
-    "category": "한식_기타",
-    "name": "진심만두",
-    "main_item": "-",
-    "price": "",
-    "phone": "0507-1378-0210",
-    "address": "대전광역시 동구 대전로785번길 41-3 (원동) 119호",
-    "lat": 36.3289549657226,
-    "lng": 127.431202145759,
-    "region_1depth": "대전",
-    "region_2depth": "동구"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "진짜손칼국수",
     "main_item": "칼국수",
     "price": "6,000",
@@ -704,18 +488,6 @@
     "address": "대전광역시 동구 우암로 341-2 (가양동)",
     "lat": 36.3496914492847,
     "lng": 127.451550689252,
-    "region_1depth": "대전",
-    "region_2depth": "동구"
-  },
-  {
-    "category": "미용업",
-    "name": "착한미용실",
-    "main_item": "미용료(커트)",
-    "price": "9,000",
-    "phone": "",
-    "address": "대전광역시 동구 중앙로204번길 6 (중동)",
-    "lat": 36.3305464456764,
-    "lng": 127.431800535141,
     "region_1depth": "대전",
     "region_2depth": "동구"
   },
@@ -732,7 +504,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "파절이치킨",
     "main_item": "파절이치킨(1마리)",
     "price": "14,000",
@@ -744,7 +516,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "평양숨두부",
     "main_item": "숨두부백반",
     "price": "7,000",
@@ -752,18 +524,6 @@
     "address": "대전광역시 동구 대전로 387 (가오동) (대성동)",
     "lat": 36.3014739538399,
     "lng": 127.455959395706,
-    "region_1depth": "대전",
-    "region_2depth": "동구"
-  },
-  {
-    "category": "이용업",
-    "name": "하늘이용원",
-    "main_item": "-",
-    "price": "",
-    "phone": "",
-    "address": "대전광역시 동구 비래서로42번길 89 (가양동) 가양동",
-    "lat": 36.3503089985601,
-    "lng": 127.447147592527,
     "region_1depth": "대전",
     "region_2depth": "동구"
   },
@@ -780,7 +540,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "한우농장30년",
     "main_item": "냉면",
     "price": "7,000",
@@ -792,7 +552,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "행복칼국수",
     "main_item": "칼국수",
     "price": "7,000",
@@ -804,31 +564,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "미용업",
-    "name": "헤어코리아미용실",
-    "main_item": "미용료(커트)",
-    "price": "9,000",
-    "phone": "",
-    "address": "대전광역시 동구 한남로 7번길 87 (홍도동)",
-    "lat": 36.3477117403251,
-    "lng": 127.429378780645,
-    "region_1depth": "대전",
-    "region_2depth": "동구"
-  },
-  {
-    "category": "미용업",
-    "name": "헤어코리아착한나눔",
-    "main_item": "미용료(커트)",
-    "price": "5,000",
-    "phone": "042-274-2221",
-    "address": "대전광역시 동구 대전로797번길 38 (중동) 중동 27-33",
-    "lat": 36.3300649460633,
-    "lng": 127.430826916173,
-    "region_1depth": "대전",
-    "region_2depth": "동구"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "홍가네칼국수",
     "main_item": "칼국수",
     "price": "7,000",
@@ -852,7 +588,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "희원숯불갈비식당",
     "main_item": "돼지갈비(250g)",
     "price": "9,000",
@@ -864,7 +600,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "0시50분",
     "main_item": "우거지해장국(선지)",
     "price": "6,000",
@@ -876,7 +612,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "24시대전해장국",
     "main_item": "해장국",
     "price": "6,500",
@@ -888,7 +624,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "강변산닭",
     "main_item": "삼계탕",
     "price": "10,000",
@@ -900,7 +636,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "고려회관",
     "main_item": "백반정식",
     "price": "10,000",
@@ -912,7 +648,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "고현면옥",
     "main_item": "냉면(숯불고기포함)",
     "price": "8,000",
@@ -924,7 +660,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "공주얼큰이칼국수",
     "main_item": "칼국수(얼큰,하얀)",
     "price": "7,000",
@@ -960,7 +696,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "국수집",
     "main_item": "잔치국수",
     "price": "2,900",
@@ -972,7 +708,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "군산복집",
     "main_item": "밀복지리",
     "price": "15,000",
@@ -984,31 +720,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "미용업",
-    "name": "권양희헤어",
-    "main_item": "커트(남)",
-    "price": "7,000",
-    "phone": "042-221-7304",
-    "address": "대전광역시 중구 목중로26번길 54 (중촌동)",
-    "lat": 36.3377156847889,
-    "lng": 127.413444593324,
-    "region_1depth": "대전",
-    "region_2depth": "중구"
-  },
-  {
-    "category": "기타요식업",
-    "name": "극동제과점",
-    "main_item": "단팥빵",
-    "price": "1,500",
-    "phone": "",
-    "address": "대전광역시 중구 충무로 73 (대사동) 1층",
-    "lat": 36.3173422624003,
-    "lng": 127.425631606556,
-    "region_1depth": "대전",
-    "region_2depth": "중구"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "껌뻑밀면",
     "main_item": "물밀면",
     "price": "7,500",
@@ -1020,7 +732,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "낙원김밥집",
     "main_item": "김밥",
     "price": "2,500",
@@ -1032,7 +744,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "내집식당",
     "main_item": "올갱이국",
     "price": "9,000",
@@ -1044,7 +756,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "누리손만두",
     "main_item": "샤브만두전골(2인이상)",
     "price": "9,000",
@@ -1068,7 +780,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "다전우렁쌈밥",
     "main_item": "우렁쌈밥",
     "price": "9,000",
@@ -1080,7 +792,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "닭이랑오리랑엄마네",
     "main_item": "삼계탕",
     "price": "10,000",
@@ -1092,19 +804,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "기타비요식업",
-    "name": "당구사랑",
-    "main_item": "시간당",
-    "price": "6,000",
-    "phone": "070-7722-4530",
-    "address": "대전광역시 중구 충무로 1 2층(대흥동)",
-    "lat": 36.318470949765,
-    "lng": 127.417826206033,
-    "region_1depth": "대전",
-    "region_2depth": "중구"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "대박손칼국수",
     "main_item": "손칼국수",
     "price": "5,000",
@@ -1116,7 +816,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "대전갈비집",
     "main_item": "돼지갈비",
     "price": "12,000",
@@ -1128,7 +828,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "대전칼국수",
     "main_item": "김치칼국수",
     "price": "6,000",
@@ -1140,7 +840,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "대패명가",
     "main_item": "생삼겹",
     "price": "11,000",
@@ -1152,7 +852,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "더더더대패삼겹살",
     "main_item": "대패삼겹삽",
     "price": "4,500",
@@ -1200,7 +900,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "뚝방국수",
     "main_item": "칼국수",
     "price": "5,000",
@@ -1236,19 +936,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "미용업",
-    "name": "렛미인머리하는날",
-    "main_item": "커트",
-    "price": "5,000",
-    "phone": "",
-    "address": "대전광역시 중구 보문로20번길 34 1층(문창동)",
-    "lat": 36.316024140332,
-    "lng": 127.43799680735,
-    "region_1depth": "대전",
-    "region_2depth": "중구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "맷돌가마솥추어탕",
     "main_item": "추어탕",
     "price": "7,000",
@@ -1260,19 +948,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "미용업",
-    "name": "모델헤어숍",
-    "main_item": "커트(학생)",
-    "price": "5,000",
-    "phone": "042-285-2107",
-    "address": "대전광역시 중구 대종로 237 (석교동)",
-    "lat": 36.3096964297254,
-    "lng": 127.441303445149,
-    "region_1depth": "대전",
-    "region_2depth": "중구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "목동김밥",
     "main_item": "김밥",
     "price": "2,000",
@@ -1284,79 +960,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "미용업",
-    "name": "문화남성커트",
-    "main_item": "커트",
-    "price": "8,000",
-    "phone": "042-585-5884",
-    "address": "대전광역시 중구 문화로 167 1층(문화동)",
-    "lat": 36.3143775886462,
-    "lng": 127.403724436349,
-    "region_1depth": "대전",
-    "region_2depth": "중구"
-  },
-  {
-    "category": "미용업",
-    "name": "뮬랑샵",
-    "main_item": "커트(남)",
-    "price": "8,000",
-    "phone": "042-583-2828",
-    "address": "대전광역시 중구 산성로 125 1층 102호(문화동)",
-    "lat": 36.3113542628042,
-    "lng": 127.400765700604,
-    "region_1depth": "대전",
-    "region_2depth": "중구"
-  },
-  {
-    "category": "한식_육류",
-    "name": "미르식당",
-    "main_item": "-",
-    "price": "",
-    "phone": "042-226-5080",
-    "address": "대전광역시 중구 계룡로869번길 34 (용두동) 1층",
-    "lat": 36.3247854987802,
-    "lng": 127.412430662835,
-    "region_1depth": "대전",
-    "region_2depth": "중구"
-  },
-  {
-    "category": "미용업",
-    "name": "미미모헤어",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "042-485-5423",
-    "address": "대전광역시 중구 대종로587번길 43 1층(선화동)",
-    "lat": 36.332704357609,
-    "lng": 127.416759124626,
-    "region_1depth": "대전",
-    "region_2depth": "중구"
-  },
-  {
-    "category": "미용업",
-    "name": "미쁜헤어",
-    "main_item": "커트",
-    "price": "7,000",
-    "phone": "042-282-0594",
-    "address": "대전광역시 중구 보문로 32-7 (문창동) 1층",
-    "lat": 36.3142784985911,
-    "lng": 127.436954141702,
-    "region_1depth": "대전",
-    "region_2depth": "중구"
-  },
-  {
-    "category": "이용업",
-    "name": "미스터굿데이이용원",
-    "main_item": "커트",
-    "price": "5,000",
-    "phone": "",
-    "address": "대전광역시 중구 계백로 1540 (유천동)",
-    "lat": 36.3166535408274,
-    "lng": 127.391498207519,
-    "region_1depth": "대전",
-    "region_2depth": "중구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "민이식당",
     "main_item": "된장백반",
     "price": "7,000",
@@ -1368,7 +972,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "본가칼국수",
     "main_item": "바지락칼국수",
     "price": "7,000",
@@ -1380,7 +984,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "부부바지락칼국수",
     "main_item": "바지락칼국수",
     "price": "7,000",
@@ -1388,18 +992,6 @@
     "address": "대전광역시 중구 동서대로1304번길 43 (오류동) 1층",
     "lat": 36.3269055877627,
     "lng": 127.406253115858,
-    "region_1depth": "대전",
-    "region_2depth": "중구"
-  },
-  {
-    "category": "미용업",
-    "name": "뷰티헤어샵",
-    "main_item": "커트(남)",
-    "price": "5,000",
-    "phone": "042-586-0858",
-    "address": "대전광역시 중구 대둔산로386번길 15-5 1층 (산성동)",
-    "lat": 36.3039819599395,
-    "lng": 127.387122428167,
     "region_1depth": "대전",
     "region_2depth": "중구"
   },
@@ -1416,42 +1008,6 @@
     "region_2depth": "중구"
   },
   {
-    "category": "미용업",
-    "name": "샤론미용실",
-    "main_item": "커트(남)",
-    "price": "6,000",
-    "phone": "042-272-4421",
-    "address": "대전광역시 중구 대종로 182 (석교동)",
-    "lat": 36.3075125040743,
-    "lng": 127.446764835617,
-    "region_1depth": "대전",
-    "region_2depth": "중구"
-  },
-  {
-    "category": "미용업",
-    "name": "샤론미용실",
-    "main_item": "-",
-    "price": "",
-    "phone": "042-525-9838",
-    "address": "대전광역시 중구 유천로132번길 31-17 (태평동) 1층",
-    "lat": 36.3252942379306,
-    "lng": 127.396796312991,
-    "region_1depth": "대전",
-    "region_2depth": "중구"
-  },
-  {
-    "category": "세탁업",
-    "name": "석교세탁소",
-    "main_item": "세탁료(상의)",
-    "price": "6,000",
-    "phone": "042-274-3382",
-    "address": "대전광역시 중구 돌다리로17 (석교동)",
-    "lat": 36.3080777274917,
-    "lng": 127.441719431526,
-    "region_1depth": "대전",
-    "region_2depth": "중구"
-  },
-  {
     "category": "중식",
     "name": "선사부짬뽕중화요리",
     "main_item": "알밤자장면",
@@ -1464,7 +1020,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "선화동소머리해장국",
     "main_item": "한우소머리곰탕",
     "price": "9,000",
@@ -1476,7 +1032,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "소나무집",
     "main_item": "오징어찌개(2인이상)",
     "price": "7,000",
@@ -1500,7 +1056,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "소문난칼국수",
     "main_item": "칼제비국수",
     "price": "5,000",
@@ -1512,7 +1068,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "순자식당",
     "main_item": "보리밥백반(점심)",
     "price": "6,000",
@@ -1524,7 +1080,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "시골밥상",
     "main_item": "김치찌개백반",
     "price": "7,000",
@@ -1548,7 +1104,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "신도칼국수대사점",
     "main_item": "칼국수(사골)",
     "price": "7,000",
@@ -1560,7 +1116,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "신도칼국수중촌점",
     "main_item": "칼국수(사골)",
     "price": "7,000",
@@ -1572,19 +1128,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "기타요식업",
-    "name": "신라방",
-    "main_item": "단팥빵",
-    "price": "500",
-    "phone": "",
-    "address": "대전광역시 중구 목중로 19 (목동) 1층",
-    "lat": 36.3356738590156,
-    "lng": 127.411521477377,
-    "region_1depth": "대전",
-    "region_2depth": "중구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "신정통춘천닭갈비",
     "main_item": "닭갈비",
     "price": "12,000",
@@ -1596,7 +1140,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "신칼국수",
     "main_item": "칼국수(매운/맑은)",
     "price": "6,000",
@@ -1632,7 +1176,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "엄니곰탕",
     "main_item": "곰탕",
     "price": "6,000",
@@ -1652,30 +1196,6 @@
     "address": "대전광역시 중구 목중로26번길 54 (중촌동) 1층",
     "lat": 36.3377156847889,
     "lng": 127.413444593324,
-    "region_1depth": "대전",
-    "region_2depth": "중구"
-  },
-  {
-    "category": "미용업",
-    "name": "여운영헤어메이크업 연구소",
-    "main_item": "커트",
-    "price": "7,000",
-    "phone": "042-226-7378",
-    "address": "대전광역시 중구 목중로 45-16 1층(목동)",
-    "lat": 36.3371233081224,
-    "lng": 127.408896639547,
-    "region_1depth": "대전",
-    "region_2depth": "중구"
-  },
-  {
-    "category": "한식_일반",
-    "name": "연화식당",
-    "main_item": "-",
-    "price": "",
-    "phone": "042-285-0393",
-    "address": "대전광역시 중구 돌다리로8번길 7 (석교동) 1층",
-    "lat": 36.3088375501366,
-    "lng": 127.441928479105,
     "region_1depth": "대전",
     "region_2depth": "중구"
   },
@@ -1716,7 +1236,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "오징어어때",
     "main_item": "활어회덮밥",
     "price": "10,000",
@@ -1728,19 +1248,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "미용업",
-    "name": "올리브헤어",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "042-535-2008",
-    "address": "대전광역시 중구 유천로132번길 29 1층 103호 (태평동)",
-    "lat": 36.3246755408493,
-    "lng": 127.397024930819,
-    "region_1depth": "대전",
-    "region_2depth": "중구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "용두골",
     "main_item": "된장찌개백반",
     "price": "6,000",
@@ -1752,7 +1260,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "유명감자탕",
     "main_item": "뼈해장국(점심)",
     "price": "7,000",
@@ -1764,7 +1272,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "이장네",
     "main_item": "백반",
     "price": "6,000",
@@ -1776,7 +1284,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "잘임스국수앤덮밥",
     "main_item": "멸치국수(곱빼기)",
     "price": "5,000",
@@ -1788,7 +1296,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "장안식당",
     "main_item": "백반",
     "price": "6,000",
@@ -1800,7 +1308,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "장춘식당",
     "main_item": "쌈밥정식",
     "price": "12,000",
@@ -1812,7 +1320,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "정동올갱이",
     "main_item": "올갱이해장국",
     "price": "9,000",
@@ -1824,7 +1332,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "정미소문화국수",
     "main_item": "불쌈국수",
     "price": "6,000",
@@ -1836,7 +1344,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "제일식당",
     "main_item": "잔치국수",
     "price": "4,000",
@@ -1848,7 +1356,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "종가수제비",
     "main_item": "수제비",
     "price": "6,000",
@@ -1860,7 +1368,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "종가집밥상",
     "main_item": "백반",
     "price": "5,000",
@@ -1872,7 +1380,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "진성할매추어탕",
     "main_item": "추어탕",
     "price": "7,000",
@@ -1884,43 +1392,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "미용업",
-    "name": "진여헤어",
-    "main_item": "커트",
-    "price": "8,000",
-    "phone": "042-253-7570",
-    "address": "대전광역시 중구 사득로 6-1 (부사동)",
-    "lat": 36.312611768918,
-    "lng": 127.434332802884,
-    "region_1depth": "대전",
-    "region_2depth": "중구"
-  },
-  {
-    "category": "기타비요식업",
-    "name": "천광당구클럽",
-    "main_item": "시간당",
-    "price": "6,000",
-    "phone": "",
-    "address": "대전광역시 중구 대종로 315 (부사동) 2층",
-    "lat": 36.3139084261774,
-    "lng": 127.434098140255,
-    "region_1depth": "대전",
-    "region_2depth": "중구"
-  },
-  {
-    "category": "미용업",
-    "name": "천근미용실",
-    "main_item": "커트(학생)",
-    "price": "9,000",
-    "phone": "042-582-4955",
-    "address": "대전광역시 중구 천근로29-1 (문화동)",
-    "lat": 36.3095075251625,
-    "lng": 127.403322980925,
-    "region_1depth": "대전",
-    "region_2depth": "중구"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "청양칼국수",
     "main_item": "바지락칼국수",
     "price": "7,000",
@@ -1932,19 +1404,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "미용업",
-    "name": "청춘헤어",
-    "main_item": "커트(남)",
-    "price": "5,000",
-    "phone": "042-535-7754",
-    "address": "대전광역시 중구 유천로132 (태평동)",
-    "lat": 36.3242737971578,
-    "lng": 127.395556644163,
-    "region_1depth": "대전",
-    "region_2depth": "중구"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "최고집잔치국수",
     "main_item": "김밥",
     "price": "2,500",
@@ -1964,18 +1424,6 @@
     "address": "대전광역시 중구 계룡로920번안길 7 1층 101호(대사동)",
     "lat": 36.3184452638004,
     "lng": 127.415110939909,
-    "region_1depth": "대전",
-    "region_2depth": "중구"
-  },
-  {
-    "category": "기타요식업",
-    "name": "카페다금",
-    "main_item": "-",
-    "price": "",
-    "phone": "",
-    "address": "대전광역시 중구 문창로6번길 33-1 (문창동) 문창시장 내",
-    "lat": 36.3150278761153,
-    "lng": 127.437901594884,
     "region_1depth": "대전",
     "region_2depth": "중구"
   },
@@ -2052,7 +1500,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "팔도육개장",
     "main_item": "한우곰탕",
     "price": "7,000",
@@ -2064,7 +1512,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "한우미강정육식당",
     "main_item": "삼겹살",
     "price": "10,000",
@@ -2072,18 +1520,6 @@
     "address": "대전광역시 중구 보문로 183-1 (대흥동)",
     "lat": 36.3192852975611,
     "lng": 127.42454060663,
-    "region_1depth": "대전",
-    "region_2depth": "중구"
-  },
-  {
-    "category": "미용업",
-    "name": "헤어나라",
-    "main_item": "커트(남)",
-    "price": "5,000",
-    "phone": "",
-    "address": "대전광역시 중구 문화로 90 (산성동)",
-    "lat": 36.3116434634491,
-    "lng": 127.395757730658,
     "region_1depth": "대전",
     "region_2depth": "중구"
   },
@@ -2112,7 +1548,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "황토콩나라",
     "main_item": "콩나물국밥",
     "price": "5,500",
@@ -2124,7 +1560,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "199숯불갈비",
     "main_item": "돼지갈비",
     "price": "12,000",
@@ -2136,7 +1572,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "30년전통옛날손칼국수",
     "main_item": "칼국수",
     "price": "6,500",
@@ -2148,19 +1584,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "이용업",
-    "name": "가람이용원",
-    "main_item": "이용료",
-    "price": "10,000",
-    "phone": "010-3421-9791",
-    "address": "대전광역시 서구 복수남로32번길 15 (복수동) 102호",
-    "lat": 36.2991565243841,
-    "lng": 127.377872166329,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_기타",
+    "category": "한식",
     "name": "가수원떡방앗간",
     "main_item": "모시송편",
     "price": "2,500",
@@ -2172,7 +1596,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "갈비가",
     "main_item": "돼지갈비",
     "price": "13,000",
@@ -2184,7 +1608,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "갈비가",
     "main_item": "돼지갈비",
     "price": "13,000",
@@ -2196,7 +1620,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "갈비쿡",
     "main_item": "돼지갈비",
     "price": "10,000",
@@ -2208,19 +1632,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "이용업",
-    "name": "거울이용원",
-    "main_item": "이용료",
-    "price": "10,000",
-    "phone": "042-535-7852",
-    "address": "대전광역시 서구 도솔로 249 (내동)",
-    "lat": 36.3322588529876,
-    "lng": 127.377588568053,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "고구려",
     "main_item": "삼겹살",
     "price": "13,000",
@@ -2232,7 +1644,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "고향소머리국밥",
     "main_item": "갈비탕",
     "price": "10,000",
@@ -2240,18 +1652,6 @@
     "address": "대전광역시 서구 도산로 145 (도마동) 다동 1층",
     "lat": 36.3214245032571,
     "lng": 127.377623496134,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "곱슬머리",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "042-535-5655",
-    "address": "대전광역시 서구 신갈마로 46 (내동, 롯데아파트) 롯데아파트상가 지하9호",
-    "lat": 36.3393946707503,
-    "lng": 127.367783668294,
     "region_1depth": "대전",
     "region_2depth": "서구"
   },
@@ -2268,7 +1668,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "구름뜰",
     "main_item": "삼겹살",
     "price": "14,000",
@@ -2280,7 +1680,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "굿뜨래쌈밥",
     "main_item": "사골우거지탕",
     "price": "8,000",
@@ -2292,19 +1692,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "미용업",
-    "name": "궁중미용실",
-    "main_item": "퍼머",
-    "price": "20,000",
-    "phone": "042-541-1159",
-    "address": "대전광역시 서구 가수원중로 4-22 (가수원동)",
-    "lat": 36.298756680017,
-    "lng": 127.355052569796,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "궁중칼국수",
     "main_item": "칼국수",
     "price": "7,000",
@@ -2316,43 +1704,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "미용업",
-    "name": "기쁨주는머리방",
-    "main_item": "퍼머",
-    "price": "20,000",
-    "phone": "042-544-4934",
-    "address": "대전광역시 서구 계백로1158번길 79 (가수원동)",
-    "lat": 36.3013307538921,
-    "lng": 127.353462921739,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "길미용실",
-    "main_item": "커트",
-    "price": "8,000",
-    "phone": "",
-    "address": "대전광역시 서구 계백로1286번길 63 (정림동) 1",
-    "lat": 36.3053496882997,
-    "lng": 127.366946349097,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "김민주헤어뜰",
-    "main_item": "커트",
-    "price": "12,000",
-    "phone": "",
-    "address": "대전 서구 도산로 187 (변동)",
-    "lat": 36.3251751993596,
-    "lng": 127.378709496277,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "김밥천국",
     "main_item": "된장찌개",
     "price": "6,500",
@@ -2364,31 +1716,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "미용업",
-    "name": "김영숙미용실",
-    "main_item": "퍼머",
-    "price": "25,000",
-    "phone": "042-486-4611",
-    "address": "대전광역시 서구 둔산로206번길 15 (둔산3동)",
-    "lat": 36.350475089308,
-    "lng": 127.396768424211,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "나머리헤어",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "",
-    "address": "대전광역시 서구 도산로 290 1층 (가장동)",
-    "lat": 36.3321661680448,
-    "lng": 127.385785845982,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "나영왕돈까스전문점",
     "main_item": "돈가스",
     "price": "6,000",
@@ -2400,19 +1728,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "미용업",
-    "name": "남성컷트전문전 (징기스칸)",
-    "main_item": "커트",
-    "price": "9,000",
-    "phone": "0507-1318-6275",
-    "address": "대전광역시 서구 도산로 298-2 (가장동) 1층",
-    "lat": 36.3326508155417,
-    "lng": 127.386317727798,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "남한산성",
     "main_item": "삼계탕",
     "price": "13,000",
@@ -2424,19 +1740,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "이용업",
-    "name": "녹원이용원",
-    "main_item": "커트",
-    "price": "12,000",
-    "phone": "",
-    "address": "대전광역시 서구 둔산남로 30 206호 (둔산2동)",
-    "lat": 36.3484230912264,
-    "lng": 127.38138660738,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "놀부네남원추어탕",
     "main_item": "추어탕",
     "price": "8,000",
@@ -2448,19 +1752,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "미용업",
-    "name": "뉴시온미용실",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "042-527-3559",
-    "address": "대전광역시 서구 제비네4길 21 (도마동) 1층",
-    "lat": 36.3137391660641,
-    "lng": 127.378501847638,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "니캉내캉",
     "main_item": "잔치국수",
     "price": "5,500",
@@ -2472,7 +1764,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "담양애떡갈비",
     "main_item": "불고기",
     "price": "7,000",
@@ -2496,7 +1788,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "대박홍두깨칼국수",
     "main_item": "칼국수",
     "price": "6,500",
@@ -2504,30 +1796,6 @@
     "address": "대전광역시 서구 가장로 94 (괴정동) b9호",
     "lat": 36.3345656128941,
     "lng": 127.384312634016,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "이용업",
-    "name": "대우이용원",
-    "main_item": "커트",
-    "price": "9,000",
-    "phone": "042-522-4782",
-    "address": "대전광역시 서구 변동로 73 (변동)",
-    "lat": 36.3249865585259,
-    "lng": 127.381155324943,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "이용업",
-    "name": "대한이용복지이용원",
-    "main_item": "커트",
-    "price": "4,000",
-    "phone": "",
-    "address": "대전광역시 서구 도산로 108 4층일부 (도마1동)",
-    "lat": 36.3180763498024,
-    "lng": 127.378364688199,
     "region_1depth": "대전",
     "region_2depth": "서구"
   },
@@ -2544,7 +1812,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "도솔왕돈까스와국수",
     "main_item": "돈까스",
     "price": "7,000",
@@ -2556,7 +1824,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "동키치킨",
     "main_item": "치킨",
     "price": "13,900",
@@ -2568,7 +1836,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "둔산돌구이",
     "main_item": "냉면",
     "price": "6,000",
@@ -2580,31 +1848,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "세탁업",
-    "name": "둥지세탁소",
-    "main_item": "양복1벌",
-    "price": "7,000",
-    "phone": "",
-    "address": "대전광역시 서구 청사로 254 (상가 204호) (둔산2동)",
-    "lat": 36.3590607260151,
-    "lng": 127.392657078287,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "딱좋아헤어",
-    "main_item": "커트",
-    "price": "7,000",
-    "phone": "010-5436-5534",
-    "address": "대전광역시 서구 제비네6길 31 (도마동) 1층",
-    "lat": 36.3130462733314,
-    "lng": 127.37666789753,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "뜰건너",
     "main_item": "김치찌개",
     "price": "7,000",
@@ -2616,7 +1860,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "뜰안에",
     "main_item": "한식뷔페",
     "price": "7,500",
@@ -2628,7 +1872,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "라면타임",
     "main_item": "돈까스",
     "price": "6,000",
@@ -2640,7 +1884,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "라면타임",
     "main_item": "라면",
     "price": "3,000",
@@ -2652,91 +1896,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "미용업",
-    "name": "로마미용실",
-    "main_item": "커트",
-    "price": "12,000",
-    "phone": "042-531-3888",
-    "address": "대전광역시 서구 조달청길 60 1층 (도마2동)",
-    "lat": 36.3191332649154,
-    "lng": 127.375130027051,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "이용업",
-    "name": "로마이용원",
-    "main_item": "이용료",
-    "price": "10,000",
-    "phone": "042-535-4807",
-    "address": "대전광역시 서구 괴정로 186 (가장동)",
-    "lat": 36.3329197986438,
-    "lng": 127.390786341791,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "롯데미용실",
-    "main_item": "-",
-    "price": "",
-    "phone": "042-535-2855",
-    "address": "대전광역시 서구 신갈마로 46 (내동, 롯데아파트) 롯데아파트상가 2층210호",
-    "lat": 36.3393946707503,
-    "lng": 127.367783668294,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "이용업",
-    "name": "롯데이용원",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "042-533-1258",
-    "address": "대전광역시 서구 신갈마로 46 (내동, 롯데아파트) 내동아파트상가지하층12호",
-    "lat": 36.3393946707503,
-    "lng": 127.367783668294,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "리츠칼",
-    "main_item": "커트",
-    "price": "12,000",
-    "phone": "",
-    "address": "대전광역시 서구 갈마중로8번길 10 (갈마2동)",
-    "lat": 36.3472320114835,
-    "lng": 127.370063878169,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "리치헤어",
-    "main_item": "커트",
-    "price": "12,000",
-    "phone": "",
-    "address": "대전광역시 서구 사마1길 42 1층 (도마2동)",
-    "lat": 36.3167326327367,
-    "lng": 127.375352927793,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "마쌤컷트클럽",
-    "main_item": "커트",
-    "price": "12,000",
-    "phone": "042-487-0889",
-    "address": "대전광역시 서구 둔산로 201 (둔산동, 국화아파트) 국화아파트 신동아상가 202호",
-    "lat": 36.3551065166594,
-    "lng": 127.398143110467,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "막창집(ㅁㅊ집)",
     "main_item": "삼겹살",
     "price": "10,000",
@@ -2748,7 +1908,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "만년건강보리밥",
     "main_item": "보리밥",
     "price": "6,000",
@@ -2772,7 +1932,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "맛있는칼국수",
     "main_item": "칼국수",
     "price": "6,500",
@@ -2784,7 +1944,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "맛집",
     "main_item": "된장찌개",
     "price": "7,000",
@@ -2808,31 +1968,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "미용업",
-    "name": "머리사랑미용실",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "042-531-5078",
-    "address": "대전광역시 서구 계룡로354번길 13 (갈마동) 1층",
-    "lat": 36.3528810730691,
-    "lng": 127.367860688175,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "머리사랑헤어",
-    "main_item": "커트",
-    "price": "7,000",
-    "phone": "042-524-2268",
-    "address": "대전광역시 서구 도솔로296번길 48 102호  (괴정동)",
-    "lat": 36.3335282603917,
-    "lng": 127.382770389822,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "머슴촌해장국",
     "main_item": "우거지해장국",
     "price": "6,000",
@@ -2844,7 +1980,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "면사랑",
     "main_item": "쌀국수",
     "price": "6,000",
@@ -2856,7 +1992,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "명랑분식",
     "main_item": "청국장",
     "price": "7,000",
@@ -2868,7 +2004,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "명성식당",
     "main_item": "백반",
     "price": "6,000",
@@ -2880,43 +2016,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "미용업",
-    "name": "모드니에미용실",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "042-486-2580",
-    "address": "대전광역시 서구 탄방로7번길 76 (탄방동)",
-    "lat": 36.3460474833179,
-    "lng": 127.39446799678,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "모드에미용실",
-    "main_item": "커트",
-    "price": "9,000",
-    "phone": "042-531-4401",
-    "address": "대전광역시 서구 용문로 91 (용문동)",
-    "lat": 36.3359446781388,
-    "lng": 127.392000599171,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "이용업",
-    "name": "목련이용원",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "042-487-3871",
-    "address": "대전광역시 서구 둔산남로 127 지하1호 (둔산1동)",
-    "lat": 36.3510400984394,
-    "lng": 127.393068208181,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "무쇠솥 나주곰탕",
     "main_item": "나주곰탕",
     "price": "7,000",
@@ -2928,7 +2028,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "미정손칼국수만두",
     "main_item": "손칼국수",
     "price": "5,000",
@@ -2940,43 +2040,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "미용업",
-    "name": "미창조미용실",
-    "main_item": "-",
-    "price": "",
-    "phone": "042-484-1997",
-    "address": "대전광역시 서구 월평북로 11 (월평동, 주공아파트) ,주공아파트상가 209호",
-    "lat": 36.3633920703733,
-    "lng": 127.369534354239,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "민현주헤어샵",
-    "main_item": "커트",
-    "price": "12,000",
-    "phone": "",
-    "address": "대전광역시 서구 남선로59번길 16 (탄방동)",
-    "lat": 36.3486018045729,
-    "lng": 127.397287739581,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "박영순미용실",
-    "main_item": "커트",
-    "price": "9,000",
-    "phone": "",
-    "address": "대전광역시 서구 계룡로367번길 43 (갈마1동)",
-    "lat": 36.3546268092939,
-    "lng": 127.369939561456,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "밥사랑",
     "main_item": "한식뷔페",
     "price": "7,000",
@@ -2988,7 +2052,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_분식",
+    "category": "한식",
     "name": "배꼽달래기",
     "main_item": "떡볶이",
     "price": "3,000",
@@ -3000,19 +2064,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "미용업",
-    "name": "백합미용실",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "",
-    "address": "대전광역시 서구 청사서로 29 샛별상가 102호 (월평2동)",
-    "lat": 36.3601512661496,
-    "lng": 127.375030967575,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "뱃고동쭈꾸미낙지전문점",
     "main_item": "김치찌개",
     "price": "7,000",
@@ -3024,31 +2076,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "미용업",
-    "name": "보라헤어샵",
-    "main_item": "커트",
-    "price": "12,000",
-    "phone": "042-482-1266",
-    "address": "대전광역시 서구 둔산로 241 (둔산동, 보라아파트) ,103호 (둔산동,보라@상가)",
-    "lat": 36.3519672747041,
-    "lng": 127.401108007786,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "보보헤어샵",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "",
-    "address": "대전광역시 서구 도솔로 87 1층 (도마2동)",
-    "lat": 36.3183666340336,
-    "lng": 127.373286719532,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "복돈오리",
     "main_item": "한방오리육개장",
     "price": "10,000",
@@ -3060,7 +2088,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "복돼지구이",
     "main_item": "삼겹살",
     "price": "12,000",
@@ -3072,7 +2100,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "복수칼국수",
     "main_item": "칼국수",
     "price": "5,000",
@@ -3084,7 +2112,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "봉순이네",
     "main_item": "삼겹살",
     "price": "12,000",
@@ -3096,7 +2124,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "부뚜막두부마을",
     "main_item": "청국장",
     "price": "8,000",
@@ -3108,7 +2136,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "부부식당",
     "main_item": "찌개",
     "price": "6,000",
@@ -3120,7 +2148,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "불돈생돈",
     "main_item": "삼겹살",
     "price": "12,000",
@@ -3132,7 +2160,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "빌라드알티오라",
     "main_item": "한식뷔페",
     "price": "8,000",
@@ -3144,7 +2172,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "사랑방식당",
     "main_item": "청국장찌개",
     "price": "6,500",
@@ -3156,7 +2184,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "산막골가든",
     "main_item": "삼겹살",
     "price": "12,000",
@@ -3168,19 +2196,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "미용업",
-    "name": "산호헤어샵",
-    "main_item": "커트",
-    "price": "12,000",
-    "phone": "",
-    "address": "대전광역시 서구 계룡로571번길 65 204호 (탄방동)",
-    "lat": 36.3438214000813,
-    "lng": 127.386748070802,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "새벽김밥",
     "main_item": "김밥",
     "price": "2,500",
@@ -3192,55 +2208,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "기타요식업",
-    "name": "샐요미",
-    "main_item": "샌드위치",
-    "price": "3,800",
-    "phone": "0507-1363-6413",
-    "address": "대전광역시 서구 관저로 177-43 (관저동) 118호",
-    "lat": 36.2997095246498,
-    "lng": 127.341462303199,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "샘헤어샵",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "042-522-8979",
-    "address": "대전광역시 서구 장안로 17 (흑석동) 1층",
-    "lat": 36.2529695350078,
-    "lng": 127.341399896388,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "샛별미용타운",
-    "main_item": "퍼머",
-    "price": "30,000",
-    "phone": "042-487-8210",
-    "address": "대전광역시 서구 청사서로 29 샛별상가 B1층 (월평2동)",
-    "lat": 36.3601512661496,
-    "lng": 127.375030967575,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "샤론헤어",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "",
-    "address": "대전광역시 서구 도산로 209 (변동)",
-    "lat": 36.3269523888301,
-    "lng": 127.379825004214,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "서울도가니",
     "main_item": "삼계탕",
     "price": "13,000",
@@ -3252,7 +2220,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "서울식당",
     "main_item": "김치찌개",
     "price": "5,000",
@@ -3264,19 +2232,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "이용업",
-    "name": "서울이용원",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "",
-    "address": "대전광역시 서구 도산로314번길 48 (가장동) 1층",
-    "lat": 36.3322897010728,
-    "lng": 127.389348760963,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "서해해물칼국수",
     "main_item": "된장찌개",
     "price": "6,000",
@@ -3288,31 +2244,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "이용업",
-    "name": "성보이용원",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "",
-    "address": "대전 서구 도산로219번길 7 (변동)",
-    "lat": 36.3277296929848,
-    "lng": 127.380039936719,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "이용업",
-    "name": "성원이용원",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "042-527-0781",
-    "address": "대전광역시 서구 갈마로 319 (가장동)",
-    "lat": 36.3293860940347,
-    "lng": 127.387077550293,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "소문난칼국수",
     "main_item": "칼국수",
     "price": "7,000",
@@ -3324,7 +2256,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "손님식당",
     "main_item": "백반",
     "price": "7,000",
@@ -3336,19 +2268,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "미용업",
-    "name": "솜씨헤어",
-    "main_item": "커트",
-    "price": "12,000",
-    "phone": "042-583-6668",
-    "address": "대전광역시 서구 정림로70번길 7-4 (정림동) ,1층102호",
-    "lat": 36.3068663486997,
-    "lng": 127.365455352822,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "송가네닭발",
     "main_item": "선짓국",
     "price": "5,000",
@@ -3372,43 +2292,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "미용업",
-    "name": "수기헤어샵",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "042-544-3882",
-    "address": "대전광역시 서구 벌곡로 649 (기성동)",
-    "lat": 36.2546848573809,
-    "lng": 127.340515993865,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "수정미용실",
-    "main_item": "커트",
-    "price": "5,000",
-    "phone": "042-523-1455",
-    "address": "대전광역시 서구 괴정로 106 (괴정동)",
-    "lat": 36.3381399997738,
-    "lng": 127.384549623512,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "수헤어갤러리",
-    "main_item": "퍼머",
-    "price": "30,000",
-    "phone": "042-535-3122",
-    "address": "대전광역시 서구 도솔로 261-2 (내동)",
-    "lat": 36.3331554000105,
-    "lng": 127.378568129241,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "순대군",
     "main_item": "순대국밥",
     "price": "7,000",
@@ -3420,7 +2304,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "순봉홍두깨손칼국수",
     "main_item": "손칼국수",
     "price": "5,000",
@@ -3432,19 +2316,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "미용업",
-    "name": "슈헤어갤러리",
-    "main_item": "퍼머",
-    "price": "35,000",
-    "phone": "042-486-6650",
-    "address": "대전광역시 서구 계룡로245번길 15 (월평1동)",
-    "lat": 36.3535577744549,
-    "lng": 127.356016396477,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "신공주칼국수",
     "main_item": "칼국수",
     "price": "6,000",
@@ -3456,103 +2328,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "미용업",
-    "name": "신일미용실",
-    "main_item": "커트",
-    "price": "6,000",
-    "phone": "042-533-2281",
-    "address": "대전광역시 서구 계룡로 663-17 (용문동)",
-    "lat": 36.3377554299678,
-    "lng": 127.395523662288,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "아름다운미용실",
-    "main_item": "커트",
-    "price": "8,000",
-    "phone": "042-522-5005",
-    "address": "대전광역시 서구 도산로393번길 43 (탄방동) 1층 마정빌라",
-    "lat": 36.3401900994217,
-    "lng": 127.392034460071,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "아름다운사람들",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "",
-    "address": "대전광역시 서구둔산로206번길 29 (둔산3동)",
-    "lat": 36.3498742989872,
-    "lng": 127.39676158806,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "아름방화장품",
-    "main_item": "얼굴관리(피부)",
-    "price": "20,000",
-    "phone": "042-533-4756",
-    "address": "대전광역시 서구 신갈마로 46 1층 114호 (내동)",
-    "lat": 36.3393946707503,
-    "lng": 127.367783668294,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "에스헤어염색샵",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "",
-    "address": "대전광역시 서구 도솔로 259 1층 (내동)",
-    "lat": 36.3329524987469,
-    "lng": 127.378326569493,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "엘리헤어살롱",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "0507-1313-2642",
-    "address": "대전광역시 서구 도산로370번길 75 (용문동) ,씨피빌1층",
-    "lat": 36.3347149834949,
-    "lng": 127.393739558297,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "연헤어샵",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "",
-    "address": "대전광역시 서구 도마5길 47 (도마동) 1층",
-    "lat": 36.3168498183421,
-    "lng": 127.380756807871,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "영아헤어샵",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "042-487-3607",
-    "address": "대전광역시 서구 남선로60번길 9 (탄방동) 1층",
-    "lat": 36.3485952463399,
-    "lng": 127.399255492219,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "옛날토종순대",
     "main_item": "순대국밥",
     "price": "7,500",
@@ -3564,7 +2340,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "옛터국수전문점",
     "main_item": "잔치국수",
     "price": "5,000",
@@ -3576,43 +2352,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "미용업",
-    "name": "오늘헤어",
-    "main_item": "커트",
-    "price": "7,000",
-    "phone": "",
-    "address": "대전광역시 서구 갈마로295번길 9 1층 (가장동)",
-    "lat": 36.3311530740502,
-    "lng": 127.385419658346,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "오제이헤어샾",
-    "main_item": "커트",
-    "price": "12,000",
-    "phone": "",
-    "address": "대전광역시 서구 변동중로 58-1 (변동) 1층",
-    "lat": 36.3290419582168,
-    "lng": 127.37586023777,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "옥경미용실",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "042-532-2607",
-    "address": "대전광역시 서구 갈마로313번길 7 (가장동) 1층",
-    "lat": 36.3299556258558,
-    "lng": 127.386691670701,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "옥당순대",
     "main_item": "순대국밥",
     "price": "6,000",
@@ -3624,19 +2364,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "미용업",
-    "name": "온누리미용실",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "",
-    "address": "대전광역시 서구 가수원로 6 9동 1층 106호 (가수원동)",
-    "lat": 36.2985782153751,
-    "lng": 127.355699478483,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "요산요수",
     "main_item": "삼겹살",
     "price": "12,000",
@@ -3648,19 +2376,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "이용업",
-    "name": "용문이용원",
-    "main_item": "이용료",
-    "price": "6,000",
-    "phone": "042-533-3851",
-    "address": "대전광역시 서구 괴정로189번길 49 (용문동)",
-    "lat": 36.3345006559114,
-    "lng": 127.393200510082,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "우두령",
     "main_item": "냉면",
     "price": "7,000",
@@ -3672,7 +2388,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "우래정",
     "main_item": "돼지갈비(200g)",
     "price": "14,000",
@@ -3684,19 +2400,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "미용업",
-    "name": "우리미용실",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "042-535-4549",
-    "address": "대전광역시 서구 도마6길 99 (도마동) 1층",
-    "lat": 36.317766052186,
-    "lng": 127.381462145596,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "우리식당",
     "main_item": "삼계탕",
     "price": "13,000",
@@ -3720,19 +2424,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "미용업",
-    "name": "원헤어라인",
-    "main_item": "퍼머",
-    "price": "25,000",
-    "phone": "042-542-9952",
-    "address": "대전광역시 서구 가수원로7번길 14 (가수원동)",
-    "lat": 36.296976148894,
-    "lng": 127.355528553319,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "월평맛고을",
     "main_item": "삼겹살",
     "price": "13,000",
@@ -3744,19 +2436,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "미용업",
-    "name": "월평미용실",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "042-535-0284",
-    "address": "대전광역시 서구 계룡로264번길 4 (월평동, 월평타운) 월평타운제상가동 105호",
-    "lat": 36.3513168290625,
-    "lng": 127.360641976013,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "유가네파육개장",
     "main_item": "삼계탕",
     "price": "13,000",
@@ -3768,103 +2448,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "이용업",
-    "name": "유진이용원",
-    "main_item": "이용료",
-    "price": "10,000",
-    "phone": "042-532-4688",
-    "address": "대전광역시 서구 도마2길 73 (도마1동)",
-    "lat": 36.3150231835875,
-    "lng": 127.383051933776,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "윤미용실",
-    "main_item": "퍼머",
-    "price": "30,000",
-    "phone": "042-541-8627",
-    "address": "대전광역시 서구 가수원로 106 (은아아파트) (가수원동)",
-    "lat": 36.3037425730492,
-    "lng": 127.350468700537,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "윤헤어",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "042-522-5950",
-    "address": "대전광역시 서구 도산로335번길 2 (용문동) 1층일부",
-    "lat": 36.335946511008,
-    "lng": 127.388680171424,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "윤헤어코디",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "",
-    "address": "대전광역시 서구 도솔로 385-19 1층 (괴정동)",
-    "lat": 36.3415406650527,
-    "lng": 127.38753903109,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "은아헤어센스",
-    "main_item": "커트",
-    "price": "8,000",
-    "phone": "",
-    "address": "대전광역시 서구 가수원로 72 제가동 106호 (가수원동)",
-    "lat": 36.3023290492432,
-    "lng": 127.352192303565,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "이쁜내미용실",
-    "main_item": "커트",
-    "price": "7,000",
-    "phone": "",
-    "address": "대전광역시 서구 변동중로78번길 19 (변동)",
-    "lat": 36.3294617925641,
-    "lng": 127.378637577066,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "이지수미용실",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "042-486-2237",
-    "address": "대전광역시 서구 문정로170번길 46 (둔산동) 1층",
-    "lat": 36.3493541976317,
-    "lng": 127.398423852163,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "이현미용실",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "042-524-8243",
-    "address": "대전광역시 서구 제비네4길 134 (도마동) 1층",
-    "lat": 36.3123309914308,
-    "lng": 127.376014176273,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "자매삼겹살",
     "main_item": "삼겹살",
     "price": "13,000",
@@ -3872,18 +2456,6 @@
     "address": "대전광역시 서구 정림동로5번길 40 1층 (정림동)",
     "lat": 36.3062648050622,
     "lng": 127.365722102034,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "장미미용실",
-    "main_item": "퍼머",
-    "price": "30,000",
-    "phone": "042-483-6336",
-    "address": "대전광역시 서구 월평새뜸로8번길 61-5 (월평1동)",
-    "lat": 36.3539015856609,
-    "lng": 127.356314420444,
     "region_1depth": "대전",
     "region_2depth": "서구"
   },
@@ -3900,7 +2472,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "전통콩나물밥식당",
     "main_item": "콩나물밥",
     "price": "5,000",
@@ -3912,7 +2484,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "정다운식당",
     "main_item": "삼겹살",
     "price": "12,000",
@@ -3924,7 +2496,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "제주포크오삼겹살",
     "main_item": "돼지갈비(200g)",
     "price": "10,000",
@@ -3932,42 +2504,6 @@
     "address": "대전광역시 서구 신갈마로142-4 (갈마1동)",
     "lat": 36.3460940021067,
     "lng": 127.368753471758,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "이용업",
-    "name": "좋은느낌미용실",
-    "main_item": "커트",
-    "price": "12,000",
-    "phone": "042-583-4983",
-    "address": "대전광역시 서구 복수중로 38 (복수동, 삼익목화아파트) 상가동 301호",
-    "lat": 36.3079369649984,
-    "lng": 127.375570531186,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "주은헤어샵",
-    "main_item": "커트",
-    "price": "12,000",
-    "phone": "042-524-8426",
-    "address": "대전광역시 서구 변동중로 54 (변동)",
-    "lat": 36.3288727223147,
-    "lng": 127.375428411692,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "기타비요식업",
-    "name": "중경손세차장",
-    "main_item": "경차",
-    "price": "20,000",
-    "phone": "042-538-8834",
-    "address": "대전광역시 서구 서구 갈마로 121 (갈마2동)",
-    "lat": 36.3423341087681,
-    "lng": 127.371925124186,
     "region_1depth": "대전",
     "region_2depth": "서구"
   },
@@ -3984,7 +2520,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "진칼국수",
     "main_item": "칼국수",
     "price": "5,000",
@@ -4020,19 +2556,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "미용업",
-    "name": "차윤주헤어토탈",
-    "main_item": "커트",
-    "price": "9,000",
-    "phone": "042-534-1060",
-    "address": "대전광역시 서구 도마로 100-3 (도마동) 1층",
-    "lat": 36.3215832781124,
-    "lng": 127.381204901976,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "참맛있는칼국수",
     "main_item": "왕만두",
     "price": "4,000",
@@ -4044,7 +2568,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "참사랑김밥",
     "main_item": "김치찌개",
     "price": "7,000",
@@ -4052,18 +2576,6 @@
     "address": "대전광역시 서구 신갈마로 140 (갈마1동)",
     "lat": 36.3460952351871,
     "lng": 127.368616681467,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "채숙자미용실",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "",
-    "address": "대전광역시 서구 도마2길 30 (도마1동)",
-    "lat": 36.3143694284355,
-    "lng": 127.381118666483,
     "region_1depth": "대전",
     "region_2depth": "서구"
   },
@@ -4080,55 +2592,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "미용업",
-    "name": "천연미용실",
-    "main_item": "커트",
-    "price": "12,000",
-    "phone": "042-523-6760",
-    "address": "대전광역시 서구 도솔로305번길 31 (괴정동) 1층",
-    "lat": 36.3368354012824,
-    "lng": 127.380540729477,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "이용업",
-    "name": "청사이용원",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "",
-    "address": "대전광역시 서구 청사로 189 후생동 지하층 (둔산2동)",
-    "lat": 36.3626829863103,
-    "lng": 127.384903880328,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "최미용실",
-    "main_item": "커트",
-    "price": "12,000",
-    "phone": "042-478-4152",
-    "address": "대전광역시 서구 월평로 11 (월평1동)",
-    "lat": 36.3556180020802,
-    "lng": 127.358771170255,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "최은영헤어",
-    "main_item": "커트",
-    "price": "11,000",
-    "phone": "",
-    "address": "대전광역시 서구 복수동로 52번길 43 1층 (복수동)",
-    "lat": 36.2988178391877,
-    "lng": 127.376936583839,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "칠갑산식당",
     "main_item": "삼겹살",
     "price": "13,000",
@@ -4176,19 +2640,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "기타요식업",
-    "name": "커피땅거미",
-    "main_item": "-",
-    "price": "",
-    "phone": "",
-    "address": "대전광역시 서구 계룡로367번길 36 (갈마동, 무궁화빌라) 무궁화빌라1층102호",
-    "lat": 36.3544825404274,
-    "lng": 127.370169384913,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "탄방골참순대",
     "main_item": "순대국밥",
     "price": "8,000",
@@ -4200,7 +2652,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "털보숯불갈비",
     "main_item": "돼지갈비(250g)",
     "price": "13,000",
@@ -4212,19 +2664,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "기타비요식업",
-    "name": "토리스튜디오",
-    "main_item": "여권사진",
-    "price": "7,000",
-    "phone": "010-6442-7433",
-    "address": "대전광역시 서구 계룡로553번안길 17 (탄방동) 601호",
-    "lat": 36.3461152299177,
-    "lng": 127.386141937953,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "평양옥",
     "main_item": "막국수",
     "price": "7,000",
@@ -4236,19 +2676,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "미용업",
-    "name": "플로라헤어모드",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "",
-    "address": "대전광역시 서구 가수원로 72 107호 (가수원동)",
-    "lat": 36.3023290492432,
-    "lng": 127.352192303565,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "한돈본가",
     "main_item": "해물된장찌개",
     "price": "7,000",
@@ -4260,7 +2688,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "한민식당",
     "main_item": "삼겹살",
     "price": "12,000",
@@ -4272,7 +2700,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "한울해물칼국수",
     "main_item": "칼국수",
     "price": "6,000",
@@ -4284,31 +2712,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "미용업",
-    "name": "행복한헤어샵",
-    "main_item": "커트",
-    "price": "12,000",
-    "phone": "042-526-5762",
-    "address": "대전광역시 서구 변동로 50 (변동) 1층",
-    "lat": 36.3255007956521,
-    "lng": 127.378538673902,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "세탁업",
-    "name": "행운세탁소",
-    "main_item": "양복1벌",
-    "price": "7,000",
-    "phone": "",
-    "address": "대전광역시 서구 신갈마로211번길 49 (갈마1동)",
-    "lat": 36.353135173592,
-    "lng": 127.36516771568,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "허갈비",
     "main_item": "삼겹살",
     "price": "13,000",
@@ -4316,18 +2720,6 @@
     "address": "대전광역시 서구 괴정로 25-1 1층 (갈마2동)",
     "lat": 36.3408105956281,
     "lng": 127.376839198718,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "헤어캠퍼스",
-    "main_item": "커트",
-    "price": "12,000",
-    "phone": "042-543-2778",
-    "address": "대전광역시 서구 관저동로73번길 29-22 (관저동) 1층",
-    "lat": 36.297921874627,
-    "lng": 127.339521950816,
     "region_1depth": "대전",
     "region_2depth": "서구"
   },
@@ -4356,7 +2748,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "황토방숯불갈비",
     "main_item": "삼겹살",
     "price": "12,000",
@@ -4368,7 +2760,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "황토우렁쌈밥",
     "main_item": "황태해장국",
     "price": "8,000",
@@ -4380,31 +2772,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "미용업",
-    "name": "효성헤어",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "042-583-4983",
-    "address": "대전광역시 서구 도산로 11 (도마동, 효성타운) 상가동 1층 110호",
-    "lat": 36.3104711113467,
-    "lng": 127.384212390764,
-    "region_1depth": "대전",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "강정원헤어러브",
-    "main_item": "학생커트",
-    "price": "7,000",
-    "phone": "042-825-8092",
-    "address": "대전광역시 유성구 유성대로 730번길24 (장대동)",
-    "lat": 36.3577767906695,
-    "lng": 127.333921782928,
-    "region_1depth": "대전",
-    "region_2depth": "유성구"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "고깃수라",
     "main_item": "삼겹살",
     "price": "14,000",
@@ -4416,19 +2784,7 @@
     "region_2depth": "유성구"
   },
   {
-    "category": "미용업",
-    "name": "고운미용실",
-    "main_item": "일반커트",
-    "price": "8,000",
-    "phone": "042-822-9295",
-    "address": "대전광역시 유성구 유성대로 720번길 92 (장대동)",
-    "lat": 36.3572224288086,
-    "lng": 127.337052584122,
-    "region_1depth": "대전",
-    "region_2depth": "유성구"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "고향손칼국수",
     "main_item": "칼국수",
     "price": "5,000",
@@ -4440,7 +2796,7 @@
     "region_2depth": "유성구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "공주칼국수",
     "main_item": "칼국수",
     "price": "6,500",
@@ -4452,7 +2808,7 @@
     "region_2depth": "유성구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "길선인",
     "main_item": "전통순두부찌개",
     "price": "7,000",
@@ -4464,31 +2820,7 @@
     "region_2depth": "유성구"
   },
   {
-    "category": "기타비요식업",
-    "name": "노글라스안경원",
-    "main_item": "팩렌즈(아큐브오아시스_30P)",
-    "price": "35,900",
-    "phone": "042-867-0079",
-    "address": "대전광역시 유성구 유성대로 1756 1층(전민동)",
-    "lat": 36.3993887274195,
-    "lng": 127.404271049553,
-    "region_1depth": "대전",
-    "region_2depth": "유성구"
-  },
-  {
-    "category": "이용업",
-    "name": "뉴스타헤어컬",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "042-477-5234",
-    "address": "대전광역시 유성구 은구비서로 35 1층(지족동)",
-    "lat": 36.3753442143265,
-    "lng": 127.320486621068,
-    "region_1depth": "대전",
-    "region_2depth": "유성구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "다락방식당",
     "main_item": "생선가스",
     "price": "6,000",
@@ -4500,7 +2832,7 @@
     "region_2depth": "유성구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "다유미",
     "main_item": "김밥",
     "price": "2,500",
@@ -4512,19 +2844,7 @@
     "region_2depth": "유성구"
   },
   {
-    "category": "세탁업",
-    "name": "대학세탁소",
-    "main_item": "수선료",
-    "price": "5,000",
-    "phone": "042-350-4938",
-    "address": "대전광역시 유성구 대학로 291 N12 2층",
-    "lat": 36.3683750600837,
-    "lng": 127.356771410201,
-    "region_1depth": "대전",
-    "region_2depth": "유성구"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "돈이빵빵",
     "main_item": "삼겹살",
     "price": "14,000",
@@ -4536,7 +2856,7 @@
     "region_2depth": "유성구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "동큐칼국수",
     "main_item": "칼국수",
     "price": "6,000",
@@ -4548,7 +2868,7 @@
     "region_2depth": "유성구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "또먹돼지",
     "main_item": "또먹돼지(흑돼지숯불구이 모둠 500g)",
     "price": "24,000",
@@ -4560,7 +2880,7 @@
     "region_2depth": "유성구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "맛존매콤닭불고기",
     "main_item": "맛존닭불고기",
     "price": "5,500",
@@ -4572,7 +2892,7 @@
     "region_2depth": "유성구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "맛탐한우",
     "main_item": "한우우거지국밥",
     "price": "8,000",
@@ -4584,31 +2904,7 @@
     "region_2depth": "유성구"
   },
   {
-    "category": "미용업",
-    "name": "머리사랑미용실",
-    "main_item": "학생커트",
-    "price": "8,000",
-    "phone": "042-544-5700",
-    "address": "대전광역시 유성구 진잠로 42번길 88 진잠타운상가 207호 (진잠동)",
-    "lat": 36.2968188677484,
-    "lng": 127.321209139088,
-    "region_1depth": "대전",
-    "region_2depth": "유성구"
-  },
-  {
-    "category": "기타요식업",
-    "name": "몰랑몰랑 베이커리",
-    "main_item": "단팥빵/슈크림빵/소보로빵",
-    "price": "1,900",
-    "phone": "042-825-0488",
-    "address": "대전광역시 유성구 도안북로 81 (용계동) 1층, 106호",
-    "lat": 36.3303623723981,
-    "lng": 127.337665692789,
-    "region_1depth": "대전",
-    "region_2depth": "유성구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "민들레집뜰",
     "main_item": "백반",
     "price": "8,000",
@@ -4620,7 +2916,7 @@
     "region_2depth": "유성구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "박씨국시",
     "main_item": "멸치국수",
     "price": "6,800",
@@ -4632,7 +2928,7 @@
     "region_2depth": "유성구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "봉창이소머리국밥",
     "main_item": "소머리국밥",
     "price": "8,000",
@@ -4644,7 +2940,7 @@
     "region_2depth": "유성구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "삼남매",
     "main_item": "소고기국밥",
     "price": "7,000",
@@ -4668,67 +2964,7 @@
     "region_2depth": "유성구"
   },
   {
-    "category": "세탁업",
-    "name": "세탁마을",
-    "main_item": "수선료",
-    "price": "5,000",
-    "phone": "042-477-1559",
-    "address": "대전광역시 유성구 노은동로75번길 125 (노은동)",
-    "lat": 36.3691590180647,
-    "lng": 127.318597018596,
-    "region_1depth": "대전",
-    "region_2depth": "유성구"
-  },
-  {
-    "category": "이용업",
-    "name": "송강이용원",
-    "main_item": "이용료(70세이상)",
-    "price": "10,000",
-    "phone": "042-935-7254",
-    "address": "대전광역시 유성구 구즉로58번길 10 (송강동)",
-    "lat": 36.4340905007573,
-    "lng": 127.385634443172,
-    "region_1depth": "대전",
-    "region_2depth": "유성구"
-  },
-  {
-    "category": "미용업",
-    "name": "수림미용실",
-    "main_item": "일반커트",
-    "price": "10,000",
-    "phone": "042-825-7235",
-    "address": "대전광역시 유성구 유성대로 720번길 44 (장대동)",
-    "lat": 36.3572129911088,
-    "lng": 127.334413827532,
-    "region_1depth": "대전",
-    "region_2depth": "유성구"
-  },
-  {
-    "category": "미용업",
-    "name": "수헤어",
-    "main_item": "남성컷",
-    "price": "9,000",
-    "phone": "042-478-2005",
-    "address": "대전광역시 유성구 계룡로 13 (구암동)",
-    "lat": 36.3563050033421,
-    "lng": 127.332689739829,
-    "region_1depth": "대전",
-    "region_2depth": "유성구"
-  },
-  {
-    "category": "한식_일반",
-    "name": "시장이레손만두",
-    "main_item": "만두",
-    "price": "5,000",
-    "phone": "042-933-0994",
-    "address": "대전광역시 유성구 구즉로 74-15 나-108호(송강동)",
-    "lat": 36.4348265525071,
-    "lng": 127.387004477495,
-    "region_1depth": "대전",
-    "region_2depth": "유성구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "신가네해장국",
     "main_item": "등뼈해장국",
     "price": "9,000",
@@ -4740,7 +2976,7 @@
     "region_2depth": "유성구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "신성숯불생고기",
     "main_item": "청국장",
     "price": "8,000",
@@ -4752,7 +2988,7 @@
     "region_2depth": "유성구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "신성왕갈비탕",
     "main_item": "왕갈비탕(보통)",
     "price": "10,000",
@@ -4764,19 +3000,7 @@
     "region_2depth": "유성구"
   },
   {
-    "category": "기타비요식업",
-    "name": "아리씨스튜디오",
-    "main_item": "개인프로필 사진촬영",
-    "price": "29,000",
-    "phone": "0507-1378-7578",
-    "address": "대전광역시 유성구 대학로 60 304호(봉명동)",
-    "lat": 36.3587476373614,
-    "lng": 127.344238670807,
-    "region_1depth": "대전",
-    "region_2depth": "유성구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "안골칼국수",
     "main_item": "얼큰칼국수",
     "price": "8,000",
@@ -4788,7 +3012,7 @@
     "region_2depth": "유성구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "예전손칼국시",
     "main_item": "칼국수",
     "price": "7,000",
@@ -4800,7 +3024,7 @@
     "region_2depth": "유성구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "옛날아우내순대유성점",
     "main_item": "순대국밥",
     "price": "7,000",
@@ -4836,7 +3060,7 @@
     "region_2depth": "유성구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "외갓집얼큰이칼국수",
     "main_item": "칼국수",
     "price": "5,500",
@@ -4848,7 +3072,7 @@
     "region_2depth": "유성구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "유성할매빈대떡",
     "main_item": "순두부찌개",
     "price": "7,000",
@@ -4860,19 +3084,7 @@
     "region_2depth": "유성구"
   },
   {
-    "category": "세탁업",
-    "name": "이수세탁소",
-    "main_item": "수선료",
-    "price": "5,000",
-    "phone": "042-822-3577",
-    "address": "대전광역시 유성구 문화원로19번길 28 (장대동)",
-    "lat": 36.3623290881851,
-    "lng": 127.33938647292,
-    "region_1depth": "대전",
-    "region_2depth": "유성구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "장수순대",
     "main_item": "국밥",
     "price": "7,000",
@@ -4884,7 +3096,7 @@
     "region_2depth": "유성구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "전통순대국밥",
     "main_item": "순대국밥",
     "price": "8,000",
@@ -4896,7 +3108,7 @@
     "region_2depth": "유성구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "정식당",
     "main_item": "시래기탕",
     "price": "7,000",
@@ -4908,43 +3120,7 @@
     "region_2depth": "유성구"
   },
   {
-    "category": "미용업",
-    "name": "정운미용실",
-    "main_item": "일반커트",
-    "price": "5,000",
-    "phone": "042-320-1458",
-    "address": "대전광역시 유성구 장대로 27 (장대동)",
-    "lat": 36.3574798126941,
-    "lng": 127.33628204175,
-    "region_1depth": "대전",
-    "region_2depth": "유성구"
-  },
-  {
-    "category": "미용업",
-    "name": "지영미용실",
-    "main_item": "일반커트",
-    "price": "8,000",
-    "phone": "042-822-6203",
-    "address": "대전광역시 유성구 유성대로 720번길 64 (장대동)",
-    "lat": 36.3571998166975,
-    "lng": 127.335545063074,
-    "region_1depth": "대전",
-    "region_2depth": "유성구"
-  },
-  {
-    "category": "이용업",
-    "name": "착한이용원",
-    "main_item": "학생커트",
-    "price": "10,000",
-    "phone": "",
-    "address": "대전광역시 유성구 진잠로 78번길 34 (원내동)",
-    "lat": 36.2989057864084,
-    "lng": 127.317921532889,
-    "region_1depth": "대전",
-    "region_2depth": "유성구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "천리집",
     "main_item": "접시순대",
     "price": "8,000",
@@ -4956,7 +3132,7 @@
     "region_2depth": "유성구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "청주해장국",
     "main_item": "우거지해장국",
     "price": "8,900",
@@ -4968,7 +3144,7 @@
     "region_2depth": "유성구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "충대분식",
     "main_item": "비빔국수",
     "price": "7,000",
@@ -4992,7 +3168,7 @@
     "region_2depth": "유성구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "토종순대",
     "main_item": "순대국밥",
     "price": "8,000",
@@ -5004,7 +3180,7 @@
     "region_2depth": "유성구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "토종칼국수",
     "main_item": "족발(중)",
     "price": "15,000",
@@ -5016,7 +3192,7 @@
     "region_2depth": "유성구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "통나무식당",
     "main_item": "칼국수",
     "price": "6,000",
@@ -5028,19 +3204,7 @@
     "region_2depth": "유성구"
   },
   {
-    "category": "미용업",
-    "name": "평화미용실",
-    "main_item": "파마후커트",
-    "price": "5,000",
-    "phone": "042-823-5320",
-    "address": "대전광역시 유성구 유성대로 720번길 63-5 (장대동)",
-    "lat": 36.3576004749637,
-    "lng": 127.335482385519,
-    "region_1depth": "대전",
-    "region_2depth": "유성구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "학사식당",
     "main_item": "뷔페",
     "price": "6,000",
@@ -5048,30 +3212,6 @@
     "address": "대전광역시 유성구 대학로76번안길 32 (궁동)",
     "lat": 36.3607732046659,
     "lng": 127.345675530479,
-    "region_1depth": "대전",
-    "region_2depth": "유성구"
-  },
-  {
-    "category": "미용업",
-    "name": "향기헤어샵",
-    "main_item": "남성컷",
-    "price": "10,000",
-    "phone": "042-822-2300",
-    "address": "대전광역시 유성구 반석서로109 205호(반석동)",
-    "lat": 36.3958923203054,
-    "lng": 127.310922786887,
-    "region_1depth": "대전",
-    "region_2depth": "유성구"
-  },
-  {
-    "category": "미용업",
-    "name": "헤어핀미용실",
-    "main_item": "남성컷",
-    "price": "8,000",
-    "phone": "042-482-7064",
-    "address": "대전광역시 유성구 계룡로 17 (봉명동)",
-    "lat": 36.3561564411995,
-    "lng": 127.333159934488,
     "region_1depth": "대전",
     "region_2depth": "유성구"
   },
@@ -5088,7 +3228,7 @@
     "region_2depth": "유성구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "황서옥",
     "main_item": "육개장",
     "price": "6,500",
@@ -5100,7 +3240,7 @@
     "region_2depth": "유성구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "황토가마",
     "main_item": "숙성목살",
     "price": "11,000",
@@ -5124,7 +3264,7 @@
     "region_2depth": "대덕구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "감나무보리밥집",
     "main_item": "보리밥+된장국",
     "price": "7,000",
@@ -5136,19 +3276,7 @@
     "region_2depth": "대덕구"
   },
   {
-    "category": "미용업",
-    "name": "경미용실",
-    "main_item": "컷(여자)",
-    "price": "11,000",
-    "phone": "042-935-0325",
-    "address": "대전광역시 대덕구 덕암북로22번길 52 (덕암동)",
-    "lat": 36.4450890715006,
-    "lng": 127.421670247992,
-    "region_1depth": "대전",
-    "region_2depth": "대덕구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "김연수소국밥막국수",
     "main_item": "소머리국밥",
     "price": "10,000",
@@ -5160,7 +3288,7 @@
     "region_2depth": "대덕구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "꼬끼오바베큐치킨",
     "main_item": "바베큐치킨",
     "price": "18,000",
@@ -5172,7 +3300,7 @@
     "region_2depth": "대덕구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "나들목식당",
     "main_item": "황태탕",
     "price": "7,000",
@@ -5184,7 +3312,7 @@
     "region_2depth": "대덕구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "나래원식당",
     "main_item": "안동찜닭",
     "price": "22,000",
@@ -5196,7 +3324,7 @@
     "region_2depth": "대덕구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "뉴서울식당",
     "main_item": "김치찌개",
     "price": "8,000",
@@ -5208,7 +3336,7 @@
     "region_2depth": "대덕구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "대로식당",
     "main_item": "가정식백반",
     "price": "8,000",
@@ -5220,7 +3348,7 @@
     "region_2depth": "대덕구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "덕암삼겹살",
     "main_item": "생삼겹살",
     "price": "10,000",
@@ -5232,7 +3360,7 @@
     "region_2depth": "대덕구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "돌돌김밥",
     "main_item": "야채김밥",
     "price": "2,000",
@@ -5244,7 +3372,7 @@
     "region_2depth": "대덕구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "두리두리식당",
     "main_item": "비빔밥",
     "price": "6,500",
@@ -5268,7 +3396,7 @@
     "region_2depth": "대덕구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "맛보리감자탕",
     "main_item": "보리밥",
     "price": "7,000",
@@ -5280,19 +3408,7 @@
     "region_2depth": "대덕구"
   },
   {
-    "category": "미용업",
-    "name": "머리하는풍경",
-    "main_item": "컷(기본)",
-    "price": "10,000",
-    "phone": "042-673-5008",
-    "address": "대전광역시 대덕구 중리북로 49 (중리동)",
-    "lat": 36.3662491233466,
-    "lng": 127.424613746352,
-    "region_1depth": "대전",
-    "region_2depth": "대덕구"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "미정숯불갈비",
     "main_item": "돼지갈비",
     "price": "10,000",
@@ -5304,7 +3420,7 @@
     "region_2depth": "대덕구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "보성식당",
     "main_item": "청국장게장백반",
     "price": "9,000",
@@ -5316,7 +3432,7 @@
     "region_2depth": "대덕구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "샘물",
     "main_item": "갈치조림",
     "price": "9,000",
@@ -5328,43 +3444,7 @@
     "region_2depth": "대덕구"
   },
   {
-    "category": "세탁업",
-    "name": "선비마을3단지세탁",
-    "main_item": "드라이클리닝",
-    "price": "7,000",
-    "phone": "042-637-8686",
-    "address": "대전광역시 대덕구 동춘당로114번길 60 (송촌동)",
-    "lat": 36.3690462186055,
-    "lng": 127.441508127943,
-    "region_1depth": "대전",
-    "region_2depth": "대덕구"
-  },
-  {
-    "category": "미용업",
-    "name": "세이미용실",
-    "main_item": "컷(여자)",
-    "price": "10,000",
-    "phone": "042-635-6399",
-    "address": "대전광역시 대전로 1078번길 39 (오정동)",
-    "lat": 36.3506864831391,
-    "lng": 127.415909016314,
-    "region_1depth": "대전",
-    "region_2depth": "대덕구"
-  },
-  {
-    "category": "미용업",
-    "name": "솔솔미용실",
-    "main_item": "컷(여자)",
-    "price": "10,000",
-    "phone": "042-622-4892",
-    "address": "대전광역시 대덕구 중리남로8번길 125 (중리동)",
-    "lat": 36.366810530796,
-    "lng": 127.429109635465,
-    "region_1depth": "대전",
-    "region_2depth": "대덕구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "순이네분식카페",
     "main_item": "김밥",
     "price": "2,500",
@@ -5376,7 +3456,7 @@
     "region_2depth": "대덕구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "식풍경대화점",
     "main_item": "뼈해장국",
     "price": "8,000",
@@ -5388,7 +3468,7 @@
     "region_2depth": "대덕구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "어우렁더우렁",
     "main_item": "청국장",
     "price": "8,000",
@@ -5400,7 +3480,7 @@
     "region_2depth": "대덕구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "오롱골순대국밥법동점",
     "main_item": "순대국밥",
     "price": "7,000",
@@ -5412,7 +3492,7 @@
     "region_2depth": "대덕구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "오부자강릉집",
     "main_item": "낙지뚝배기",
     "price": "8,000",
@@ -5424,7 +3504,7 @@
     "region_2depth": "대덕구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "오손도손",
     "main_item": "칼국수",
     "price": "7,000",
@@ -5436,7 +3516,7 @@
     "region_2depth": "대덕구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "옥수네숯불닭갈비",
     "main_item": "닭갈비",
     "price": "12,000",
@@ -5448,7 +3528,7 @@
     "region_2depth": "대덕구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "외양간숯불구이",
     "main_item": "선짓국",
     "price": "4,000",
@@ -5460,19 +3540,7 @@
     "region_2depth": "대덕구"
   },
   {
-    "category": "미용업",
-    "name": "유수현미용실",
-    "main_item": "컷(여자)",
-    "price": "9,000",
-    "phone": "042-931-1915",
-    "address": "대전광역시 대덕구 덕암북로22번길 46 (덕암동)",
-    "lat": 36.4453903292954,
-    "lng": 127.42154260445,
-    "region_1depth": "대전",
-    "region_2depth": "대덕구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "은진손두부",
     "main_item": "김치찌개",
     "price": "6,000",
@@ -5484,7 +3552,7 @@
     "region_2depth": "대덕구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "이모네식당",
     "main_item": "고등어백반",
     "price": "7,000",
@@ -5496,7 +3564,7 @@
     "region_2depth": "대덕구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "잔디한식뷔페",
     "main_item": "한식뷔페",
     "price": "7,000",
@@ -5508,7 +3576,7 @@
     "region_2depth": "대덕구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "장미식당",
     "main_item": "김치찌개",
     "price": "8,000",
@@ -5520,7 +3588,7 @@
     "region_2depth": "대덕구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "전주식당",
     "main_item": "버섯찌개",
     "price": "6,000",
@@ -5532,7 +3600,7 @@
     "region_2depth": "대덕구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "제일추어탕",
     "main_item": "돌솥추어탕",
     "price": "8,000",
@@ -5544,19 +3612,7 @@
     "region_2depth": "대덕구"
   },
   {
-    "category": "중식",
-    "name": "중국집앤하오치서울칡냉면",
-    "main_item": "-",
-    "price": "",
-    "phone": "",
-    "address": "대전광역시 대덕구 중리로31번길 6-20 (중리동) 1층",
-    "lat": 36.3627971190714,
-    "lng": 127.424860842423,
-    "region_1depth": "대전",
-    "region_2depth": "대덕구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "진미정식",
     "main_item": "가정식백반",
     "price": "7,000",
@@ -5580,7 +3636,7 @@
     "region_2depth": "대덕구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "최고집잔치국수",
     "main_item": "잔치국수",
     "price": "5,500",
@@ -5616,19 +3672,7 @@
     "region_2depth": "대덕구"
   },
   {
-    "category": "미용업",
-    "name": "투투머리마을미용실",
-    "main_item": "컷(여자)",
-    "price": "7,000",
-    "phone": "042-632-7765",
-    "address": "대전광역시 대덕구 동춘당로23번길 58 (송촌동)",
-    "lat": 36.3588441454036,
-    "lng": 127.444621045192,
-    "region_1depth": "대전",
-    "region_2depth": "대덕구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "행복담은한그릇",
     "main_item": "콩나물밥",
     "price": "7,000",
@@ -5640,19 +3684,7 @@
     "region_2depth": "대덕구"
   },
   {
-    "category": "미용업",
-    "name": "헤어코리아미용실",
-    "main_item": "컷(기본)",
-    "price": "8,000",
-    "phone": "042-624-0594",
-    "address": "대전광역시 대덕구 중리북로 53 (중리동)",
-    "lat": 36.3662335058611,
-    "lng": 127.424190131438,
-    "region_1depth": "대전",
-    "region_2depth": "대덕구"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "호박식당",
     "main_item": "칼국수",
     "price": "6,000",

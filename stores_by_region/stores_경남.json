@@ -12,19 +12,7 @@
     "region_2depth": "창원시 마산합포구"
   },
   {
-    "category": "숙박업",
-    "name": "AT비지니스호텔",
-    "main_item": "스탠다드더블",
-    "price": "70,000",
-    "phone": "055-266-3600",
-    "address": "경상남도 창원시 성산구 용지로 102 (중앙동, 개나리 상가5층)",
-    "lat": 35.2244802241098,
-    "lng": 128.678347346605,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 성산구"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "고인돌",
     "main_item": "흑돼지삼겹살",
     "price": "8,000",
@@ -36,7 +24,7 @@
     "region_2depth": "창원시 마산회원구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "고향",
     "main_item": "갈비찜+된장찌개",
     "price": "14,000",
@@ -48,7 +36,7 @@
     "region_2depth": "창원시 진해구"
   },
   {
-    "category": "한식_기타",
+    "category": "한식",
     "name": "구구생선구이",
     "main_item": "셍선구이",
     "price": "12,000",
@@ -60,7 +48,7 @@
     "region_2depth": "창원시 성산구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "기연식당",
     "main_item": "물국수",
     "price": "5,000",
@@ -72,19 +60,7 @@
     "region_2depth": "창원시 마산회원구"
   },
   {
-    "category": "미용업",
-    "name": "김영이헤어모드",
-    "main_item": "커트",
-    "price": "8,000",
-    "phone": "055-543-4053",
-    "address": "경상남도 창원시 진해구 돌리로10번길 25 (석동, 유일수정빌라) 1층",
-    "lat": 35.1579216030673,
-    "lng": 128.702958431948,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 진해구"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "김인철동해장어막회",
     "main_item": "붕장어구이(130g)",
     "price": "13,000",
@@ -96,19 +72,7 @@
     "region_2depth": "창원시 마산합포구"
   },
   {
-    "category": "미용업",
-    "name": "까꼬뽀꼬헤어샵",
-    "main_item": "일반펌",
-    "price": "30,000",
-    "phone": "055-286-0851",
-    "address": "경상남도 창원시 성산구 신촌로 84 (신촌동, 양곡상가아파트) 나동 113-1호(신촌동, 양곡상가)",
-    "lat": 35.2022251621062,
-    "lng": 128.628157272017,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 성산구"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "꽃핀식육식당",
     "main_item": "소고기국밥",
     "price": "9,000",
@@ -120,19 +84,7 @@
     "region_2depth": "창원시 마산합포구"
   },
   {
-    "category": "한식_육류",
-    "name": "낙동강오리가든",
-    "main_item": "고추장양념주물럭",
-    "price": "48,000",
-    "phone": "010-9427-4867",
-    "address": "경상남도 창원시 마산합포구 진동면 사동길 5 낙동강오리가든 마산점",
-    "lat": 35.1142935775885,
-    "lng": 128.481168480562,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 마산합포구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "낙동추어탕",
     "main_item": "추어탕",
     "price": "8,000",
@@ -144,7 +96,7 @@
     "region_2depth": "창원시 성산구"
   },
   {
-    "category": "한식_기타",
+    "category": "한식",
     "name": "낙지엔닭갈비",
     "main_item": "낙지비빔밥",
     "price": "10,000",
@@ -156,19 +108,7 @@
     "region_2depth": "창원시 마산회원구"
   },
   {
-    "category": "기타비요식업",
-    "name": "남양스튜디오",
-    "main_item": "가족사진",
-    "price": "10,000",
-    "phone": "055-245-0548",
-    "address": "경상남도 창원시 마산합포구 장장군로 31-23 (장군동4가)",
-    "lat": 35.1971042919322,
-    "lng": 128.565386781544,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 마산합포구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "남원식당",
     "main_item": "가정식 백반",
     "price": "8,000",
@@ -192,7 +132,7 @@
     "region_2depth": "창원시 마산합포구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "다래원",
     "main_item": "한식부페",
     "price": "7,000",
@@ -204,7 +144,7 @@
     "region_2depth": "창원시 성산구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "다복식당",
     "main_item": "한식(뷔페)",
     "price": "6,000",
@@ -216,7 +156,7 @@
     "region_2depth": "창원시 마산합포구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "다복한식부페",
     "main_item": "뷔페 1인",
     "price": "6,000",
@@ -228,19 +168,7 @@
     "region_2depth": "창원시 성산구"
   },
   {
-    "category": "한식_분식",
-    "name": "다정다맛",
-    "main_item": "-",
-    "price": "",
-    "phone": "055-284-6114",
-    "address": "경상남도 창원시 의창구 퇴촌로25번길 6-31 (사림동) 다정다맛",
-    "lat": 35.242277257158,
-    "lng": 128.688068175312,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 의창구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "대도식당",
     "main_item": "추어탕",
     "price": "9,000",
@@ -252,19 +180,7 @@
     "region_2depth": "창원시 진해구"
   },
   {
-    "category": "한식_육류",
-    "name": "대복갈비",
-    "main_item": "-",
-    "price": "",
-    "phone": "0507-1351-3061",
-    "address": "경상남도 창원시 마산회원구 삼호로 135 (양덕동) 대복갈비",
-    "lat": 35.2258185327994,
-    "lng": 128.577106218747,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 마산회원구"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "대봉막창",
     "main_item": "돼지막창",
     "price": "9,000",
@@ -276,7 +192,7 @@
     "region_2depth": "창원시 진해구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "대우식당",
     "main_item": "정식",
     "price": "5,000",
@@ -288,7 +204,7 @@
     "region_2depth": "창원시 마산합포구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "대패3000냥삼겹살",
     "main_item": "대패삼겹살(1인분_기본5인)",
     "price": "3,000",
@@ -300,7 +216,7 @@
     "region_2depth": "창원시 마산합포구"
   },
   {
-    "category": "한식_기타",
+    "category": "한식",
     "name": "동마산찜",
     "main_item": "아구찜(소)",
     "price": "15,000",
@@ -312,7 +228,7 @@
     "region_2depth": "창원시 마산회원구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "동촌손칼국수",
     "main_item": "손칼국수",
     "price": "5,500",
@@ -324,19 +240,7 @@
     "region_2depth": "창원시 마산회원구"
   },
   {
-    "category": "한식_일반",
-    "name": "돼지장터",
-    "main_item": "-",
-    "price": "",
-    "phone": "0507-1395-8954",
-    "address": "경상남도 창원시 마산회원구 합성옛길 60 (양덕동) 돼지장터",
-    "lat": 35.2346741923701,
-    "lng": 128.582611546932,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 마산회원구"
-  },
-  {
-    "category": "한식_분식",
+    "category": "한식",
     "name": "둘리왕만두",
     "main_item": "만두",
     "price": "5,000",
@@ -348,19 +252,7 @@
     "region_2depth": "창원시 의창구"
   },
   {
-    "category": "기타비요식업",
-    "name": "마산실내운전연습장",
-    "main_item": "운전면허시간제(1종대형1시간)",
-    "price": "40,000",
-    "phone": "0507-1414-3934",
-    "address": "경상남도 창원시 마산합포구 밤밭고개로 438 2층(월영동)",
-    "lat": 35.1799517184169,
-    "lng": 128.556960458253,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 마산합포구"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "메밀파티",
     "main_item": "막국수",
     "price": "7,000",
@@ -372,7 +264,7 @@
     "region_2depth": "창원시 성산구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "메밀한판",
     "main_item": "냄비우동",
     "price": "5,500",
@@ -384,7 +276,7 @@
     "region_2depth": "창원시 성산구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "메밀한판",
     "main_item": "메밀한판",
     "price": "3,500",
@@ -396,7 +288,7 @@
     "region_2depth": "창원시 의창구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "명동식당",
     "main_item": "정식",
     "price": "8,000",
@@ -406,18 +298,6 @@
     "lng": 128.679710134939,
     "region_1depth": "경남",
     "region_2depth": "창원시 성산구"
-  },
-  {
-    "category": "미용업",
-    "name": "목화미용실",
-    "main_item": "파마",
-    "price": "15,000",
-    "phone": "055-299-9281",
-    "address": "경상남도 창원시 마산회원구 합성동12길 39 (합성동)",
-    "lat": 35.2422079723024,
-    "lng": 128.589197346504,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 마산회원구"
   },
   {
     "category": "기타요식업",
@@ -432,31 +312,7 @@
     "region_2depth": "창원시 진해구"
   },
   {
-    "category": "한식_일반",
-    "name": "바삭왕돈까스",
-    "main_item": "-",
-    "price": "",
-    "phone": "055-268-5008",
-    "address": "경상남도 창원시 성산구 중앙대로 111 (중앙동) 205호",
-    "lat": 35.2247676396926,
-    "lng": 128.679885593676,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 성산구"
-  },
-  {
-    "category": "미용업",
-    "name": "박하헤어",
-    "main_item": "컷트",
-    "price": "10,000",
-    "phone": "055-542-5894",
-    "address": "경상남도 창원시 진해구 충장로 397-1 (이동) 1층",
-    "lat": 35.1525997922182,
-    "lng": 128.695344212997,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 진해구"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "반달집",
     "main_item": "돼지불고기(350g)",
     "price": "18,000",
@@ -468,31 +324,7 @@
     "region_2depth": "창원시 마산합포구"
   },
   {
-    "category": "목욕업",
-    "name": "발리불소사우나",
-    "main_item": "목욕(대인)",
-    "price": "5,500",
-    "phone": "055-292-3588",
-    "address": "경상남도 창원시 마산회원구 석전동16길 28 (석전동)",
-    "lat": 35.2368615089355,
-    "lng": 128.579505619476,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 마산회원구"
-  },
-  {
-    "category": "중식",
-    "name": "백년옛날짬뽕",
-    "main_item": "-",
-    "price": "",
-    "phone": "055-262-7550",
-    "address": "경상남도 창원시 성산구 용지로 145 (용호동) 1층3호",
-    "lat": 35.2284945133326,
-    "lng": 128.6803744155,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 성산구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "벚꽃삼계탕",
     "main_item": "한방녹두삼계탕",
     "price": "15,000",
@@ -504,7 +336,7 @@
     "region_2depth": "창원시 진해구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "보리밥집",
     "main_item": "보리밥",
     "price": "7,000",
@@ -516,7 +348,7 @@
     "region_2depth": "창원시 성산구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "복가득뚱보갈비",
     "main_item": "물냉면",
     "price": "6,000",
@@ -528,7 +360,7 @@
     "region_2depth": "창원시 마산합포구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "복개천감자탕",
     "main_item": "뼈해장국",
     "price": "8,000",
@@ -540,7 +372,7 @@
     "region_2depth": "창원시 진해구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "복자네뼈해장국",
     "main_item": "뼈해장국(1인분)",
     "price": "8,000",
@@ -552,7 +384,7 @@
     "region_2depth": "창원시 진해구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "본가냉면",
     "main_item": "물냉면",
     "price": "7,500",
@@ -564,7 +396,7 @@
     "region_2depth": "창원시 진해구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "불로식당",
     "main_item": "한정식1인",
     "price": "20,000",
@@ -588,19 +420,7 @@
     "region_2depth": "창원시 마산회원구"
   },
   {
-    "category": "미용업",
-    "name": "블랙맨",
-    "main_item": "일반컷",
-    "price": "9,000",
-    "phone": "070-4065-4802",
-    "address": "경상남도 창원시 성산구 안민안길 17 (안민동) 103호, 블랙맨",
-    "lat": 35.1865795451317,
-    "lng": 128.691394767247,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 성산구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "빅보이분식",
     "main_item": "김치찌개",
     "price": "6,000",
@@ -612,7 +432,7 @@
     "region_2depth": "창원시 마산회원구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "사철밀면",
     "main_item": "물밀면",
     "price": "7,000",
@@ -624,7 +444,7 @@
     "region_2depth": "창원시 의창구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "산장국수",
     "main_item": "잔치국수",
     "price": "4,000",
@@ -648,7 +468,7 @@
     "region_2depth": "창원시 의창구"
   },
   {
-    "category": "한식_기타",
+    "category": "한식",
     "name": "삼포복집",
     "main_item": "지리",
     "price": "9,000",
@@ -660,7 +480,7 @@
     "region_2depth": "창원시 성산구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "새마을찌개나라",
     "main_item": "불고기정식",
     "price": "10,000",
@@ -672,7 +492,7 @@
     "region_2depth": "창원시 진해구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "새맛정식당",
     "main_item": "한식뷔페",
     "price": "6,000",
@@ -684,7 +504,7 @@
     "region_2depth": "창원시 의창구"
   },
   {
-    "category": "한식_기타",
+    "category": "한식",
     "name": "선백면옥",
     "main_item": "물밀면",
     "price": "7,000",
@@ -696,7 +516,7 @@
     "region_2depth": "창원시 진해구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "선우돌판구이",
     "main_item": "삼겹살",
     "price": "5,000",
@@ -708,7 +528,7 @@
     "region_2depth": "창원시 의창구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "성안식당",
     "main_item": "갈비탕",
     "price": "8,000",
@@ -720,7 +540,7 @@
     "region_2depth": "창원시 마산회원구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "소고기집 소금깎이",
     "main_item": "토마호크(100g)",
     "price": "9,000",
@@ -732,7 +552,7 @@
     "region_2depth": "창원시 진해구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "소반",
     "main_item": "양념갈비(350g)",
     "price": "27,000",
@@ -744,7 +564,7 @@
     "region_2depth": "창원시 의창구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "소반(자산동점)",
     "main_item": "양념갈비살(250g)",
     "price": "21,000",
@@ -756,19 +576,7 @@
     "region_2depth": "창원시 마산합포구"
   },
   {
-    "category": "한식_면류",
-    "name": "소소소국수집",
-    "main_item": "-",
-    "price": "",
-    "phone": "055-261-5233",
-    "address": "경상남도 창원시 의창구 퇴촌로25번길 6-5 (사림동) 소소소국수집",
-    "lat": 35.242277257158,
-    "lng": 128.688068175312,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 의창구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "소원식당",
     "main_item": "정식",
     "price": "8,000",
@@ -780,7 +588,7 @@
     "region_2depth": "창원시 진해구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "송가감자탕",
     "main_item": "뼈다귀해장국",
     "price": "9,000",
@@ -792,31 +600,7 @@
     "region_2depth": "창원시 진해구"
   },
   {
-    "category": "한식_일반",
-    "name": "수 (돌솥밥 수)",
-    "main_item": "-",
-    "price": "",
-    "phone": "055-261-2905",
-    "address": "경상남도 창원시 의창구 용지로293번길 21 (사림동) 돌솥밥 수",
-    "lat": 35.2402860838309,
-    "lng": 128.687953852795,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 의창구"
-  },
-  {
-    "category": "기타요식업",
-    "name": "수키앤천사",
-    "main_item": "단팥빵",
-    "price": "1,200",
-    "phone": "055-551-0010",
-    "address": "경상남도 창원시 진해구 여명로 4 (여좌동) 106호(여좌동, 동원베이힐즈)",
-    "lat": 35.1536457455227,
-    "lng": 128.656549691748,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 진해구"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "시장분식",
     "main_item": "칼국수",
     "price": "5,000",
@@ -828,7 +612,7 @@
     "region_2depth": "창원시 의창구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "쌈밥정식봄날",
     "main_item": "두루치기쌈밥정식",
     "price": "8,000",
@@ -840,19 +624,7 @@
     "region_2depth": "창원시 진해구"
   },
   {
-    "category": "세탁업",
-    "name": "안태관크리닝",
-    "main_item": "와이셔츠",
-    "price": "1,800",
-    "phone": "055-274-4163",
-    "address": "경상남도 창원시 성산구 창이대로901번길 30 (대방동)",
-    "lat": 35.205287368452,
-    "lng": 128.710233251066,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 성산구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "엄마식당",
     "main_item": "김치찌개",
     "price": "7,000",
@@ -864,19 +636,7 @@
     "region_2depth": "창원시 진해구"
   },
   {
-    "category": "미용업",
-    "name": "엠케이",
-    "main_item": "남자커트",
-    "price": "7,000",
-    "phone": "055-543-4053",
-    "address": "경상남도 창원시 진해구 돌리로 11-1 (석동) 1층",
-    "lat": 35.1592700165808,
-    "lng": 128.700681346665,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 진해구"
-  },
-  {
-    "category": "한식_기타",
+    "category": "한식",
     "name": "영지면",
     "main_item": "돈가스",
     "price": "7,000",
@@ -888,7 +648,7 @@
     "region_2depth": "창원시 마산합포구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "영칼국수",
     "main_item": "김밥",
     "price": "2,500",
@@ -912,7 +672,7 @@
     "region_2depth": "창원시 의창구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "옛날촌국수집",
     "main_item": "비빔국수",
     "price": "7,000",
@@ -922,30 +682,6 @@
     "lng": 128.69041013352,
     "region_1depth": "경남",
     "region_2depth": "창원시 진해구"
-  },
-  {
-    "category": "한식_육류",
-    "name": "오감족발",
-    "main_item": "-",
-    "price": "",
-    "phone": "0507-1329-9784",
-    "address": "경상남도 창원시 마산회원구 합성남8길 76 (합성동) 오감족발",
-    "lat": 35.2400366085796,
-    "lng": 128.58754489355,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 마산회원구"
-  },
-  {
-    "category": "한식_육류",
-    "name": "오리둥지",
-    "main_item": "생고기",
-    "price": "32,000",
-    "phone": "055-282-7787",
-    "address": "경상남도 창원시 성산구 용지로 145 1층 4호(용호동)",
-    "lat": 35.2284945133326,
-    "lng": 128.6803744155,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 성산구"
   },
   {
     "category": "기타요식업",
@@ -960,7 +696,7 @@
     "region_2depth": "창원시 의창구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "우정분식식당",
     "main_item": "김치찌개",
     "price": "6,000",
@@ -972,7 +708,7 @@
     "region_2depth": "창원시 마산회원구"
   },
   {
-    "category": "한식_기타",
+    "category": "한식",
     "name": "월성식당",
     "main_item": "어탕국수",
     "price": "8,000",
@@ -984,31 +720,7 @@
     "region_2depth": "창원시 진해구"
   },
   {
-    "category": "미용업",
-    "name": "웨이브",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "0507-1463-5977",
-    "address": "경상남도 창원시 진해구 석동로 71 (석동) 204호 (석동)",
-    "lat": 35.1564012262443,
-    "lng": 128.706020415085,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 진해구"
-  },
-  {
-    "category": "기타요식업",
-    "name": "웰빙제과",
-    "main_item": "팥빵",
-    "price": "800",
-    "phone": "055-223-1946",
-    "address": "경상남도 창원시 마산합포구 어시장6길 29 (남성동) 시장안 골목",
-    "lat": 35.2035422492472,
-    "lng": 128.576385010696,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 마산합포구"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "유니온식육식당",
     "main_item": "삼겹살",
     "price": "8,000",
@@ -1020,19 +732,7 @@
     "region_2depth": "창원시 성산구"
   },
   {
-    "category": "미용업",
-    "name": "유센스미용실",
-    "main_item": "커트",
-    "price": "5,000",
-    "phone": "055-237-3177",
-    "address": "경상남도 창원시 의창구 도계로 135 (명서동, 두산위브아파트) 103호(명서동, 두산위브주상가)",
-    "lat": 35.2531379615303,
-    "lng": 128.643057908581,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 의창구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "유자네 집밥",
     "main_item": "장어국 정식",
     "price": "9,000",
@@ -1044,19 +744,7 @@
     "region_2depth": "창원시 의창구"
   },
   {
-    "category": "세탁업",
-    "name": "유크리닝",
-    "main_item": "와이셔츠",
-    "price": "2,000",
-    "phone": "055-275-5630",
-    "address": "경상남도 창원시 성산구 신사로 69 (신월동)",
-    "lat": 35.223978308413,
-    "lng": 128.692559978375,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 성산구"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "육밀168",
     "main_item": "육전물밀면",
     "price": "7,000",
@@ -1068,19 +756,7 @@
     "region_2depth": "창원시 마산회원구"
   },
   {
-    "category": "한식_일반",
-    "name": "은희국수",
-    "main_item": "-",
-    "price": "",
-    "phone": "055-261-9083",
-    "address": "경상남도 창원시 성산구 대암로 256 (대방동, 대방그린빌아파트) 지하15호",
-    "lat": 35.205515470619,
-    "lng": 128.7108643453,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 성산구"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "이모손칼국수",
     "main_item": "바지락칼국수",
     "price": "7,000",
@@ -1104,31 +780,7 @@
     "region_2depth": "창원시 마산회원구"
   },
   {
-    "category": "미용업",
-    "name": "인생컷헤어샵",
-    "main_item": "커트",
-    "price": "8,000",
-    "phone": "010-3105-6262",
-    "address": "경상남도 창원시 마산회원구 양덕북2길 31 (양덕동)",
-    "lat": 35.2326993111507,
-    "lng": 128.584650823418,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 마산회원구"
-  },
-  {
-    "category": "세탁업",
-    "name": "일신세탁",
-    "main_item": "와이셔츠",
-    "price": "1,500",
-    "phone": "055-262-1243",
-    "address": "경상남도 창원시 성산구 삼정자로 81 (성주동)",
-    "lat": 35.1983007101813,
-    "lng": 128.715072523023,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 성산구"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "임진각",
     "main_item": "소석쇠불고기",
     "price": "17,000",
@@ -1152,7 +804,7 @@
     "region_2depth": "창원시 의창구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "쟁반뒷고기",
     "main_item": "뒷고기",
     "price": "5,000",
@@ -1164,7 +816,7 @@
     "region_2depth": "창원시 의창구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "전주국밥",
     "main_item": "돼지국밥",
     "price": "8,000",
@@ -1176,7 +828,7 @@
     "region_2depth": "창원시 성산구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "전통곰탕",
     "main_item": "설렁탕",
     "price": "8,000",
@@ -1188,7 +840,7 @@
     "region_2depth": "창원시 마산합포구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "점심한끼",
     "main_item": "한식부페(단일)",
     "price": "8,000",
@@ -1200,7 +852,7 @@
     "region_2depth": "창원시 진해구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "정다운칼국수",
     "main_item": "칼국수",
     "price": "5,000",
@@ -1212,19 +864,7 @@
     "region_2depth": "창원시 마산회원구"
   },
   {
-    "category": "세탁업",
-    "name": "조크리닝",
-    "main_item": "정장한벌",
-    "price": "5,000",
-    "phone": "055-237-4005",
-    "address": "경상남도 창원시 의창구 도계로 120 (도계동, 지하)",
-    "lat": 35.2546036979377,
-    "lng": 128.641412094309,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 의창구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "중앙분식",
     "main_item": "김치(된장)찌개",
     "price": "5,000",
@@ -1236,7 +876,7 @@
     "region_2depth": "창원시 마산합포구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "진경숯불갈비",
     "main_item": "두루치기정식",
     "price": "7,000",
@@ -1248,7 +888,7 @@
     "region_2depth": "창원시 진해구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "진주식당, 변경:진주주물럭",
     "main_item": "주물럭",
     "price": "8,000",
@@ -1260,7 +900,7 @@
     "region_2depth": "창원시 성산구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "진짜초가집",
     "main_item": "아구찜(소)",
     "price": "25,000",
@@ -1272,19 +912,7 @@
     "region_2depth": "창원시 마산합포구"
   },
   {
-    "category": "기타요식업",
-    "name": "진해제과",
-    "main_item": "벚꽃빵 대",
-    "price": "29,000",
-    "phone": "055-546-3131",
-    "address": "경상남도 창원시 진해구 중원로43번길4 (광화동)",
-    "lat": 35.1482280866902,
-    "lng": 128.659038063819,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 진해구"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "착한멸치국수",
     "main_item": "멸치국수",
     "price": "4,000",
@@ -1296,7 +924,7 @@
     "region_2depth": "창원시 마산합포구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "참고을숯불식육식당",
     "main_item": "삼겹살",
     "price": "10,000",
@@ -1308,7 +936,7 @@
     "region_2depth": "창원시 마산회원구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "참맛식당",
     "main_item": "돌(솥)비빔밥",
     "price": "7,000",
@@ -1320,7 +948,7 @@
     "region_2depth": "창원시 진해구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "창대로분식(가야밀면)",
     "main_item": "물밀면",
     "price": "6,000",
@@ -1332,7 +960,7 @@
     "region_2depth": "창원시 의창구"
   },
   {
-    "category": "한식_분식",
+    "category": "한식",
     "name": "창동분식",
     "main_item": "박고지김밥(1줄)",
     "price": "4,000",
@@ -1344,7 +972,7 @@
     "region_2depth": "창원시 마산합포구"
   },
   {
-    "category": "한식_분식",
+    "category": "한식",
     "name": "청동분식",
     "main_item": "튀김우동",
     "price": "6,000",
@@ -1380,43 +1008,7 @@
     "region_2depth": "창원시 마산회원구"
   },
   {
-    "category": "기타요식업",
-    "name": "컨츄리베이커리",
-    "main_item": "옥수수식빵",
-    "price": "3,500",
-    "phone": "0507-1344-0657",
-    "address": "경상남도 창원시 마산회원구 합성남2길 43 (합성동) 컨츄리베이커리",
-    "lat": 35.2396677996625,
-    "lng": 128.586674171369,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 마산회원구"
-  },
-  {
-    "category": "미용업",
-    "name": "컷투유",
-    "main_item": "남자커트",
-    "price": "10,000",
-    "phone": "0507-1382-7506",
-    "address": "경상남도 창원시 진해구 여명로 3-1 (도천동) 컷투유",
-    "lat": 35.1535687989473,
-    "lng": 128.655427647193,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 진해구"
-  },
-  {
-    "category": "기타비요식업",
-    "name": "코만도피싱",
-    "main_item": "-",
-    "price": "",
-    "phone": "010-8203-4556",
-    "address": "경상남도 창원시 진해구 명제로472번길 19-2 (제덕동) 1층 코만도피싱",
-    "lat": 35.1009125235511,
-    "lng": 128.742629431095,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 진해구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "콩마루국수가",
     "main_item": "잔치국수",
     "price": "6,000",
@@ -1428,19 +1020,7 @@
     "region_2depth": "창원시 의창구"
   },
   {
-    "category": "미용업",
-    "name": "킴스묭실",
-    "main_item": "일반펌",
-    "price": "30,000",
-    "phone": "010-3560-9660",
-    "address": "경상남도 창원시 마산합포구 어시장1길 19 (신포동2가) (신포동2가)112호",
-    "lat": 35.2011801332779,
-    "lng": 128.574457517649,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 마산합포구"
-  },
-  {
-    "category": "한식_기타",
+    "category": "한식",
     "name": "토스트클럽",
     "main_item": "계란토스트",
     "price": "2,500",
@@ -1450,18 +1030,6 @@
     "lng": 128.575078315045,
     "region_1depth": "경남",
     "region_2depth": "창원시 마산합포구"
-  },
-  {
-    "category": "기타비요식업",
-    "name": "파인더 속 풍경",
-    "main_item": "여권사진",
-    "price": "15,000",
-    "phone": "010-2039-2060",
-    "address": "경상남도 창원시 마산회원구 구암서7길 32 (구암동) 2층",
-    "lat": 35.2488734453386,
-    "lng": 128.593242284898,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 마산회원구"
   },
   {
     "category": "중식",
@@ -1476,55 +1044,7 @@
     "region_2depth": "창원시 마산회원구"
   },
   {
-    "category": "기타비요식업",
-    "name": "포토플러스",
-    "main_item": "증명사진",
-    "price": "15,000",
-    "phone": "0507-1344-0160",
-    "address": "경상남도 창원시 진해구 충장로 110 (충무동) 포토플러스",
-    "lat": 35.1520899385554,
-    "lng": 128.663973932807,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 진해구"
-  },
-  {
-    "category": "한식_일반",
-    "name": "포항생아구",
-    "main_item": "-",
-    "price": "",
-    "phone": "055-252-9992",
-    "address": "경상남도 창원시 마산회원구 석전동5길 48 (석전동) 1층",
-    "lat": 35.2299375135579,
-    "lng": 128.573958043238,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 마산회원구"
-  },
-  {
-    "category": "미용업",
-    "name": "필헤어클리닉",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "055-545-2842",
-    "address": "경상남도 창원시 진해구 충장로 440 (이동) 1층 (이동)",
-    "lat": 35.1494558397794,
-    "lng": 128.697816745179,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 진해구"
-  },
-  {
-    "category": "기타비요식업",
-    "name": "하이바디짐",
-    "main_item": "핼스3개월",
-    "price": "120,000",
-    "phone": "055-233-5339",
-    "address": "경상남도 창원시 마산합포구 해안대로 15 (해운동) 5층 하이바디짐",
-    "lat": 35.18055890126,
-    "lng": 128.560599976397,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 마산합포구"
-  },
-  {
-    "category": "한식_기타",
+    "category": "한식",
     "name": "한옥산에산에",
     "main_item": "흑돼지국밥",
     "price": "8,000",
@@ -1536,7 +1056,7 @@
     "region_2depth": "창원시 마산합포구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "합천숯불촌",
     "main_item": "돼지국밥",
     "price": "5,000",
@@ -1548,7 +1068,7 @@
     "region_2depth": "창원시 마산합포구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "합천식당",
     "main_item": "정식",
     "price": "5,000",
@@ -1560,7 +1080,7 @@
     "region_2depth": "창원시 마산합포구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "행복한밥집",
     "main_item": "된장고등어 정식",
     "price": "8,000",
@@ -1572,19 +1092,7 @@
     "region_2depth": "창원시 진해구"
   },
   {
-    "category": "한식_일반",
-    "name": "향촌돼지국밥",
-    "main_item": "-",
-    "price": "",
-    "phone": "010-3944-5700",
-    "address": "경상남도 창원시 진해구 중원서로 95 (충무동) 1층",
-    "lat": 35.1525494995269,
-    "lng": 128.658774661333,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 진해구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "호호돼지국밥",
     "main_item": "국밥",
     "price": "7,000",
@@ -1596,31 +1104,7 @@
     "region_2depth": "창원시 의창구"
   },
   {
-    "category": "중식",
-    "name": "호호손짜장",
-    "main_item": "-",
-    "price": "",
-    "phone": "055-287-2380",
-    "address": "경상남도 창원시 성산구 대암로 141 (대방동) 지하1층",
-    "lat": 35.2132238731093,
-    "lng": 128.709937640626,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 성산구"
-  },
-  {
-    "category": "기타비요식업",
-    "name": "홀릭 스터디카페",
-    "main_item": "4주 기간권",
-    "price": "99,000",
-    "phone": "0507-1485-7814",
-    "address": "경상남도 창원시 성산구 대암로 247 B동 506호(성주동, 더 스퀘어)",
-    "lat": 35.2038980857541,
-    "lng": 128.711448805737,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 성산구"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "화성갈비",
     "main_item": "한우갈비(250g)",
     "price": "30,000",
@@ -1632,31 +1116,7 @@
     "region_2depth": "창원시 마산합포구"
   },
   {
-    "category": "미용업",
-    "name": "화이트로즈",
-    "main_item": "커트",
-    "price": "7,000",
-    "phone": "055-224-0733",
-    "address": "경상남도 창원시 마산회원구 내서읍 숲속로 20-2 203호(그린빌딩)",
-    "lat": 35.2299134821833,
-    "lng": 128.496816769565,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 마산회원구"
-  },
-  {
-    "category": "한식_일반",
-    "name": "황금오리",
-    "main_item": "-",
-    "price": "",
-    "phone": "055-286-5292",
-    "address": "경상남도 창원시 의창구 용지로293번길 28 (사림동) 202 황금오리",
-    "lat": 35.2408503664144,
-    "lng": 128.688054966182,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 의창구"
-  },
-  {
-    "category": "한식_찌개류",
+    "category": "한식",
     "name": "황푸드(황우동)",
     "main_item": "김치찌개",
     "price": "7,500",
@@ -1666,30 +1126,6 @@
     "lng": 128.559904432881,
     "region_1depth": "경남",
     "region_2depth": "창원시 마산회원구"
-  },
-  {
-    "category": "미용업",
-    "name": "희미용실",
-    "main_item": "파마",
-    "price": "20,000",
-    "phone": "055-256-2676",
-    "address": "경상남도 창원시 마산회원구 구암남6길 2 (구암동)",
-    "lat": 35.2449906004965,
-    "lng": 128.590953781975,
-    "region_1depth": "경남",
-    "region_2depth": "창원시 마산회원구"
-  },
-  {
-    "category": "기타비요식업",
-    "name": "365건강드림운동센터",
-    "main_item": "필라테스(1개월)",
-    "price": "140,000",
-    "phone": "055-759-6714",
-    "address": "경상남도 진주시 진성면 동부로 1316 2층",
-    "lat": 35.1836150623047,
-    "lng": 128.22454553251,
-    "region_1depth": "경남",
-    "region_2depth": "진주시"
   },
   {
     "category": "중식",
@@ -1728,7 +1164,7 @@
     "region_2depth": "진주시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "경이돼지국밥",
     "main_item": "돼지국밥",
     "price": "8,000",
@@ -1752,7 +1188,7 @@
     "region_2depth": "진주시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "국수타임",
     "main_item": "잔치국수",
     "price": "5,000",
@@ -1764,7 +1200,7 @@
     "region_2depth": "진주시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "남강식당",
     "main_item": "보리밥",
     "price": "8,000",
@@ -1776,19 +1212,7 @@
     "region_2depth": "진주시"
   },
   {
-    "category": "목욕업",
-    "name": "녹수탕",
-    "main_item": "목욕료",
-    "price": "4,000",
-    "phone": "055-757-6611",
-    "address": "경상남도 진주시 상대로143번길 20 (하대동)",
-    "lat": 35.1864517037269,
-    "lng": 128.127774181894,
-    "region_1depth": "경남",
-    "region_2depth": "진주시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "논개콩나물해장국",
     "main_item": "콩나물해장국",
     "price": "5,500",
@@ -1800,19 +1224,7 @@
     "region_2depth": "진주시"
   },
   {
-    "category": "미용업",
-    "name": "다모아헤어",
-    "main_item": "컷트",
-    "price": "10,000",
-    "phone": "055-258-1009",
-    "address": "경상남도 진주시 진주대로942번길 1 1층",
-    "lat": 35.1843405628635,
-    "lng": 128.0886469863,
-    "region_1depth": "경남",
-    "region_2depth": "진주시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "대복식당",
     "main_item": "한식뷔페",
     "price": "8,000",
@@ -1824,7 +1236,7 @@
     "region_2depth": "진주시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "덕수불고기",
     "main_item": "정식(월~금 점심)",
     "price": "7,000",
@@ -1836,19 +1248,7 @@
     "region_2depth": "진주시"
   },
   {
-    "category": "목욕업",
-    "name": "동궁탕",
-    "main_item": "목욕료",
-    "price": "5,000",
-    "phone": "055-755-0870",
-    "address": "경상남도 진주시 모덕로 282번길 5-3",
-    "lat": 35.1885968662197,
-    "lng": 128.125081947058,
-    "region_1depth": "경남",
-    "region_2depth": "진주시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "동백식당",
     "main_item": "소고기국밥",
     "price": "7,000",
@@ -1860,7 +1260,7 @@
     "region_2depth": "진주시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "만추식당",
     "main_item": "아구찜(소)",
     "price": "25,000",
@@ -1872,7 +1272,7 @@
     "region_2depth": "진주시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "맛이좋은집",
     "main_item": "국수",
     "price": "4,500",
@@ -1908,7 +1308,7 @@
     "region_2depth": "진주시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "밀밭분식",
     "main_item": "국수",
     "price": "5,000",
@@ -1944,7 +1344,7 @@
     "region_2depth": "진주시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "박가시락국밥",
     "main_item": "시래기국밥",
     "price": "4,000",
@@ -1952,18 +1352,6 @@
     "address": "경상남도 진주시 진주대로 1139 (봉곡동) 박가시락국밥",
     "lat": 35.1959621021837,
     "lng": 128.07840395438,
-    "region_1depth": "경남",
-    "region_2depth": "진주시"
-  },
-  {
-    "category": "미용업",
-    "name": "부산미용실",
-    "main_item": "컷트",
-    "price": "10,000",
-    "phone": "055-754-8022",
-    "address": "경상남도 진주시 정촌면 강주길18번길 8",
-    "lat": 35.1138698748301,
-    "lng": 128.093514340993,
     "region_1depth": "경남",
     "region_2depth": "진주시"
   },
@@ -1980,7 +1368,7 @@
     "region_2depth": "진주시"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "산수골",
     "main_item": "돼지갈비",
     "price": "9,500",
@@ -1992,7 +1380,7 @@
     "region_2depth": "진주시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "산울림식당",
     "main_item": "고추장불고기백반",
     "price": "8,000",
@@ -2004,7 +1392,7 @@
     "region_2depth": "진주시"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "삼가한우소리",
     "main_item": "한우모듬(130g)",
     "price": "24,000",
@@ -2016,7 +1404,7 @@
     "region_2depth": "진주시"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "서정골한우촌",
     "main_item": "한우특수부위(150g)",
     "price": "22,000",
@@ -2028,31 +1416,7 @@
     "region_2depth": "진주시"
   },
   {
-    "category": "미용업",
-    "name": "선머리방",
-    "main_item": "컷트(여)",
-    "price": "7,000",
-    "phone": "055-757-6505",
-    "address": "경상남도 진주시 돗골로118번길 2",
-    "lat": 35.1785465841814,
-    "lng": 128.112545537245,
-    "region_1depth": "경남",
-    "region_2depth": "진주시"
-  },
-  {
-    "category": "목욕업",
-    "name": "세심천탕",
-    "main_item": "목욕료",
-    "price": "6,000",
-    "phone": "055-762-7055",
-    "address": "경상남도 진주시 모덕로 163번길5 상대동",
-    "lat": 35.1859851779146,
-    "lng": 128.113830516534,
-    "region_1depth": "경남",
-    "region_2depth": "진주시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "시골추어탕",
     "main_item": "추어탕",
     "price": "8,000",
@@ -2064,19 +1428,7 @@
     "region_2depth": "진주시"
   },
   {
-    "category": "미용업",
-    "name": "신세계미용실",
-    "main_item": "커트",
-    "price": "5,000",
-    "phone": "055-752-3444",
-    "address": "경상남도 진주시 강남로189번길 12 (칠암동) 신세계미용실",
-    "lat": 35.1846638950038,
-    "lng": 128.093185475341,
-    "region_1depth": "경남",
-    "region_2depth": "진주시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "신안동엄마집",
     "main_item": "한식뷔페",
     "price": "7,000",
@@ -2088,7 +1440,7 @@
     "region_2depth": "진주시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "신안콩나물해장국",
     "main_item": "콩나물해장국",
     "price": "5,500",
@@ -2112,19 +1464,7 @@
     "region_2depth": "진주시"
   },
   {
-    "category": "미용업",
-    "name": "아름미용실",
-    "main_item": "컷트",
-    "price": "8,000",
-    "phone": "055-757-2689",
-    "address": "경상남도 진주시 상대로119번길 12-21 아름미용실",
-    "lat": 35.185823325963,
-    "lng": 128.125118587369,
-    "region_1depth": "경남",
-    "region_2depth": "진주시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "억조식당",
     "main_item": "된장찌개",
     "price": "5,000",
@@ -2136,7 +1476,7 @@
     "region_2depth": "진주시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "연놀부석쇠불고기정식",
     "main_item": "고추장불고기정식",
     "price": "8,000",
@@ -2160,7 +1500,7 @@
     "region_2depth": "진주시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "오선재",
     "main_item": "정식",
     "price": "8,000",
@@ -2184,19 +1524,7 @@
     "region_2depth": "진주시"
   },
   {
-    "category": "목욕업",
-    "name": "우경목욕탕",
-    "main_item": "목욕료",
-    "price": "4,000",
-    "phone": "055-757-5782",
-    "address": "경상남도 진주시 도동로232번길 15 (하대동)",
-    "lat": 35.1912537428365,
-    "lng": 128.123748370697,
-    "region_1depth": "경남",
-    "region_2depth": "진주시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "우담정식당",
     "main_item": "돼지국밥",
     "price": "6,000",
@@ -2208,7 +1536,7 @@
     "region_2depth": "진주시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "장수국수",
     "main_item": "물국수",
     "price": "4,000",
@@ -2220,7 +1548,7 @@
     "region_2depth": "진주시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "지리산장수어탕",
     "main_item": "어탕",
     "price": "8,000",
@@ -2232,7 +1560,7 @@
     "region_2depth": "진주시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "진주콩나물해장국",
     "main_item": "콩나물해장국",
     "price": "5,000",
@@ -2244,7 +1572,7 @@
     "region_2depth": "진주시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "집밥",
     "main_item": "한식뷔페",
     "price": "7,000",
@@ -2304,7 +1632,7 @@
     "region_2depth": "진주시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "통큰돼지국밥",
     "main_item": "돼지국밥",
     "price": "7,000",
@@ -2316,7 +1644,7 @@
     "region_2depth": "진주시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "한솔보리밥",
     "main_item": "보리밥",
     "price": "7,000",
@@ -2328,7 +1656,7 @@
     "region_2depth": "진주시"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "현대식육식당",
     "main_item": "삼겹살(200g)",
     "price": "10,000",
@@ -2352,7 +1680,7 @@
     "region_2depth": "진주시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "123충무김밥",
     "main_item": "충무김밥",
     "price": "6,000",
@@ -2364,7 +1692,7 @@
     "region_2depth": "통영시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "거림분식",
     "main_item": "라면",
     "price": "3,000",
@@ -2376,19 +1704,7 @@
     "region_2depth": "통영시"
   },
   {
-    "category": "미용업",
-    "name": "금발헤어샵",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "055-646-1674",
-    "address": "경상남도 통영시 도남로 86 (봉평동)",
-    "lat": 34.8312851122337,
-    "lng": 128.413854815255,
-    "region_1depth": "경남",
-    "region_2depth": "통영시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "금화먹거리",
     "main_item": "김치찌개",
     "price": "7,000",
@@ -2400,7 +1716,7 @@
     "region_2depth": "통영시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "김선생충무김밥",
     "main_item": "충무김밥",
     "price": "5,500",
@@ -2412,7 +1728,7 @@
     "region_2depth": "통영시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "나포리충무김밥",
     "main_item": "충무김밥",
     "price": "6,000",
@@ -2424,7 +1740,7 @@
     "region_2depth": "통영시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "돈피랑",
     "main_item": "칼국수",
     "price": "3,000",
@@ -2436,7 +1752,7 @@
     "region_2depth": "통영시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "동궁숯불갈비",
     "main_item": "한우소갈비살",
     "price": "25,000",
@@ -2448,7 +1764,7 @@
     "region_2depth": "통영시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "동피랑김밥",
     "main_item": "충무김밥",
     "price": "6,000",
@@ -2460,7 +1776,7 @@
     "region_2depth": "통영시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "만나충무김밥",
     "main_item": "충무김밥",
     "price": "5,500",
@@ -2472,7 +1788,7 @@
     "region_2depth": "통영시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "만나충무김밥강구안점",
     "main_item": "충무김밥",
     "price": "6,000",
@@ -2484,7 +1800,7 @@
     "region_2depth": "통영시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "만풍해물뚝배기",
     "main_item": "해물뚝배기",
     "price": "15,000",
@@ -2492,18 +1808,6 @@
     "address": "경상남도 통영시 항남2길 17",
     "lat": 34.8419235549486,
     "lng": 128.422311844539,
-    "region_1depth": "경남",
-    "region_2depth": "통영시"
-  },
-  {
-    "category": "기타비요식업",
-    "name": "몸짱필라테스",
-    "main_item": "강습료",
-    "price": "70,000",
-    "phone": "010-4607-3374",
-    "address": "경상남도 통영시 무전6길 22-17 (무전동) 3층 몸짱 필라테스",
-    "lat": 34.8587485966869,
-    "lng": 128.425701893475,
     "region_1depth": "경남",
     "region_2depth": "통영시"
   },
@@ -2520,19 +1824,7 @@
     "region_2depth": "통영시"
   },
   {
-    "category": "한식_기타",
-    "name": "밀보리베이커리",
-    "main_item": "옥수수식빵",
-    "price": "3,800",
-    "phone": "055-645-1654",
-    "address": "경상남도 통영시 중앙로 264 (북신동, 송림데파트) 밀보리베이커리",
-    "lat": 34.8540345628209,
-    "lng": 128.429120007647,
-    "region_1depth": "경남",
-    "region_2depth": "통영시"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "박가네의령소바",
     "main_item": "냉소바",
     "price": "9,000",
@@ -2544,7 +1836,7 @@
     "region_2depth": "통영시"
   },
   {
-    "category": "한식_기타",
+    "category": "한식",
     "name": "본가통영충무김밥",
     "main_item": "충무김밥(포장)",
     "price": "5,500",
@@ -2556,7 +1848,7 @@
     "region_2depth": "통영시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "본가할매김밥",
     "main_item": "충무김밥",
     "price": "6,000",
@@ -2568,19 +1860,7 @@
     "region_2depth": "통영시"
   },
   {
-    "category": "한식_기타",
-    "name": "빵굽는아빠",
-    "main_item": "팥빵",
-    "price": "1,200",
-    "phone": "070-7353-0043",
-    "address": "경상남도 통영시 통영해안로 85 (당동) 빵굽는아빠",
-    "lat": 34.834804256812,
-    "lng": 128.407874385015,
-    "region_1depth": "경남",
-    "region_2depth": "통영시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "산청봉냉면",
     "main_item": "갈비탕",
     "price": "9,000",
@@ -2588,18 +1868,6 @@
     "address": "경상남도 통영시 미수해안로 54-21 상가동 2층 1호, 2호, 3호",
     "lat": 34.8309827244865,
     "lng": 128.406952245569,
-    "region_1depth": "경남",
-    "region_2depth": "통영시"
-  },
-  {
-    "category": "미용업",
-    "name": "살롱드 해미",
-    "main_item": "커트(남)",
-    "price": "13,000",
-    "phone": "0507-1356-7079",
-    "address": "경상남도 통영시 해미당 2길 20 1층",
-    "lat": 34.8559389360936,
-    "lng": 128.429664220722,
     "region_1depth": "경남",
     "region_2depth": "통영시"
   },
@@ -2616,19 +1884,7 @@
     "region_2depth": "통영시"
   },
   {
-    "category": "한식_일반",
-    "name": "성포횟집",
-    "main_item": "모둠회(소)",
-    "price": "60,000",
-    "phone": "055-642-9910",
-    "address": "경상남도 통영시 북신동 697",
-    "lat": 34.8569669257073,
-    "lng": 128.426529040612,
-    "region_1depth": "경남",
-    "region_2depth": "통영시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "수랏간",
     "main_item": "해물칼국수",
     "price": "6,000",
@@ -2640,7 +1896,7 @@
     "region_2depth": "통영시"
   },
   {
-    "category": "한식_한정식",
+    "category": "한식",
     "name": "순돌이보리밥",
     "main_item": "보리밥",
     "price": "8,000",
@@ -2652,7 +1908,7 @@
     "region_2depth": "통영시"
   },
   {
-    "category": "한식_기타",
+    "category": "한식",
     "name": "순정빵집",
     "main_item": "마들렌",
     "price": "500",
@@ -2664,7 +1920,7 @@
     "region_2depth": "통영시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "아지매보리밥",
     "main_item": "보리밥",
     "price": "8,000",
@@ -2676,7 +1932,7 @@
     "region_2depth": "통영시"
   },
   {
-    "category": "한식_기타",
+    "category": "한식",
     "name": "아찌수제돈까스미수점",
     "main_item": "아찌수제돈까스",
     "price": "8,000",
@@ -2688,7 +1944,7 @@
     "region_2depth": "통영시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "원조충무할매김밥",
     "main_item": "충무김밥",
     "price": "6,000",
@@ -2700,7 +1956,7 @@
     "region_2depth": "통영시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "이모손충무김밥",
     "main_item": "충무김밥",
     "price": "6,000",
@@ -2712,7 +1968,7 @@
     "region_2depth": "통영시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "이순신충무김밥",
     "main_item": "충무김밥 1인분",
     "price": "6,000",
@@ -2720,18 +1976,6 @@
     "address": "경상남도 통영시 무전4길 47 (북신동)",
     "lat": 34.8579828725858,
     "lng": 128.424630787799,
-    "region_1depth": "경남",
-    "region_2depth": "통영시"
-  },
-  {
-    "category": "한식_일반",
-    "name": "청산식당",
-    "main_item": "막썰이회(소)",
-    "price": "60,000",
-    "phone": "055-646-3385",
-    "address": "경상남도 통영시 광도면 죽림3로 43-11 청산식당",
-    "lat": 34.882713124898,
-    "lng": 128.418453068393,
     "region_1depth": "경남",
     "region_2depth": "통영시"
   },
@@ -2748,7 +1992,7 @@
     "region_2depth": "통영시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "태평숯불갈비",
     "main_item": "찌개류",
     "price": "7,000",
@@ -2760,7 +2004,7 @@
     "region_2depth": "통영시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "통영아찌수제돈까스",
     "main_item": "수제돈까스",
     "price": "8,000",
@@ -2772,7 +2016,7 @@
     "region_2depth": "통영시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "통영잔치국수",
     "main_item": "잔치국수",
     "price": "5,000",
@@ -2784,7 +2028,7 @@
     "region_2depth": "통영시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "통영촌국수",
     "main_item": "김밥",
     "price": "2,500",
@@ -2792,18 +2036,6 @@
     "address": "경상남도 통영시 새터길 74-8 (서호동, 1층)",
     "lat": 34.8414277176848,
     "lng": 128.42057134189,
-    "region_1depth": "경남",
-    "region_2depth": "통영시"
-  },
-  {
-    "category": "기타요식업",
-    "name": "통영카페오븐",
-    "main_item": "아메리카노",
-    "price": "2,000",
-    "phone": "055-648-2957",
-    "address": "경상남도 통영시 무전8길 14-21 (무전동) 1층",
-    "lat": 34.8593080982411,
-    "lng": 128.426334594306,
     "region_1depth": "경남",
     "region_2depth": "통영시"
   },
@@ -2820,19 +2052,7 @@
     "region_2depth": "통영시"
   },
   {
-    "category": "미용업",
-    "name": "편안한헤어샵",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "010-2717-1158",
-    "address": "경상남도 통영시 미수해안로 167 1층 102호(봉평동, 종우라이프상가)",
-    "lat": 34.8322167230333,
-    "lng": 128.414589995207,
-    "region_1depth": "경남",
-    "region_2depth": "통영시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "풍성한충무김밥",
     "main_item": "충무김밥",
     "price": "5,500",
@@ -2856,7 +2076,7 @@
     "region_2depth": "통영시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "한성충무김밥",
     "main_item": "충무김밥",
     "price": "6,000",
@@ -2868,19 +2088,7 @@
     "region_2depth": "통영시"
   },
   {
-    "category": "한식_일반",
-    "name": "할매김밥 케이블카점",
-    "main_item": "충무김밥",
-    "price": "6,000",
-    "phone": "055-642-7585",
-    "address": "경상남도 통영시 발개로 108 1층(봉평동)",
-    "lat": 34.8270403306411,
-    "lng": 128.416121533897,
-    "region_1depth": "경남",
-    "region_2depth": "통영시"
-  },
-  {
-    "category": "한식_한정식",
+    "category": "한식",
     "name": "향토집",
     "main_item": "굴전",
     "price": "13,000",
@@ -2892,7 +2100,7 @@
     "region_2depth": "통영시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "황소국밥",
     "main_item": "소머리곰탕",
     "price": "10,000",
@@ -2904,31 +2112,7 @@
     "region_2depth": "통영시"
   },
   {
-    "category": "기타비요식업",
-    "name": "휘트니스휴",
-    "main_item": "이용료(성인)",
-    "price": "70,000",
-    "phone": "0507-1446-7079",
-    "address": "경상남도 통영시 광도면 죽림5로 55-42 2층, 4층",
-    "lat": 34.8833163592196,
-    "lng": 128.422071545209,
-    "region_1depth": "경남",
-    "region_2depth": "통영시"
-  },
-  {
-    "category": "기타비요식업",
-    "name": "흰바다요가",
-    "main_item": "강습료(키즈요가)",
-    "price": "180,000",
-    "phone": "010-8727-5609",
-    "address": "경상남도 통영시 광도면 신죽1길 90 107호",
-    "lat": 34.8746258880484,
-    "lng": 128.418121415825,
-    "region_1depth": "경남",
-    "region_2depth": "통영시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "늘두루",
     "main_item": "두루치기",
     "price": "8,000",
@@ -2940,7 +2124,7 @@
     "region_2depth": "사천시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "대박국수",
     "main_item": "국수",
     "price": "5,000",
@@ -2952,7 +2136,7 @@
     "region_2depth": "사천시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "맛나생선구이",
     "main_item": "생선구이정식",
     "price": "10,000",
@@ -2964,19 +2148,7 @@
     "region_2depth": "사천시"
   },
   {
-    "category": "세탁업",
-    "name": "명진세탁소",
-    "main_item": "세탁료(신사복 1벌)",
-    "price": "5,000",
-    "phone": "055-833-7379",
-    "address": "경상남도 사천시 서리길 49 (서동)",
-    "lat": 34.9294895604353,
-    "lng": 128.064842923252,
-    "region_1depth": "경남",
-    "region_2depth": "사천시"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "바른국수",
     "main_item": "물국수",
     "price": "5,000",
@@ -2988,7 +2160,7 @@
     "region_2depth": "사천시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "별그리고마늘보쌈",
     "main_item": "소면",
     "price": "5,000",
@@ -3000,7 +2172,7 @@
     "region_2depth": "사천시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "복이아구찜",
     "main_item": "아구찜 小",
     "price": "28,000",
@@ -3012,19 +2184,7 @@
     "region_2depth": "사천시"
   },
   {
-    "category": "숙박업",
-    "name": "뷰HOTEL",
-    "main_item": "숙박비(평일)",
-    "price": "60,000",
-    "phone": "055-835-3850",
-    "address": "경상남도 사천시 목섬길 30 (서금동) -",
-    "lat": 34.9255244194328,
-    "lng": 128.075267486542,
-    "region_1depth": "경남",
-    "region_2depth": "사천시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "사천게장",
     "main_item": "게장정식",
     "price": "10,000",
@@ -3036,7 +2196,7 @@
     "region_2depth": "사천시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "사천촌국수",
     "main_item": "칼국수",
     "price": "5,000",
@@ -3048,7 +2208,7 @@
     "region_2depth": "사천시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "샤인레스토랑",
     "main_item": "수제돈까스",
     "price": "9,000",
@@ -3060,7 +2220,7 @@
     "region_2depth": "사천시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "세자매쌈밥",
     "main_item": "쌈밥정식",
     "price": "12,000",
@@ -3072,7 +2232,7 @@
     "region_2depth": "사천시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "시장국수",
     "main_item": "칼국수",
     "price": "5,000",
@@ -3084,7 +2244,7 @@
     "region_2depth": "사천시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "연담정",
     "main_item": "정식(점심특선)",
     "price": "9,000",
@@ -3096,7 +2256,7 @@
     "region_2depth": "사천시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "예지분식",
     "main_item": "칼국수",
     "price": "5,000",
@@ -3108,7 +2268,7 @@
     "region_2depth": "사천시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "옥이네 밥상",
     "main_item": "산채비빔밥",
     "price": "10,000",
@@ -3120,7 +2280,7 @@
     "region_2depth": "사천시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "우서방돈각시",
     "main_item": "두루치기",
     "price": "8,000",
@@ -3132,7 +2292,7 @@
     "region_2depth": "사천시"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "인성한우식육식당",
     "main_item": "육회비빔밥",
     "price": "10,000",
@@ -3144,7 +2304,7 @@
     "region_2depth": "사천시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "장터분식",
     "main_item": "칼국수",
     "price": "4,000",
@@ -3156,7 +2316,7 @@
     "region_2depth": "사천시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "정의칼국수",
     "main_item": "물국수",
     "price": "5,000",
@@ -3168,7 +2328,7 @@
     "region_2depth": "사천시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "제일국수",
     "main_item": "칼국수",
     "price": "5,000",
@@ -3180,7 +2340,7 @@
     "region_2depth": "사천시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "천리향식당",
     "main_item": "정식",
     "price": "8,000",
@@ -3192,43 +2352,7 @@
     "region_2depth": "사천시"
   },
   {
-    "category": "미용업",
-    "name": "킴미용실",
-    "main_item": "파마",
-    "price": "20,000",
-    "phone": "055-835-0328",
-    "address": "경상남도 사천시 새동네2길 18 (선구동)",
-    "lat": 34.9348872752371,
-    "lng": 128.074603163992,
-    "region_1depth": "경남",
-    "region_2depth": "사천시"
-  },
-  {
-    "category": "한식_일반",
-    "name": "태경횟집",
-    "main_item": "모둠회 小",
-    "price": "50,000",
-    "phone": "055-853-1913",
-    "address": "경상남도 사천시 서포면 중촌로 258 태경횟집",
-    "lat": 34.9853502016164,
-    "lng": 128.010698381022,
-    "region_1depth": "경남",
-    "region_2depth": "사천시"
-  },
-  {
-    "category": "한식_일반",
-    "name": "통나무집",
-    "main_item": "녹차빙수",
-    "price": "6,000",
-    "phone": "055-832-7776",
-    "address": "경상남도 사천시 중앙로 38-1 (선구동) -",
-    "lat": 34.9297052342832,
-    "lng": 128.074885689526,
-    "region_1depth": "경남",
-    "region_2depth": "사천시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "통큰치킨",
     "main_item": "후라이드치킨",
     "price": "15,000",
@@ -3240,19 +2364,7 @@
     "region_2depth": "사천시"
   },
   {
-    "category": "미용업",
-    "name": "한주미용실",
-    "main_item": "파마",
-    "price": "20,000",
-    "phone": "055-833-4016",
-    "address": "경상남도 사천시 동금4길 32 (동금동)",
-    "lat": 34.9314812156904,
-    "lng": 128.080019844846,
-    "region_1depth": "경남",
-    "region_2depth": "사천시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "행운콩나물국밥",
     "main_item": "묵사발밥",
     "price": "8,000",
@@ -3264,7 +2376,7 @@
     "region_2depth": "사천시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "향촌복집",
     "main_item": "복지리",
     "price": "9,000",
@@ -3276,7 +2388,7 @@
     "region_2depth": "사천시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "현대식당",
     "main_item": "정식",
     "price": "8,000",
@@ -3286,18 +2398,6 @@
     "lng": 127.963691549423,
     "region_1depth": "경남",
     "region_2depth": "사천시"
-  },
-  {
-    "category": "기타요식업",
-    "name": "Bread Factory빵공장",
-    "main_item": "식빵(유기농)",
-    "price": "5,000",
-    "phone": "055-325-4026",
-    "address": "경상남도 김해시 율하카페길 5-10 (관동동)",
-    "lat": 35.1765029769651,
-    "lng": 128.807144816052,
-    "region_1depth": "경남",
-    "region_2depth": "김해시"
   },
   {
     "category": "양식",
@@ -3312,7 +2412,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "가야밀면",
     "main_item": "물밀면",
     "price": "7,000",
@@ -3324,7 +2424,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "고기굽는 아저씨",
     "main_item": "순부리정식",
     "price": "6,000",
@@ -3336,7 +2436,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "고기예찬",
     "main_item": "한우육개장(점심특선)",
     "price": "8,000",
@@ -3348,7 +2448,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "고향밥상",
     "main_item": "한식뷔페",
     "price": "8,000",
@@ -3360,7 +2460,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "골목아구찜",
     "main_item": "아구찜(소)",
     "price": "25,000",
@@ -3408,7 +2508,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "굿모닝시락국",
     "main_item": "시락국",
     "price": "4,000",
@@ -3420,19 +2520,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "미용업",
-    "name": "금강미용실",
-    "main_item": "파마",
-    "price": "25,000",
-    "phone": "055-333-2785",
-    "address": "경상남도 김해시 가락로16번길 1 (부원동)",
-    "lat": 35.2280425075801,
-    "lng": 128.882660023731,
-    "region_1depth": "경남",
-    "region_2depth": "김해시"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "김해 멸치국수",
     "main_item": "멸치국수",
     "price": "4,500",
@@ -3444,7 +2532,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "김해만두만리향",
     "main_item": "찐만두",
     "price": "5,000",
@@ -3456,7 +2544,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "꼬꼬파티",
     "main_item": "치킨",
     "price": "13,000",
@@ -3468,7 +2556,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "꿈의밥상",
     "main_item": "생선정식",
     "price": "10,000",
@@ -3480,19 +2568,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "미용업",
-    "name": "나경아헤어드레서",
-    "main_item": "컷트(경로)",
-    "price": "5,000",
-    "phone": "055-311-7421",
-    "address": "경상남도 김해시 부곡로 76 상가 101호(부곡동)",
-    "lat": 35.209905121536,
-    "lng": 128.800247211527,
-    "region_1depth": "경남",
-    "region_2depth": "김해시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "남포통닭",
     "main_item": "후라이드",
     "price": "10,000",
@@ -3516,31 +2592,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "미용업",
-    "name": "다홍머리",
-    "main_item": "파마",
-    "price": "30,000",
-    "phone": "055-324-1919",
-    "address": "경상남도 김해시 금관대로1297번길 2 (내동)",
-    "lat": 35.2403017549507,
-    "lng": 128.861448693973,
-    "region_1depth": "경남",
-    "region_2depth": "김해시"
-  },
-  {
-    "category": "한식_육류",
-    "name": "대가양곱창",
-    "main_item": "모둠구이",
-    "price": "40,000",
-    "phone": "055-326-2681",
-    "address": "경상남도 김해시 경원로55번길 16 104호(내동,영1020빌딩)",
-    "lat": 35.2384518894519,
-    "lng": 128.866642971451,
-    "region_1depth": "경남",
-    "region_2depth": "김해시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "더부엌",
     "main_item": "부엌잔치상",
     "price": "12,500",
@@ -3552,7 +2604,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "더부엌 김해점",
     "main_item": "잔칫상",
     "price": "12,500",
@@ -3576,18 +2628,6 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "한식_면류",
-    "name": "던지기 매운수제비",
-    "main_item": "매운수제비",
-    "price": "8,000",
-    "phone": "055-311-7778",
-    "address": "경상남도 김해시 관동로 42 (관동동) 101호",
-    "lat": 35.1771434344274,
-    "lng": 128.807889349743,
-    "region_1depth": "경남",
-    "region_2depth": "김해시"
-  },
-  {
     "category": "기타요식업",
     "name": "도도플레이트",
     "main_item": "수제마카롱",
@@ -3600,7 +2640,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "도돈돈까스",
     "main_item": "돈까스",
     "price": "6,900",
@@ -3624,7 +2664,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "두레박",
     "main_item": "흑돼지 김치부대찌개",
     "price": "10,000",
@@ -3632,18 +2672,6 @@
     "address": "경상남도 김해시 호계로 554 (동상동)",
     "lat": 35.2399232295437,
     "lng": 128.884243333547,
-    "region_1depth": "경남",
-    "region_2depth": "김해시"
-  },
-  {
-    "category": "미용업",
-    "name": "리아헤어(RIA HAIR)",
-    "main_item": "컷트",
-    "price": "10,000",
-    "phone": "010-5595-0678",
-    "address": "경상남도 김해시 금관대로1190번길 55-10 1층(외동)",
-    "lat": 35.2323419346285,
-    "lng": 128.859044492659,
     "region_1depth": "경남",
     "region_2depth": "김해시"
   },
@@ -3672,7 +2700,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "먹꼬가자",
     "main_item": "숯불막창",
     "price": "7,900",
@@ -3708,19 +2736,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "미용업",
-    "name": "모델헤어",
-    "main_item": "남여컷트",
-    "price": "12,000",
-    "phone": "055-322-0793",
-    "address": "경상남도 김해시 활천로166번길 34 (어방동) 모델헤어",
-    "lat": 35.2381105681386,
-    "lng": 128.902597767939,
-    "region_1depth": "경남",
-    "region_2depth": "김해시"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "몽실이칼국수",
     "main_item": "칼국수",
     "price": "6,500",
@@ -3732,7 +2748,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "무한리필삼겹천하",
     "main_item": "성인",
     "price": "15,000",
@@ -3744,31 +2760,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "세탁업",
-    "name": "미크리닝샵",
-    "main_item": "정장",
-    "price": "4,400",
-    "phone": "055-333-3982",
-    "address": "경상남도 김해시 가야로 212 (삼계동)",
-    "lat": 35.2586051980274,
-    "lng": 128.87204818338,
-    "region_1depth": "경남",
-    "region_2depth": "김해시"
-  },
-  {
-    "category": "미용업",
-    "name": "민아헤어샵",
-    "main_item": "파마",
-    "price": "25,000",
-    "phone": "055-326-3040",
-    "address": "경상남도 김해시 호계로452번길 23-17 (부원동)",
-    "lat": 35.2304944228322,
-    "lng": 128.886920180035,
-    "region_1depth": "경남",
-    "region_2depth": "김해시"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "바보엄마칼국수",
     "main_item": "사골칼국수",
     "price": "4,900",
@@ -3776,30 +2768,6 @@
     "address": "경상남도 김해시 장유로 286 1층(무계동)",
     "lat": 35.2001572880836,
     "lng": 128.813588693121,
-    "region_1depth": "경남",
-    "region_2depth": "김해시"
-  },
-  {
-    "category": "미용업",
-    "name": "박수민헤어샵",
-    "main_item": "학생컷트",
-    "price": "8,000",
-    "phone": "055-321-1916",
-    "address": "경상남도 김해시 구산로10번길 41-39 (구산동)",
-    "lat": 35.2471688218081,
-    "lng": 128.872338848958,
-    "region_1depth": "경남",
-    "region_2depth": "김해시"
-  },
-  {
-    "category": "미용업",
-    "name": "반헤어",
-    "main_item": "컷트",
-    "price": "10,000",
-    "phone": "055-311-9915",
-    "address": "경상남도 김해시 해반천로168번길 12-6 (삼계동) 반헤어",
-    "lat": 35.2630522094212,
-    "lng": 128.868455678262,
     "region_1depth": "경남",
     "region_2depth": "김해시"
   },
@@ -3816,7 +2784,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "별미국수",
     "main_item": "멸치국수",
     "price": "6,000",
@@ -3828,7 +2796,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "보배",
     "main_item": "비빔밥",
     "price": "5,000",
@@ -3840,19 +2808,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "이용업",
-    "name": "보이투맨",
-    "main_item": "컷트(성인)",
-    "price": "6,000",
-    "phone": "055-311-4662",
-    "address": "경상남도 김해시 계동로 12 대우푸르지오4단지상가 102",
-    "lat": 35.1771447223251,
-    "lng": 128.796236613026,
-    "region_1depth": "경남",
-    "region_2depth": "김해시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "본가야",
     "main_item": "[점심특선]곤드레 돌솥밥(2인이상 주문가능)",
     "price": "10,000",
@@ -3860,18 +2816,6 @@
     "address": "경상남도 김해시 가야의길 96 (봉황동) 1층",
     "lat": 35.2341397146127,
     "lng": 128.872952717138,
-    "region_1depth": "경남",
-    "region_2depth": "김해시"
-  },
-  {
-    "category": "이용업",
-    "name": "블루남성커트",
-    "main_item": "성인커트",
-    "price": "8,000",
-    "phone": "0507-1429-7991",
-    "address": "경상남도 김해시 능동로 119 (부곡동) 101호",
-    "lat": 35.2004196396718,
-    "lng": 128.80522532654,
     "region_1depth": "경남",
     "region_2depth": "김해시"
   },
@@ -3888,7 +2832,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "사리원밀면",
     "main_item": "밀면",
     "price": "7,000",
@@ -3900,7 +2844,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "사철제면소",
     "main_item": "물밀면",
     "price": "6,000",
@@ -3912,7 +2856,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "삼문곰탕",
     "main_item": "곰탕",
     "price": "11,000",
@@ -3924,7 +2868,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "삼점구(3.9)",
     "main_item": "제육볶음",
     "price": "7,000",
@@ -3932,18 +2876,6 @@
     "address": "경상남도 김해시 인제로200번길 3-7 (삼방동)",
     "lat": 35.246793596518,
     "lng": 128.90427160083,
-    "region_1depth": "경남",
-    "region_2depth": "김해시"
-  },
-  {
-    "category": "목욕업",
-    "name": "삼정탕",
-    "main_item": "성인",
-    "price": "5,000",
-    "phone": "055-321-9892",
-    "address": "경상남도 김해시 김해대로2453번길 8 (삼정동)",
-    "lat": 35.2283833812712,
-    "lng": 128.89530572371,
     "region_1depth": "경남",
     "region_2depth": "김해시"
   },
@@ -3960,19 +2892,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "미용업",
-    "name": "샤인헤어",
-    "main_item": "학생컷트",
-    "price": "8,000",
-    "phone": "0507-1373-3250",
-    "address": "경상남도 김해시 평전로 34 1층 102호(외동)",
-    "lat": 35.2348920746431,
-    "lng": 128.852160121858,
-    "region_1depth": "경남",
-    "region_2depth": "김해시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "서연멸치쌈밥",
     "main_item": "멸치쌈밥",
     "price": "10,000",
@@ -3984,7 +2904,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "서울쌈밥",
     "main_item": "고등어쌈밥-(2인이상 주문가능)",
     "price": "10,000",
@@ -3996,31 +2916,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "미용업",
-    "name": "서진헤어",
-    "main_item": "남성컷트",
-    "price": "9,000",
-    "phone": "010-2701-1401",
-    "address": "경상남도 김해시 금관대로 1180번길 86 (외동)",
-    "lat": 35.2324431007826,
-    "lng": 128.85997348162,
-    "region_1depth": "경남",
-    "region_2depth": "김해시"
-  },
-  {
-    "category": "기타비요식업",
-    "name": "스페로스냅",
-    "main_item": "증명사진",
-    "price": "15,000",
-    "phone": "0507-1308-3591",
-    "address": "경상남도 김해시 번화1로84번길 8 (대청동) 거목상가 1층 107호",
-    "lat": 35.1947966706865,
-    "lng": 128.800269107314,
-    "region_1depth": "경남",
-    "region_2depth": "김해시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "심술민경포차",
     "main_item": "녹두전",
     "price": "10,000",
@@ -4032,7 +2928,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "아리랑토속집밥",
     "main_item": "한식뷔페",
     "price": "7,000",
@@ -4068,43 +2964,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "미용업",
-    "name": "양배추머리방",
-    "main_item": "컷트",
-    "price": "10,000",
-    "phone": "055-332-6873",
-    "address": "경상남도 김해시 경원로 11번길 16-1 (내동)",
-    "lat": 35.2397066865121,
-    "lng": 128.863405052847,
-    "region_1depth": "경남",
-    "region_2depth": "김해시"
-  },
-  {
-    "category": "미용업",
-    "name": "엔젤플러스헤어샵",
-    "main_item": "일반컷트",
-    "price": "11,000",
-    "phone": "055-333-0425",
-    "address": "경상남도 김해시 삼안로 246 (삼방동) 한일아파트상가 107호",
-    "lat": 35.2500449348027,
-    "lng": 128.910554632735,
-    "region_1depth": "경남",
-    "region_2depth": "김해시"
-  },
-  {
-    "category": "미용업",
-    "name": "엠제이 헤어샵",
-    "main_item": "컷트",
-    "price": "13,000",
-    "phone": "055-334-1755",
-    "address": "경상남도 김해시 가락로 282 (구산동)",
-    "lat": 35.2501009009706,
-    "lng": 128.872951073948,
-    "region_1depth": "경남",
-    "region_2depth": "김해시"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "영국수",
     "main_item": "반반국수",
     "price": "6,000",
@@ -4116,7 +2976,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "오뚝이바지락반칼국수반",
     "main_item": "칼국수",
     "price": "8,000",
@@ -4128,19 +2988,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "이용업",
-    "name": "오칠컷트(5.7컷트)",
-    "main_item": "컷트(초등)",
-    "price": "5,000",
-    "phone": "0507-1495-9927",
-    "address": "경상남도 김해시 가락로 219 광남백조아파트상가동 1층 17호",
-    "lat": 35.2450772243514,
-    "lng": 128.875326181533,
-    "region_1depth": "경남",
-    "region_2depth": "김해시"
-  },
-  {
-    "category": "한식_기타",
+    "category": "한식",
     "name": "옥수동찹쌀꽈배기",
     "main_item": "꽈배기(3개)",
     "price": "2,000",
@@ -4152,7 +3000,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "외가국수",
     "main_item": "잔치국수",
     "price": "5,000",
@@ -4160,18 +3008,6 @@
     "address": "경상남도 김해시 경원로9 외가국수",
     "lat": 35.2390824539756,
     "lng": 128.862010577875,
-    "region_1depth": "경남",
-    "region_2depth": "김해시"
-  },
-  {
-    "category": "기타비요식업",
-    "name": "용복사",
-    "main_item": "A4복사",
-    "price": "50",
-    "phone": "055-322-0798",
-    "address": "경상남도 김해시 인제로200번길 3-3 101호(삼방동)",
-    "lat": 35.2465424802083,
-    "lng": 128.904268913115,
     "region_1depth": "경남",
     "region_2depth": "김해시"
   },
@@ -4188,7 +3024,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "의령할머니소고기국밥",
     "main_item": "소고기국밥",
     "price": "7,000",
@@ -4200,7 +3036,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "한식_분식",
+    "category": "한식",
     "name": "이소영국수",
     "main_item": "잔치국수",
     "price": "4,900",
@@ -4212,19 +3048,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "기타비요식업",
-    "name": "자아연토탈뷰티샵",
-    "main_item": "남성컷트",
-    "price": "12,000",
-    "phone": "055-321-2535",
-    "address": "경상남도 김해시 함박로11번길 22 1층",
-    "lat": 35.2347755263545,
-    "lng": 128.857188625232,
-    "region_1depth": "경남",
-    "region_2depth": "김해시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "장수돈까스(어방동)",
     "main_item": "왕돈까스",
     "price": "9,000",
@@ -4236,7 +3060,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "장수돈까스(율하)",
     "main_item": "왕돈까스",
     "price": "8,500",
@@ -4260,7 +3084,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "장터국수선지국밥",
     "main_item": "선지국밥",
     "price": "6,000",
@@ -4272,7 +3096,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "점이국수",
     "main_item": "멸치국수",
     "price": "4,500",
@@ -4284,7 +3108,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "한식_분식",
+    "category": "한식",
     "name": "종소리토스트",
     "main_item": "토스트",
     "price": "3,000",
@@ -4296,7 +3120,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "주가네돼지국밥",
     "main_item": "돼지국밥",
     "price": "8,000",
@@ -4304,18 +3128,6 @@
     "address": "경상남도 김해시 분성로517번길 19 (어방동)",
     "lat": 35.2372255156688,
     "lng": 128.902764151195,
-    "region_1depth": "경남",
-    "region_2depth": "김해시"
-  },
-  {
-    "category": "기타비요식업",
-    "name": "지브라스튜디오",
-    "main_item": "증명사진",
-    "price": "15,000",
-    "phone": "010-5515-0499",
-    "address": "경상남도 김해시 번화1로80번길 5 (대청동) 8층",
-    "lat": 35.1947149475052,
-    "lng": 128.800013479436,
     "region_1depth": "경남",
     "region_2depth": "김해시"
   },
@@ -4332,7 +3144,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "짱구왕만두",
     "main_item": "왕만두",
     "price": "8,000",
@@ -4344,7 +3156,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "차돌품은 쭈꾸미",
     "main_item": "차돌쭈꾸미찜(소)",
     "price": "29,000",
@@ -4356,7 +3168,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "착한대구탕",
     "main_item": "대구탕",
     "price": "8,000",
@@ -4364,18 +3176,6 @@
     "address": "경상남도 김해시 활천로255번길 62 (삼방동)",
     "lat": 35.2477121649409,
     "lng": 128.906331773829,
-    "region_1depth": "경남",
-    "region_2depth": "김해시"
-  },
-  {
-    "category": "세탁업",
-    "name": "착한세탁",
-    "main_item": "정장",
-    "price": "4,400",
-    "phone": "055-328-4045",
-    "address": "경상남도 김해시 금관대로1204번길 11 1층(외동)",
-    "lat": 35.2335811602004,
-    "lng": 128.855045605867,
     "region_1depth": "경남",
     "region_2depth": "김해시"
   },
@@ -4388,18 +3188,6 @@
     "address": "경상남도 김해시 삼계중앙로 79 (삼계동)",
     "lat": 35.2612301018874,
     "lng": 128.873705146733,
-    "region_1depth": "경남",
-    "region_2depth": "김해시"
-  },
-  {
-    "category": "목욕업",
-    "name": "청수탕",
-    "main_item": "성인",
-    "price": "6,000",
-    "phone": "055-314-7518",
-    "address": "경상남도 김해시 번화1로84번길 24 (대청동) 대청동",
-    "lat": 35.1953521149368,
-    "lng": 128.801987227423,
     "region_1depth": "경남",
     "region_2depth": "김해시"
   },
@@ -4476,19 +3264,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "기타요식업",
-    "name": "하루만",
-    "main_item": "팥빵",
-    "price": "1,000",
-    "phone": "055-321-0112",
-    "address": "경상남도 김해시 내외로95번길 19 (내동)",
-    "lat": 35.2362555186154,
-    "lng": 128.86775825833,
-    "region_1depth": "경남",
-    "region_2depth": "김해시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "한끼김밥",
     "main_item": "김밥",
     "price": "3,000",
@@ -4500,7 +3276,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "한우맛집 김해장유점",
     "main_item": "점심특선 소양념구이(2인)",
     "price": "20,000",
@@ -4512,7 +3288,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "한일뒷고기",
     "main_item": "뒷고기",
     "price": "5,000",
@@ -4536,7 +3312,19 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
+    "name": "해운",
+    "main_item": "고등어구이정식",
+    "price": "11,000",
+    "phone": "055-313-9232",
+    "address": "경상남도 김해시 율하카페길67-13 (관동동)",
+    "lat": 35.1769353051475,
+    "lng": 128.811690829556,
+    "region_1depth": "경남",
+    "region_2depth": "김해시"
+  },
+  {
+    "category": "한식",
     "name": "호로록장터국수",
     "main_item": "잔치국수",
     "price": "5,000",
@@ -4548,31 +3336,7 @@
     "region_2depth": "김해시"
   },
   {
-    "category": "기타비요식업",
-    "name": "휴앤힐",
-    "main_item": "브레인힐링",
-    "price": "30,000",
-    "phone": "0507-1401-7906",
-    "address": "경상남도 김해시 덕정로138번안길 53 101호(관동동)",
-    "lat": 35.1754765269714,
-    "lng": 128.803219919266,
-    "region_1depth": "경남",
-    "region_2depth": "김해시"
-  },
-  {
-    "category": "기타비요식업",
-    "name": "힐링탁구교실",
-    "main_item": "월 사용(종일반)",
-    "price": "50,000",
-    "phone": "055-338-0996",
-    "address": "경상남도 김해시 활천로 267번길 18 2층(삼방동)",
-    "lat": 35.2445040495483,
-    "lng": 128.908658651515,
-    "region_1depth": "경남",
-    "region_2depth": "김해시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "가마솥추어탕",
     "main_item": "추어탕",
     "price": "6,000",
@@ -4584,7 +3348,7 @@
     "region_2depth": "밀양시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "건강국수",
     "main_item": "국수",
     "price": "5,000",
@@ -4608,7 +3372,7 @@
     "region_2depth": "밀양시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "굴림당",
     "main_item": "굴림고기만두",
     "price": "5,000",
@@ -4620,7 +3384,7 @@
     "region_2depth": "밀양시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "깡통분식",
     "main_item": "비빔밥",
     "price": "5,000",
@@ -4632,7 +3396,7 @@
     "region_2depth": "밀양시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "대청정",
     "main_item": "불고기+생선조림",
     "price": "8,000",
@@ -4644,7 +3408,7 @@
     "region_2depth": "밀양시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "도도국밥",
     "main_item": "돼지국밥",
     "price": "7,000",
@@ -4656,7 +3420,7 @@
     "region_2depth": "밀양시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "동아리",
     "main_item": "국수",
     "price": "5,000",
@@ -4668,7 +3432,7 @@
     "region_2depth": "밀양시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "동원식당",
     "main_item": "정식",
     "price": "6,000",
@@ -4680,7 +3444,7 @@
     "region_2depth": "밀양시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "두레정 식당",
     "main_item": "보리굴비",
     "price": "20,000",
@@ -4692,19 +3456,7 @@
     "region_2depth": "밀양시"
   },
   {
-    "category": "미용업",
-    "name": "리헤어샵",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "055-351-3368",
-    "address": "경상남도 밀양시 내이4길 9 .",
-    "lat": 35.4992165870695,
-    "lng": 128.743532190733,
-    "region_1depth": "경남",
-    "region_2depth": "밀양시"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "밀양가야밀면",
     "main_item": "온밀면",
     "price": "7,000",
@@ -4712,18 +3464,6 @@
     "address": "경상남도 밀양시 산외면 산외로 6 .",
     "lat": 35.5133908890356,
     "lng": 128.774531401125,
-    "region_1depth": "경남",
-    "region_2depth": "밀양시"
-  },
-  {
-    "category": "미용업",
-    "name": "본촌",
-    "main_item": "커트",
-    "price": "5,000",
-    "phone": "055-352-6924",
-    "address": "경상남도 밀양시 산외면 금곡4길 13-1",
-    "lat": 35.5129641622461,
-    "lng": 128.832661720044,
     "region_1depth": "경남",
     "region_2depth": "밀양시"
   },
@@ -4740,7 +3480,7 @@
     "region_2depth": "밀양시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "삼랑진소머리곰탕",
     "main_item": "곰탕",
     "price": "9,000",
@@ -4752,7 +3492,7 @@
     "region_2depth": "밀양시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "서부순두부식당",
     "main_item": "정식",
     "price": "6,000",
@@ -4764,7 +3504,7 @@
     "region_2depth": "밀양시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "서연식당",
     "main_item": "정식",
     "price": "7,500",
@@ -4776,19 +3516,7 @@
     "region_2depth": "밀양시"
   },
   {
-    "category": "기타비요식업",
-    "name": "솔로몬독서실",
-    "main_item": "하루",
-    "price": "5,000",
-    "phone": "0507-1383-6505",
-    "address": "경상남도 밀양시 중앙로 234-9 203호,204호.205호",
-    "lat": 35.4846469245303,
-    "lng": 128.758726860543,
-    "region_1depth": "경남",
-    "region_2depth": "밀양시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "수아",
     "main_item": "정식",
     "price": "7,000",
@@ -4800,7 +3528,7 @@
     "region_2depth": "밀양시"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "신갈매기",
     "main_item": "갈매기살",
     "price": "8,500",
@@ -4812,19 +3540,7 @@
     "region_2depth": "밀양시"
   },
   {
-    "category": "미용업",
-    "name": "쌈지",
-    "main_item": "커트",
-    "price": "12,000",
-    "phone": "055-355-2203",
-    "address": "경상남도 밀양시 하송정3길 28",
-    "lat": 35.4984269916105,
-    "lng": 128.749568349381,
-    "region_1depth": "경남",
-    "region_2depth": "밀양시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "아리랑돼지국밥",
     "main_item": "돼지국밥",
     "price": "8,000",
@@ -4836,7 +3552,7 @@
     "region_2depth": "밀양시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "아줌마우동",
     "main_item": "우동(소)",
     "price": "4,000",
@@ -4860,18 +3576,6 @@
     "region_2depth": "밀양시"
   },
   {
-    "category": "미용업",
-    "name": "이다교머리방",
-    "main_item": "커트",
-    "price": "9,000",
-    "phone": "010-5133-8707",
-    "address": "경상남도 밀양시 서부1길 14",
-    "lat": 35.4689574296031,
-    "lng": 128.649976303455,
-    "region_1depth": "경남",
-    "region_2depth": "밀양시"
-  },
-  {
     "category": "기타요식업",
     "name": "이오이커피",
     "main_item": "아메리카노",
@@ -4884,7 +3588,7 @@
     "region_2depth": "밀양시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "일미랑",
     "main_item": "돈가스",
     "price": "7,000",
@@ -4896,7 +3600,7 @@
     "region_2depth": "밀양시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "일품식당",
     "main_item": "된장찌개",
     "price": "6,000",
@@ -4908,7 +3612,7 @@
     "region_2depth": "밀양시"
   },
   {
-    "category": "한식_기타",
+    "category": "한식",
     "name": "장터민물장어",
     "main_item": "소금구이",
     "price": "20,000",
@@ -4920,7 +3624,7 @@
     "region_2depth": "밀양시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "전통밀면",
     "main_item": "밀면",
     "price": "7,000",
@@ -4932,7 +3636,7 @@
     "region_2depth": "밀양시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "전통손칼국수",
     "main_item": "칼국수",
     "price": "6,000",
@@ -4944,7 +3648,7 @@
     "region_2depth": "밀양시"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "제이아이피(JIP), 임시정부",
     "main_item": "생돈뿔(150g)",
     "price": "7,000",
@@ -4956,7 +3660,7 @@
     "region_2depth": "밀양시"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "조방 생고기촌",
     "main_item": "대패삼겹살(120g)",
     "price": "6,000",
@@ -4968,19 +3672,7 @@
     "region_2depth": "밀양시"
   },
   {
-    "category": "세탁업",
-    "name": "진흥사",
-    "main_item": "양복세탁",
-    "price": "9,000",
-    "phone": "055-391-1244",
-    "address": "경상남도 밀양시 시서상가길 6",
-    "lat": 35.374286257687,
-    "lng": 128.708613385086,
-    "region_1depth": "경남",
-    "region_2depth": "밀양시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "참콩나물해장국",
     "main_item": "콩나물해장국",
     "price": "6,000",
@@ -4992,7 +3684,7 @@
     "region_2depth": "밀양시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "춘하추동",
     "main_item": "밀면",
     "price": "6,000",
@@ -5016,18 +3708,6 @@
     "region_2depth": "밀양시"
   },
   {
-    "category": "미용업",
-    "name": "헤어투",
-    "main_item": "커트",
-    "price": "7,000",
-    "phone": "055-353-0776",
-    "address": "경상남도 밀양시 해천안길 19",
-    "lat": 35.4921113756361,
-    "lng": 128.749097841778,
-    "region_1depth": "경남",
-    "region_2depth": "밀양시"
-  },
-  {
     "category": "중식",
     "name": "황제쟁반짜장 (만리향)",
     "main_item": "짜장면",
@@ -5040,19 +3720,7 @@
     "region_2depth": "밀양시"
   },
   {
-    "category": "미용업",
-    "name": "K-BS헤어뉴스",
-    "main_item": "남성컷",
-    "price": "13,000",
-    "phone": "055-633-3022",
-    "address": "경상남도 거제시 중곡로 9 105호(고현동, 고려상가)",
-    "lat": 34.8934616570265,
-    "lng": 128.630228210082,
-    "region_1depth": "경남",
-    "region_2depth": "거제시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "가마솥국밥",
     "main_item": "돼지국밥",
     "price": "7,000",
@@ -5064,7 +3732,7 @@
     "region_2depth": "거제시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "거제냉밀면",
     "main_item": "물냉면",
     "price": "9,000",
@@ -5076,7 +3744,7 @@
     "region_2depth": "거제시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "경이로운소면 아주점",
     "main_item": "전복칼국수",
     "price": "8,000",
@@ -5088,19 +3756,7 @@
     "region_2depth": "거제시"
   },
   {
-    "category": "일식",
-    "name": "고려회수산",
-    "main_item": "모듬회 소",
-    "price": "40,000",
-    "phone": "055-637-5788",
-    "address": "경상남도 거제시 중곡2로2길 18 (고현동) 1층",
-    "lat": 34.8939201827274,
-    "lng": 128.625568640588,
-    "region_1depth": "경남",
-    "region_2depth": "거제시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "기사식당",
     "main_item": "삼겹구이백반",
     "price": "8,000",
@@ -5112,19 +3768,7 @@
     "region_2depth": "거제시"
   },
   {
-    "category": "한식_일반",
-    "name": "남영식당, 변경 남영찜식당",
-    "main_item": "아귀찜",
-    "price": "40,000",
-    "phone": "055-637-6400",
-    "address": "경상남도 거제시 고현로6길 11 (고현동)",
-    "lat": 34.8854709991188,
-    "lng": 128.622919366083,
-    "region_1depth": "경남",
-    "region_2depth": "거제시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "노자산묵밥집",
     "main_item": "도토리묵밥",
     "price": "8,000",
@@ -5136,7 +3780,7 @@
     "region_2depth": "거제시"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "대구영순이막창",
     "main_item": "막창",
     "price": "8,000",
@@ -5160,19 +3804,7 @@
     "region_2depth": "거제시"
   },
   {
-    "category": "숙박업",
-    "name": "르솔레이 풀빌라 펜션",
-    "main_item": "201호",
-    "price": "260,000",
-    "phone": "0507-1369-1085",
-    "address": "경상남도 거제시 동부면 거제대로 1085 르솔레이 풀빌라",
-    "lat": 34.7783830394724,
-    "lng": 128.652710454334,
-    "region_1depth": "경남",
-    "region_2depth": "거제시"
-  },
-  {
-    "category": "한식_분식",
+    "category": "한식",
     "name": "맛있는분식",
     "main_item": "김밥",
     "price": "1,500",
@@ -5184,19 +3816,7 @@
     "region_2depth": "거제시"
   },
   {
-    "category": "이용업",
-    "name": "맨인그린",
-    "main_item": "커트",
-    "price": "7,000",
-    "phone": "055-633-8533",
-    "address": "경상남도 거제시 중곡로3길 12 (고현동)",
-    "lat": 34.8940894117939,
-    "lng": 128.629117866271,
-    "region_1depth": "경남",
-    "region_2depth": "거제시"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "먹싸갈비 거제연초점",
     "main_item": "돼지왕구이",
     "price": "9,000",
@@ -5208,7 +3828,7 @@
     "region_2depth": "거제시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "무등산식당",
     "main_item": "된장찌개",
     "price": "8,000",
@@ -5232,43 +3852,7 @@
     "region_2depth": "거제시"
   },
   {
-    "category": "한식_일반",
-    "name": "서영 거제1호점",
-    "main_item": "-",
-    "price": "",
-    "phone": "010-6391-2377",
-    "address": "경상남도 거제시 장평3로7길 51 (장평동) 1층, 서영 거제1호점",
-    "lat": 34.8924551222166,
-    "lng": 128.605305385966,
-    "region_1depth": "경남",
-    "region_2depth": "거제시"
-  },
-  {
-    "category": "숙박업",
-    "name": "소낭구펜션",
-    "main_item": "2인실",
-    "price": "130,000",
-    "phone": "055-682-2141",
-    "address": "경상남도 거제시 일운면 마전1길 83 .",
-    "lat": 34.8513859773671,
-    "lng": 128.724796175678,
-    "region_1depth": "경남",
-    "region_2depth": "거제시"
-  },
-  {
-    "category": "숙박업",
-    "name": "스테이외도",
-    "main_item": "커플룸(비수기)",
-    "price": "50,000",
-    "phone": "010-5500-6144",
-    "address": "경상남도 거제시 일운면 구조라로 30 .",
-    "lat": 34.8059688541834,
-    "lng": 128.694957765468,
-    "region_1depth": "경남",
-    "region_2depth": "거제시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "야생화편지",
     "main_item": "멍게비빔밥",
     "price": "10,000",
@@ -5304,55 +3888,7 @@
     "region_2depth": "거제시"
   },
   {
-    "category": "숙박업",
-    "name": "엘마르펜션",
-    "main_item": "2인실(평일)",
-    "price": "70,000",
-    "phone": "055-681-0117",
-    "address": "경상남도 거제시 일운면 지세포해안로 258 .",
-    "lat": 34.8360942322933,
-    "lng": 128.717370846908,
-    "region_1depth": "경남",
-    "region_2depth": "거제시"
-  },
-  {
-    "category": "미용업",
-    "name": "엣지헤어#",
-    "main_item": "뿌리염색",
-    "price": "30,000",
-    "phone": "055-638-2225",
-    "address": "경상남도 거제시 해명로 15 (수월동) 1층",
-    "lat": 34.8955510461043,
-    "lng": 128.643045895253,
-    "region_1depth": "경남",
-    "region_2depth": "거제시"
-  },
-  {
-    "category": "미용업",
-    "name": "여우들의쉼터 미용실",
-    "main_item": "펌",
-    "price": "25,000",
-    "phone": "010-8211-7403",
-    "address": "경상남도 거제시 거제중앙로17길 14 2층",
-    "lat": 34.8846589446046,
-    "lng": 128.623446223289,
-    "region_1depth": "경남",
-    "region_2depth": "거제시"
-  },
-  {
-    "category": "일식",
-    "name": "옥포막썰이회해물",
-    "main_item": "모듬회(소)",
-    "price": "39,000",
-    "phone": "055-687-3666",
-    "address": "경상남도 거제시 옥포로6길 13 1층(옥포동)",
-    "lat": 34.8907370825128,
-    "lng": 128.695002539441,
-    "region_1depth": "경남",
-    "region_2depth": "거제시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "용쓰네갈비",
     "main_item": "갈비탕",
     "price": "12,000",
@@ -5364,7 +3900,7 @@
     "region_2depth": "거제시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "이가네가야밀면",
     "main_item": "물밀면",
     "price": "7,000",
@@ -5376,19 +3912,7 @@
     "region_2depth": "거제시"
   },
   {
-    "category": "미용업",
-    "name": "쥬뎀남성컷미용실",
-    "main_item": "컷",
-    "price": "9,000",
-    "phone": "055-638-4290",
-    "address": "경상남도 거제시 거제중앙로17길 5 (고현동) 1층",
-    "lat": 34.8847311111039,
-    "lng": 128.624271125155,
-    "region_1depth": "경남",
-    "region_2depth": "거제시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "지중해",
     "main_item": "멍게비빔밥",
     "price": "12,000",
@@ -5400,7 +3924,7 @@
     "region_2depth": "거제시"
   },
   {
-    "category": "한식_기타",
+    "category": "한식",
     "name": "진주반찬",
     "main_item": "튀김(개당)",
     "price": "1,000",
@@ -5412,7 +3936,7 @@
     "region_2depth": "거제시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "찐항정국밥",
     "main_item": "내장국밥",
     "price": "7,000",
@@ -5424,19 +3948,7 @@
     "region_2depth": "거제시"
   },
   {
-    "category": "숙박업",
-    "name": "첼레스떼펜션",
-    "main_item": "101호",
-    "price": "110,000",
-    "phone": "0507-1315-1158",
-    "address": "경상남도 거제시 동부면 고촌길 29-1 1층",
-    "lat": 34.7803018246555,
-    "lng": 128.647995104307,
-    "region_1depth": "경남",
-    "region_2depth": "거제시"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "칼빈당",
     "main_item": "바지락칼국수",
     "price": "6,900",
@@ -5444,30 +3956,6 @@
     "address": "경상남도 거제시 연초면 거제북로 27-9 칼빈당",
     "lat": 34.9138442004256,
     "lng": 128.65473266828,
-    "region_1depth": "경남",
-    "region_2depth": "거제시"
-  },
-  {
-    "category": "미용업",
-    "name": "쿠아미용실",
-    "main_item": "커트",
-    "price": "8,000",
-    "phone": "055-637-4416",
-    "address": "경상남도 거제시 고현로6길 26-1 (고현동)",
-    "lat": 34.8841343513348,
-    "lng": 128.623463575618,
-    "region_1depth": "경남",
-    "region_2depth": "거제시"
-  },
-  {
-    "category": "숙박업",
-    "name": "퀸모텔",
-    "main_item": "일반침대룸",
-    "price": "35,000",
-    "phone": "055-688-1001",
-    "address": "경상남도 거제시 옥포로2길 39-2 (옥포동) 2,3층 퀸모텔",
-    "lat": 34.8915046824882,
-    "lng": 128.698385533652,
     "region_1depth": "경남",
     "region_2depth": "거제시"
   },
@@ -5484,19 +3972,7 @@
     "region_2depth": "거제시"
   },
   {
-    "category": "미용업",
-    "name": "헤어맨",
-    "main_item": "일반 컷트",
-    "price": "11,000",
-    "phone": "055-637-7737",
-    "address": "경상남도 거제시 상동5길 42 (상동동) 1층",
-    "lat": 34.8665845748206,
-    "lng": 128.634169361415,
-    "region_1depth": "경남",
-    "region_2depth": "거제시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "가마솥 뚝배기",
     "main_item": "해장국",
     "price": "8,000",
@@ -5508,7 +3984,7 @@
     "region_2depth": "양산시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "가야밀면",
     "main_item": "물밀면",
     "price": "6,000",
@@ -5520,19 +3996,7 @@
     "region_2depth": "양산시"
   },
   {
-    "category": "기타요식업",
-    "name": "갓구운빵집",
-    "main_item": "단팥빵",
-    "price": "700",
-    "phone": "055-367-3536",
-    "address": "경상남도 양산시 물금읍 야리로 31 113호",
-    "lat": 35.3167416316771,
-    "lng": 129.001892148154,
-    "region_1depth": "경남",
-    "region_2depth": "양산시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "강미래맛집",
     "main_item": "막국수",
     "price": "10,000",
@@ -5544,7 +4008,7 @@
     "region_2depth": "양산시"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "고기세상숯불갈비",
     "main_item": "삼겹살(130g)",
     "price": "10,000",
@@ -5556,7 +4020,7 @@
     "region_2depth": "양산시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "국수&카페",
     "main_item": "비빔밥",
     "price": "6,000",
@@ -5568,7 +4032,7 @@
     "region_2depth": "양산시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "국시사랑고기",
     "main_item": "잔치국수",
     "price": "5,000",
@@ -5576,18 +4040,6 @@
     "address": "경상남도 양산시 덕계서로 196 (덕계동) 1층",
     "lat": 35.371429594671,
     "lng": 129.148277873714,
-    "region_1depth": "경남",
-    "region_2depth": "양산시"
-  },
-  {
-    "category": "한식_일반",
-    "name": "김태임의감성놀이체험가든",
-    "main_item": "오리야채불고기",
-    "price": "42,000",
-    "phone": "055-383-5155",
-    "address": "경상남도 양산시 동면 법기로 37 1층 김태임의감성놀이체험가든",
-    "lat": 35.3377230335667,
-    "lng": 129.120186818823,
     "region_1depth": "경남",
     "region_2depth": "양산시"
   },
@@ -5604,7 +4056,7 @@
     "region_2depth": "양산시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "낙지발이몇개고",
     "main_item": "낙지볶음",
     "price": "8,000",
@@ -5616,7 +4068,7 @@
     "region_2depth": "양산시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "누리네김밥",
     "main_item": "김밥(포장)",
     "price": "2,500",
@@ -5628,7 +4080,7 @@
     "region_2depth": "양산시"
   },
   {
-    "category": "한식_분식",
+    "category": "한식",
     "name": "달달분식",
     "main_item": "국수",
     "price": "5,500",
@@ -5640,7 +4092,7 @@
     "region_2depth": "양산시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "대장금",
     "main_item": "한정식",
     "price": "10,000",
@@ -5652,7 +4104,7 @@
     "region_2depth": "양산시"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "대접 식육센터",
     "main_item": "삼겹살(180g)",
     "price": "9,900",
@@ -5664,7 +4116,7 @@
     "region_2depth": "양산시"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "더맛나요",
     "main_item": "삼겹살(100g)",
     "price": "3,990",
@@ -5676,7 +4128,7 @@
     "region_2depth": "양산시"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "돈쭐",
     "main_item": "생갈비(국내산 150g)",
     "price": "11,000",
@@ -5684,18 +4136,6 @@
     "address": "경상남도 양산시 물금읍 백호2길 24-11 1층",
     "lat": 35.3194571437278,
     "lng": 128.997083258966,
-    "region_1depth": "경남",
-    "region_2depth": "양산시"
-  },
-  {
-    "category": "미용업",
-    "name": "란체뷰티",
-    "main_item": "컷트",
-    "price": "5,000",
-    "phone": "055-362-9119",
-    "address": "경상남도 양산시 서창로 186 (서창동)",
-    "lat": 35.4157745804169,
-    "lng": 129.172404251396,
     "region_1depth": "경남",
     "region_2depth": "양산시"
   },
@@ -5724,7 +4164,7 @@
     "region_2depth": "양산시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "밀면가",
     "main_item": "물밀면",
     "price": "7,000",
@@ -5736,7 +4176,7 @@
     "region_2depth": "양산시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "번계치닭",
     "main_item": "후라이드치킨",
     "price": "16,000",
@@ -5748,7 +4188,7 @@
     "region_2depth": "양산시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "범어밀양돼지국밥",
     "main_item": "돼지국밥",
     "price": "8,000",
@@ -5772,7 +4212,7 @@
     "region_2depth": "양산시"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "삼호정",
     "main_item": "한우갈비살(100g)",
     "price": "23,000",
@@ -5784,7 +4224,7 @@
     "region_2depth": "양산시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "서박사밀면",
     "main_item": "밀면",
     "price": "6,500",
@@ -5796,7 +4236,7 @@
     "region_2depth": "양산시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "수산촌국수",
     "main_item": "칼국수",
     "price": "6,000",
@@ -5808,7 +4248,7 @@
     "region_2depth": "양산시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "수연정",
     "main_item": "삼계탕",
     "price": "15,000",
@@ -5820,7 +4260,7 @@
     "region_2depth": "양산시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "시골밥상",
     "main_item": "정식",
     "price": "8,000",
@@ -5832,7 +4272,7 @@
     "region_2depth": "양산시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "시골장터 돼지국밥",
     "main_item": "돼지국밥",
     "price": "8,000",
@@ -5844,31 +4284,7 @@
     "region_2depth": "양산시"
   },
   {
-    "category": "기타요식업",
-    "name": "아벡듀뺑",
-    "main_item": "단팥빵",
-    "price": "1,000",
-    "phone": "055-372-5775",
-    "address": "경상남도 양산시 물금읍 야리로 9 써니마트 내",
-    "lat": 35.3183281863342,
-    "lng": 129.000396164469,
-    "region_1depth": "경남",
-    "region_2depth": "양산시"
-  },
-  {
-    "category": "미용업",
-    "name": "안나헤어",
-    "main_item": "여성커트",
-    "price": "12,000",
-    "phone": "055-363-7897",
-    "address": "경상남도 양산시 교동1길 8-1 (교동) 1층",
-    "lat": 35.3450296348624,
-    "lng": 129.027177354657,
-    "region_1depth": "경남",
-    "region_2depth": "양산시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "양산 춘천한방닭갈비",
     "main_item": "닭갈비(1인)",
     "price": "10,000",
@@ -5880,7 +4296,7 @@
     "region_2depth": "양산시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "양산제1국수",
     "main_item": "국수",
     "price": "6,000",
@@ -5892,7 +4308,7 @@
     "region_2depth": "양산시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "예가칼국수",
     "main_item": "칼국수",
     "price": "6,500",
@@ -5904,7 +4320,7 @@
     "region_2depth": "양산시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "오봉로 국수집",
     "main_item": "국수",
     "price": "6,000",
@@ -5928,7 +4344,7 @@
     "region_2depth": "양산시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "원옥칼국수",
     "main_item": "칼국수",
     "price": "5,000",
@@ -5940,7 +4356,7 @@
     "region_2depth": "양산시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "원조매콤이와순진이",
     "main_item": "수제비(순한맛)",
     "price": "6,000",
@@ -5952,7 +4368,7 @@
     "region_2depth": "양산시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "이가네 해장국",
     "main_item": "한우소머리곰탕",
     "price": "12,000",
@@ -5964,7 +4380,7 @@
     "region_2depth": "양산시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "장모님 추어탕",
     "main_item": "추어탕",
     "price": "8,000",
@@ -5976,19 +4392,7 @@
     "region_2depth": "양산시"
   },
   {
-    "category": "한식_일반",
-    "name": "장어나라",
-    "main_item": "민물장어(1kg)",
-    "price": "59,000",
-    "phone": "055-365-3838",
-    "address": "경상남도 양산시 평산중앙로 39 1층(평산동)",
-    "lat": 35.3827371277118,
-    "lng": 129.151737209166,
-    "region_1depth": "경남",
-    "region_2depth": "양산시"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "집밥한식뷔페",
     "main_item": "한식뷔페(성인)",
     "price": "9,000",
@@ -6036,18 +4440,6 @@
     "region_2depth": "양산시"
   },
   {
-    "category": "미용업",
-    "name": "하태희헤어",
-    "main_item": "여성커트",
-    "price": "9,000",
-    "phone": "055-388-7143",
-    "address": "경상남도 양산시 물금읍 오봉8길 73 1층 하태희헤어",
-    "lat": 35.3352281483813,
-    "lng": 129.002450387037,
-    "region_1depth": "경남",
-    "region_2depth": "양산시"
-  },
-  {
     "category": "일식",
     "name": "형산강 횟집",
     "main_item": "회정식(점심)",
@@ -6060,7 +4452,7 @@
     "region_2depth": "양산시"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "호면",
     "main_item": "냉모밀",
     "price": "8,000",
@@ -6072,7 +4464,7 @@
     "region_2depth": "양산시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "흙내음반찬",
     "main_item": "시락국(1.3kg)",
     "price": "3,000",
@@ -6084,7 +4476,7 @@
     "region_2depth": "양산시"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "송림가든",
     "main_item": "물냉면",
     "price": "9,000",
@@ -6096,7 +4488,7 @@
     "region_2depth": "의령군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "승희네분식",
     "main_item": "김밥",
     "price": "3,000",
@@ -6108,7 +4500,7 @@
     "region_2depth": "의령군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "시장아구찜",
     "main_item": "국수",
     "price": "5,000",
@@ -6120,7 +4512,7 @@
     "region_2depth": "의령군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "양평해장국",
     "main_item": "소내장탕",
     "price": "10,000",
@@ -6132,7 +4524,7 @@
     "region_2depth": "의령군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "어머니식당",
     "main_item": "국수",
     "price": "6,000",
@@ -6144,7 +4536,7 @@
     "region_2depth": "의령군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "울산식당",
     "main_item": "정식",
     "price": "8,000",
@@ -6156,7 +4548,7 @@
     "region_2depth": "의령군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "의령화정소바",
     "main_item": "온소바",
     "price": "8,000",
@@ -6168,7 +4560,7 @@
     "region_2depth": "의령군"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "지글지글 생삼겹과 껍데기",
     "main_item": "삼겹살",
     "price": "10,000",
@@ -6180,7 +4572,7 @@
     "region_2depth": "의령군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "진성보쌈",
     "main_item": "된장찌개",
     "price": "6,000",
@@ -6204,7 +4596,7 @@
     "region_2depth": "의령군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "한영식당",
     "main_item": "추어탕",
     "price": "8,000",
@@ -6216,7 +4608,7 @@
     "region_2depth": "의령군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "거북이식당",
     "main_item": "정식",
     "price": "8,000",
@@ -6228,7 +4620,7 @@
     "region_2depth": "함안군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "고향삼계탕",
     "main_item": "한방삼계탕",
     "price": "14,000",
@@ -6240,7 +4632,7 @@
     "region_2depth": "함안군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "광천식당",
     "main_item": "된장찌개",
     "price": "8,000",
@@ -6252,7 +4644,7 @@
     "region_2depth": "함안군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "남다른생고기",
     "main_item": "점심특선(양념돼지고기+된장찌개+공기밥-2인 이상)",
     "price": "11,000",
@@ -6264,7 +4656,7 @@
     "region_2depth": "함안군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "대관령 코다리찜",
     "main_item": "점심특선(코다리찜-2인이상)",
     "price": "11,000",
@@ -6312,7 +4704,7 @@
     "region_2depth": "함안군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "사대감참숯왕소금구이",
     "main_item": "생삼겹 130g",
     "price": "10,000",
@@ -6324,7 +4716,7 @@
     "region_2depth": "함안군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "사랑채",
     "main_item": "정식",
     "price": "7,000",
@@ -6336,7 +4728,7 @@
     "region_2depth": "함안군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "솔마을",
     "main_item": "김치찌개",
     "price": "7,000",
@@ -6348,7 +4740,7 @@
     "region_2depth": "함안군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "솔밭가든",
     "main_item": "육개장",
     "price": "8,000",
@@ -6360,7 +4752,7 @@
     "region_2depth": "함안군"
   },
   {
-    "category": "한식_분식",
+    "category": "한식",
     "name": "아라분식",
     "main_item": "시락국",
     "price": "6,000",
@@ -6372,7 +4764,7 @@
     "region_2depth": "함안군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "아라정식육식당",
     "main_item": "갈비탕",
     "price": "7,000",
@@ -6384,7 +4776,7 @@
     "region_2depth": "함안군"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "천일식당",
     "main_item": "잔치국수",
     "price": "5,000",
@@ -6396,19 +4788,7 @@
     "region_2depth": "함안군"
   },
   {
-    "category": "목욕업",
-    "name": "한흥목욕탕",
-    "main_item": "목욕비",
-    "price": "6,000",
-    "phone": "055-587-0450",
-    "address": "경상남도 함안군 칠원읍 구성길 8-18 1층",
-    "lat": 35.3065498070755,
-    "lng": 128.517415396899,
-    "region_1depth": "경남",
-    "region_2depth": "함안군"
-  },
-  {
-    "category": "한식_분식",
+    "category": "한식",
     "name": "김밥나라",
     "main_item": "원조김밥",
     "price": "3,000",
@@ -6420,31 +4800,7 @@
     "region_2depth": "창녕군"
   },
   {
-    "category": "미용업",
-    "name": "까망머리방",
-    "main_item": "남성커트",
-    "price": "10,000",
-    "phone": "055-533-0368",
-    "address": "경상남도 창녕군 창녕읍 창녕시장길 92",
-    "lat": 35.5415112719446,
-    "lng": 128.497503717984,
-    "region_1depth": "경남",
-    "region_2depth": "창녕군"
-  },
-  {
-    "category": "이용업",
-    "name": "남성머리컷트점",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "070-8809-5330",
-    "address": "경상남도 창녕군 창녕읍 군청길 21",
-    "lat": 35.5420331672379,
-    "lng": 128.492480794553,
-    "region_1depth": "경남",
-    "region_2depth": "창녕군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "남지철교돼지국밥",
     "main_item": "돼지국밥",
     "price": "7,000",
@@ -6468,7 +4824,7 @@
     "region_2depth": "창녕군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "도담가",
     "main_item": "물밀면",
     "price": "7,000",
@@ -6480,7 +4836,7 @@
     "region_2depth": "창녕군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "맘보식당",
     "main_item": "정식",
     "price": "7,000",
@@ -6504,7 +4860,7 @@
     "region_2depth": "창녕군"
   },
   {
-    "category": "한식_분식",
+    "category": "한식",
     "name": "아리랑분식",
     "main_item": "김밥",
     "price": "2,000",
@@ -6516,7 +4872,7 @@
     "region_2depth": "창녕군"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "양동손칼국수",
     "main_item": "칼국수",
     "price": "5,000",
@@ -6540,7 +4896,7 @@
     "region_2depth": "창녕군"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "장백산칼국수",
     "main_item": "칼국수",
     "price": "7,000",
@@ -6552,7 +4908,7 @@
     "region_2depth": "창녕군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "전주특미식당",
     "main_item": "불낙전골",
     "price": "13,000",
@@ -6564,7 +4920,7 @@
     "region_2depth": "창녕군"
   },
   {
-    "category": "한식_기타",
+    "category": "한식",
     "name": "정군포차",
     "main_item": "제육양념볶음",
     "price": "9,900",
@@ -6576,19 +4932,7 @@
     "region_2depth": "창녕군"
   },
   {
-    "category": "미용업",
-    "name": "준 헤어카페",
-    "main_item": "커트",
-    "price": "8,000",
-    "phone": "055-526-4902",
-    "address": "경상남도 창녕군 남지읍 낙동로 461",
-    "lat": 35.3887029557635,
-    "lng": 128.475007961743,
-    "region_1depth": "경남",
-    "region_2depth": "창녕군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "하씨토종흑돼지",
     "main_item": "불낙전골",
     "price": "13,000",
@@ -6600,7 +4944,7 @@
     "region_2depth": "창녕군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "홍천뚝배기",
     "main_item": "해장국",
     "price": "7,000",
@@ -6612,7 +4956,7 @@
     "region_2depth": "창녕군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "고성공룡시장휴게소",
     "main_item": "돈가스",
     "price": "7,000",
@@ -6624,7 +4968,7 @@
     "region_2depth": "고성군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "땡초김밥",
     "main_item": "된장찌개",
     "price": "7,000",
@@ -6636,7 +4980,7 @@
     "region_2depth": "고성군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "명진밥상",
     "main_item": "정식",
     "price": "8,000",
@@ -6648,7 +4992,7 @@
     "region_2depth": "고성군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "배꼭지",
     "main_item": "공룡비빔밥",
     "price": "6,000",
@@ -6660,7 +5004,7 @@
     "region_2depth": "고성군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "보현네 대박집",
     "main_item": "한정식",
     "price": "8,000",
@@ -6672,7 +5016,7 @@
     "region_2depth": "고성군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "신솔가든",
     "main_item": "삼계탕",
     "price": "12,000",
@@ -6684,7 +5028,7 @@
     "region_2depth": "고성군"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "얼큰이손칼국수",
     "main_item": "샤브샤브칼국수",
     "price": "10,000",
@@ -6696,7 +5040,7 @@
     "region_2depth": "고성군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "오시오식당",
     "main_item": "낙지볶음",
     "price": "8,000",
@@ -6708,7 +5052,7 @@
     "region_2depth": "고성군"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "온천장칼국수",
     "main_item": "칼국수",
     "price": "6,000",
@@ -6720,7 +5064,7 @@
     "region_2depth": "고성군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "우정장어",
     "main_item": "장어국정식",
     "price": "5,000",
@@ -6732,7 +5076,7 @@
     "region_2depth": "고성군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "일미왕족발",
     "main_item": "족발",
     "price": "25,000",
@@ -6744,7 +5088,7 @@
     "region_2depth": "고성군"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "장승골황토가",
     "main_item": "갈비탕",
     "price": "8,000",
@@ -6756,7 +5100,7 @@
     "region_2depth": "고성군"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "장안숯불갈비",
     "main_item": "돼지국밥",
     "price": "7,000",
@@ -6768,7 +5112,7 @@
     "region_2depth": "고성군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "해오름양분식",
     "main_item": "오므라이스",
     "price": "7,000",
@@ -6778,18 +5122,6 @@
     "lng": 128.321160091098,
     "region_1depth": "경남",
     "region_2depth": "고성군"
-  },
-  {
-    "category": "숙박업",
-    "name": "남해 아라힐펜션",
-    "main_item": "8평방(평일)",
-    "price": "80,000",
-    "phone": "010-2795-3080",
-    "address": "경상남도 남해군 서면 남서대로 1949-15 아라힐펜션",
-    "lat": 34.826526646893,
-    "lng": 127.819870309572,
-    "region_1depth": "경남",
-    "region_2depth": "남해군"
   },
   {
     "category": "기타요식업",
@@ -6816,7 +5148,7 @@
     "region_2depth": "남해군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "다선정",
     "main_item": "돼지국밥",
     "price": "8,000",
@@ -6824,18 +5156,6 @@
     "address": "경상남도 남해군 삼동면 봉화로 12-1 다선정",
     "lat": 34.8073590172688,
     "lng": 128.034209067861,
-    "region_1depth": "경남",
-    "region_2depth": "남해군"
-  },
-  {
-    "category": "숙박업",
-    "name": "두리원",
-    "main_item": "독채(20평)",
-    "price": "200,000",
-    "phone": "055-863-0456",
-    "address": "경상남도 남해군 설천면 강진로 146-14 두리원",
-    "lat": 34.9089397009533,
-    "lng": 127.924502315345,
     "region_1depth": "경남",
     "region_2depth": "남해군"
   },
@@ -6852,7 +5172,7 @@
     "region_2depth": "남해군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "사랑채",
     "main_item": "멸치쌈밥(1인)",
     "price": "11,000",
@@ -6864,7 +5184,7 @@
     "region_2depth": "남해군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "설천죽집",
     "main_item": "콩칼국수죽",
     "price": "6,000",
@@ -6876,7 +5196,7 @@
     "region_2depth": "남해군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "아구마을",
     "main_item": "아구찜",
     "price": "28,000",
@@ -6900,19 +5220,7 @@
     "region_2depth": "남해군"
   },
   {
-    "category": "기타요식업",
-    "name": "오대박찐빵",
-    "main_item": "찐빵",
-    "price": "1,000",
-    "phone": "055-862-5070",
-    "address": "경상남도 남해군 남해읍 화전로 110 7동 11,12,14호",
-    "lat": 34.8401468400551,
-    "lng": 127.894484398932,
-    "region_1depth": "경남",
-    "region_2depth": "남해군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "재두식당",
     "main_item": "멸치쌈밥(2-3인)",
     "price": "23,000",
@@ -6936,7 +5244,7 @@
     "region_2depth": "남해군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "점심시간",
     "main_item": "알뜰정식",
     "price": "5,000",
@@ -6960,7 +5268,7 @@
     "region_2depth": "남해군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "푸른들분식",
     "main_item": "칼국수",
     "price": "4,000",
@@ -6984,7 +5292,7 @@
     "region_2depth": "남해군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "해바리숯불장어구이",
     "main_item": "장어돌판구이",
     "price": "13,000",
@@ -6996,7 +5304,7 @@
     "region_2depth": "남해군"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "금성숯불갈비",
     "main_item": "소고기전골",
     "price": "15,000",
@@ -7008,31 +5316,7 @@
     "region_2depth": "하동군"
   },
   {
-    "category": "기타비요식업",
-    "name": "금오산참숯가마찜질방",
-    "main_item": "찜질이용료",
-    "price": "11,000",
-    "phone": "055-884-0700",
-    "address": "경상남도 하동군 금남면 경충로 427-114",
-    "lat": 34.9751607554449,
-    "lng": 127.887484484755,
-    "region_1depth": "경남",
-    "region_2depth": "하동군"
-  },
-  {
-    "category": "한식_육류",
-    "name": "동광축산식당",
-    "main_item": "생삼겹(750g)",
-    "price": "55,000",
-    "phone": "055-884-0089",
-    "address": "경상남도 하동군 진교면 진교시장길 33",
-    "lat": 35.0267149281398,
-    "lng": 127.904673848818,
-    "region_1depth": "경남",
-    "region_2depth": "하동군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "산마루",
     "main_item": "추어탕",
     "price": "9,000",
@@ -7044,19 +5328,7 @@
     "region_2depth": "하동군"
   },
   {
-    "category": "한식_육류",
-    "name": "여명가든",
-    "main_item": "녹차양념오리구이",
-    "price": "38,000",
-    "phone": "055-883-5292",
-    "address": "경상남도 하동군 악양면 성두길 11-3",
-    "lat": 35.1582616065083,
-    "lng": 127.712645885302,
-    "region_1depth": "경남",
-    "region_2depth": "하동군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "오리랑 국밥이랑",
     "main_item": "돼지국밥",
     "price": "8,000",
@@ -7068,7 +5340,7 @@
     "region_2depth": "하동군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "원조재첩국나루터식당",
     "main_item": "재첩덮밥",
     "price": "13,000",
@@ -7080,19 +5352,7 @@
     "region_2depth": "하동군"
   },
   {
-    "category": "일식",
-    "name": "재성횟집",
-    "main_item": "모듬회(대)",
-    "price": "100,000",
-    "phone": "055-882-2878",
-    "address": "경상남도 하동군 진교면 술상길 183",
-    "lat": 34.988453597964,
-    "lng": 127.921252408962,
-    "region_1depth": "경남",
-    "region_2depth": "하동군"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "착한구이 식육식당",
     "main_item": "김해뒷고기",
     "price": "9,000",
@@ -7104,7 +5364,7 @@
     "region_2depth": "하동군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "청하가마솥밥",
     "main_item": "된장찌개정식(가마솥밥 포함)",
     "price": "10,000",
@@ -7116,7 +5376,7 @@
     "region_2depth": "하동군"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "하동솔잎돼지영농조합법인",
     "main_item": "갈비탕",
     "price": "14,000",
@@ -7128,7 +5388,7 @@
     "region_2depth": "하동군"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "하동솔잎한우프라자",
     "main_item": "쌈불고기",
     "price": "13,000",
@@ -7140,7 +5400,7 @@
     "region_2depth": "하동군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "해성식당",
     "main_item": "모듬정식",
     "price": "18,000",
@@ -7164,7 +5424,7 @@
     "region_2depth": "산청군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "모든식당",
     "main_item": "청국장",
     "price": "8,000",
@@ -7176,7 +5436,7 @@
     "region_2depth": "산청군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "산들가든",
     "main_item": "정식",
     "price": "8,000",
@@ -7188,7 +5448,7 @@
     "region_2depth": "산청군"
   },
   {
-    "category": "한식_분식",
+    "category": "한식",
     "name": "쌍방울식당",
     "main_item": "칼국수",
     "price": "6,000",
@@ -7212,7 +5472,7 @@
     "region_2depth": "산청군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "정원약초쌈밥",
     "main_item": "쌈밥",
     "price": "10,000",
@@ -7224,7 +5484,7 @@
     "region_2depth": "산청군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "초야식육식당",
     "main_item": "정식",
     "price": "9,000",
@@ -7236,7 +5496,7 @@
     "region_2depth": "산청군"
   },
   {
-    "category": "한식_찌개류",
+    "category": "한식",
     "name": "황태해장국",
     "main_item": "얼큰순두부",
     "price": "8,000",
@@ -7248,7 +5508,7 @@
     "region_2depth": "산청군"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "그린식당",
     "main_item": "해물칼국수",
     "price": "6,000",
@@ -7260,19 +5520,7 @@
     "region_2depth": "함양군"
   },
   {
-    "category": "목욕업",
-    "name": "덕일탕",
-    "main_item": "목욕료",
-    "price": "5,000",
-    "phone": "055-963-3222",
-    "address": "경상남도 함양군 함양읍 한들로 97-1",
-    "lat": 35.5160101414676,
-    "lng": 127.729641087542,
-    "region_1depth": "경남",
-    "region_2depth": "함양군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "도라지식당",
     "main_item": "삼계탕",
     "price": "13,000",
@@ -7284,7 +5532,7 @@
     "region_2depth": "함양군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "만월식당",
     "main_item": "국수",
     "price": "4,000",
@@ -7320,7 +5568,7 @@
     "region_2depth": "함양군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "삼일식당",
     "main_item": "삼겹살(150g/1인분)",
     "price": "13,000",
@@ -7332,7 +5580,7 @@
     "region_2depth": "함양군"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "숙이분식",
     "main_item": "수제비",
     "price": "5,000",
@@ -7344,7 +5592,7 @@
     "region_2depth": "함양군"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "연밭식육식당",
     "main_item": "흑돼지삼겹살(150g/1인분)",
     "price": "12,000",
@@ -7356,7 +5604,7 @@
     "region_2depth": "함양군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "옛날보리밥집",
     "main_item": "보리밥",
     "price": "4,000",
@@ -7368,19 +5616,7 @@
     "region_2depth": "함양군"
   },
   {
-    "category": "한식_일반",
-    "name": "오륙도식당",
-    "main_item": "오리로스(大) 1마리",
-    "price": "50,000",
-    "phone": "055-963-3649",
-    "address": "경상남도 함양군 함양읍 함양남서로 1201 1층",
-    "lat": 35.5181860812655,
-    "lng": 127.721795718612,
-    "region_1depth": "경남",
-    "region_2depth": "함양군"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "옥호식당",
     "main_item": "국수",
     "price": "4,000",
@@ -7392,7 +5628,7 @@
     "region_2depth": "함양군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "장수식당",
     "main_item": "수제비",
     "price": "5,000",
@@ -7404,7 +5640,7 @@
     "region_2depth": "함양군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "코코기린",
     "main_item": "우동",
     "price": "4,500",
@@ -7416,19 +5652,7 @@
     "region_2depth": "함양군"
   },
   {
-    "category": "이용업",
-    "name": "효성이용원",
-    "main_item": "컷트",
-    "price": "8,000",
-    "phone": "055-962-8789",
-    "address": "경상남도 함양군 유림면 안평길 7-1",
-    "lat": 35.5123192935272,
-    "lng": 127.781904627481,
-    "region_1depth": "경남",
-    "region_2depth": "함양군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "경주식당",
     "main_item": "수제비",
     "price": "5,000",
@@ -7440,7 +5664,7 @@
     "region_2depth": "거창군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "대구묵집",
     "main_item": "비빔밥",
     "price": "5,000",
@@ -7452,7 +5676,7 @@
     "region_2depth": "거창군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "도희네집분식",
     "main_item": "라면",
     "price": "4,000",
@@ -7464,31 +5688,7 @@
     "region_2depth": "거창군"
   },
   {
-    "category": "목욕업",
-    "name": "동아탕",
-    "main_item": "대인",
-    "price": "4,000",
-    "phone": "055-942-0065",
-    "address": "경상남도 거창군 가조면 지산로 1482",
-    "lat": 35.7089340513583,
-    "lng": 128.016180746147,
-    "region_1depth": "경남",
-    "region_2depth": "거창군"
-  },
-  {
-    "category": "목욕업",
-    "name": "본모텔&본사우나",
-    "main_item": "대인",
-    "price": "3,000",
-    "phone": "055-941-1280",
-    "address": "경상남도 거창군 가조면 가조가야로 1125 본모텔&amp;amp;본사우나",
-    "lat": 35.7105251453827,
-    "lng": 128.018114385006,
-    "region_1depth": "경남",
-    "region_2depth": "거창군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "봉천식당",
     "main_item": "된장찌개",
     "price": "7,000",
@@ -7500,19 +5700,7 @@
     "region_2depth": "거창군"
   },
   {
-    "category": "기타요식업",
-    "name": "사부자기베이커리",
-    "main_item": "앙금빵류",
-    "price": "1,500",
-    "phone": "055-945-7288",
-    "address": "경상남도 거창군 가조면 지산로 1485",
-    "lat": 35.709372052225,
-    "lng": 128.015603972162,
-    "region_1depth": "경남",
-    "region_2depth": "거창군"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "시장추어탕",
     "main_item": "보리밥",
     "price": "5,000",
@@ -7524,7 +5712,7 @@
     "region_2depth": "거창군"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "신원식육식당",
     "main_item": "삼겹살(200g)",
     "price": "11,000",
@@ -7536,7 +5724,7 @@
     "region_2depth": "거창군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "영민분식",
     "main_item": "보리밥",
     "price": "6,000",
@@ -7548,7 +5736,7 @@
     "region_2depth": "거창군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "정가네오가네",
     "main_item": "된장찌개",
     "price": "7,000",
@@ -7560,19 +5748,7 @@
     "region_2depth": "거창군"
   },
   {
-    "category": "미용업",
-    "name": "제니헤어",
-    "main_item": "일반펌",
-    "price": "25,000",
-    "phone": "0507-1370-8458",
-    "address": "경상남도 거창군 거창읍 중앙로 140 103호",
-    "lat": 35.686861910347,
-    "lng": 127.914118551929,
-    "region_1depth": "경남",
-    "region_2depth": "거창군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "제일왕만두",
     "main_item": "칼국수",
     "price": "5,000",
@@ -7584,7 +5760,7 @@
     "region_2depth": "거창군"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "착한한돈",
     "main_item": "생삼겹살",
     "price": "8,900",
@@ -7596,19 +5772,7 @@
     "region_2depth": "거창군"
   },
   {
-    "category": "미용업",
-    "name": "컬러샵",
-    "main_item": "염색",
-    "price": "35,000",
-    "phone": "0507-1497-0499",
-    "address": "경상남도 거창군 거창읍 중앙로 140 102호",
-    "lat": 35.686861910347,
-    "lng": 127.914118551929,
-    "region_1depth": "경남",
-    "region_2depth": "거창군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "한다라이",
     "main_item": "청국장",
     "price": "7,000",
@@ -7644,7 +5808,7 @@
     "region_2depth": "합천군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "갱식이통닭",
     "main_item": "양념통닭",
     "price": "16,000",
@@ -7656,7 +5820,7 @@
     "region_2depth": "합천군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "구구식당",
     "main_item": "토속된장찌개",
     "price": "8,000",
@@ -7668,7 +5832,7 @@
     "region_2depth": "합천군"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "국수전문점",
     "main_item": "국수",
     "price": "5,000",
@@ -7692,7 +5856,7 @@
     "region_2depth": "합천군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "금관식당",
     "main_item": "물막국수",
     "price": "8,000",
@@ -7704,7 +5868,7 @@
     "region_2depth": "합천군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "금호관",
     "main_item": "산채비빔밥+된장찌개",
     "price": "10,000",
@@ -7716,19 +5880,7 @@
     "region_2depth": "합천군"
   },
   {
-    "category": "이용업",
-    "name": "남정이발관",
-    "main_item": "이발+샴푸",
-    "price": "10,000",
-    "phone": "055-933-9999",
-    "address": "경상남도 합천군 합천읍 남정길 48 남정이발관",
-    "lat": 35.5653182128791,
-    "lng": 128.156753457257,
-    "region_1depth": "경남",
-    "region_2depth": "합천군"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "다라국수",
     "main_item": "국수",
     "price": "5,000",
@@ -7740,7 +5892,7 @@
     "region_2depth": "합천군"
   },
   {
-    "category": "한식_기타",
+    "category": "한식",
     "name": "대가야가든",
     "main_item": "메기매운탕(2~3인)",
     "price": "25,000",
@@ -7752,7 +5904,7 @@
     "region_2depth": "합천군"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "대가한우",
     "main_item": "삼겹살(200g)",
     "price": "10,000",
@@ -7776,7 +5928,7 @@
     "region_2depth": "합천군"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "돈먹쇠숯불갈비",
     "main_item": "삼겹살(200g)",
     "price": "10,000",
@@ -7788,19 +5940,7 @@
     "region_2depth": "합천군"
   },
   {
-    "category": "숙박업",
-    "name": "드림모텔",
-    "main_item": "숙박(일반실)",
-    "price": "40,000",
-    "phone": "055-932-0260",
-    "address": "경상남도 합천군 합천읍 동서로 92-6 드림모텔",
-    "lat": 35.566472693221,
-    "lng": 128.162067058203,
-    "region_1depth": "경남",
-    "region_2depth": "합천군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "만복식당",
     "main_item": "비빔밥",
     "price": "7,000",
@@ -7812,19 +5952,7 @@
     "region_2depth": "합천군"
   },
   {
-    "category": "목욕업",
-    "name": "만수탕",
-    "main_item": "목욕료(대인)",
-    "price": "6,000",
-    "phone": "055-931-8369",
-    "address": "경상남도 합천군 합천읍 중앙로 76-9 만수탕",
-    "lat": 35.5675497346703,
-    "lng": 128.159233928141,
-    "region_1depth": "경남",
-    "region_2depth": "합천군"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "삼가명품한우",
     "main_item": "삼겹살(200g)",
     "price": "10,000",
@@ -7836,7 +5964,7 @@
     "region_2depth": "합천군"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "세진숯불갈비",
     "main_item": "고추장불고기(공깃밥 별도)",
     "price": "9,000",
@@ -7848,19 +5976,7 @@
     "region_2depth": "합천군"
   },
   {
-    "category": "목욕업",
-    "name": "수림탕",
-    "main_item": "목욕료(대인)",
-    "price": "6,000",
-    "phone": "055-931-1258",
-    "address": "경상남도 합천군 초계면 초계중앙로  28-3 수림탕",
-    "lat": 35.558564942819,
-    "lng": 128.26312613302,
-    "region_1depth": "경남",
-    "region_2depth": "합천군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "수미정식당",
     "main_item": "쇠고기전골",
     "price": "10,000",
@@ -7872,19 +5988,7 @@
     "region_2depth": "합천군"
   },
   {
-    "category": "목욕업",
-    "name": "수성탕",
-    "main_item": "-",
-    "price": "",
-    "phone": "055-932-4346",
-    "address": "경상남도 합천군 삼가면 삼가1로 84 수성탕",
-    "lat": 35.4142380249565,
-    "lng": 128.122142292136,
-    "region_1depth": "경남",
-    "region_2depth": "합천군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "순이밥상",
     "main_item": "산채비빔밥+된장찌개+생선",
     "price": "10,000",
@@ -7896,19 +6000,7 @@
     "region_2depth": "합천군"
   },
   {
-    "category": "미용업",
-    "name": "아참미용실",
-    "main_item": "커트(남 여)",
-    "price": "10,000",
-    "phone": "055-932-9627",
-    "address": "경상남도 합천군 초계면 초계중앙로 36-1 아참미용실",
-    "lat": 35.5589798526187,
-    "lng": 128.263953089509,
-    "region_1depth": "경남",
-    "region_2depth": "합천군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "연하정",
     "main_item": "김치찌개",
     "price": "7,000",
@@ -7920,7 +6012,7 @@
     "region_2depth": "합천군"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "영호식당",
     "main_item": "돼지갈비(220g)",
     "price": "9,000",
@@ -7932,7 +6024,7 @@
     "region_2depth": "합천군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "옥산식육식당",
     "main_item": "돼지국밥",
     "price": "4,000",
@@ -7944,19 +6036,7 @@
     "region_2depth": "합천군"
   },
   {
-    "category": "숙박업",
-    "name": "적교장",
-    "main_item": "숙박",
-    "price": "35,000",
-    "phone": "055-932-6820",
-    "address": "경상남도 합천군 청덕면 의합대로 2917-1",
-    "lat": 35.5256963866977,
-    "lng": 128.357825603144,
-    "region_1depth": "경남",
-    "region_2depth": "합천군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "정성식당",
     "main_item": "된장찌개",
     "price": "8,000",
@@ -7968,19 +6048,7 @@
     "region_2depth": "합천군"
   },
   {
-    "category": "숙박업",
-    "name": "제우스모텔",
-    "main_item": "숙박(일반실)",
-    "price": "45,000",
-    "phone": "055-933-5034",
-    "address": "경상남도 합천군 합천읍 충효로 93-46 제우스모텔",
-    "lat": 35.5688564134125,
-    "lng": 128.160182841405,
-    "region_1depth": "경남",
-    "region_2depth": "합천군"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "제일식당",
     "main_item": "냉면",
     "price": "8,000",
@@ -7992,7 +6060,7 @@
     "region_2depth": "합천군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "주연이국밥",
     "main_item": "돼지국밥",
     "price": "6,000",
@@ -8004,7 +6072,7 @@
     "region_2depth": "합천군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "중앙식육식당",
     "main_item": "돼지국밥",
     "price": "6,000",
@@ -8016,7 +6084,7 @@
     "region_2depth": "합천군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "청학동식당",
     "main_item": "삼겹살(180g)",
     "price": "10,000",
@@ -8028,19 +6096,7 @@
     "region_2depth": "합천군"
   },
   {
-    "category": "목욕업",
-    "name": "초계동명탕",
-    "main_item": "목욕료(대인)",
-    "price": "6,000",
-    "phone": "055-932-1498",
-    "address": "경상남도 합천군 초계면 초계2길 7-4 초계동명탕",
-    "lat": 35.5585270669853,
-    "lng": 128.268227294022,
-    "region_1depth": "경남",
-    "region_2depth": "합천군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "토속식당",
     "main_item": "청국장",
     "price": "7,000",
@@ -8052,7 +6108,7 @@
     "region_2depth": "합천군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "통영추어탕",
     "main_item": "추어탕",
     "price": "7,000",
@@ -8076,7 +6132,7 @@
     "region_2depth": "합천군"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "합천닭칼국수",
     "main_item": "한방수육",
     "price": "22,000",
@@ -8088,7 +6144,7 @@
     "region_2depth": "합천군"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "합천토종명품돼지",
     "main_item": "냉면",
     "price": "7,000",
@@ -8096,18 +6152,6 @@
     "address": "경상남도 합천군 묘산면 묘산로 215 합천토종명품돼지",
     "lat": 35.6605996550676,
     "lng": 128.117112873714,
-    "region_1depth": "경남",
-    "region_2depth": "합천군"
-  },
-  {
-    "category": "목욕업",
-    "name": "행복한 목욕탕",
-    "main_item": "목욕료(대인)",
-    "price": "6,000",
-    "phone": "055-931-1151",
-    "address": "경상남도 합천군 합천읍  충효로 51-1 1층 행복한목욕탕",
-    "lat": 35.5650553533303,
-    "lng": 128.160744176115,
     "region_1depth": "경남",
     "region_2depth": "합천군"
   }

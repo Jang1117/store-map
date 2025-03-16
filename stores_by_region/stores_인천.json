@@ -1,6 +1,6 @@
 [
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "가마두담",
     "main_item": "김치찜(2인)",
     "price": "20,000",
@@ -12,7 +12,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "골목집",
     "main_item": "칼국수",
     "price": "6,000",
@@ -24,7 +24,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "공항샤브칼국수",
     "main_item": "공항샤브샤브",
     "price": "10,900",
@@ -36,7 +36,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "금촌집",
     "main_item": "부대찌개(2인)",
     "price": "16,000",
@@ -48,7 +48,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "김윤식의 착한국수, 솥뚜껑삼겹살",
     "main_item": "국수+떡갈비",
     "price": "7,000",
@@ -60,7 +60,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "내고향 돼지불백전문점",
     "main_item": "돼지불백+김치찌개",
     "price": "11,000",
@@ -72,7 +72,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "다정가마솥순두부",
     "main_item": "초당(백)순두부",
     "price": "9,000",
@@ -96,19 +96,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "일식",
-    "name": "명진일식",
-    "main_item": "한상차림(4인)",
-    "price": "53,000",
-    "phone": "032-772-8833",
-    "address": "인천광역시 중구 신포로23번길 21 (중앙동4가) 1층",
-    "lat": 37.4715734983542,
-    "lng": 126.623696918048,
-    "region_1depth": "인천",
-    "region_2depth": "중구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "백원이네",
     "main_item": "해물라면",
     "price": "5,000",
@@ -120,7 +108,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "부산식당",
     "main_item": "모듬회(중)",
     "price": "30,000",
@@ -144,19 +132,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
-    "name": "새벽숯불가든",
-    "main_item": "방목흑돼지(400g)",
-    "price": "40,000",
-    "phone": "032-872-9589",
-    "address": "인천광역시 중구 제물량로166번길 23 (신포동)",
-    "lat": 37.4711527932093,
-    "lng": 126.62595903296,
-    "region_1depth": "인천",
-    "region_2depth": "중구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "소미국수",
     "main_item": "감자칼국수",
     "price": "8,000",
@@ -168,7 +144,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "신신분식",
     "main_item": "우동",
     "price": "5,500",
@@ -180,7 +156,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "신포대패",
     "main_item": "신포대패(120g)",
     "price": "6,000",
@@ -192,7 +168,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "신포화로구이",
     "main_item": "김치찌개",
     "price": "7,000",
@@ -204,7 +180,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "신흥숯불갈비",
     "main_item": "냉면",
     "price": "8,000",
@@ -216,7 +192,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "옹진찰밥",
     "main_item": "소라된장찌개",
     "price": "8,000",
@@ -240,7 +216,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "우현족발",
     "main_item": "무한리필(족발 보쌈 매운족발 감자탕)",
     "price": "14,000",
@@ -252,7 +228,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "월미식당",
     "main_item": "짜장면",
     "price": "6,000",
@@ -276,7 +252,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "일미정",
     "main_item": "불고기백반",
     "price": "12,000",
@@ -288,7 +264,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "장터삼겹살(신흥)",
     "main_item": "삼겹살(200g)",
     "price": "9,000",
@@ -300,7 +276,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "장터삼겹살(연안)",
     "main_item": "삼겹살 (180g)",
     "price": "9,000",
@@ -324,7 +300,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "조은전골칼국수",
     "main_item": "칼국수+보쌈(무한리필)",
     "price": "12,000",
@@ -336,7 +312,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "진국",
     "main_item": "콩나물국밥",
     "price": "6,000",
@@ -360,7 +336,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "철이네손수제비랑칼국수(신포)",
     "main_item": "얼큰수제비",
     "price": "6,000",
@@ -372,7 +348,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "철이네손수제비랑칼국수(신흥)",
     "main_item": "수제비",
     "price": "6,000",
@@ -384,7 +360,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "청수식당",
     "main_item": "오삼불고기",
     "price": "8,500",
@@ -396,7 +372,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "토담골",
     "main_item": "제육쌈밥(2인이상)",
     "price": "10,000",
@@ -408,7 +384,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "할매왕족발순대",
     "main_item": "순대국밥",
     "price": "8,000",
@@ -416,18 +392,6 @@
     "address": "인천광역시 중구 우현로45번길 11 (신포동)",
     "lat": 37.471178168521,
     "lng": 126.627488752016,
-    "region_1depth": "인천",
-    "region_2depth": "중구"
-  },
-  {
-    "category": "세탁업",
-    "name": "현대세탁소",
-    "main_item": "바지",
-    "price": "4,000",
-    "phone": "032-891-5252",
-    "address": "인천광역시 중구 인항로 34 1층 102호 (신흥동3가)",
-    "lat": 37.4571633075413,
-    "lng": 126.634101603919,
     "region_1depth": "인천",
     "region_2depth": "중구"
   },
@@ -444,7 +408,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "회마트",
     "main_item": "광어회(중)",
     "price": "27,000",
@@ -456,19 +420,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "기타요식업",
-    "name": "갓구워낸빵",
-    "main_item": "단팥빵",
-    "price": "1,200",
-    "phone": "032-567-9019",
-    "address": "인천광역시 동구 샛골로 173 (송림동) 1층",
-    "lat": 37.4778612923146,
-    "lng": 126.644753095662,
-    "region_1depth": "인천",
-    "region_2depth": "동구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "금창식당",
     "main_item": "쌈밥",
     "price": "10,000",
@@ -480,7 +432,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "남서방면옥",
     "main_item": "칼국수",
     "price": "6,000",
@@ -492,19 +444,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "미용업",
-    "name": "남성여성커트전문점",
-    "main_item": "남성커트",
-    "price": "5,000",
-    "phone": "010-8670-9155",
-    "address": "인천광역시 동구 샛골로161번길 26 (송림동) 1층",
-    "lat": 37.4770317248995,
-    "lng": 126.643343389973,
-    "region_1depth": "인천",
-    "region_2depth": "동구"
-  },
-  {
-    "category": "한식_분식",
+    "category": "한식",
     "name": "냠냠분식",
     "main_item": "떡볶이",
     "price": "3,500",
@@ -512,18 +452,6 @@
     "address": "인천광역시 동구 수문통로 39 (송현동) 1층",
     "lat": 37.4798506373559,
     "lng": 126.633983885308,
-    "region_1depth": "인천",
-    "region_2depth": "동구"
-  },
-  {
-    "category": "세탁업",
-    "name": "네오클리닝센타",
-    "main_item": "정장1벌",
-    "price": "8,000",
-    "phone": "032-766-0030",
-    "address": "인천광역시 동구 송현로 19번길 14 (송현동)",
-    "lat": 37.4785676119164,
-    "lng": 126.634101843256,
     "region_1depth": "인천",
     "region_2depth": "동구"
   },
@@ -540,7 +468,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "대청마루감자탕",
     "main_item": "뼈해장국",
     "price": "9,000",
@@ -552,7 +480,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "몽실식당",
     "main_item": "냉면+불고기",
     "price": "9,000",
@@ -600,7 +528,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "밥심",
     "main_item": "한식부페",
     "price": "8,000",
@@ -612,7 +540,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "배다리 일품 갈비탕",
     "main_item": "순두부",
     "price": "8,000",
@@ -624,7 +552,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "벽란식당",
     "main_item": "벤뎅이덮밥",
     "price": "9,000",
@@ -636,7 +564,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "석이네분식",
     "main_item": "백반",
     "price": "6,000",
@@ -648,19 +576,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "기타비요식업",
-    "name": "스튜디오 이티씨 studio etc",
-    "main_item": "반명함 학생할인",
-    "price": "15,000",
-    "phone": "032-221-5969",
-    "address": "인천광역시 동구 금곡로 5 (금곡동) 2층",
-    "lat": 37.472702954932,
-    "lng": 126.636256412581,
-    "region_1depth": "인천",
-    "region_2depth": "동구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "시온이네집밥",
     "main_item": "청국장",
     "price": "6,000",
@@ -672,7 +588,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "신대청마루",
     "main_item": "백반",
     "price": "6,000",
@@ -684,19 +600,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "세탁업",
-    "name": "신흥세탁소",
-    "main_item": "오리털점퍼(롱)",
-    "price": "15,000",
-    "phone": "032-764-1308",
-    "address": "인천광역시 동구 샛골로 75-1 (창영동) 1층",
-    "lat": 37.4696506868713,
-    "lng": 126.641764768053,
-    "region_1depth": "인천",
-    "region_2depth": "동구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "아구군갈비양",
     "main_item": "백반",
     "price": "6,000",
@@ -708,7 +612,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "어도(魚島)",
     "main_item": "순두부",
     "price": "8,000",
@@ -720,7 +624,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "와글와글 맛있는 국수집",
     "main_item": "잔치국수",
     "price": "4,000",
@@ -744,7 +648,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "일월아구",
     "main_item": "쭈꾸미 쌈밥정식",
     "price": "9,000",
@@ -756,7 +660,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "자매한우소머리곰탕",
     "main_item": "소머리국밥",
     "price": "10,000",
@@ -768,7 +672,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "청해물텀벙",
     "main_item": "아구뚝배기",
     "price": "8,000",
@@ -780,7 +684,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "평양냉면",
     "main_item": "물냉면",
     "price": "8,000",
@@ -792,7 +696,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "한울타리",
     "main_item": "청국장",
     "price": "7,000",
@@ -804,7 +708,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "해주식당",
     "main_item": "백반",
     "price": "8,000",
@@ -816,7 +720,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "화도진순대국",
     "main_item": "순대국",
     "price": "9,000",
@@ -828,7 +732,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "횡성생고기",
     "main_item": "생삼겹살",
     "price": "11,900",
@@ -840,7 +744,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "강원국수집",
     "main_item": "잔치국수",
     "price": "5,000",
@@ -876,19 +780,7 @@
     "region_2depth": "미추홀구"
   },
   {
-    "category": "기타비요식업",
-    "name": "글로이로이",
-    "main_item": "여권사진 8매 + 파일",
-    "price": "15,000",
-    "phone": "070-4571-9585",
-    "address": "인천광역시 미추홀구 경인로 지하125 (숭의동) 제물포지하도상가 65호",
-    "lat": 37.4669348167024,
-    "lng": 126.656400031495,
-    "region_1depth": "인천",
-    "region_2depth": "미추홀구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "김밥짜장",
     "main_item": "김치찌개",
     "price": "4,000",
@@ -900,7 +792,7 @@
     "region_2depth": "미추홀구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "김밥타운",
     "main_item": "원조김밥",
     "price": "3,000",
@@ -912,43 +804,7 @@
     "region_2depth": "미추홀구"
   },
   {
-    "category": "미용업",
-    "name": "까망헤어",
-    "main_item": "어르신커트",
-    "price": "5,000",
-    "phone": "",
-    "address": "인천광역시 미추홀구 경인로 471번길 28 (주안동)",
-    "lat": 37.4600011638778,
-    "lng": 126.691525417125,
-    "region_1depth": "인천",
-    "region_2depth": "미추홀구"
-  },
-  {
-    "category": "미용업",
-    "name": "깎을까뽂을까",
-    "main_item": "커트",
-    "price": "7,000",
-    "phone": "",
-    "address": "인천광역시 미추홀구 독정이로 16번길 12 (용현동)",
-    "lat": 37.4577988084109,
-    "lng": 126.655172558818,
-    "region_1depth": "인천",
-    "region_2depth": "미추홀구"
-  },
-  {
-    "category": "기타요식업",
-    "name": "다온 디저트 베이커리",
-    "main_item": "에그타르트",
-    "price": "1,900",
-    "phone": "070-8657-3223",
-    "address": "인천광역시 미추홀구 주승로 247 (관교동) 101호",
-    "lat": 37.4412921784195,
-    "lng": 126.695642578025,
-    "region_1depth": "인천",
-    "region_2depth": "미추홀구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "다우리식당",
     "main_item": "된장찌개",
     "price": "7,000",
@@ -960,7 +816,7 @@
     "region_2depth": "미추홀구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "당가네대박삼겹",
     "main_item": "삼겹살(150g)",
     "price": "7,500",
@@ -972,7 +828,7 @@
     "region_2depth": "미추홀구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "대박집",
     "main_item": "삼겹살(200g)",
     "price": "8,000",
@@ -1008,18 +864,6 @@
     "region_2depth": "미추홀구"
   },
   {
-    "category": "세탁업",
-    "name": "동방클리닝",
-    "main_item": "하의수선",
-    "price": "3,000",
-    "phone": "032-873-1811",
-    "address": "인천광역시 미추홀구 수봉로40 (숭의동)",
-    "lat": 37.4627146018991,
-    "lng": 126.656745557316,
-    "region_1depth": "인천",
-    "region_2depth": "미추홀구"
-  },
-  {
     "category": "중식",
     "name": "딕인차이나",
     "main_item": "자장면",
@@ -1032,7 +876,7 @@
     "region_2depth": "미추홀구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "레커훈스 인하대점",
     "main_item": "크리스피치킨",
     "price": "12,000",
@@ -1056,7 +900,7 @@
     "region_2depth": "미추홀구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "맛사랑",
     "main_item": "수제돈가스",
     "price": "7,000",
@@ -1068,7 +912,7 @@
     "region_2depth": "미추홀구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "명가촌",
     "main_item": "설렁탕",
     "price": "8,000",
@@ -1080,7 +924,7 @@
     "region_2depth": "미추홀구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "모모라면",
     "main_item": "얼큰라면+밥",
     "price": "4,000",
@@ -1092,7 +936,7 @@
     "region_2depth": "미추홀구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "박승광샤브샤브",
     "main_item": "소고기샤브세트1(2인)",
     "price": "23,000",
@@ -1104,19 +948,7 @@
     "region_2depth": "미추홀구"
   },
   {
-    "category": "미용업",
-    "name": "반도미용실",
-    "main_item": "커트",
-    "price": "5,000",
-    "phone": "032-867-9690",
-    "address": "인천광역시 미추홀구 수봉로27번길 4 (숭의동)",
-    "lat": 37.4635759177619,
-    "lng": 126.656574216114,
-    "region_1depth": "인천",
-    "region_2depth": "미추홀구"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "백년갈비",
     "main_item": "설렁탕",
     "price": "8,000",
@@ -1128,7 +960,7 @@
     "region_2depth": "미추홀구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "본전집",
     "main_item": "갈매기살(200g)",
     "price": "11,000",
@@ -1140,7 +972,7 @@
     "region_2depth": "미추홀구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "사계절 구이와 조림",
     "main_item": "가자미구이",
     "price": "10,000",
@@ -1152,7 +984,7 @@
     "region_2depth": "미추홀구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "삼삼오오",
     "main_item": "부대찌개",
     "price": "7,000",
@@ -1164,7 +996,7 @@
     "region_2depth": "미추홀구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "삼팔뚝배기",
     "main_item": "소고기미역국",
     "price": "6,800",
@@ -1176,7 +1008,7 @@
     "region_2depth": "미추홀구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "새우물식당",
     "main_item": "삼겹살(100g)",
     "price": "6,000",
@@ -1188,7 +1020,7 @@
     "region_2depth": "미추홀구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "성원멸치국수",
     "main_item": "멸치국수",
     "price": "4,500",
@@ -1200,7 +1032,7 @@
     "region_2depth": "미추홀구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "소문난식당",
     "main_item": "백반",
     "price": "7,000",
@@ -1212,7 +1044,7 @@
     "region_2depth": "미추홀구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "소와돼지방",
     "main_item": "생삼겹(200g)",
     "price": "9,000",
@@ -1224,7 +1056,7 @@
     "region_2depth": "미추홀구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "숙이갈비",
     "main_item": "돼지갈비(250g)",
     "price": "9,900",
@@ -1236,7 +1068,7 @@
     "region_2depth": "미추홀구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "숙이네즉석떡볶이",
     "main_item": "즉석떡볶이 기본(2인)",
     "price": "7,000",
@@ -1248,7 +1080,7 @@
     "region_2depth": "미추홀구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "숯불구이 먹방(인하대점)",
     "main_item": "육회비빔밥",
     "price": "6,000",
@@ -1260,7 +1092,7 @@
     "region_2depth": "미추홀구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "숯불구이 먹방(주안점)",
     "main_item": "생삼겹(150g)",
     "price": "7,500",
@@ -1272,7 +1104,7 @@
     "region_2depth": "미추홀구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "신포수산",
     "main_item": "대구탕",
     "price": "8,000",
@@ -1284,7 +1116,7 @@
     "region_2depth": "미추홀구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "쑥골국수집",
     "main_item": "왕돈가스",
     "price": "6,000",
@@ -1296,7 +1128,7 @@
     "region_2depth": "미추홀구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "아는족발",
     "main_item": "족발(중)",
     "price": "29,900",
@@ -1308,19 +1140,7 @@
     "region_2depth": "미추홀구"
   },
   {
-    "category": "이용업",
-    "name": "아빠이발관",
-    "main_item": "커트",
-    "price": "5,000",
-    "phone": "",
-    "address": "인천광역시 미추홀구 인주대로366번길 17 (주안동)",
-    "lat": 37.4505815918035,
-    "lng": 126.677100250835,
-    "region_1depth": "인천",
-    "region_2depth": "미추홀구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "엄지김밥",
     "main_item": "엄지김밥",
     "price": "2,500",
@@ -1344,7 +1164,7 @@
     "region_2depth": "미추홀구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "이모떡즉석떡볶이",
     "main_item": "옛날즉석떡볶이",
     "price": "5,000",
@@ -1356,7 +1176,7 @@
     "region_2depth": "미추홀구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "이웃집",
     "main_item": "김밥",
     "price": "3,000",
@@ -1368,19 +1188,7 @@
     "region_2depth": "미추홀구"
   },
   {
-    "category": "미용업",
-    "name": "인하뷰티",
-    "main_item": "커트",
-    "price": "8,000",
-    "phone": "032-888-0250",
-    "address": "인천광역시 미추홀구 석정로 228 1층 (도화동)",
-    "lat": 37.4679767857713,
-    "lng": 126.660844210774,
-    "region_1depth": "인천",
-    "region_2depth": "미추홀구"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "잇다(IT-DA)",
     "main_item": "소고기쌀국수",
     "price": "7,000",
@@ -1388,18 +1196,6 @@
     "address": "인천광역시 미추홀구 소성로 178 (학익동) .",
     "lat": 37.4412358258514,
     "lng": 126.66791797982,
-    "region_1depth": "인천",
-    "region_2depth": "미추홀구"
-  },
-  {
-    "category": "이용업",
-    "name": "종로이발",
-    "main_item": "커트",
-    "price": "8,000",
-    "phone": "032-883-5291",
-    "address": "인천광역시 미추홀구 석정로 150-1 (숭의동)",
-    "lat": 37.4682772477408,
-    "lng": 126.651973747345,
     "region_1depth": "인천",
     "region_2depth": "미추홀구"
   },
@@ -1416,7 +1212,7 @@
     "region_2depth": "미추홀구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "착한탕국",
     "main_item": "선짓국(2인분)",
     "price": "7,000",
@@ -1440,7 +1236,7 @@
     "region_2depth": "미추홀구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "카페나무아래",
     "main_item": "등심돈가스",
     "price": "8,000",
@@ -1452,7 +1248,7 @@
     "region_2depth": "미추홀구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "하루국수",
     "main_item": "콩나물비빔밥",
     "price": "7,000",
@@ -1464,7 +1260,7 @@
     "region_2depth": "미추홀구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "하얀감자탕",
     "main_item": "콩나물뼈해장국",
     "price": "8,500",
@@ -1476,7 +1272,7 @@
     "region_2depth": "미추홀구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "해와달",
     "main_item": "수제돈가스",
     "price": "9,000",
@@ -1488,7 +1284,7 @@
     "region_2depth": "미추홀구"
   },
   {
-    "category": "한식_기타",
+    "category": "한식",
     "name": "현대식당",
     "main_item": "김치찌개",
     "price": "4,000",
@@ -1500,7 +1296,7 @@
     "region_2depth": "미추홀구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "홍가네",
     "main_item": "제육덮밥",
     "price": "7,000",
@@ -1510,18 +1306,6 @@
     "lng": 126.683866526922,
     "region_1depth": "인천",
     "region_2depth": "미추홀구"
-  },
-  {
-    "category": "미용업",
-    "name": "OK헤어",
-    "main_item": "파마",
-    "price": "40,000",
-    "phone": "032-817-1082",
-    "address": "인천광역시 연수구 봉재산로36번길 1 (동춘동) 1층",
-    "lat": 37.4086534881602,
-    "lng": 126.66616753931,
-    "region_1depth": "인천",
-    "region_2depth": "연수구"
   },
   {
     "category": "중식",
@@ -1536,7 +1320,7 @@
     "region_2depth": "연수구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "구이촌",
     "main_item": "우차돌박이(130g)",
     "price": "10,000",
@@ -1548,7 +1332,7 @@
     "region_2depth": "연수구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "국수골목",
     "main_item": "멸치국수",
     "price": "6,000",
@@ -1560,19 +1344,7 @@
     "region_2depth": "연수구"
   },
   {
-    "category": "기타비요식업",
-    "name": "국제당구장",
-    "main_item": "(기본)40분",
-    "price": "5,000",
-    "phone": "",
-    "address": "인천광역시 연수구 앵고개로246번길 39-5 (동춘동) 4층 국제당구장",
-    "lat": 37.4070997401325,
-    "lng": 126.671040968546,
-    "region_1depth": "인천",
-    "region_2depth": "연수구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "김밥나라",
     "main_item": "비빔밥",
     "price": "6,000",
@@ -1584,7 +1356,7 @@
     "region_2depth": "연수구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "김밥이랑토스트",
     "main_item": "야채토스트",
     "price": "2,700",
@@ -1596,31 +1368,7 @@
     "region_2depth": "연수구"
   },
   {
-    "category": "미용업",
-    "name": "나인원 헤어",
-    "main_item": "파마",
-    "price": "20,000",
-    "phone": "010-2202-2447",
-    "address": "인천광역시 연수구 경원대로483번길 6 (선학동) 1층",
-    "lat": 37.4275279412957,
-    "lng": 126.698488464373,
-    "region_1depth": "인천",
-    "region_2depth": "연수구"
-  },
-  {
-    "category": "미용업",
-    "name": "로커스헤어",
-    "main_item": "파마",
-    "price": "30,000",
-    "phone": "032-818-9519",
-    "address": "인천광역시 연수구 송도과학로27번길 55 (송도동, 롯데캐슬 캠퍼스타운) 2층",
-    "lat": 37.3892363233087,
-    "lng": 126.665127593356,
-    "region_1depth": "인천",
-    "region_2depth": "연수구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "모박사 김밥",
     "main_item": "원조김밥",
     "price": "3,000",
@@ -1632,7 +1380,7 @@
     "region_2depth": "연수구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "밀사랑",
     "main_item": "칼국수",
     "price": "6,000",
@@ -1656,19 +1404,7 @@
     "region_2depth": "연수구"
   },
   {
-    "category": "미용업",
-    "name": "선학미용실",
-    "main_item": "파마",
-    "price": "30,000",
-    "phone": "032-817-9950",
-    "address": "인천광역시 연수구 학나래로109번길 21 (선학동)",
-    "lat": 37.4286055638358,
-    "lng": 126.696801505766,
-    "region_1depth": "인천",
-    "region_2depth": "연수구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "소랑돼지랑",
     "main_item": "돼지갈비(300g)",
     "price": "12,000",
@@ -1676,18 +1412,6 @@
     "address": "인천광역시 연수구 함박로 24 (연수동)",
     "lat": 37.4257212532482,
     "lng": 126.679890032116,
-    "region_1depth": "인천",
-    "region_2depth": "연수구"
-  },
-  {
-    "category": "미용업",
-    "name": "에녹컷트 전문점",
-    "main_item": "커트",
-    "price": "8,000",
-    "phone": "032-818-4884",
-    "address": "인천광역시 연수구 청명로 9 (청학동)",
-    "lat": 37.4168461185062,
-    "lng": 126.674459448376,
     "region_1depth": "인천",
     "region_2depth": "연수구"
   },
@@ -1704,19 +1428,7 @@
     "region_2depth": "연수구"
   },
   {
-    "category": "기타요식업",
-    "name": "인디오븐 동춘점",
-    "main_item": "단팥빵",
-    "price": "1,200",
-    "phone": "032-815-5259",
-    "address": "인천광역시 연수구 앵고개로264번길 40 (동춘동) 1층",
-    "lat": 37.4066697329921,
-    "lng": 126.671252594349,
-    "region_1depth": "인천",
-    "region_2depth": "연수구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "장재은한방통닭",
     "main_item": "한방통닭",
     "price": "10,900",
@@ -1728,7 +1440,7 @@
     "region_2depth": "연수구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "정아네 선지국",
     "main_item": "선짓국",
     "price": "7,000",
@@ -1740,7 +1452,7 @@
     "region_2depth": "연수구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "진이네김밥",
     "main_item": "참치주먹밥",
     "price": "3,000",
@@ -1752,7 +1464,7 @@
     "region_2depth": "연수구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "착한한식 집밥65 유주푸드",
     "main_item": "오징어볶음",
     "price": "8,000",
@@ -1764,19 +1476,7 @@
     "region_2depth": "연수구"
   },
   {
-    "category": "이용업",
-    "name": "청사내 구내이발",
-    "main_item": "커트",
-    "price": "7,000",
-    "phone": "032-749-6679",
-    "address": "인천광역시 연수구 원인재로 115 (연수구청 지하)",
-    "lat": 37.409493814977,
-    "lng": 126.678337878586,
-    "region_1depth": "인천",
-    "region_2depth": "연수구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "케이푸드(여기손맛국밥)",
     "main_item": "돼지국밥",
     "price": "7,900",
@@ -1788,7 +1488,7 @@
     "region_2depth": "연수구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "고기좋아",
     "main_item": "한돈목살",
     "price": "12,000",
@@ -1800,19 +1500,7 @@
     "region_2depth": "남동구"
   },
   {
-    "category": "미용업",
-    "name": "고영애미용실",
-    "main_item": "커트(경로)",
-    "price": "7,000",
-    "phone": "032-469-4191",
-    "address": "인천광역시 남동구 구월로372번길 13-13 (만수동)",
-    "lat": 37.4542642770684,
-    "lng": 126.732740601959,
-    "region_1depth": "인천",
-    "region_2depth": "남동구"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "고향모밀촌",
     "main_item": "온모밀",
     "price": "7,000",
@@ -1824,7 +1512,7 @@
     "region_2depth": "남동구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "국수마을",
     "main_item": "잔치국수",
     "price": "5,000",
@@ -1836,7 +1524,7 @@
     "region_2depth": "남동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "김밥나라",
     "main_item": "김밥",
     "price": "2,500",
@@ -1848,7 +1536,7 @@
     "region_2depth": "남동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "김밥마을",
     "main_item": "원조김밥",
     "price": "3,000",
@@ -1860,31 +1548,7 @@
     "region_2depth": "남동구"
   },
   {
-    "category": "미용업",
-    "name": "김서현헤어샵",
-    "main_item": "컷트",
-    "price": "7,000",
-    "phone": "032-468-8475",
-    "address": "인천광역시 남동구 용천로 104 (구월동)",
-    "lat": 37.4587845054887,
-    "lng": 126.714907137374,
-    "region_1depth": "인천",
-    "region_2depth": "남동구"
-  },
-  {
-    "category": "이용업",
-    "name": "남촌컷트클럽",
-    "main_item": "컷트",
-    "price": "9,000",
-    "phone": "032-463-9923",
-    "address": "인천광역시 남동구 남촌동로35번길 3 (남촌동)",
-    "lat": 37.431967448279,
-    "lng": 126.714840524936,
-    "region_1depth": "인천",
-    "region_2depth": "남동구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "남포면옥",
     "main_item": "꽃게간장백반",
     "price": "8,000",
@@ -1896,7 +1560,7 @@
     "region_2depth": "남동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "내고향만두",
     "main_item": "고기만두",
     "price": "5,000",
@@ -1908,7 +1572,7 @@
     "region_2depth": "남동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "녹차한돈갈비",
     "main_item": "한식부페",
     "price": "6,000",
@@ -1920,7 +1584,7 @@
     "region_2depth": "남동구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "대부도바지락칼국수",
     "main_item": "바지락칼국수",
     "price": "6,000",
@@ -1932,7 +1596,7 @@
     "region_2depth": "남동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "델리푸드",
     "main_item": "한식부페",
     "price": "6,000",
@@ -1956,7 +1620,7 @@
     "region_2depth": "남동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "두리왕돈까스",
     "main_item": "돈까스",
     "price": "7,500",
@@ -1964,18 +1628,6 @@
     "address": "인천광역시 남동구 장승남로 42 , 105호 (만수동)",
     "lat": 37.4431636514412,
     "lng": 126.736802569717,
-    "region_1depth": "인천",
-    "region_2depth": "남동구"
-  },
-  {
-    "category": "세탁업",
-    "name": "드라이119세탁",
-    "main_item": "Y셔츠",
-    "price": "2,000",
-    "phone": "032-466-6689",
-    "address": "인천광역시 남동구 만수로75번길 21 (만수동)",
-    "lat": 37.4632922445688,
-    "lng": 126.73571811414,
     "region_1depth": "인천",
     "region_2depth": "남동구"
   },
@@ -1992,7 +1644,7 @@
     "region_2depth": "남동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "맛깔김밥",
     "main_item": "김밥",
     "price": "3,000",
@@ -2004,7 +1656,7 @@
     "region_2depth": "남동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "매일하하",
     "main_item": "매일하하 카레",
     "price": "8,000",
@@ -2028,7 +1680,7 @@
     "region_2depth": "남동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "박가네삼감포",
     "main_item": "장어탕",
     "price": "7,000",
@@ -2040,7 +1692,7 @@
     "region_2depth": "남동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "별난곱창",
     "main_item": "뼈해장국",
     "price": "7,000",
@@ -2052,7 +1704,7 @@
     "region_2depth": "남동구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "불발치족발보쌈",
     "main_item": "보쌈(대)",
     "price": "30,000",
@@ -2064,19 +1716,7 @@
     "region_2depth": "남동구"
   },
   {
-    "category": "기타요식업",
-    "name": "브레덴라떼",
-    "main_item": "케이크",
-    "price": "14,000",
-    "phone": "032-431-7753",
-    "address": "인천광역시 남동구 만수로75번길 30 (만수동)",
-    "lat": 37.4635255145366,
-    "lng": 126.736161065929,
-    "region_1depth": "인천",
-    "region_2depth": "남동구"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "비담비",
     "main_item": "판모밀",
     "price": "7,500",
@@ -2084,30 +1724,6 @@
     "address": "인천광역시 남동구 독점로3번길 10-24 (구월동) 101호",
     "lat": 37.4510299424451,
     "lng": 126.710414820874,
-    "region_1depth": "인천",
-    "region_2depth": "남동구"
-  },
-  {
-    "category": "기타비요식업",
-    "name": "빈스카페",
-    "main_item": "HOT 아메리카노",
-    "price": "1,000",
-    "phone": "070-828-3077",
-    "address": "인천광역시 남동구 복개서로 79 (구월동)",
-    "lat": 37.4541973257964,
-    "lng": 126.723996008368,
-    "region_1depth": "인천",
-    "region_2depth": "남동구"
-  },
-  {
-    "category": "미용업",
-    "name": "사랑뷰티헤어살롱",
-    "main_item": "학생경로커트",
-    "price": "7,000",
-    "phone": "032-471-4662",
-    "address": "인천광역시 남동구 석산로216번길 3 (구월동) 1층",
-    "lat": 37.4606013400948,
-    "lng": 126.71608366281,
     "region_1depth": "인천",
     "region_2depth": "남동구"
   },
@@ -2124,18 +1740,6 @@
     "region_2depth": "남동구"
   },
   {
-    "category": "목욕업",
-    "name": "서일대중사우나",
-    "main_item": "목욕(대인)",
-    "price": "9,000",
-    "phone": "032-472-8002",
-    "address": "인천광역시 남동구 용천로3번길 18 (구월동)",
-    "lat": 37.4499581833377,
-    "lng": 126.713183158644,
-    "region_1depth": "인천",
-    "region_2depth": "남동구"
-  },
-  {
     "category": "중식",
     "name": "소망각",
     "main_item": "자장면",
@@ -2144,18 +1748,6 @@
     "address": "인천광역시 남동구 문화서로4번길 25-8 (구월동)",
     "lat": 37.4452522950486,
     "lng": 126.69683107587,
-    "region_1depth": "인천",
-    "region_2depth": "남동구"
-  },
-  {
-    "category": "이용업",
-    "name": "스마일맨",
-    "main_item": "컷트",
-    "price": "8,000",
-    "phone": "032-213-0096",
-    "address": "인천광역시 남동구 구월남로 300-2 (구월동)",
-    "lat": 37.4519259530334,
-    "lng": 126.72302664557,
     "region_1depth": "인천",
     "region_2depth": "남동구"
   },
@@ -2172,7 +1764,7 @@
     "region_2depth": "남동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "아랫목김밥",
     "main_item": "김밥",
     "price": "2,000",
@@ -2184,7 +1776,7 @@
     "region_2depth": "남동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "에바다떡볶이",
     "main_item": "떡볶이",
     "price": "3,500",
@@ -2192,18 +1784,6 @@
     "address": "인천광역시 남동구 장도로 4-2 (논현동)",
     "lat": 37.4048449593266,
     "lng": 126.734886464883,
-    "region_1depth": "인천",
-    "region_2depth": "남동구"
-  },
-  {
-    "category": "미용업",
-    "name": "엠에스와이 아름다운차이",
-    "main_item": "컷트(경로)",
-    "price": "10,000",
-    "phone": "032-469-7889",
-    "address": "인천광역시 남동구 소래로687번길 16 , 1층1호 (만수동)",
-    "lat": 37.4513985446599,
-    "lng": 126.734268943342,
     "region_1depth": "인천",
     "region_2depth": "남동구"
   },
@@ -2232,7 +1812,7 @@
     "region_2depth": "남동구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "옛날국수",
     "main_item": "잔치국수",
     "price": "6,000",
@@ -2244,7 +1824,7 @@
     "region_2depth": "남동구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "오가네한우마을",
     "main_item": "칼집생삼겹(500g)",
     "price": "20,000",
@@ -2256,7 +1836,7 @@
     "region_2depth": "남동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "옥가마추어탕",
     "main_item": "돌솥추어탕",
     "price": "8,500",
@@ -2280,18 +1860,6 @@
     "region_2depth": "남동구"
   },
   {
-    "category": "미용업",
-    "name": "유진헤어",
-    "main_item": "컷트(학생경로)",
-    "price": "7,000",
-    "phone": "032-462-3955",
-    "address": "인천광역시 남동구 담방서로17번길 25 (만수동)",
-    "lat": 37.4464490538822,
-    "lng": 126.736255625845,
-    "region_1depth": "인천",
-    "region_2depth": "남동구"
-  },
-  {
     "category": "기타요식업",
     "name": "이엠에스카페",
     "main_item": "아메리카노",
@@ -2304,7 +1872,7 @@
     "region_2depth": "남동구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "자가제면모밀지기",
     "main_item": "온모밀",
     "price": "6,000",
@@ -2316,7 +1884,7 @@
     "region_2depth": "남동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "정김밥",
     "main_item": "김밥",
     "price": "3,000",
@@ -2376,7 +1944,7 @@
     "region_2depth": "남동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "착한탕국",
     "main_item": "선지해장국 2인분",
     "price": "7,000",
@@ -2388,7 +1956,7 @@
     "region_2depth": "남동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "최복남직화쭈꾸미명가",
     "main_item": "쭈꾸미정식",
     "price": "15,000",
@@ -2400,7 +1968,7 @@
     "region_2depth": "남동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "춘보네돼지국밥앤수제돈까스",
     "main_item": "수육국밥",
     "price": "7,000",
@@ -2424,7 +1992,7 @@
     "region_2depth": "남동구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "큰집손칼국수",
     "main_item": "잔치국수",
     "price": "3,500",
@@ -2436,7 +2004,7 @@
     "region_2depth": "남동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "태남식당",
     "main_item": "백반",
     "price": "7,000",
@@ -2448,7 +2016,7 @@
     "region_2depth": "남동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "항아리필",
     "main_item": "한식뷔페",
     "price": "8,000",
@@ -2460,7 +2028,7 @@
     "region_2depth": "남동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "행복식당",
     "main_item": "백반",
     "price": "8,000",
@@ -2484,7 +2052,7 @@
     "region_2depth": "부평구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "거인뒷고기 부평점",
     "main_item": "뒷고기(300g)",
     "price": "11,000",
@@ -2496,31 +2064,7 @@
     "region_2depth": "부평구"
   },
   {
-    "category": "기타비요식업",
-    "name": "그루밍 하니",
-    "main_item": "소형견(~4Kg) 클리핑",
-    "price": "35,000",
-    "phone": "010-2897-1779",
-    "address": "인천광역시 부평구 경원대로1240번길 5-4 (부평동) 1층 101호",
-    "lat": 37.4874547582594,
-    "lng": 126.709038981706,
-    "region_1depth": "인천",
-    "region_2depth": "부평구"
-  },
-  {
-    "category": "미용업",
-    "name": "김현정헤어샵",
-    "main_item": "남자커트",
-    "price": "10,000",
-    "phone": "032-526-4666",
-    "address": "인천광역시 부평구 수변로9번길 5 1호(부개동)",
-    "lat": 37.4874777193375,
-    "lng": 126.739125342615,
-    "region_1depth": "인천",
-    "region_2depth": "부평구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "끼니분식",
     "main_item": "우엉김밥",
     "price": "3,500",
@@ -2528,78 +2072,6 @@
     "address": "인천광역시 부평구 신트리로22번길 6 (부평동) 1층",
     "lat": 37.5055630759311,
     "lng": 126.723496223812,
-    "region_1depth": "인천",
-    "region_2depth": "부평구"
-  },
-  {
-    "category": "기타비요식업",
-    "name": "낙원당구장",
-    "main_item": "대대(10분)",
-    "price": "1,700",
-    "phone": "032-278-1082",
-    "address": "인천광역시 부평구 동암광장로 6 (십정동) 3층",
-    "lat": 37.4708595158359,
-    "lng": 126.702180311352,
-    "region_1depth": "인천",
-    "region_2depth": "부평구"
-  },
-  {
-    "category": "한식_기타",
-    "name": "낙원떡집",
-    "main_item": "모듬찰떡(8Kg)",
-    "price": "160,000",
-    "phone": "032-501-6492",
-    "address": "인천광역시 부평구 육동로 14 (부평동) 1층",
-    "lat": 37.4865082814992,
-    "lng": 126.724923634502,
-    "region_1depth": "인천",
-    "region_2depth": "부평구"
-  },
-  {
-    "category": "이용업",
-    "name": "남성헤어컷",
-    "main_item": "컷트",
-    "price": "8,000",
-    "phone": "032-710-2260",
-    "address": "인천광역시 부평구 대정로 51-1 (부평동) 1층",
-    "lat": 37.4948550040503,
-    "lng": 126.726317625097,
-    "region_1depth": "인천",
-    "region_2depth": "부평구"
-  },
-  {
-    "category": "기타비요식업",
-    "name": "노벨사진관",
-    "main_item": "증명사진",
-    "price": "15,000",
-    "phone": "032-522-5012",
-    "address": "인천광역시 부평구 부평문화로 167 (부개동) 1층",
-    "lat": 37.4939411766542,
-    "lng": 126.734878866053,
-    "region_1depth": "인천",
-    "region_2depth": "부평구"
-  },
-  {
-    "category": "미용업",
-    "name": "단헤어",
-    "main_item": "커트",
-    "price": "11,000",
-    "phone": "032-502-6778",
-    "address": "인천광역시 부평구 남부역로 13 (부평동)",
-    "lat": 37.4884717545091,
-    "lng": 126.721578213331,
-    "region_1depth": "인천",
-    "region_2depth": "부평구"
-  },
-  {
-    "category": "이용업",
-    "name": "동양이용원",
-    "main_item": "커트",
-    "price": "12,000",
-    "phone": "032-519-3383",
-    "address": "인천광역시 부평구 안남로417번길 13 1층 일부(청천동)",
-    "lat": 37.5201457016598,
-    "lng": 126.709461736333,
     "region_1depth": "인천",
     "region_2depth": "부평구"
   },
@@ -2628,19 +2100,7 @@
     "region_2depth": "부평구"
   },
   {
-    "category": "미용업",
-    "name": "레인보우",
-    "main_item": "이발",
-    "price": "10,000",
-    "phone": "032-506-4759",
-    "address": "인천광역시 부평구 남부역로20번길 16 101호(부평동)",
-    "lat": 37.488911503874,
-    "lng": 126.722407325258,
-    "region_1depth": "인천",
-    "region_2depth": "부평구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "로데오 친구들",
     "main_item": "제육덮밥",
     "price": "7,000",
@@ -2652,31 +2112,7 @@
     "region_2depth": "부평구"
   },
   {
-    "category": "미용업",
-    "name": "머리사랑미용실",
-    "main_item": "70세이상 커트",
-    "price": "8,000",
-    "phone": "010-3904-5315",
-    "address": "인천광역시 부평구 장제로373번길 30 (갈산동)",
-    "lat": 37.518812553279,
-    "lng": 126.730741055728,
-    "region_1depth": "인천",
-    "region_2depth": "부평구"
-  },
-  {
-    "category": "미용업",
-    "name": "머리하는날",
-    "main_item": "여성커트",
-    "price": "5,000",
-    "phone": "032-519-7801",
-    "address": "인천광역시 부평구 항동로7번길 43 (부개동)",
-    "lat": 37.4850757449935,
-    "lng": 126.737911668675,
-    "region_1depth": "인천",
-    "region_2depth": "부평구"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "면사무소",
     "main_item": "멸치국수",
     "price": "5,000",
@@ -2688,7 +2124,7 @@
     "region_2depth": "부평구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "명가설렁탕",
     "main_item": "떡만두국",
     "price": "8,000",
@@ -2696,18 +2132,6 @@
     "address": "인천광역시 부평구 주부토로66번길 14 1층 102호(부평동)",
     "lat": 37.5005988378481,
     "lng": 126.726133925369,
-    "region_1depth": "인천",
-    "region_2depth": "부평구"
-  },
-  {
-    "category": "미용업",
-    "name": "미가헤어포인트",
-    "main_item": "커트",
-    "price": "8,000",
-    "phone": "032-425-4454",
-    "address": "인천광역시 부평구 배곶남로9번길 40 (십정동)",
-    "lat": 37.4729643069475,
-    "lng": 126.693735718598,
     "region_1depth": "인천",
     "region_2depth": "부평구"
   },
@@ -2724,19 +2148,7 @@
     "region_2depth": "부평구"
   },
   {
-    "category": "미용업",
-    "name": "미장제이케이",
-    "main_item": "남성커트",
-    "price": "8,000",
-    "phone": "010-9346-3691",
-    "address": "인천광역시 부평구 열우물로50번길 83 1층(십정동)",
-    "lat": 37.4762210858391,
-    "lng": 126.701338608072,
-    "region_1depth": "인천",
-    "region_2depth": "부평구"
-  },
-  {
-    "category": "한식_기타",
+    "category": "한식",
     "name": "밥하루",
     "main_item": "제육볶음",
     "price": "11,900",
@@ -2748,19 +2160,7 @@
     "region_2depth": "부평구"
   },
   {
-    "category": "이용업",
-    "name": "부개이용원",
-    "main_item": "성인커트",
-    "price": "10,000",
-    "phone": "010-5318-7083",
-    "address": "인천광역시 부평구 수변로9번길 5 (부개동)",
-    "lat": 37.4874777193375,
-    "lng": 126.739125342615,
-    "region_1depth": "인천",
-    "region_2depth": "부평구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "부부밥상",
     "main_item": "간장게장+고등어구이",
     "price": "8,000",
@@ -2772,7 +2172,7 @@
     "region_2depth": "부평구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "부평뼈해장국",
     "main_item": "된장찌개",
     "price": "7,000",
@@ -2784,19 +2184,7 @@
     "region_2depth": "부평구"
   },
   {
-    "category": "기타비요식업",
-    "name": "부평사진관",
-    "main_item": "여권사진",
-    "price": "15,000",
-    "phone": "032-713-5010",
-    "address": "인천광역시 부평구 동수천로 94-1 (부개동) 1층",
-    "lat": 37.4939230666157,
-    "lng": 126.736934500919,
-    "region_1depth": "인천",
-    "region_2depth": "부평구"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "부평칼국수",
     "main_item": "칼국수",
     "price": "7,500",
@@ -2808,7 +2196,7 @@
     "region_2depth": "부평구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "부흥기사식당",
     "main_item": "된장찌개",
     "price": "7,000",
@@ -2820,7 +2208,7 @@
     "region_2depth": "부평구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "북새통",
     "main_item": "즉석떡볶이",
     "price": "6,000",
@@ -2832,7 +2220,7 @@
     "region_2depth": "부평구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "서가면옥",
     "main_item": "한방보쌈정식",
     "price": "10,000",
@@ -2844,7 +2232,7 @@
     "region_2depth": "부평구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "아구그림본점",
     "main_item": "아구찜(소)",
     "price": "28,000",
@@ -2856,7 +2244,7 @@
     "region_2depth": "부평구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "어머니홍두깨칼국수",
     "main_item": "잔치국수",
     "price": "3,000",
@@ -2868,19 +2256,7 @@
     "region_2depth": "부평구"
   },
   {
-    "category": "미용업",
-    "name": "에나왁싱",
-    "main_item": "겨드랑이왁싱",
-    "price": "20,000",
-    "phone": "032-238-4200",
-    "address": "인천광역시 부평구 부평대로17번길 5 (부평동) 5층",
-    "lat": 37.4929291397003,
-    "lng": 126.722431016462,
-    "region_1depth": "인천",
-    "region_2depth": "부평구"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "열우물생고기",
     "main_item": "차돌박이(150g)",
     "price": "22,000",
@@ -2892,7 +2268,7 @@
     "region_2depth": "부평구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "오리감자탕곱창전문",
     "main_item": "삼겹살(200g)",
     "price": "5,000",
@@ -2904,19 +2280,7 @@
     "region_2depth": "부평구"
   },
   {
-    "category": "세탁업",
-    "name": "오시오크리닝",
-    "main_item": "양복1벌",
-    "price": "8,000",
-    "phone": "032-528-3232",
-    "address": "인천광역시 부평구 부평대로40번길 28 (부평동)",
-    "lat": 37.4951216502919,
-    "lng": 126.724473869012,
-    "region_1depth": "인천",
-    "region_2depth": "부평구"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "원숯불한우촌",
     "main_item": "왕갈비탕",
     "price": "13,000",
@@ -2924,18 +2288,6 @@
     "address": "인천광역시 부평구 마장로36번길 26 (십정동) 지하1층 B08~B10호",
     "lat": 37.483288202002,
     "lng": 126.709536453552,
-    "region_1depth": "인천",
-    "region_2depth": "부평구"
-  },
-  {
-    "category": "기타비요식업",
-    "name": "월드칼라포토샵",
-    "main_item": "여권사진",
-    "price": "17,000",
-    "phone": "032-527-1892",
-    "address": "인천광역시 부평구 청중로 69 (청천동) 106호",
-    "lat": 37.5177548372005,
-    "lng": 126.704858474054,
     "region_1depth": "인천",
     "region_2depth": "부평구"
   },
@@ -2952,7 +2304,7 @@
     "region_2depth": "부평구"
   },
   {
-    "category": "한식_기타",
+    "category": "한식",
     "name": "장수반찬",
     "main_item": "4팩",
     "price": "10,000",
@@ -2964,31 +2316,7 @@
     "region_2depth": "부평구"
   },
   {
-    "category": "이용업",
-    "name": "젠틀(M)헤어 부평역점",
-    "main_item": "남성커트",
-    "price": "8,000",
-    "phone": "010-3148-2870",
-    "address": "인천광역시 부평구 부평문화로 54 (부평동) 2층",
-    "lat": 37.4937834824619,
-    "lng": 126.722282094747,
-    "region_1depth": "인천",
-    "region_2depth": "부평구"
-  },
-  {
-    "category": "이용업",
-    "name": "중앙이용원",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "032-518-1053",
-    "address": "인천광역시 부평구 부흥로243번길 7 106호(부평동)",
-    "lat": 37.4998000055664,
-    "lng": 126.717938344817,
-    "region_1depth": "인천",
-    "region_2depth": "부평구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "진수성찬",
     "main_item": "백반",
     "price": "6,000",
@@ -3012,31 +2340,7 @@
     "region_2depth": "부평구"
   },
   {
-    "category": "미용업",
-    "name": "짱구머리",
-    "main_item": "커트",
-    "price": "9,000",
-    "phone": "032-505-8842",
-    "address": "인천광역시 부평구 경인로 1100 (부개동)",
-    "lat": 37.4857026987645,
-    "lng": 126.741938308985,
-    "region_1depth": "인천",
-    "region_2depth": "부평구"
-  },
-  {
-    "category": "미용업",
-    "name": "청솔미용실",
-    "main_item": "남자커트",
-    "price": "7,000",
-    "phone": "032-502-2179",
-    "address": "인천광역시 부평구 경인로 966-12 (부평동)",
-    "lat": 37.4868808892052,
-    "lng": 126.726766658023,
-    "region_1depth": "인천",
-    "region_2depth": "부평구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "치킨러버",
     "main_item": "옛날통닭(포장)",
     "price": "9,000",
@@ -3048,19 +2352,7 @@
     "region_2depth": "부평구"
   },
   {
-    "category": "미용업",
-    "name": "컷맨컷보이",
-    "main_item": "일반커트",
-    "price": "8,000",
-    "phone": "032-330-4030",
-    "address": "인천광역시 부평구 부평문화로194번길 2 1층(부개동)",
-    "lat": 37.4934605008416,
-    "lng": 126.737790099327,
-    "region_1depth": "인천",
-    "region_2depth": "부평구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "타박네",
     "main_item": "가정식백반",
     "price": "8,000",
@@ -3072,7 +2364,7 @@
     "region_2depth": "부평구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "태흥정육식당",
     "main_item": "돼지제육백반",
     "price": "8,000",
@@ -3084,7 +2376,7 @@
     "region_2depth": "부평구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "포동포동",
     "main_item": "생고기김치찌개",
     "price": "8,000",
@@ -3096,7 +2388,7 @@
     "region_2depth": "부평구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "풍성한뒷고기",
     "main_item": "백반",
     "price": "9,000",
@@ -3108,31 +2400,7 @@
     "region_2depth": "부평구"
   },
   {
-    "category": "기타비요식업",
-    "name": "하니멍쓰",
-    "main_item": "소형견(5Kg 미만) 클리핑",
-    "price": "35,000",
-    "phone": "010-7600-8393",
-    "address": "인천광역시 부평구 마장로220번길 51 (산곡동) 1층 일부",
-    "lat": 37.4977434408855,
-    "lng": 126.705485942703,
-    "region_1depth": "인천",
-    "region_2depth": "부평구"
-  },
-  {
-    "category": "미용업",
-    "name": "헤어아이콘",
-    "main_item": "커트",
-    "price": "5,000",
-    "phone": "032-710-5252",
-    "address": "인천광역시 부평구 마장로 88 (산곡동) 2층",
-    "lat": 37.4866903463587,
-    "lng": 126.70805315649,
-    "region_1depth": "인천",
-    "region_2depth": "부평구"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "홍두깨손칼국수",
     "main_item": "흑미칼만두",
     "price": "8,000",
@@ -3144,7 +2412,7 @@
     "region_2depth": "부평구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "가빈",
     "main_item": "돈까스",
     "price": "9,000",
@@ -3156,19 +2424,7 @@
     "region_2depth": "계양구"
   },
   {
-    "category": "미용업",
-    "name": "감성헤어살롱",
-    "main_item": "여성뿌리염색",
-    "price": "20,000",
-    "phone": "032-215-6683",
-    "address": "인천광역시 계양구 봉오대로744번길 12 (작전동) 106호",
-    "lat": 37.5291855169077,
-    "lng": 126.731582140641,
-    "region_1depth": "인천",
-    "region_2depth": "계양구"
-  },
-  {
-    "category": "한식_분식",
+    "category": "한식",
     "name": "공원앞떡볶이",
     "main_item": "떡볶이",
     "price": "3,000",
@@ -3180,7 +2436,7 @@
     "region_2depth": "계양구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "교대주먹고기",
     "main_item": "주먹고기(220g)",
     "price": "14,000",
@@ -3192,7 +2448,7 @@
     "region_2depth": "계양구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "굴천국",
     "main_item": "굴국밥",
     "price": "8,000",
@@ -3204,7 +2460,7 @@
     "region_2depth": "계양구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "김재국만두전문점",
     "main_item": "고기만두",
     "price": "4,500",
@@ -3216,19 +2472,7 @@
     "region_2depth": "계양구"
   },
   {
-    "category": "미용업",
-    "name": "나이스컷",
-    "main_item": "커트",
-    "price": "7,000",
-    "phone": "032-554-9926",
-    "address": "인천광역시 계양구 주부토로 380 (작전동)",
-    "lat": 37.5283668536754,
-    "lng": 126.72979736061,
-    "region_1depth": "인천",
-    "region_2depth": "계양구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "남원골추어탕",
     "main_item": "강황밥추어탕",
     "price": "10,000",
@@ -3240,7 +2484,7 @@
     "region_2depth": "계양구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "남원추어탕",
     "main_item": "추어탕",
     "price": "9,000",
@@ -3252,19 +2496,7 @@
     "region_2depth": "계양구"
   },
   {
-    "category": "일식",
-    "name": "남해횟집",
-    "main_item": "우럭회+탕",
-    "price": "45,000",
-    "phone": "032-542-8965",
-    "address": "인천광역시 계양구 주부토로 571 101호(계산동)",
-    "lat": 37.5452461842604,
-    "lng": 126.72839926615,
-    "region_1depth": "인천",
-    "region_2depth": "계양구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "놀부홍두깨칼국수",
     "main_item": "돈가스",
     "price": "7,000",
@@ -3276,7 +2508,7 @@
     "region_2depth": "계양구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "단골분식",
     "main_item": "김밥",
     "price": "3,000",
@@ -3288,7 +2520,7 @@
     "region_2depth": "계양구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "대복갈비",
     "main_item": "돼지왕갈비",
     "price": "15,000",
@@ -3312,7 +2544,7 @@
     "region_2depth": "계양구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "두루정",
     "main_item": "돼지김치짜글이",
     "price": "9,000",
@@ -3324,7 +2556,7 @@
     "region_2depth": "계양구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "들꽃국시",
     "main_item": "잔치국수",
     "price": "5,000",
@@ -3348,7 +2580,7 @@
     "region_2depth": "계양구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "밀밭길",
     "main_item": "밀면",
     "price": "7,000",
@@ -3384,7 +2616,7 @@
     "region_2depth": "계양구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "어머니밥상",
     "main_item": "김치찌개",
     "price": "7,000",
@@ -3396,7 +2628,7 @@
     "region_2depth": "계양구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "에버그린",
     "main_item": "김치볶음밥",
     "price": "6,500",
@@ -3408,7 +2640,7 @@
     "region_2depth": "계양구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "영우동",
     "main_item": "영우동",
     "price": "5,000",
@@ -3420,7 +2652,7 @@
     "region_2depth": "계양구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "우리집분식",
     "main_item": "우리집김밥",
     "price": "3,000",
@@ -3432,19 +2664,7 @@
     "region_2depth": "계양구"
   },
   {
-    "category": "미용업",
-    "name": "은빛미용실",
-    "main_item": "커트",
-    "price": "12,000",
-    "phone": "032-549-4116",
-    "address": "인천광역시 계양구 봉오대로774번길 22 (작전동)",
-    "lat": 37.5283254500129,
-    "lng": 126.734824645665,
-    "region_1depth": "인천",
-    "region_2depth": "계양구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "장모님본가",
     "main_item": "한방삼계탕",
     "price": "14,000",
@@ -3456,7 +2676,7 @@
     "region_2depth": "계양구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "장수반찬",
     "main_item": "김치등뼈찜",
     "price": "13,000",
@@ -3468,7 +2688,7 @@
     "region_2depth": "계양구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "차종인설렁탕",
     "main_item": "설렁탕",
     "price": "8,500",
@@ -3480,7 +2700,7 @@
     "region_2depth": "계양구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "착한고기정육식당",
     "main_item": "한돈생삼겹살(150g)",
     "price": "9,900",
@@ -3492,7 +2712,7 @@
     "region_2depth": "계양구"
   },
   {
-    "category": "한식_찌개류",
+    "category": "한식",
     "name": "초이스부대찌개",
     "main_item": "초이스부대찌개",
     "price": "9,900",
@@ -3504,7 +2724,7 @@
     "region_2depth": "계양구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "풍년막걸리",
     "main_item": "김치전",
     "price": "6,000",
@@ -3512,18 +2732,6 @@
     "address": "인천광역시 계양구 장제로875번길 10-1 (임학동)",
     "lat": 37.5458262195803,
     "lng": 126.737794974623,
-    "region_1depth": "인천",
-    "region_2depth": "계양구"
-  },
-  {
-    "category": "미용업",
-    "name": "플라워헤어",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "032-549-0799",
-    "address": "인천광역시 계양구 장제로946번길 14 (병방동)",
-    "lat": 37.5493452924501,
-    "lng": 126.743644873749,
     "region_1depth": "인천",
     "region_2depth": "계양구"
   },
@@ -3540,19 +2748,7 @@
     "region_2depth": "계양구"
   },
   {
-    "category": "세탁업",
-    "name": "한국세탁전문점",
-    "main_item": "정장세탁료",
-    "price": "8,000",
-    "phone": "032-544-1475",
-    "address": "인천광역시 계양구 용종로 78 113호(용종동)",
-    "lat": 37.5407328386885,
-    "lng": 126.742152937883,
-    "region_1depth": "인천",
-    "region_2depth": "계양구"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "행복손칼국수",
     "main_item": "손칼국수",
     "price": "6,000",
@@ -3564,7 +2760,7 @@
     "region_2depth": "계양구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "화로터장작구이",
     "main_item": "대패삼겹살",
     "price": "13,000",
@@ -3576,7 +2772,7 @@
     "region_2depth": "계양구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "가현산 잔치국수",
     "main_item": "잔치국수",
     "price": "6,500",
@@ -3588,7 +2784,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "강남식당",
     "main_item": "순대국",
     "price": "7,000",
@@ -3600,19 +2796,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "미용업",
-    "name": "강남헤어스타일",
-    "main_item": "컷트",
-    "price": "11,000",
-    "phone": "032-582-5820",
-    "address": "인천광역시 서구 길주로76번길 29 (석남동)",
-    "lat": 37.5037354097608,
-    "lng": 126.670304055906,
-    "region_1depth": "인천",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "거북골",
     "main_item": "순두부",
     "price": "8,000",
@@ -3624,7 +2808,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "검암동 두손칼국수",
     "main_item": "칼국수+보쌈+흑미밥(무제한)",
     "price": "7,000",
@@ -3636,19 +2820,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "미용업",
-    "name": "고은헤어",
-    "main_item": "커트",
-    "price": "12,000",
-    "phone": "032-573-2851",
-    "address": "인천광역시 서구 건지로249번길 38-1 (석남동)",
-    "lat": 37.5027098828684,
-    "lng": 126.670237090537,
-    "region_1depth": "인천",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "공촌맛국수",
     "main_item": "잔치국수",
     "price": "5,000",
@@ -3660,7 +2832,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "궁전숯불갈비",
     "main_item": "된장찌개",
     "price": "8,000",
@@ -3672,43 +2844,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "세탁업",
-    "name": "금강세탁소",
-    "main_item": "수선(단줄임)",
-    "price": "5,000",
-    "phone": "032-569-2941",
-    "address": "인천광역시 서구 청마로 124 (당하동, 당하KCC스위첸아파트) 상가-203호",
-    "lat": 37.5884199335229,
-    "lng": 126.6790265202,
-    "region_1depth": "인천",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "이용업",
-    "name": "남자는 머리빨",
-    "main_item": "커트",
-    "price": "5,000",
-    "phone": "032-584-7077",
-    "address": "인천광역시 서구 율도로 85 (신현동) 1층 일부호",
-    "lat": 37.5135994593069,
-    "lng": 126.671753264008,
-    "region_1depth": "인천",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "세탁업",
-    "name": "늘푸른세탁",
-    "main_item": "바지",
-    "price": "3,000",
-    "phone": "032-562-2959",
-    "address": "인천광역시 서구 승학로216번길 20 103호 (심곡동)",
-    "lat": 37.5415234080065,
-    "lng": 126.674696844336,
-    "region_1depth": "인천",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "다열 금강산추어탕",
     "main_item": "추어탕(+솥밥)",
     "price": "10,000",
@@ -3720,19 +2856,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "세탁업",
-    "name": "대동세탁",
-    "main_item": "바지",
-    "price": "3,000",
-    "phone": "032-561-3434",
-    "address": "인천광역시 서구 심곡로 133 203호 (심곡동)",
-    "lat": 37.5448557238452,
-    "lng": 126.681632800142,
-    "region_1depth": "인천",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "대부도바지락칼국수",
     "main_item": "칼국수",
     "price": "6,500",
@@ -3744,7 +2868,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "도널드분식",
     "main_item": "김밥",
     "price": "2,000",
@@ -3756,19 +2880,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "세탁업",
-    "name": "드라이119세탁전문점",
-    "main_item": "바지",
-    "price": "4,400",
-    "phone": "032-564-2434",
-    "address": "인천광역시 서구 경서로31번길 48-1 (경서동)",
-    "lat": 37.558156612883,
-    "lng": 126.652171938083,
-    "region_1depth": "인천",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "라델리김밥",
     "main_item": "김치주먹밥",
     "price": "2,500",
@@ -3780,7 +2892,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "마포식당",
     "main_item": "돼지불백",
     "price": "9,000",
@@ -3804,19 +2916,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "미용업",
-    "name": "머리풍경",
-    "main_item": "컷트",
-    "price": "15,000",
-    "phone": "032-566-1223",
-    "address": "인천광역시 서구 가현로 53 (마전동)",
-    "lat": 37.6127281032337,
-    "lng": 126.659758318057,
-    "region_1depth": "인천",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "미소곱창",
     "main_item": "야채곱창 중",
     "price": "18,000",
@@ -3828,19 +2928,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_일반",
-    "name": "민물매운탕",
-    "main_item": "민물장어(2미)",
-    "price": "72,000",
-    "phone": "032-566-0487",
-    "address": "인천광역시 서구 염곡로 364 (신현동) 1층 일부",
-    "lat": 37.5171571091214,
-    "lng": 126.669059570194,
-    "region_1depth": "인천",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_기타",
+    "category": "한식",
     "name": "박군술상",
     "main_item": "한근 탕수육(600g)",
     "price": "14,000",
@@ -3852,31 +2940,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "세탁업",
-    "name": "백양세탁",
-    "main_item": "바지",
-    "price": "4,000",
-    "phone": "032-561-2060",
-    "address": "인천광역시 서구 승학로287번길 17 (연희동)",
-    "lat": 37.5475913451485,
-    "lng": 126.672448899802,
-    "region_1depth": "인천",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "세탁업",
-    "name": "삼보세탁소",
-    "main_item": "바지",
-    "price": "4,000",
-    "phone": "032-566-4757",
-    "address": "인천광역시 서구 승학로 457 (검암동)",
-    "lat": 37.5623393360022,
-    "lng": 126.672962483004,
-    "region_1depth": "인천",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "삼부자순대",
     "main_item": "순댓국",
     "price": "9,000",
@@ -3888,7 +2952,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "삼원부대찌개전문",
     "main_item": "소고기부대찌개",
     "price": "9,000",
@@ -3900,19 +2964,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "이용업",
-    "name": "새마음이발관",
-    "main_item": "컷트",
-    "price": "6,000",
-    "phone": "032-579-8843",
-    "address": "인천광역시 서구 장고개로 287번길 7 105호 (가좌동)",
-    "lat": 37.4893227810491,
-    "lng": 126.683008413258,
-    "region_1depth": "인천",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "생생손칼국수",
     "main_item": "바지락칼국수",
     "price": "6,000",
@@ -3924,43 +2976,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_일반",
-    "name": "성아구",
-    "main_item": "아구찜",
-    "price": "35,000",
-    "phone": "032-578-9539",
-    "address": "인천광역시 서구 길주로 80 (석남동) 1층",
-    "lat": 37.5062009648391,
-    "lng": 126.670775917531,
-    "region_1depth": "인천",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "기타비요식업",
-    "name": "소품&공방",
-    "main_item": "만들기 체험",
-    "price": "2,000",
-    "phone": "032-575-2810",
-    "address": "인천광역시 서구 가정로308번길 18 (석남동)",
-    "lat": 37.5120413935537,
-    "lng": 126.674664004509,
-    "region_1depth": "인천",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "수빈헤어샵",
-    "main_item": "컷트",
-    "price": "10,000",
-    "phone": "032-579-6470",
-    "address": "인천광역시 서구 명가골로 28 (석남동)",
-    "lat": 37.5122704417114,
-    "lng": 126.67346090215,
-    "region_1depth": "인천",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "술상&밥상",
     "main_item": "김치찌개",
     "price": "7,000",
@@ -3984,19 +3000,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "미용업",
-    "name": "아미헤어",
-    "main_item": "뿌리염색",
-    "price": "30,000",
-    "phone": "032-564-2245",
-    "address": "인천광역시 서구 완정로 57-1 2층 (마전동)",
-    "lat": 37.5968056204755,
-    "lng": 126.667988202363,
-    "region_1depth": "인천",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "옛날국수",
     "main_item": "잔치국수",
     "price": "5,000",
@@ -4008,7 +3012,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "옛날손칼국수",
     "main_item": "칼국수",
     "price": "5,000",
@@ -4020,19 +3024,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "미용업",
-    "name": "오렌지헤어모드",
-    "main_item": "학생커트",
-    "price": "8,000",
-    "phone": "032-567-9577",
-    "address": "인천광역시 서구 심곡로56번길 18 (심곡동)",
-    "lat": 37.5404946353613,
-    "lng": 126.675673953815,
-    "region_1depth": "인천",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "왕소참숯불구이",
     "main_item": "육개장",
     "price": "11,000",
@@ -4040,54 +3032,6 @@
     "address": "인천광역시 서구 길주로 119 (석남동)",
     "lat": 37.5065240693541,
     "lng": 126.675073164665,
-    "region_1depth": "인천",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "윤헤어살롱",
-    "main_item": "컷트",
-    "price": "15,000",
-    "phone": "0507-1441-7401",
-    "address": "인천광역시 서구 고산후로 144 (원당동)",
-    "lat": 37.5965251338981,
-    "lng": 126.699314013479,
-    "region_1depth": "인천",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "이사라 미용실",
-    "main_item": "컷트",
-    "price": "12,000",
-    "phone": "032-581-0302",
-    "address": "인천광역시 서구 가정로152번길 16 (가좌동)",
-    "lat": 37.4981381261302,
-    "lng": 126.673585213039,
-    "region_1depth": "인천",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "임정민 헤어아트",
-    "main_item": "컷트",
-    "price": "10,000",
-    "phone": "032-577-7363",
-    "address": "인천광역시 서구 길주로76번길 30 (석남동)",
-    "lat": 37.5036512501816,
-    "lng": 126.670043742847,
-    "region_1depth": "인천",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "미용업",
-    "name": "준헤어 월드",
-    "main_item": "학생커트",
-    "price": "6,000",
-    "phone": "032-562-7612",
-    "address": "인천광역시 서구 탁옥로 89 121호 (심곡동)",
-    "lat": 37.5439464071117,
-    "lng": 126.679489428018,
     "region_1depth": "인천",
     "region_2depth": "서구"
   },
@@ -4104,7 +3048,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "참진미바지락칼국수",
     "main_item": "칼국수",
     "price": "7,000",
@@ -4128,19 +3072,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "세탁업",
-    "name": "킹세탁소",
-    "main_item": "셔츠",
-    "price": "3,000",
-    "phone": "032-562-6318",
-    "address": "인천광역시 서구 검단로487번길 6 (마전동)",
-    "lat": 37.6029087944238,
-    "lng": 126.658975112146,
-    "region_1depth": "인천",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "풍년막걸리",
     "main_item": "계란탕",
     "price": "4,000",
@@ -4152,7 +3084,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "풍년왕막걸리",
     "main_item": "파전",
     "price": "7,000",
@@ -4164,7 +3096,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "하나식당",
     "main_item": "생선구이+청국장",
     "price": "10,000",
@@ -4176,7 +3108,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "합격식당",
     "main_item": "김치찌개",
     "price": "5,000",
@@ -4188,19 +3120,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "미용업",
-    "name": "헤어랑",
-    "main_item": "컷트(남)",
-    "price": "12,000",
-    "phone": "032-584-2468",
-    "address": "인천광역시 서구 신석로 71 월드메르디앙 상가동104호",
-    "lat": 37.5116023329527,
-    "lng": 126.668730639345,
-    "region_1depth": "인천",
-    "region_2depth": "서구"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "홍두깨 손칼국수",
     "main_item": "고기만두",
     "price": "5,000",
@@ -4224,7 +3144,7 @@
     "region_2depth": "서구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "강화손칼국수",
     "main_item": "부추전",
     "price": "8,000",
@@ -4236,7 +3156,7 @@
     "region_2depth": "강화군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "남창식당",
     "main_item": "되비지백반",
     "price": "8,000",
@@ -4248,7 +3168,7 @@
     "region_2depth": "강화군"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "뚱가네",
     "main_item": "생삼겹살",
     "price": "15,000",
@@ -4272,7 +3192,7 @@
     "region_2depth": "강화군"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "서울돼지1986",
     "main_item": "빨강 양념 목살(200g)",
     "price": "13,000",
@@ -4284,7 +3204,7 @@
     "region_2depth": "강화군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "송해식당",
     "main_item": "삼겹살",
     "price": "16,000",
@@ -4308,7 +3228,7 @@
     "region_2depth": "강화군"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "오가네국수",
     "main_item": "갈비탕",
     "price": "13,000",
@@ -4320,7 +3240,7 @@
     "region_2depth": "강화군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "일억조",
     "main_item": "생삼겹살",
     "price": "13,000",
@@ -4332,7 +3252,7 @@
     "region_2depth": "강화군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "장흥리식당",
     "main_item": "쭈꾸미정식",
     "price": "10,000",
@@ -4356,7 +3276,7 @@
     "region_2depth": "강화군"
   },
   {
-    "category": "한식_기타",
+    "category": "한식",
     "name": "꿀꿀이만찬",
     "main_item": "순대국",
     "price": "8,000",
@@ -4364,30 +3284,6 @@
     "address": "인천광역시 옹진군 영흥면 선재로 342 (선재리)",
     "lat": 37.2541859346822,
     "lng": 126.5138307513,
-    "region_1depth": "인천",
-    "region_2depth": "옹진군"
-  },
-  {
-    "category": "미용업",
-    "name": "서울미용실",
-    "main_item": "커트",
-    "price": "8,000",
-    "phone": "010-4569-5760",
-    "address": "인천광역시 옹진군 영흥면 영흥북로 35번길 27 (내리)",
-    "lat": 37.2573805411996,
-    "lng": 126.499576124666,
-    "region_1depth": "인천",
-    "region_2depth": "옹진군"
-  },
-  {
-    "category": "한식_일반",
-    "name": "청기와집",
-    "main_item": "갈비살(600g)",
-    "price": "59,000",
-    "phone": "032-831-4746",
-    "address": "인천광역시 옹진군 연평면 연평중앙로13번길 37-8 청기와집",
-    "lat": 37.6620849424277,
-    "lng": 125.701936996633,
     "region_1depth": "인천",
     "region_2depth": "옹진군"
   }

@@ -12,7 +12,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "깔끔한돼지국밥",
     "main_item": "돼지국밥",
     "price": "8,000",
@@ -24,43 +24,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "미용업",
-    "name": "깜짝헤어샵",
-    "main_item": "파마",
-    "price": "20,000",
-    "phone": "052-292-8014",
-    "address": "울산광역시 중구 반구정 1안길 47 (반구동)",
-    "lat": 35.5553498399426,
-    "lng": 129.345386558408,
-    "region_1depth": "울산",
-    "region_2depth": "중구"
-  },
-  {
-    "category": "기타요식업",
-    "name": "노르쇠핑",
-    "main_item": "단팥빵",
-    "price": "1,300",
-    "phone": "052-267-5873",
-    "address": "울산광역시 중구 태화로 136 (태화동)",
-    "lat": 35.5531564921762,
-    "lng": 129.290936456527,
-    "region_1depth": "울산",
-    "region_2depth": "중구"
-  },
-  {
-    "category": "목욕업",
-    "name": "뉴강남탕",
-    "main_item": "대인",
-    "price": "7,500",
-    "phone": "052-211-4873",
-    "address": "울산광역시 중구 당산4길 15 (우정동)",
-    "lat": 35.5540646829463,
-    "lng": 129.310128409134,
-    "region_1depth": "울산",
-    "region_2depth": "중구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "다원식당",
     "main_item": "비빔밥",
     "price": "8,000",
@@ -72,7 +36,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "떡볶이가좋다",
     "main_item": "즉석떡볶이",
     "price": "3,000",
@@ -84,7 +48,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "만수원숯불갈비",
     "main_item": "쌈정식",
     "price": "7,000",
@@ -96,7 +60,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "반구동사람들",
     "main_item": "김치찌개",
     "price": "7,000",
@@ -108,7 +72,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "배가한식",
     "main_item": "김치찌개",
     "price": "5,000",
@@ -120,19 +84,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "기타요식업",
-    "name": "빠삐용 베이커리",
-    "main_item": "팥빵",
-    "price": "1,900",
-    "phone": "052-248-0250",
-    "address": "울산광역시 중구 중앙길 91 (성남동)",
-    "lat": 35.5555689712778,
-    "lng": 129.318463151667,
-    "region_1depth": "울산",
-    "region_2depth": "중구"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "서울본갈비본감자탕성안점",
     "main_item": "돼지갈비",
     "price": "8,500",
@@ -144,19 +96,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "이용업",
-    "name": "선경이용원",
-    "main_item": "컷트",
-    "price": "5,000",
-    "phone": "052-246-1703",
-    "address": "울산광역시 중구 유곡로 10 (우정동)",
-    "lat": 35.5582366838079,
-    "lng": 129.30845466344,
-    "region_1depth": "울산",
-    "region_2depth": "중구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "송림식당",
     "main_item": "정식",
     "price": "7,000",
@@ -168,7 +108,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "수다라",
     "main_item": "칼국수",
     "price": "6,000",
@@ -180,19 +120,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "미용업",
-    "name": "수정헤어",
-    "main_item": "커트",
-    "price": "13,000",
-    "phone": "",
-    "address": "울산광역시 중구 당산3길 31 (우정동, 우정아파트) 1층",
-    "lat": 35.5550079246245,
-    "lng": 129.310423977678,
-    "region_1depth": "울산",
-    "region_2depth": "중구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "순정분식",
     "main_item": "칼국수",
     "price": "6,000",
@@ -204,7 +132,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "엄마네뷔페",
     "main_item": "정식",
     "price": "7,000",
@@ -216,7 +144,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "옥교국밥",
     "main_item": "돼지국밥",
     "price": "8,000",
@@ -228,7 +156,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "유가냉면",
     "main_item": "물냉면",
     "price": "9,000",
@@ -240,7 +168,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "윤지육회",
     "main_item": "육회비빔밥",
     "price": "10,000",
@@ -252,7 +180,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "장현돼지국밥",
     "main_item": "돼지국밥",
     "price": "8,000",
@@ -264,19 +192,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "미용업",
-    "name": "정헤어샵",
-    "main_item": "파마",
-    "price": "30,000",
-    "phone": "052-243-7950",
-    "address": "울산광역시 중구 당산4길 31 (우정동)",
-    "lat": 35.5538258198663,
-    "lng": 129.311293419515,
-    "region_1depth": "울산",
-    "region_2depth": "중구"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "진영숯불갈비",
     "main_item": "갈비탕",
     "price": "7,000",
@@ -288,19 +204,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "미용업",
-    "name": "챠밍미용실",
-    "main_item": "파마",
-    "price": "25,000",
-    "phone": "052-248-9798",
-    "address": "울산광역시 중구 명륜로 26 (우정동)",
-    "lat": 35.5544780950276,
-    "lng": 129.309390045746,
-    "region_1depth": "울산",
-    "region_2depth": "중구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "최가네밥",
     "main_item": "김치찌개",
     "price": "7,000",
@@ -324,7 +228,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "태화식육식당",
     "main_item": "삼겹살(100g)",
     "price": "4,170",
@@ -336,7 +240,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "태화장터칼국수",
     "main_item": "들깨칼국수",
     "price": "7,000",
@@ -348,19 +252,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "미용업",
-    "name": "탤런트미용실",
-    "main_item": "파마",
-    "price": "30,000",
-    "phone": "052-292-6706",
-    "address": "울산광역시 중구 내황4길 35 (반구동) (반구동)",
-    "lat": 35.5524562459485,
-    "lng": 129.343392206716,
-    "region_1depth": "울산",
-    "region_2depth": "중구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "텃밭의분식",
     "main_item": "된장찌개",
     "price": "5,000",
@@ -372,7 +264,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "팔도낙지촌",
     "main_item": "낙곱새전골",
     "price": "10,000",
@@ -384,7 +276,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "할매칼국수",
     "main_item": "칼국수",
     "price": "5,000",
@@ -396,7 +288,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "할머니손칼국시",
     "main_item": "칼국수",
     "price": "6,000",
@@ -420,7 +312,7 @@
     "region_2depth": "중구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "24시해장국",
     "main_item": "정식",
     "price": "7,000",
@@ -432,7 +324,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "30년전통감자탕",
     "main_item": "뼈다귀해장국",
     "price": "7,000",
@@ -456,7 +348,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_한정식",
+    "category": "한식",
     "name": "가정식백반",
     "main_item": "정식",
     "price": "8,000",
@@ -468,7 +360,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "경북식당",
     "main_item": "정식",
     "price": "7,000",
@@ -480,7 +372,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "경북칼국수",
     "main_item": "손칼국수",
     "price": "6,000",
@@ -492,19 +384,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "이용업",
-    "name": "경주이용원",
-    "main_item": "커트",
-    "price": "12,000",
-    "phone": "",
-    "address": "울산광역시 남구 월평로159번길 4",
-    "lat": 35.545149268254,
-    "lng": 129.322629378239,
-    "region_1depth": "울산",
-    "region_2depth": "남구"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "경주칼국수",
     "main_item": "손칼국수",
     "price": "6,000",
@@ -516,7 +396,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "고을식당",
     "main_item": "낙지+돼지 두루치기",
     "price": "11,000",
@@ -528,31 +408,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "기타요식업",
-    "name": "꽁지커피디저트",
-    "main_item": "단팥빵",
-    "price": "1,000",
-    "phone": "0507-1362-5360",
-    "address": "울산광역시 남구 삼산로 3 (신정동) 1층",
-    "lat": 35.5327673201869,
-    "lng": 129.308229099622,
-    "region_1depth": "울산",
-    "region_2depth": "남구"
-  },
-  {
-    "category": "기타요식업",
-    "name": "나일57",
-    "main_item": "아메리카노",
-    "price": "2,800",
-    "phone": "0507-1346-4157",
-    "address": "울산광역시 남구 삼산로83번길 35 (달동) 1층 101호",
-    "lat": 35.5377536154087,
-    "lng": 129.315422535007,
-    "region_1depth": "울산",
-    "region_2depth": "남구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "내고향추어탕",
     "main_item": "추어탕",
     "price": "9,000",
@@ -564,7 +420,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_분식",
+    "category": "한식",
     "name": "대박분식",
     "main_item": "김밥",
     "price": "3,500",
@@ -576,7 +432,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "덤",
     "main_item": "냉칼국수",
     "price": "7,500",
@@ -584,18 +440,6 @@
     "address": "울산광역시 남구 대학로84번길 5-5",
     "lat": 35.5426013606551,
     "lng": 129.260284008748,
-    "region_1depth": "울산",
-    "region_2depth": "남구"
-  },
-  {
-    "category": "한식_육류",
-    "name": "돈",
-    "main_item": "지리산운봉흑돈(500g)",
-    "price": "39,000",
-    "phone": "052-246-3377",
-    "address": "울산광역시 남구 팔등로 53 (신정동) 1층",
-    "lat": 35.5453497749286,
-    "lng": 129.312309439927,
     "region_1depth": "울산",
     "region_2depth": "남구"
   },
@@ -624,7 +468,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "만추",
     "main_item": "낙지볶음",
     "price": "9,000",
@@ -636,7 +480,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_한정식",
+    "category": "한식",
     "name": "맨하탄 순두부",
     "main_item": "콩묵시레기찌개",
     "price": "8,000",
@@ -648,31 +492,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_면류",
-    "name": "먹자 칼국수",
-    "main_item": "칼국수",
-    "price": "7,000",
-    "phone": "052-261-1253",
-    "address": "울산광역시 남구 산업로339번길 23 -",
-    "lat": 35.5156966712676,
-    "lng": 129.337490297562,
-    "region_1depth": "울산",
-    "region_2depth": "남구"
-  },
-  {
-    "category": "한식_육류",
-    "name": "명가한우뒷고기",
-    "main_item": "꼬들목살(500g)",
-    "price": "35,000",
-    "phone": "052-227-6628",
-    "address": "울산광역시 남구 팔등로 38 (신정동) 1층",
-    "lat": 35.5447264112992,
-    "lng": 129.310933369461,
-    "region_1depth": "울산",
-    "region_2depth": "남구"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "명문칼국수",
     "main_item": "손칼국수",
     "price": "6,000",
@@ -684,7 +504,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "모두랑국수먹는날",
     "main_item": "국수",
     "price": "5,000",
@@ -696,7 +516,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_분식",
+    "category": "한식",
     "name": "미송",
     "main_item": "김밥",
     "price": "3,500",
@@ -720,7 +540,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "삼산24시두루치기",
     "main_item": "정식",
     "price": "7,000",
@@ -732,7 +552,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "삼산국수",
     "main_item": "손칼국수",
     "price": "6,000",
@@ -744,7 +564,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "삼시세끼만포장",
     "main_item": "정식",
     "price": "8,000",
@@ -756,7 +576,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "삼호밀면",
     "main_item": "밀면",
     "price": "7,000",
@@ -768,7 +588,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "상황삼계탕",
     "main_item": "삼계탕",
     "price": "11,000",
@@ -780,7 +600,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "서울식당",
     "main_item": "김치,된장,순두부찌개",
     "price": "7,000",
@@ -792,7 +612,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "소대장",
     "main_item": "갈비탕",
     "price": "10,000",
@@ -804,7 +624,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "소문난 고추장불고기 국밥",
     "main_item": "돼지,섞어,순대,선지국밥",
     "price": "7,000",
@@ -816,7 +636,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "소반",
     "main_item": "정식",
     "price": "8,000",
@@ -828,7 +648,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "솟대",
     "main_item": "순두부찌개",
     "price": "7,500",
@@ -840,7 +660,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "시래기나라",
     "main_item": "시래기국밥",
     "price": "5,000",
@@ -852,19 +672,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "미용업",
-    "name": "아트헤어",
-    "main_item": "커트",
-    "price": "5,000",
-    "phone": "052-265-9829",
-    "address": "울산광역시 남구 거마로 117번길 39",
-    "lat": 35.5430201238122,
-    "lng": 129.305491418207,
-    "region_1depth": "울산",
-    "region_2depth": "남구"
-  },
-  {
-    "category": "한식_분식",
+    "category": "한식",
     "name": "아현이네",
     "main_item": "김밥",
     "price": "3,500",
@@ -876,7 +684,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "안창깍두기",
     "main_item": "돈까스",
     "price": "5,900",
@@ -888,7 +696,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "양지식당",
     "main_item": "한식뷔페",
     "price": "6,000",
@@ -900,7 +708,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "영광아구찜",
     "main_item": "아구찜(소)",
     "price": "28,000",
@@ -912,7 +720,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "옛날가마솥보리밥",
     "main_item": "보리밥",
     "price": "7,000",
@@ -924,7 +732,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "옛날칼국수",
     "main_item": "손칼국수",
     "price": "6,000",
@@ -936,7 +744,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "오구왕소금구이",
     "main_item": "점심특선(찌개+고기)",
     "price": "10,000",
@@ -948,7 +756,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "울산칼국수",
     "main_item": "손칼국수",
     "price": "6,000",
@@ -960,7 +768,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_한정식",
+    "category": "한식",
     "name": "원조보리밥",
     "main_item": "보리밥",
     "price": "8,000",
@@ -972,7 +780,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_분식",
+    "category": "한식",
     "name": "유미김밥",
     "main_item": "유미김밥(기본)",
     "price": "3,500",
@@ -984,7 +792,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "육사랑",
     "main_item": "육회비빔밥",
     "price": "10,000",
@@ -996,7 +804,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "이모네국수",
     "main_item": "칼국수",
     "price": "6,000",
@@ -1008,7 +816,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_분식",
+    "category": "한식",
     "name": "전통시골 추어탕",
     "main_item": "칼국수",
     "price": "5,000",
@@ -1020,7 +828,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "정점에올라돼지",
     "main_item": "숙성삼겹살",
     "price": "4,900",
@@ -1032,7 +840,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "제주숯불갈비",
     "main_item": "삼겹살",
     "price": "10,000",
@@ -1044,7 +852,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "조선칼국수",
     "main_item": "칼국수",
     "price": "4,000",
@@ -1056,7 +864,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "좋은돼지좋은참숯",
     "main_item": "꼬들목살(100g)",
     "price": "6,000",
@@ -1080,7 +888,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "진정화로구이",
     "main_item": "칼삼겹살(150g)",
     "price": "12,000",
@@ -1104,7 +912,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_한정식",
+    "category": "한식",
     "name": "착한 밥도둑",
     "main_item": "청국장",
     "price": "8,000",
@@ -1116,7 +924,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "태화강낙지볶음",
     "main_item": "낙지볶음",
     "price": "8,000",
@@ -1128,7 +936,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_한정식",
+    "category": "한식",
     "name": "팔등로찌개일번지",
     "main_item": "정식",
     "price": "8,000",
@@ -1140,19 +948,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "기타요식업",
-    "name": "퍼즈 10",
-    "main_item": "아메리카노",
-    "price": "1,100",
-    "phone": "052-273-6392",
-    "address": "울산광역시 남구 수암로190번길 18 1층 102호",
-    "lat": 35.5257003795136,
-    "lng": 129.32695241877,
-    "region_1depth": "울산",
-    "region_2depth": "남구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "하나네족발추어탕",
     "main_item": "추어탕",
     "price": "7,000",
@@ -1160,18 +956,6 @@
     "address": "울산광역시 남구 수암로189번길 21-2 (야음동) 1층",
     "lat": 35.5289529095178,
     "lng": 129.327532805897,
-    "region_1depth": "울산",
-    "region_2depth": "남구"
-  },
-  {
-    "category": "이용업",
-    "name": "현대이용원",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "052-260-6123",
-    "address": "울산광역시 남구 돋질로251번길 38",
-    "lat": 35.5467863704799,
-    "lng": 129.331297557451,
     "region_1depth": "울산",
     "region_2depth": "남구"
   },
@@ -1200,7 +984,7 @@
     "region_2depth": "남구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "GOGO!! 대패삼겹",
     "main_item": "고고대패(칠레산)",
     "price": "4,500",
@@ -1212,7 +996,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "강원식당",
     "main_item": "정식",
     "price": "7,000",
@@ -1224,7 +1008,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "경주본가",
     "main_item": "한우국밥",
     "price": "8,000",
@@ -1236,7 +1020,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "꽃바위약수삼계탕",
     "main_item": "삼계탕",
     "price": "12,000",
@@ -1260,7 +1044,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "먹거리",
     "main_item": "뼈다귀해장국",
     "price": "8,000",
@@ -1272,7 +1056,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "미소돈참숯불구이",
     "main_item": "소고기(미국산 100g)",
     "price": "9,000",
@@ -1280,18 +1064,6 @@
     "address": "울산광역시 동구 슬도로 21 (방어동)",
     "lat": 35.4876388867506,
     "lng": 129.428017879312,
-    "region_1depth": "울산",
-    "region_2depth": "동구"
-  },
-  {
-    "category": "세탁업",
-    "name": "백옥세탁소",
-    "main_item": "양복1벌",
-    "price": "10,000",
-    "phone": "052-236-1919",
-    "address": "울산광역시 동구 남목12길 36 (동부동)",
-    "lat": 35.5454722431747,
-    "lng": 129.42939375413,
     "region_1depth": "울산",
     "region_2depth": "동구"
   },
@@ -1308,19 +1080,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "미용업",
-    "name": "비카디헤어",
-    "main_item": "컷트",
-    "price": "10,000",
-    "phone": "052-716-5055",
-    "address": "울산광역시 동구 내진2길 19 (방어동) 1층",
-    "lat": 35.4857423801687,
-    "lng": 129.425030168761,
-    "region_1depth": "울산",
-    "region_2depth": "동구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "신토불이 왕족발",
     "main_item": "돼지국밥",
     "price": "7,000",
@@ -1332,7 +1092,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "안골목",
     "main_item": "보리밥뷔페",
     "price": "8,000",
@@ -1344,7 +1104,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "얼큰손수제비",
     "main_item": "칼국수",
     "price": "5,000",
@@ -1356,7 +1116,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "육천한식뷔페",
     "main_item": "한식뷔페",
     "price": "7,500",
@@ -1368,7 +1128,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "이조칼국수",
     "main_item": "잔치국수",
     "price": "5,000",
@@ -1380,7 +1140,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "일향",
     "main_item": "정식",
     "price": "8,000",
@@ -1392,7 +1152,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "자매국수집",
     "main_item": "잔치국수",
     "price": "5,000",
@@ -1404,7 +1164,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "장수밀면",
     "main_item": "물밀면",
     "price": "6,500",
@@ -1416,7 +1176,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "장수보리밥뷔페",
     "main_item": "보리밥",
     "price": "5,000",
@@ -1428,7 +1188,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "장터수육",
     "main_item": "국밥",
     "price": "6,000",
@@ -1440,7 +1200,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "정원분식",
     "main_item": "보리밥",
     "price": "4,000",
@@ -1452,7 +1212,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "정원식당",
     "main_item": "청국장",
     "price": "6,000",
@@ -1464,7 +1224,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "정지간한식뷔페",
     "main_item": "한식뷔페",
     "price": "7,000",
@@ -1476,7 +1236,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "제일식당",
     "main_item": "김치찌개",
     "price": "8,000",
@@ -1488,7 +1248,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "제주식당",
     "main_item": "된장찌개",
     "price": "7,000",
@@ -1500,7 +1260,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "착한갈비야",
     "main_item": "황제소갈비(100g)",
     "price": "7,900",
@@ -1524,7 +1284,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "초당밀면 칼국수 전문점",
     "main_item": "밀면",
     "price": "7,000",
@@ -1532,66 +1292,6 @@
     "address": "울산광역시 동구 대송11길 4 (화정동) 1층",
     "lat": 35.49883530373,
     "lng": 129.422388716772,
-    "region_1depth": "울산",
-    "region_2depth": "동구"
-  },
-  {
-    "category": "중식",
-    "name": "초원양다리구입",
-    "main_item": "양갈비 구입(1.0kg)",
-    "price": "42,000",
-    "phone": "052-234-5798",
-    "address": "울산광역시 동구 전하로 27 (전하동) 1층",
-    "lat": 35.5124248253628,
-    "lng": 129.42771607731,
-    "region_1depth": "울산",
-    "region_2depth": "동구"
-  },
-  {
-    "category": "이용업",
-    "name": "컷트박스",
-    "main_item": "컷트",
-    "price": "8,000",
-    "phone": "052-235-0421",
-    "address": "울산광역시 동구 방어진순환도로 701 (일산동)",
-    "lat": 35.5044150755758,
-    "lng": 129.429368062029,
-    "region_1depth": "울산",
-    "region_2depth": "동구"
-  },
-  {
-    "category": "기타요식업",
-    "name": "팥사랑단팥빵(팥박사)",
-    "main_item": "단팥빵",
-    "price": "1,200",
-    "phone": "052-233-3323",
-    "address": "울산광역시 동구 전하로 46 (전하동) 1층",
-    "lat": 35.5128344282418,
-    "lng": 129.425854413126,
-    "region_1depth": "울산",
-    "region_2depth": "동구"
-  },
-  {
-    "category": "이용업",
-    "name": "포맨",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "052-201-0410",
-    "address": "울산광역시 동구 옥류로 83 101호(동부동, 남목그린타워 상가)",
-    "lat": 35.5460674253815,
-    "lng": 129.425141349167,
-    "region_1depth": "울산",
-    "region_2depth": "동구"
-  },
-  {
-    "category": "미용업",
-    "name": "하정희 헤어",
-    "main_item": "퍼머",
-    "price": "25,000",
-    "phone": "052-234-1573",
-    "address": "울산광역시 동구 진성6길 80 (전하동)",
-    "lat": 35.5070475600061,
-    "lng": 129.424098852607,
     "region_1depth": "울산",
     "region_2depth": "동구"
   },
@@ -1608,7 +1308,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "호박터숯불갈비",
     "main_item": "생삼겹(국산, 150g)",
     "price": "9,000",
@@ -1620,7 +1320,7 @@
     "region_2depth": "동구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "경주잔치집",
     "main_item": "잔치국수",
     "price": "6,000",
@@ -1632,7 +1332,7 @@
     "region_2depth": "북구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "남향손칼국수",
     "main_item": "칼국수",
     "price": "6,000",
@@ -1668,7 +1368,7 @@
     "region_2depth": "북구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "동산분식",
     "main_item": "칼국수",
     "price": "5,500",
@@ -1680,7 +1380,7 @@
     "region_2depth": "북구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "두부곡밥집",
     "main_item": "김치찌개",
     "price": "8,000",
@@ -1704,7 +1404,7 @@
     "region_2depth": "북구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "마늘보쌈",
     "main_item": "마늘보쌈정식",
     "price": "11,000",
@@ -1716,7 +1416,7 @@
     "region_2depth": "북구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "맛보고삼계탕",
     "main_item": "삼계탕",
     "price": "13,000",
@@ -1728,19 +1428,7 @@
     "region_2depth": "북구"
   },
   {
-    "category": "이용업",
-    "name": "미스터투남성커트",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "052-287-3672",
-    "address": "울산광역시 북구 상방로 85",
-    "lat": 35.5896867134257,
-    "lng": 129.366223592645,
-    "region_1depth": "울산",
-    "region_2depth": "북구"
-  },
-  {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "백년동안",
     "main_item": "한우갈비살(100g)",
     "price": "15,900",
@@ -1752,19 +1440,7 @@
     "region_2depth": "북구"
   },
   {
-    "category": "세탁업",
-    "name": "벽산컴퓨터세탁",
-    "main_item": "양복",
-    "price": "7,000",
-    "phone": "052-288-2891",
-    "address": "울산광역시 북구 상방로 162 (연암동)",
-    "lat": 35.5832239003614,
-    "lng": 129.365189766282,
-    "region_1depth": "울산",
-    "region_2depth": "북구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "본가",
     "main_item": "김치찌개",
     "price": "7,000",
@@ -1788,19 +1464,7 @@
     "region_2depth": "북구"
   },
   {
-    "category": "기타요식업",
-    "name": "브래드에뜰",
-    "main_item": "호두단팥빵",
-    "price": "2,000",
-    "phone": "052-296-6250",
-    "address": "울산광역시 북구 매산로 92-1 (매곡동) 1층",
-    "lat": 35.6400086872621,
-    "lng": 129.359372893548,
-    "region_1depth": "울산",
-    "region_2depth": "북구"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "삼미식당",
     "main_item": "김치찌개",
     "price": "6,000",
@@ -1812,31 +1476,7 @@
     "region_2depth": "북구"
   },
   {
-    "category": "세탁업",
-    "name": "상떼빌세탁소",
-    "main_item": "신사복상의",
-    "price": "3,000",
-    "phone": "052-289-0888",
-    "address": "울산광역시 북구 염포로 669 109호",
-    "lat": 35.5329399997956,
-    "lng": 129.391149443352,
-    "region_1depth": "울산",
-    "region_2depth": "북구"
-  },
-  {
-    "category": "미용업",
-    "name": "세븐헤어샵",
-    "main_item": "커트(학생)",
-    "price": "12,000",
-    "phone": "052-286-7665",
-    "address": "울산광역시 북구 아진로 106-2 1층",
-    "lat": 35.6309582799731,
-    "lng": 129.337526765152,
-    "region_1depth": "울산",
-    "region_2depth": "북구"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "송정매운어탕수제비",
     "main_item": "칼국수",
     "price": "6,500",
@@ -1848,7 +1488,7 @@
     "region_2depth": "북구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "아저씨보리밥",
     "main_item": "보리밥(비빔밥)",
     "price": "8,000",
@@ -1860,7 +1500,7 @@
     "region_2depth": "북구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "예원숯불갈비",
     "main_item": "돼지갈비(180g)",
     "price": "9,500",
@@ -1884,7 +1524,7 @@
     "region_2depth": "북구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "이모네포차",
     "main_item": "차돌육개장",
     "price": "8,000",
@@ -1896,7 +1536,7 @@
     "region_2depth": "북구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "종가자매국수",
     "main_item": "칼국수",
     "price": "6,000",
@@ -1908,7 +1548,7 @@
     "region_2depth": "북구"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "주안네손칼국수",
     "main_item": "들깨칼국수",
     "price": "8,000",
@@ -1944,7 +1584,7 @@
     "region_2depth": "북구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "태양추어탕보리밥",
     "main_item": "추어탕",
     "price": "8,000",
@@ -1956,7 +1596,7 @@
     "region_2depth": "북구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "퇴근길",
     "main_item": "정식",
     "price": "6,000",
@@ -1968,7 +1608,7 @@
     "region_2depth": "북구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "푸짐한식당",
     "main_item": "된장찌개",
     "price": "7,000",
@@ -1980,7 +1620,7 @@
     "region_2depth": "북구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "황금비늘",
     "main_item": "간장게장정식",
     "price": "11,000",
@@ -1992,7 +1632,7 @@
     "region_2depth": "북구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "황돈숯불생고기",
     "main_item": "김치찌개",
     "price": "8,000",
@@ -2004,7 +1644,7 @@
     "region_2depth": "북구"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "흑마늘보쌈",
     "main_item": "삼색흑마늘보쌈정식(점심특선)",
     "price": "9,000",
@@ -2016,7 +1656,7 @@
     "region_2depth": "북구"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "고려뼈다귀해장국",
     "main_item": "해장국",
     "price": "8,000",
@@ -2028,19 +1668,7 @@
     "region_2depth": "울주군"
   },
   {
-    "category": "한식_일반",
-    "name": "구이와아구찜",
-    "main_item": "아구찜(중)",
-    "price": "33,000",
-    "phone": "052-211-8045",
-    "address": "울산광역시 울주군 범서읍 점촌5길 13-19 동양아트맨션 상가 1호",
-    "lat": 35.5693995496493,
-    "lng": 129.240422758197,
-    "region_1depth": "울산",
-    "region_2depth": "울주군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "금낭상회",
     "main_item": "칼국수",
     "price": "7,000",
@@ -2052,7 +1680,7 @@
     "region_2depth": "울주군"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "기술면집 백밀원",
     "main_item": "칼국수",
     "price": "7,000",
@@ -2064,19 +1692,7 @@
     "region_2depth": "울주군"
   },
   {
-    "category": "이용업",
-    "name": "남일이용원",
-    "main_item": "조발",
-    "price": "5,000",
-    "phone": "052-238-3606",
-    "address": "울산광역시 울주군 온양읍 남창1길 44",
-    "lat": 35.4173243910154,
-    "lng": 129.28051635572,
-    "region_1depth": "울산",
-    "region_2depth": "울주군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "늘봄식당",
     "main_item": "된장찌개",
     "price": "7,000",
@@ -2088,7 +1704,7 @@
     "region_2depth": "울주군"
   },
   {
-    "category": "한식_육류",
+    "category": "한식",
     "name": "대림통갈비",
     "main_item": "통갈비",
     "price": "10,000",
@@ -2112,7 +1728,7 @@
     "region_2depth": "울주군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "동부분식점",
     "main_item": "칼국수",
     "price": "6,500",
@@ -2124,7 +1740,7 @@
     "region_2depth": "울주군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "무라카데칼국수",
     "main_item": "잔치국수",
     "price": "5,000",
@@ -2148,7 +1764,7 @@
     "region_2depth": "울주군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "봉래정",
     "main_item": "정식",
     "price": "8,000",
@@ -2160,7 +1776,7 @@
     "region_2depth": "울주군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "봉봉식당",
     "main_item": "오리불고기",
     "price": "30,000",
@@ -2168,18 +1784,6 @@
     "address": "울산광역시 울주군 두동면 두동로 969",
     "lat": 35.6471545444414,
     "lng": 129.209329039455,
-    "region_1depth": "울산",
-    "region_2depth": "울주군"
-  },
-  {
-    "category": "이용업",
-    "name": "상서이용원",
-    "main_item": "조발",
-    "price": "8,000",
-    "phone": "052-238-3477",
-    "address": "울산광역시 울주군 온양읍 남창2길 32",
-    "lat": 35.4172663796756,
-    "lng": 129.282446227133,
     "region_1depth": "울산",
     "region_2depth": "울주군"
   },
@@ -2196,7 +1800,7 @@
     "region_2depth": "울주군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "숙이네분식",
     "main_item": "김밥",
     "price": "2,500",
@@ -2208,7 +1812,7 @@
     "region_2depth": "울주군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "양지혜매운수제비",
     "main_item": "매운수제비",
     "price": "7,000",
@@ -2220,31 +1824,7 @@
     "region_2depth": "울주군"
   },
   {
-    "category": "한식_일반",
-    "name": "연아구",
-    "main_item": "아구찜(소)",
-    "price": "33,000",
-    "phone": "052-238-5515",
-    "address": "울산광역시 울주군 온산읍 덕신3길 4-1 1층",
-    "lat": 35.4344522835019,
-    "lng": 129.313316656404,
-    "region_1depth": "울산",
-    "region_2depth": "울주군"
-  },
-  {
-    "category": "미용업",
-    "name": "예쁜머리헤어쇼핑",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "052-239-4909",
-    "address": "울산광역시 울주군 온양읍 남창1길 46",
-    "lat": 35.4172287734065,
-    "lng": 129.280669637884,
-    "region_1depth": "울산",
-    "region_2depth": "울주군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "외갓집",
     "main_item": "청국장",
     "price": "8,000",
@@ -2256,7 +1836,7 @@
     "region_2depth": "울주군"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "우와칼국수",
     "main_item": "잔치국수",
     "price": "6,000",
@@ -2268,7 +1848,7 @@
     "region_2depth": "울주군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "원조신성가마솥돼지국밥",
     "main_item": "돼지국밥",
     "price": "8,000",
@@ -2280,7 +1860,7 @@
     "region_2depth": "울주군"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "유정국수",
     "main_item": "멸치국수",
     "price": "5,000",
@@ -2292,7 +1872,7 @@
     "region_2depth": "울주군"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "자매칼국수",
     "main_item": "칼국수",
     "price": "7,000",
@@ -2304,19 +1884,7 @@
     "region_2depth": "울주군"
   },
   {
-    "category": "미용업",
-    "name": "정가네미용실",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "052-239-1050",
-    "address": "울산광역시 울주군 서생면 신리길 115",
-    "lat": 35.3464383661995,
-    "lng": 129.321076431281,
-    "region_1depth": "울산",
-    "region_2depth": "울주군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "정옥식당",
     "main_item": "잔치국수",
     "price": "5,000",
@@ -2328,19 +1896,7 @@
     "region_2depth": "울주군"
   },
   {
-    "category": "이용업",
-    "name": "중앙이용원",
-    "main_item": "조발",
-    "price": "8,000",
-    "phone": "052-238-3632",
-    "address": "울산광역시 울주군 온양읍 남창1길 27",
-    "lat": 35.4181358316808,
-    "lng": 129.281431190367,
-    "region_1depth": "울산",
-    "region_2depth": "울주군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "진가네언양뒷고기",
     "main_item": "뒷고기",
     "price": "28,000",
@@ -2352,7 +1908,7 @@
     "region_2depth": "울주군"
   },
   {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "진칼국수",
     "main_item": "멸치칼국수",
     "price": "6,500",
@@ -2388,7 +1944,7 @@
     "region_2depth": "울주군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "채사랑",
     "main_item": "한식뷔페",
     "price": "9,000",
@@ -2400,19 +1956,7 @@
     "region_2depth": "울주군"
   },
   {
-    "category": "미용업",
-    "name": "천리향헤어방",
-    "main_item": "커트",
-    "price": "12,000",
-    "phone": "052-238-8813",
-    "address": "울산광역시 울주군 온산읍 신온9길 43 2층",
-    "lat": 35.4275997759196,
-    "lng": 129.311675444636,
-    "region_1depth": "울산",
-    "region_2depth": "울주군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "청아정",
     "main_item": "냉면",
     "price": "9,000",
@@ -2424,7 +1968,7 @@
     "region_2depth": "울주군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "춘자네식당",
     "main_item": "순두부찌개",
     "price": "7,000",
@@ -2436,7 +1980,7 @@
     "region_2depth": "울주군"
   },
   {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "큰당골식당",
     "main_item": "백반정식",
     "price": "7,000",
@@ -2448,19 +1992,7 @@
     "region_2depth": "울주군"
   },
   {
-    "category": "이용업",
-    "name": "태양이발관",
-    "main_item": "조발",
-    "price": "10,000",
-    "phone": "052-262-7261",
-    "address": "울산광역시 울주군 두동면 계명3길 9 201호",
-    "lat": 35.7133818231415,
-    "lng": 129.199173799791,
-    "region_1depth": "울산",
-    "region_2depth": "울주군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "푸짐한밥집",
     "main_item": "한식뷔페",
     "price": "8,000",
@@ -2484,19 +2016,7 @@
     "region_2depth": "울주군"
   },
   {
-    "category": "미용업",
-    "name": "한나헤어아트",
-    "main_item": "커트",
-    "price": "10,000",
-    "phone": "052-239-4564",
-    "address": "울산광역시 울주군 온양읍 태화7길 46",
-    "lat": 35.4153149298721,
-    "lng": 129.279874554338,
-    "region_1depth": "울산",
-    "region_2depth": "울주군"
-  },
-  {
-    "category": "한식_면류",
+    "category": "한식",
     "name": "홍두깨손칼국수",
     "main_item": "칼국수",
     "price": "7,000",
@@ -2508,19 +2028,7 @@
     "region_2depth": "울주군"
   },
   {
-    "category": "세탁업",
-    "name": "화이트세탁소",
-    "main_item": "신사복",
-    "price": "6,000",
-    "phone": "052-244-7084",
-    "address": "울산광역시 울주군 범서읍 천상5길 6-2 1층",
-    "lat": 35.5634019916005,
-    "lng": 129.224352639607,
-    "region_1depth": "울산",
-    "region_2depth": "울주군"
-  },
-  {
-    "category": "한식_일반",
+    "category": "한식",
     "name": "효정밥상",
     "main_item": "게장정식",
     "price": "10,000",
