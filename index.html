@@ -11,52 +11,11 @@
         body { margin: 0; padding: 0; }
         #map { width: 100%; height: 100vh; }
         h2 { text-align: center; padding: 10px; }
-        .info-window { 
-            font-size: 12px; 
-            padding: 1px 2px; 
-            background: white; 
-            border: 1px solid #333; 
-            border-radius: 3px; 
-            display: inline-block; 
-            white-space: nowrap; 
-            width: fit-content; 
-            max-width: 200px; 
-            overflow: hidden; 
-            text-overflow: ellipsis; 
-            margin: 0; 
-            box-sizing: content-box; 
-            position: relative; 
-            top: -35px;
-            cursor: pointer;
-        }
-        .detail-window { 
-            font-size: 14px; 
-            padding: 10px; 
-            background: white; 
-            border: 1px solid #666; 
-            border-radius: 5px; 
-            max-width: 300px; 
-            box-shadow: 2px 2px 5px rgba(0,0,0,0.3); 
-            line-height: 1.5;
-        }
-        .click-area { 
-            width: 40px; 
-            height: 40px; 
-            background: transparent; 
-            border-radius: 50%; 
-            position: absolute; 
-            top: -20px; 
-            left: -20px; 
-            cursor: pointer; 
-        }
-        #region-select { 
-            position: absolute; 
-            top: 20px; 
-            left: 20px; 
-            z-index: 100; 
-            padding: 5px; 
-            font-size: 16px; 
-        }
+        .info-window { font-size: 12px; padding: 1px 2px; background: white; border: 1px solid #333; border-radius: 3px; display: inline-block; white-space: nowrap; width: fit-content; max-width: 200px; overflow: hidden; text-overflow: ellipsis; margin: 0; box-sizing: content-box; position: relative; top: -35px; cursor: pointer; }
+        .detail-window { font-size: 14px; padding: 10px; background: white; border: 1px solid #666; border-radius: 5px; max-width: 300px; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); line-height: 1.5; cursor: pointer;}
+        .click-area { width: 40px; height: 40px; background: transparent; border-radius: 50%; position: absolute; top: -20px; left: -20px; cursor: pointer; }
+        #region-select { position: absolute; top: 20px; left: 20px; z-index: 100; padding: 5px; font-size: 16px; }
+        #price-select { position: absolute; top: 20px; left: 180px; z-index: 100; padding: 5px; font-size: 16px; }
     </style>
 </head>
 <body>
@@ -64,254 +23,287 @@
     <select id="region-select">
         <option value="">지역을 선택하세요</option>
     </select>
+    <select id="price-select">
+        <option value="">가격대를 선택하세요</option>
+        <option value="10000+">10000원 이상</option>
+        <option value="9000-9999">9000~9999원</option>
+        <option value="8000-8999">8000~8999원</option>
+        <option value="7000-7999">7000~7999원</option>
+        <option value="6000-6999">6000~6999원</option>
+        <option value="5000-5999">5000~5999원</option>
+        <option value="0-4999">5000원 미만</option>
+    </select>
     <div id="map"></div>
-    <script>
-        let map;
-        let clusterer;
-        let markers = [];
-        let overlays = [];
-        let clickAreas = [];
-        let currentInfowindow = null;
+<script>
+    let map;
+    let clusterer;
+    let markers = [];
+    let overlays = [];
+    let clickAreas = [];
+    let currentInfowindow = null;
+    let currentRegion = "";
+    let currentPriceRange = "";
 
-		function initMap() {
-            const container = document.getElementById('map');
-            if (!container) {
-                console.error("❌ 지도 컨테이너 없음");
-                return;
-            }
-            const options = {
-                center: new kakao.maps.LatLng(37.5665, 126.9780),
-                level: 8
-            };
-            map = new kakao.maps.Map(container, options);
-            clusterer = new kakao.maps.MarkerClusterer({
-                map: map,
-                averageCenter: true,
-                minLevel: 6,
-                calculator: [10, 50, 100]
-            });
-            console.log("✅ 지도 객체 생성 완료:", map);
-
-            kakao.maps.event.addListener(map, 'click', function() {
-                if (currentInfowindow) {
-                    currentInfowindow.setMap(null);
-                    currentInfowindow = null;
-                    console.log("ℹ️ 상세 창 닫힘");
-                }
-            });
-
-            kakao.maps.event.addListener(map, 'zoom_changed', updateOverlays);
-            initRegionSelect();
+    function initMap() {
+        const container = document.getElementById('map');
+        if (!container) {
+            console.error("❌ 지도 컨테이너 없음");
+            return;
         }
-
-        function updateOverlays() {
-            const level = map.getLevel();
-            overlays.forEach(overlay => {
-                if (level <= 5) {
-                    overlay.setMap(map);
-                } else {
-                    overlay.setMap(null);
-                }
-            });
-            clickAreas.forEach(area => {
-                if (level <= 5) {
-                    area.setMap(map);
-                } else {
-                    area.setMap(null);
-                }
-            });
-            if (currentInfowindow && level > 5) {
-                currentInfowindow.setMap(null);
-            }
-        }
-
-        function clearMap() {
-            markers.forEach(marker => marker.setMap(null));
-            overlays.forEach(overlay => overlay.setMap(null));
-            clickAreas.forEach(area => area.setMap(null));
-            clusterer.clear();
-            if (currentInfowindow) {
-                currentInfowindow.setMap(null);
-            }
-            markers = [];
-            overlays = [];
-            clickAreas = [];
-        }
-
-        // 충돌 감지 및 위치 계산 함수 (단순화)
-        function calculateOverlayPosition(position, existingOverlays) {
-            let yOffset = 1; // 기본 yAnchor (위쪽)
-            const baseOffset = 0.001; // 약 100m 간격으로 충분히 크게 설정
-            let overlapCount = 0;
-
-            existingOverlays.forEach(existing => {
-                const existingPosition = existing.getPosition();
-                const distance = Math.sqrt(
-                    Math.pow(position.getLat() - existingPosition.getLat(), 2) +
-                    Math.pow(position.getLng() - existingPosition.getLng(), 2)
-                );
-
-                if (distance < 0.0001) { // 동일 위치 감지
-                    overlapCount++;
-                    yOffset += baseOffset * overlapCount; // 위로 쌓임
-                    console.log(`🔍 충돌 감지 - 오프셋: ${yOffset}`);
-                }
-            });
-
-            return { xAnchor: 0.5, yAnchor: yOffset };
-        }
-
-        function loadStores(region) {
-            clearMap();
-            const jsonFile = region ? `stores_by_region/stores_${region}.json` : null;
-            if (!jsonFile) {
-                console.log("ℹ️ 지역 미선택");
-                return;
-            }
-
-            console.log(`🔍 로드 시도: ${jsonFile}`);
-            fetch(jsonFile)
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error(`HTTP 오류: ${response.status} - ${response.statusText}`);
-                    }
-                    return response.json();
-                })
-                .then(stores => {
-                    console.log(`📂 ${region} 데이터 로드 완료: ${stores.length}`);
-                    const existingOverlays = [];
-
-                    stores.forEach(store => {
-                        if (store.lat && store.lng) {
-                            const markerPosition = new kakao.maps.LatLng(store.lat, store.lng);
-                            const marker = new kakao.maps.Marker({
-                                position: markerPosition,
-                                title: store.name,
-                                clickable: true
-                            });
-                            markers.push(marker);
-
-                            const cleanName = store.name.trim();
-                            const { xAnchor, yAnchor } = calculateOverlayPosition(markerPosition, existingOverlays);
-                            console.log(`🛠️ Overlay 생성 - ${cleanName}, x:${xAnchor}, y:${yAnchor}`);
-                            const overlay = new kakao.maps.CustomOverlay({
-                                position: markerPosition,
-                                content: `<div class="info-window" onclick="showStoreDetails('${cleanName.replace(/'/g, "\\'")}', '${store.category || '정보 없음'}', '${store.main_item || '정보 없음'}', '${store.price || '정보 없음'}', '${store.phone || '정보 없음'}', '${store.address || '정보 없음'}', ${store.lat}, ${store.lng})">${cleanName}</div>`,
-                                xAnchor: xAnchor,
-                                yAnchor: yAnchor,
-                                zIndex: 10
-                            });
-
-                            overlay.setMap(map);
-                            existingOverlays.push(overlay);
-                            overlays.push(overlay);
-
-                            const clickArea = new kakao.maps.CustomOverlay({
-                                position: markerPosition,
-                                content: `<div class="click-area"></div>`,
-                                yAnchor: 0.5,
-                                xAnchor: 0.5,
-                                zIndex: 5
-                            });
-                            clickArea.setMap(map);
-                            clickAreas.push(clickArea);
-
-                            kakao.maps.event.addListener(marker, 'click', () => showStoreDetails(cleanName, store.category, store.main_item, store.price, store.phone, store.address, store.lat, store.lng));
-                            kakao.maps.event.addListener(clickArea, 'click', () => showStoreDetails(cleanName, store.category, store.main_item, store.price, store.phone, store.address, store.lat, store.lng));
-                        }
-                    });
-                    clusterer.addMarkers(markers);
-                    console.log(`✅ ${region} 마커 표시 완료`);
-                    updateOverlays();
-
-                    if (stores.length > 0) {
-                        const bounds = new kakao.maps.LatLngBounds();
-                        stores.forEach(store => {
-                            if (store.lat && store.lng) {
-                                bounds.extend(new kakao.maps.LatLng(store.lat, store.lng));
-                            }
-                        });
-                        map.setBounds(bounds);
-                    }
-                })
-                .catch(error => console.error(`❌ ${region} 데이터 로드 실패:`, error));
-        }
-
-        window.showStoreDetails = function(name, category, main_item, price, phone, address, lat, lng) {
-            console.log(`🖱️ 클릭 감지: ${name}`);
-            if (currentInfowindow) {
-                currentInfowindow.setMap(null);
-            }
-
-            const markerPosition = new kakao.maps.LatLng(lat, lng);
-            const content = `
-                <div class="detail-window">
-                    <strong>${name}</strong><br>
-                    업종: ${category}<br>
-                    주요 품목: ${main_item}<br>
-                    가격: ${price ? price + '원' : '정보 없음'}<br>
-                    전화번호: ${phone}<br>
-                    주소: ${address}<br>
-                </div>
-            `;
-            const infowindow = new kakao.maps.InfoWindow({
-                position: markerPosition,
-                content: content,
-                zIndex: 20
-            });
-            infowindow.open(map);
-            currentInfowindow = infowindow;
+        const options = {
+            center: new kakao.maps.LatLng(37.5665, 126.9780),
+            level: 8
         };
+        map = new kakao.maps.Map(container, options);
+        clusterer = new kakao.maps.MarkerClusterer({
+            map: map,
+            averageCenter: true,
+            minLevel: 6,
+            calculator: [10, 50, 100]
+        });
+        console.log("✅ 지도 객체 생성 완료:", map);
 
-        function initRegionSelect() {
-            const regions = [
-                "강원도", "경기도", "경남", "경북", "광주", "대구", "대전", "부산", 
-                "서울", "세종", "울산", "인천", "전북", "전남", "제주", "충북", "충남"
-            ];
-            const select = document.getElementById('region-select');
-            regions.forEach(region => {
-                const option = document.createElement('option');
-                option.value = region;
-                option.text = region;
-                select.appendChild(option);
-            });
+        kakao.maps.event.addListener(map, 'click', function() {
+            if (currentInfowindow) {
+                currentInfowindow.setMap(null);
+                currentInfowindow = null;
+                console.log("ℹ️ 상세 창 닫힘 - 지도 클릭");
+            }
+        });
 
-            select.addEventListener('change', function() {
-                const selectedRegion = this.value;
-                console.log(`🌍 지역 선택: ${selectedRegion}`);
-                loadStores(selectedRegion);
-            });
+        kakao.maps.event.addListener(map, 'zoom_changed', updateOverlays);
+        initRegionSelect();
+        initPriceSelect();
+    }
+
+    function updateOverlays() {
+        const level = map.getLevel();
+        overlays.forEach(overlay => {
+            if (level <= 5) overlay.setMap(map);
+            else overlay.setMap(null);
+        });
+        clickAreas.forEach(area => {
+            if (level <= 5) area.setMap(map);
+            else area.setMap(null);
+        });
+        if (currentInfowindow && level > 5) {
+            currentInfowindow.setMap(null);
+            console.log("ℹ️ 상세 창 닫힘 - 줌 변경");
+        }
+    }
+
+    function clearMap() {
+        markers.forEach(marker => marker.setMap(null));
+        overlays.forEach(overlay => overlay.setMap(null));
+        clickAreas.forEach(area => area.setMap(null));
+        clusterer.clear();
+        if (currentInfowindow) {
+            currentInfowindow.setMap(null);
+            currentInfowindow = null;
+            console.log("ℹ️ 상세 창 닫힘 - 지도 초기화");
+        }
+        markers = [];
+        overlays = [];
+        clickAreas = [];
+    }
+
+    function calculateOverlayPosition(position, existingOverlays) {
+        let yOffset = 1;
+        const baseOffset = 0.001;
+        let overlapCount = 0;
+
+        existingOverlays.forEach(existing => {
+            const existingPosition = existing.getPosition();
+            const distance = Math.sqrt(
+                Math.pow(position.getLat() - existingPosition.getLat(), 2) +
+                Math.pow(position.getLng() - existingPosition.getLng(), 2)
+            );
+            if (distance < 0.0001) {
+                overlapCount++;
+                yOffset += baseOffset * overlapCount;
+                console.log(`🔍 충돌 감지 - 오프셋: ${yOffset}`);
+            }
+        });
+        return { xAnchor: 0.5, yAnchor: yOffset };
+    }
+
+    function loadStores(region, priceRange) {
+        clearMap();
+        if (!region) {
+            console.log("ℹ️ 지역 미선택");
+            return;
         }
 
-        document.addEventListener('DOMContentLoaded', function() {
+        const jsonFile = `stores_by_region/stores_${region}.json`;
+        console.log(`🔍 로드 시도: ${jsonFile}, 가격대: ${priceRange}`);
+        fetch(jsonFile)
+            .then(response => {
+                if (!response.ok) throw new Error(`HTTP 오류: ${response.status}`);
+                return response.json();
+            })
+            .then(stores => {
+                console.log(`📂 ${region} 데이터 로드 완료: ${stores.length}`);
+                console.log("ℹ️ 첫 번째 데이터 예시:", stores[0]);
+
+                let filteredStores = stores;
+                if (priceRange) {
+                    const [minPrice, maxPrice] = priceRange.includes('+') 
+                        ? [10000, Infinity] 
+                        : priceRange.split('-').map(Number);
+                    console.log(`ℹ️ 필터링 조건: min=${minPrice}, max=${maxPrice}`);
+                    filteredStores = stores.filter(store => {
+                        const price = (parseInt(store.price, 10) || 0) * 1000;
+                        console.log(`ℹ️ ${store.name} 가격: ${price}`);
+                        if (priceRange === "10000+") return price >= 10000;
+                        if (priceRange === "0-4999") return price < 5000;
+                        return price >= minPrice && price <= maxPrice;
+                    });
+                }
+                console.log(`📌 필터링 후 결과: ${filteredStores.length}개`);
+
+                const existingOverlays = [];
+                filteredStores.forEach(store => {
+                    if (store.lat && store.lng) {
+                        const markerPosition = new kakao.maps.LatLng(store.lat, store.lng);
+                        const marker = new kakao.maps.Marker({
+                            position: markerPosition,
+                            title: store.name,
+                            clickable: true
+                        });
+                        markers.push(marker);
+
+                        const cleanName = store.name.trim();
+                        const { xAnchor, yAnchor } = calculateOverlayPosition(markerPosition, existingOverlays);
+                        console.log(`🛠️ Overlay 생성 - ${cleanName}, x:${xAnchor}, y:${yAnchor}`);
+                        const overlay = new kakao.maps.CustomOverlay({
+                            position: markerPosition,
+                            content: `<div class="info-window" onclick="toggleStoreDetails('${cleanName.replace(/'/g, "\\'")}', '${store.category || '정보 없음'}', '${store.main_item || '정보 없음'}', '${store.price || '정보 없음'}', '${store.phone || '정보 없음'}', '${store.address || '정보 없음'}', ${store.lat}, ${store.lng})">${cleanName}</div>`,
+                            xAnchor: xAnchor,
+                            yAnchor: yAnchor,
+                            zIndex: 10
+                        });
+
+                        overlay.setMap(map);
+                        existingOverlays.push(overlay);
+                        overlays.push(overlay);
+
+                        const clickArea = new kakao.maps.CustomOverlay({
+                            position: markerPosition,
+                            content: `<div class="click-area"></div>`,
+                            yAnchor: 0.5,
+                            xAnchor: 0.5,
+                            zIndex: 5
+                        });
+                        clickArea.setMap(map);
+                        clickAreas.push(clickArea);
+
+                        kakao.maps.event.addListener(marker, 'click', () => toggleStoreDetails(cleanName, store.category, store.main_item, store.price, store.phone, store.address, store.lat, store.lng));
+                        kakao.maps.event.addListener(clickArea, 'click', () => toggleStoreDetails(cleanName, store.category, store.main_item, store.price, store.phone, store.address, store.lat, store.lng));
+                    }
+                });
+                clusterer.addMarkers(markers);
+                console.log(`✅ ${region} 마커 표시 완료`);
+
+                if (filteredStores.length > 0) {
+                    const bounds = new kakao.maps.LatLngBounds();
+                    filteredStores.forEach(store => {
+                        if (store.lat && store.lng) bounds.extend(new kakao.maps.LatLng(store.lat, store.lng));
+                    });
+                    map.setBounds(bounds);
+                }
+            })
+            .catch(error => console.error(`❌ ${region} 데이터 로드 실패:`, error));
+    }
+
+    window.toggleStoreDetails = function(name, category, main_item, price, phone, address, lat, lng) {
+        console.log(`🖱️ 클릭 감지: ${name}`);
+        const markerPosition = new kakao.maps.LatLng(lat, lng);
+
+        // 기존 상세 창이 있으면 먼저 닫기
+        if (currentInfowindow) {
+            currentInfowindow.setMap(null);
+            currentInfowindow = null;
+            console.log("ℹ️ 기존 상세 창 닫힘 - 새 창 열기 전");
+        }
+
+        // 같은 위치 재클릭 시 아무것도 안 함 (이미 닫혔으므로)
+        if (currentInfowindow && currentInfowindow.getPosition().equals(markerPosition)) {
+            return;
+        }
+
+        const content = `
+            <div class="detail-window" onclick="closeDetailWindow()">
+                <strong>${name}</strong><br>
+                업종: ${category}<br>
+                주요 품목: ${main_item}<br>
+                가격: ${price ? price + '원' : '정보 없음'}<br>
+                전화번호: ${phone}<br>
+                주소: ${address}<br>
+            </div>
+        `;
+        const infowindow = new kakao.maps.InfoWindow({
+            position: markerPosition,
+            content: content,
+            zIndex: 20
+        });
+        infowindow.open(map);
+        currentInfowindow = infowindow;
+        console.log("ℹ️ 새 상세 창 열림");
+    };
+
+    window.closeDetailWindow = function() {
+        if (currentInfowindow) {
+            currentInfowindow.setMap(null);
+            currentInfowindow = null;
+            console.log("ℹ️ 상세 창 닫힘 - 상세 창 클릭");
+        }
+    };
+
+    function initRegionSelect() {
+        const regions = [
+            "강원도", "경기도", "경남", "경북", "광주", "대구", "대전", "부산", 
+            "서울", "세종", "울산", "인천", "전북", "전남", "제주", "충북", "충남"
+        ];
+        const select = document.getElementById('region-select');
+        regions.forEach(region => {
+            const option = document.createElement('option');
+            option.value = region;
+            option.text = region;
+            select.appendChild(option);
+        });
+
+        select.addEventListener('change', function() {
+            currentRegion = this.value;
+            console.log(`🌍 지역 선택: ${currentRegion}`);
+            loadStores(currentRegion, currentPriceRange);
+        });
+    }
+
+    function initPriceSelect() {
+        const select = document.getElementById('price-select');
+        select.addEventListener('change', function() {
+            currentPriceRange = this.value;
+            console.log(`💰 가격대 선택: ${currentPriceRange}`);
+            if (currentRegion) loadStores(currentRegion, currentPriceRange);
+            else console.log("ℹ️ 지역을 먼저 선택해주세요");
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        setTimeout(function() {
             if (typeof kakao === 'undefined') {
-                console.error("❌ kakao 객체가 정의되지 않음");
+                console.error("❌ kakao 객체가 정의되지 않음 - SDK 로드 실패");
                 return;
             }
+            console.log("✅ kakao 객체 정의됨");
             kakao.maps.load(function() {
                 console.log("✅ SDK 로드 성공");
                 initMap();
             }, function(error) {
                 console.error("❌ SDK 로드 실패:", error);
             });
-        });
-	document.addEventListener('DOMContentLoaded', function() {
-		setTimeout(function() { // 1초 대기 후 확인
-			if (typeof kakao === 'undefined') {
-				console.error("❌ kakao 객체가 정의되지 않음 - SDK 로드 실패");
-				return;
-			}
-			console.log("✅ kakao 객체 정의됨");
-			kakao.maps.load(function() {
-				console.log("✅ SDK 로드 성공");
-				initMap();
-			}, function(error) {
-				console.error("❌ SDK 로드 실패:", error);
-			});
-		}, 1000);
-	});
-    </script>
-
-
+        }, 3000);
+    });
+</script>
 </body>
 </html>
