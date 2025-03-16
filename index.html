@@ -29,6 +29,7 @@
             height: calc(100% - 50px); 
             position: absolute; 
             top: 50px; 
+            z-index: 1; /* 지도 낮은 레이어 */
         }
         .info-window { 
             font-size: 12px; padding: 1px 2px; background: white; border: 1px solid #333; 
@@ -46,29 +47,40 @@
             position: absolute; top: -20px; left: -20px; cursor: pointer;
         }
         #region-select { 
-            position: absolute; top: 60px; left: 20px; z-index: 100; padding: 5px; font-size: 16px; 
+            position: absolute; top: 10px; left: 10px; z-index: 100; padding: 5px; font-size: 16px; 
         }
         #price-select { 
-            position: absolute; top: 60px; left: 180px; z-index: 100; padding: 5px; font-size: 16px; 
+            position: absolute; top: 10px; left: 160px; z-index: 100; padding: 5px; font-size: 16px; 
+        }
+        @media (max-width: 600px) { /* 모바일 반응형 */
+            #region-select { 
+                left: 10px; 
+                width: 120px; /* 폭 줄이기 */
+            }
+            #price-select { 
+                left: 140px; 
+                width: 120px; 
+            }
         }
     </style>
 </head>
 <body>
     <h2>행정안전부 착한가격업소 지도</h2>
-    <select id="region-select">
-        <option value="">지역을 선택하세요</option>
-    </select>
-    <select id="price-select">
-        <option value="">가격대를 선택하세요</option>
-        <option value="10000+">10000원 이상</option>
-        <option value="10000">10000원 이하</option>
-        <option value="9000">9000원 이하</option>
-        <option value="8000">8000원 이하</option>
-        <option value="7000">7000원 이하</option>
-        <option value="6000">6000원 이하</option>
-        <option value="5000">5000원 이하</option>
-    </select>
-    <div id="map"></div>
+    <div id="map">
+        <select id="region-select">
+            <option value="">지역을 선택하세요</option>
+        </select>
+        <select id="price-select">
+            <option value="">가격대를 선택하세요</option>
+            <option value="10000+">10000원 이상</option>
+            <option value="10000">10000원 이하</option>
+            <option value="9000">9000원 이하</option>
+            <option value="8000">8000원 이하</option>
+            <option value="7000">7000원 이하</option>
+            <option value="6000">6000원 이하</option>
+            <option value="5000">5000원 이하</option>
+        </select>
+    </div>
     <script>
         let map;
         let clusterer;
