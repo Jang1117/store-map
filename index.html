@@ -73,7 +73,7 @@
         let clickAreas = [];
         let currentInfowindow = null;
 
-        function initMap() {
+		function initMap() {
             const container = document.getElementById('map');
             if (!container) {
                 console.error("❌ 지도 컨테이너 없음");
@@ -295,6 +295,23 @@
                 console.error("❌ SDK 로드 실패:", error);
             });
         });
+	document.addEventListener('DOMContentLoaded', function() {
+		setTimeout(function() { // 1초 대기 후 확인
+			if (typeof kakao === 'undefined') {
+				console.error("❌ kakao 객체가 정의되지 않음 - SDK 로드 실패");
+				return;
+			}
+			console.log("✅ kakao 객체 정의됨");
+			kakao.maps.load(function() {
+				console.log("✅ SDK 로드 성공");
+				initMap();
+			}, function(error) {
+				console.error("❌ SDK 로드 실패:", error);
+			});
+		}, 1000);
+	});
     </script>
+
+
 </body>
 </html>
