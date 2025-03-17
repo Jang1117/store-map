@@ -378,70 +378,79 @@
                 });
         }
 
-        window.toggleStoreDetails = function(name, category, main_item, price, phone, address, lat, lng) {
-            if (currentInfowindow) {
-                currentInfowindow.setMap(null);
-                currentInfowindow = null;
-            }
+		window.toggleStoreDetails = function(name, category, main_item, price, phone, address, lat, lng) {
+			if (currentInfowindow) {
+				currentInfowindow.setMap(null);
+				currentInfowindow = null;
+			}
 
-            const kakaoLocalApiUrl = `https://dapi.kakao.com/v2/local/search/keyword.json?query=${encodeURIComponent(name)}&x=${lng}&y=${lat}&radius=200`;
-            fetch(kakaoLocalApiUrl, {
-                headers: {
-                    'Authorization': `KakaoAK ${KAKAO_REST_API_KEY}`
-                }
-            })
-            .then(response => {
-                if (!response.ok) throw new Error(`Kakao API 호출 실패: ${response.status}`);
-                return response.json();
-            })
-            .then(data => {
-                const place = data.documents[0] || {};
-                const kakaoInfo = place.place_url ? `<a href="${place.place_url}" target="_blank">카카오맵에서 더 보기</a><br>` : '';
-                const kakaoAddress = place.road_address_name || place.address_name || address;
-                const kakaoPhone = place.phone || phone;
+			const kakaoLocalApiUrl = `https://dapi.kakao.com/v2/local/search/keyword.json?query=${encodeURIComponent(name)}&x=${lng}&y=${lat}&radius=500`;
+			fetch(kakaoLocalApiUrl, {
+				headers: {
+					'Authorization': `KakaoAK ${KAKAO_REST_API_KEY}`
+				}
+			})
+			.then(response => {
+				if (!response.ok) throw new Error(`Kakao API 호출 실패: ${response.status}`);
+				return response.json();
+			})
+			.then(data => {
+				console.log('API 응답:', data); // 디버깅용 로그
+				const place = data.documents[0] || {};
+				let kakaoInfo = '';
+				if (place.place_url) {
+					kakaoInfo = `<a href="${place.place_url}" target="_blank">카카오맵에서 더 보기</a><br>`;
+				} else {
+					const searchUrl = `https://map.kakao.com/?q=${encodeURIComponent(place.road_address_name || place.address_name || address)}`;
+					kakaoInfo = `<a href="${searchUrl}" target="_blank">카카오맵에서 검색</a><br>`;
+				}
+				const kakaoAddress = place.road_address_name || place.address_name || address;
+				const kakaoPhone = place.phone || phone;
 
-                const content = `
-                    <div class="detail-window" onclick="closeDetailWindow()">
-                        <strong>${name}</strong><br>
-                        업종: ${category || '정보 없음'}<br>
-                        주요 품목: ${main_item || '정보 없음'}<br>
-                        가격: ${price ? price + '원' : '정보 없음'}<br>
-                        전화번호: ${kakaoPhone || '정보 없음'}<br>
-                        주소: ${kakaoAddress || '정보 없음'}<br>
-                        ${kakaoInfo}
-                    </div>
-                `;
-                const markerPosition = new kakao.maps.LatLng(lat, lng);
-                const infowindow = new kakao.maps.InfoWindow({
-                    position: markerPosition,
-                    content: content,
-                    zIndex: 20
-                });
-                infowindow.open(map);
-                currentInfowindow = infowindow;
-            })
-            .catch(error => {
-                console.error('Kakao Local API 오류:', error);
-                const content = `
-                    <div class="detail-window" onclick="closeDetailWindow()">
-                        <strong>${name}</strong><br>
-                        업종: ${category || '정보 없음'}<br>
-                        주요 품목: ${main_item || '정보 없음'}<br>
-                        가격: ${price ? price + '원' : '정보 없음'}<br>
-                        전화번호: ${phone || '정보 없음'}<br>
-                        주소: ${address || '정보 없음'}<br>
-                    </div>
-                `;
-                const markerPosition = new kakao.maps.LatLng(lat, lng);
-                const infowindow = new kakao.maps.InfoWindow({
-                    position: markerPosition,
-                    content: content,
-                    zIndex: 20
-                });
-                infowindow.open(map);
-                currentInfowindow = infowindow;
-            });
-        };
+				const content = `
+					<div class="detail-window" onclick="closeDetailWindow()">
+						<strong>${name}</strong><br>
+						업종: ${category || '정보 없음'}<br>
+						주요 품목: ${main_item || '정보 없음'}<br>
+						가격: ${price ? price + '원' : '정보 없음'}<br>
+						전화번호: ${kakaoPhone || '정보 없음'}<br>
+						주소: ${kakaoAddress || '정보 없음'}<br>
+						${kakaoInfo}
+					</div>
+				`;
+				const markerPosition = new kakao.maps.LatLng(lat, lng);
+				const infowindow = new kakao.maps.InfoWindow({
+					position: markerPosition,
+					content: content,
+					zIndex: 20
+				});
+				infowindow.open(map);
+				currentInfowindow = infowindow;
+			})
+			.catch(error => {
+				console.error('Kakao Local API 오류:', error);
+				const searchUrl = `https://map.kakao.com/?q=${encodeURIComponent(address)}`;
+				const content = `
+					<div class="detail-window" onclick="closeDetailWindow()">
+						<strong>${name}</strong><br>
+						업종: ${category || '정보 없음'}<br>
+						주요 품목: ${main_item || '정보 없음'}<br>
+						가격: ${price ? price + '원' : '정보 없음'}<br>
+						전화번호: ${phone || '정보 없음'}<br>
+						주소: ${address || '정보 없음'}<br>
+						<a href="${searchUrl}" target="_blank">카카오맵에서 검색</a><br>
+					</div>
+				`;
+				const markerPosition = new kakao.maps.LatLng(lat, lng);
+				const infowindow = new kakao.maps.InfoWindow({
+					position: markerPosition,
+					content: content,
+					zIndex: 20
+				});
+				infowindow.open(map);
+				currentInfowindow = infowindow;
+			});
+		};
 
         window.closeDetailWindow = function() {
             if (currentInfowindow) {
