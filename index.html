@@ -24,6 +24,7 @@
             width: 100%; 
             z-index: 100; 
             background: rgba(255, 255, 255, 0.8); 
+            cursor: pointer; /* 클릭 가능 표시 */
         }
         #logo img { 
             max-width: 300px; 
@@ -59,12 +60,14 @@
             top: 70px; /* 초기값, JS에서 동적 조정 */
             z-index: 100; 
             text-align: center; 
+            white-space: nowrap; /* 줄 바꿈 방지 */
         }
         #region-select, #price-select { 
             display: inline-block; 
             padding: 5px; 
             font-size: 16px; 
             margin: 0 10px; /* 드롭다운 간 간격 */
+            vertical-align: middle; /* 수직 정렬 */
         }
         #loading { 
             position: fixed; 
@@ -82,9 +85,11 @@
                 top: 60px; /* 모바일에서 로고 크기 조정 반영 */
             }
             #region-select, #price-select { 
-                width: 120px; 
-                margin: 0 5px; /* 모바일에서 간격 줄임 */
+                display: inline-block; /* 강제로 좌우 배치 */
+                width: 100px; /* 너비 줄여 한 줄에 맞춤 */
+                margin: 0 2px; /* 간격 최소화 */
                 font-size: 14px; 
+                vertical-align: middle; /* 수직 정렬 유지 */
             }
             #logo img { max-width: 200px; }
         }
@@ -149,6 +154,19 @@
             mapDiv.style.height = `calc(100% - ${logoHeight}px)`;
         }
 
+        function resetToInitialState() {
+            // 초기화: 서울, 5000원 이하
+            currentRegion = "서울";
+            currentPriceRange = "5000";
+            
+            // 드롭다운 메뉴 값 업데이트
+            document.getElementById('region-select').value = "서울";
+            document.getElementById('price-select').value = "5000";
+
+            // 지도 로드
+            loadStores(currentRegion, currentPriceRange);
+        }
+
         function initMap() {
             const container = document.getElementById('map');
             if (!container) {
@@ -180,6 +198,10 @@
                 }
             });
             kakao.maps.event.addListener(clusterer, 'clustered', updateOverlays);
+
+            // 로고 클릭 이벤트 추가
+            document.getElementById('logo').addEventListener('click', resetToInitialState);
+
             initRegionSelect();
             initPriceSelect();
             loadStores(currentRegion, currentPriceRange);
