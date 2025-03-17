@@ -154,8 +154,10 @@
         function filterStores(stores, priceRange) {
             if (!priceRange) return stores;
             const priceLimit = parseInt(priceRange.replace('+', ''), 10);
+            console.log(`Filtering with priceRange: ${priceRange}, priceLimit: ${priceLimit}`);
             return stores.filter(store => {
-                const price = parseInt(store[1], 10) || 0; // p (price)
+                const price = parseInt(store[1].replace(',', ''), 10) || 0; // p (price), 쉼표 제거
+                console.log(`Store: ${store[0]}, Raw Price: ${store[1]}, Adjusted Price: ${price}`);
                 return priceRange === "10000+" ? price >= priceLimit : price <= priceLimit;
             });
         }
@@ -163,7 +165,7 @@
         function loadVisibleMarkers(stores) {
             const bounds = map.getBounds();
             const visibleStores = stores.filter(store => 
-                store[2] && store[3] && bounds.contain(new kakao.maps.LatLng(store[2], store[3])) // lt, lg
+                store[2] && store[3] && bounds.contain(new kakao.maps.LatLng(store[2], store[3]))
             );
             loadMarkersInChunks(visibleStores);
         }
@@ -173,7 +175,7 @@
             function addNextChunk() {
                 const chunk = stores.slice(index, index + chunkSize);
                 chunk.forEach(store => {
-                    const [n, p, lt, lg, c, m, ph, a] = store; // n: name, p: price, lt: lat, lg: lng, c: category, m: main_item, ph: phone, a: address
+                    const [n, p, lt, lg, c, m, ph, a] = store;
                     const markerPosition = new kakao.maps.LatLng(lt, lg);
                     const marker = new kakao.maps.Marker({
                         position: markerPosition,
@@ -224,6 +226,7 @@
             }
 
             const jsonFile = `stores_by_region/stores_${region}.json.gz`;
+            console.log(`Loading file: ${jsonFile}`);
             fetch(jsonFile)
                 .then(response => {
                     if (!response.ok) throw new Error(`HTTP 오류: ${response.status}`);
@@ -231,7 +234,7 @@
                 })
                 .then(buffer => {
                     const decompressed = pako.inflate(buffer, { to: 'string' });
-                    const stores = JSON.parse(decompressed).slice(1); // 첫 번째 주석 행 제거
+                    const stores = JSON.parse(decompressed).slice(1);
                     allStores = stores;
                     let filteredStores = filterStores(stores, priceRange);
                     loadVisibleMarkers(filteredStores);
