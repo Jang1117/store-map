@@ -60,6 +60,13 @@
             border-radius: 5px; max-width: 300px; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); 
             line-height: 1.5; cursor: pointer;
         }
+        .detail-window a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .detail-window a:hover {
+            text-decoration: underline;
+        }
         .click-area { 
             width: 40px; height: 40px; background: transparent; border-radius: 50%; 
             position: absolute; top: -20px; left: -20px; cursor: pointer;
@@ -68,7 +75,7 @@
             position: fixed; 
             left: 50%; 
             transform: translateX(-50%); 
-            top: 95px; /* 초기값, JS에서 동적 조정 */
+            top: 95px; /* 로고와 크레딧 높이 기준, JS에서 동적 조정 */
             z-index: 100; 
             text-align: center; 
             white-space: nowrap; 
@@ -93,7 +100,7 @@
         }
         @media (max-width: 600px) { 
             #dropdown-container { 
-                top: 85px; 
+                top: 85px; /* 모바일에서 조정 */
             }
             #region-select, #price-select { 
                 display: inline-block; 
@@ -106,6 +113,10 @@
                 font-size: 10px; 
                 top: 60px; 
                 padding: 3px 0; 
+            }
+            .detail-window { 
+                font-size: 12px; 
+                max-width: 250px; 
             }
         }
     </style>
@@ -161,6 +172,9 @@
         let allStores = [];
         let isLoadingMarkers = false;
 
+        // Kakao Local API REST 키
+        const KAKAO_REST_API_KEY = '401f9e3117d91b4a7f7dfbcf81bba69c';
+
         function adjustMapPosition() {
             const logo = document.getElementById('logo');
             const credit = document.getElementById('credit');
@@ -171,7 +185,7 @@
             const creditHeight = credit.offsetHeight;
             const totalHeight = logoHeight + creditHeight;
 
-            dropdownContainer.style.top = `${totalHeight + 10}px`; // 로고 + 크레딧 아래 여유 공간 10px
+            dropdownContainer.style.top = `${totalHeight + 5}px`; // 로고 + 크레딧 아래 5px 여백
             mapDiv.style.top = `${logoHeight}px`;
             mapDiv.style.height = `calc(100% - ${logoHeight}px)`;
         }
@@ -208,17 +222,14 @@
             });
             kakao.maps.event.addListener(clusterer, 'clustered', updateOverlays);
 
-            // 로고 클릭 시 백그라운드 새 창으로 열기
             document.getElementById('logo').addEventListener('click', () => {
                 window.open("https://www.goodprice.go.kr/", "_blank");
-                // 새 창에 포커스하지 않음 (백그라운드 유지)
             });
 
             initRegionSelect();
             initPriceSelect();
             loadStores(currentRegion, currentPriceRange);
 
-            // 초기 위치 조정
             adjustMapPosition();
             window.addEventListener('resize', adjustMapPosition);
         }
@@ -368,29 +379,68 @@
         }
 
         window.toggleStoreDetails = function(name, category, main_item, price, phone, address, lat, lng) {
-            const markerPosition = new kakao.maps.LatLng(lat, lng);
             if (currentInfowindow) {
                 currentInfowindow.setMap(null);
                 currentInfowindow = null;
             }
 
-            const content = `
-                <div class="detail-window" onclick="closeDetailWindow()">
-                    <strong>${name}</strong><br>
-                    업종: ${category || '정보 없음'}<br>
-                    주요 품목: ${main_item || '정보 없음'}<br>
-                    가격: ${price ? price + '원' : '정보 없음'}<br>
-                    전화번호: ${phone || '정보 없음'}<br>
-                    주소: ${address || '정보 없음'}<br>
-                </div>
-            `;
-            const infowindow = new kakao.maps.InfoWindow({
-                position: markerPosition,
-                content: content,
-                zIndex: 20
+            const kakaoLocalApiUrl = `https://dapi.kakao.com/v2/local/search/keyword.json?query=${encodeURIComponent(name)}&x=${lng}&y=${lat}&radius=200`;
+            fetch(kakaoLocalApiUrl, {
+                headers: {
+                    'Authorization': `KakaoAK ${KAKAO_REST_API_KEY}`
+                }
+            })
+            .then(response => {
+                if (!response.ok) throw new Error(`Kakao API 호출 실패: ${response.status}`);
+                return response.json();
+            })
+            .then(data => {
+                const place = data.documents[0] || {};
+                const kakaoInfo = place.place_url ? `<a href="${place.place_url}" target="_blank">카카오맵에서 더 보기</a><br>` : '';
+                const kakaoAddress = place.road_address_name || place.address_name || address;
+                const kakaoPhone = place.phone || phone;
+
+                const content = `
+                    <div class="detail-window" onclick="closeDetailWindow()">
+                        <strong>${name}</strong><br>
+                        업종: ${category || '정보 없음'}<br>
+                        주요 품목: ${main_item || '정보 없음'}<br>
+                        가격: ${price ? price + '원' : '정보 없음'}<br>
+                        전화번호: ${kakaoPhone || '정보 없음'}<br>
+                        주소: ${kakaoAddress || '정보 없음'}<br>
+                        ${kakaoInfo}
+                    </div>
+                `;
+                const markerPosition = new kakao.maps.LatLng(lat, lng);
+                const infowindow = new kakao.maps.InfoWindow({
+                    position: markerPosition,
+                    content: content,
+                    zIndex: 20
+                });
+                infowindow.open(map);
+                currentInfowindow = infowindow;
+            })
+            .catch(error => {
+                console.error('Kakao Local API 오류:', error);
+                const content = `
+                    <div class="detail-window" onclick="closeDetailWindow()">
+                        <strong>${name}</strong><br>
+                        업종: ${category || '정보 없음'}<br>
+                        주요 품목: ${main_item || '정보 없음'}<br>
+                        가격: ${price ? price + '원' : '정보 없음'}<br>
+                        전화번호: ${phone || '정보 없음'}<br>
+                        주소: ${address || '정보 없음'}<br>
+                    </div>
+                `;
+                const markerPosition = new kakao.maps.LatLng(lat, lng);
+                const infowindow = new kakao.maps.InfoWindow({
+                    position: markerPosition,
+                    content: content,
+                    zIndex: 20
+                });
+                infowindow.open(map);
+                currentInfowindow = infowindow;
             });
-            infowindow.open(map);
-            currentInfowindow = infowindow;
         };
 
         window.closeDetailWindow = function() {
@@ -423,12 +473,10 @@
             }
             kakao.maps.load(() => {
                 initMap();
-                // DOMContentLoaded 시 위치 조정
                 adjustMapPosition();
             });
         });
 
-        // 이미지 로드 완료 후 위치 조정
         window.onload = function() {
             adjustMapPosition();
         };
