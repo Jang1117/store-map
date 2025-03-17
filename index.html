@@ -69,6 +69,23 @@
     <div id="map">
         <select id="region-select">
             <option value="">지역을 선택하세요</option>
+            <option value="강원도">강원도</option>
+            <option value="경기도">경기도</option>
+            <option value="경남">경남</option>
+            <option value="경북">경북</option>
+            <option value="광주">광주</option>
+            <option value="대구">대구</option>
+            <option value="대전">대전</option>
+            <option value="부산">부산</option>
+            <option value="서울" selected>서울</option>
+            <option value="세종">세종</option>
+            <option value="울산">울산</option>
+            <option value="인천">인천</option>
+            <option value="전북">전북</option>
+            <option value="전남">전남</option>
+            <option value="제주">제주</option>
+            <option value="충북">충북</option>
+            <option value="충남">충남</option>
         </select>
         <select id="price-select">
             <option value="">가격대를 선택하세요</option>
@@ -78,7 +95,7 @@
             <option value="8000">8000원 이하</option>
             <option value="7000">7000원 이하</option>
             <option value="6000">6000원 이하</option>
-            <option value="5000">5000원 이하</option>
+            <option value="5000" selected>5000원 이하</option>
         </select>
     </div>
     <div id="loading">지도 로딩 중...</div>
@@ -89,8 +106,8 @@
         let overlays = [];
         let clickAreas = [];
         let currentInfowindow = null;
-        let currentRegion = "";
-        let currentPriceRange = "";
+        let currentRegion = "서울"; // 초기값 서울
+        let currentPriceRange = "5000"; // 초기값 5000원 이하
         let allStores = [];
 
         function initMap() {
@@ -100,7 +117,7 @@
                 return;
             }
             const options = {
-                center: new kakao.maps.LatLng(37.5665, 126.9780),
+                center: new kakao.maps.LatLng(37.5665, 126.9780), // 서울 중심
                 level: 8
             };
             map = new kakao.maps.Map(container, options);
@@ -122,6 +139,7 @@
             kakao.maps.event.addListener(clusterer, 'clustered', updateOverlays);
             initRegionSelect();
             initPriceSelect();
+            loadStores(currentRegion, currentPriceRange); // 초기 로드
         }
 
         function updateOverlays() {
@@ -156,7 +174,7 @@
             const priceLimit = parseInt(priceRange.replace('+', ''), 10);
             console.log(`Filtering with priceRange: ${priceRange}, priceLimit: ${priceLimit}`);
             return stores.filter(store => {
-                const price = parseInt(store[1].replace(',', ''), 10) || 0; // p (price), 쉼표 제거
+                const price = parseInt(store[1].replace(',', ''), 10) || 0;
                 console.log(`Store: ${store[0]}, Raw Price: ${store[1]}, Adjusted Price: ${price}`);
                 return priceRange === "10000+" ? price >= priceLimit : price <= priceLimit;
             });
@@ -287,18 +305,7 @@
         };
 
         function initRegionSelect() {
-            const regions = [
-                "강원", "경기", "경남", "경북", "광주", "대구", "대전", "부산", 
-                "서울", "세종", "울산", "인천", "전북", "전남", "제주", "충북", "충남"
-            ];
             const select = document.getElementById('region-select');
-            regions.forEach(region => {
-                const option = document.createElement('option');
-                option.value = region;
-                option.text = region;
-                select.appendChild(option);
-            });
-
             select.addEventListener('change', function() {
                 currentRegion = this.value;
                 loadStores(currentRegion, currentPriceRange);
