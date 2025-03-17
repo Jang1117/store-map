@@ -7,6 +7,7 @@
     <script type="text/javascript" 
             src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=9b8113591f35c3409335bdb4b5ee5613&libraries=clusterer&autoload=false" 
             defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pako/2.1.0/pako.min.js"></script>
     <style>
         html, body { 
             margin: 0; 
@@ -90,7 +91,7 @@
         let currentInfowindow = null;
         let currentRegion = "";
         let currentPriceRange = "";
-        let allStores = []; // 전체 데이터 캐싱
+        let allStores = [];
 
         function initMap() {
             const container = document.getElementById('map');
@@ -154,7 +155,7 @@
             if (!priceRange) return stores;
             const priceLimit = parseInt(priceRange.replace('+', ''), 10);
             return stores.filter(store => {
-                const price = (parseInt(store.price, 10) || 0) * 1000;
+                const price = parseInt(store[1], 10) || 0; // p (price)
                 return priceRange === "10000+" ? price >= priceLimit : price <= priceLimit;
             });
         }
@@ -162,7 +163,7 @@
         function loadVisibleMarkers(stores) {
             const bounds = map.getBounds();
             const visibleStores = stores.filter(store => 
-                store.lat && store.lng && bounds.contain(new kakao.maps.LatLng(store.lat, store.lng))
+                store[2] && store[3] && bounds.contain(new kakao.maps.LatLng(store[2], store[3])) // lt, lg
             );
             loadMarkersInChunks(visibleStores);
         }
@@ -172,18 +173,19 @@
             function addNextChunk() {
                 const chunk = stores.slice(index, index + chunkSize);
                 chunk.forEach(store => {
-                    const markerPosition = new kakao.maps.LatLng(store.lat, store.lng);
+                    const [n, p, lt, lg, c, m, ph, a] = store; // n: name, p: price, lt: lat, lg: lng, c: category, m: main_item, ph: phone, a: address
+                    const markerPosition = new kakao.maps.LatLng(lt, lg);
                     const marker = new kakao.maps.Marker({
                         position: markerPosition,
-                        title: store.name,
+                        title: n,
                         clickable: true
                     });
                     markers.push(marker);
 
-                    const cleanName = store.name.trim().replace(/'/g, "\\'");
+                    const cleanName = n.trim().replace(/'/g, "\\'");
                     const overlay = new kakao.maps.CustomOverlay({
                         position: markerPosition,
-                        content: `<div class="info-window" onclick="toggleStoreDetails('${cleanName}', '${store.category || ''}', '${store.main_item || ''}', '${store.price || ''}', '${store.phone || ''}', '${store.address || ''}', ${store.lat}, ${store.lng})">${cleanName}</div>`,
+                        content: `<div class="info-window" onclick="toggleStoreDetails('${cleanName}', '${c || ''}', '${m || ''}', '${p || ''}', '${ph || ''}', '${a || ''}', ${lt}, ${lg})">${cleanName}</div>`,
                         xAnchor: 0.5,
                         yAnchor: 1,
                         zIndex: 10
@@ -199,8 +201,8 @@
                     });
                     clickAreas.push(clickArea);
 
-                    kakao.maps.event.addListener(marker, 'click', () => toggleStoreDetails(cleanName, store.category, store.main_item, store.price, store.phone, store.address, store.lat, store.lng));
-                    kakao.maps.event.addListener(clickArea, 'click', () => toggleStoreDetails(cleanName, store.category, store.main_item, store.price, store.phone, store.address, store.lat, store.lng));
+                    kakao.maps.event.addListener(marker, 'click', () => toggleStoreDetails(cleanName, c, m, p, ph, a, lt, lg));
+                    kakao.maps.event.addListener(clickArea, 'click', () => toggleStoreDetails(cleanName, c, m, p, ph, a, lt, lg));
                 });
                 clusterer.addMarkers(markers.slice(index, index + chunkSize));
                 index += chunkSize;
@@ -221,20 +223,22 @@
                 return;
             }
 
-            const jsonFile = `stores_by_region/stores_${region}.json`;
+            const jsonFile = `stores_by_region/stores_${region}.json.gz`;
             fetch(jsonFile)
                 .then(response => {
                     if (!response.ok) throw new Error(`HTTP 오류: ${response.status}`);
-                    return response.json();
+                    return response.arrayBuffer();
                 })
-                .then(stores => {
+                .then(buffer => {
+                    const decompressed = pako.inflate(buffer, { to: 'string' });
+                    const stores = JSON.parse(decompressed).slice(1); // 첫 번째 주석 행 제거
                     allStores = stores;
                     let filteredStores = filterStores(stores, priceRange);
                     loadVisibleMarkers(filteredStores);
                     if (filteredStores.length > 0) {
                         const bounds = new kakao.maps.LatLngBounds();
                         filteredStores.forEach(store => {
-                            if (store.lat && store.lng) bounds.extend(new kakao.maps.LatLng(store.lat, store.lng));
+                            if (store[2] && store[3]) bounds.extend(new kakao.maps.LatLng(store[2], store[3]));
                         });
                         map.setBounds(bounds);
                     }
@@ -281,7 +285,7 @@
 
         function initRegionSelect() {
             const regions = [
-                "강원도", "경기도", "경남", "경북", "광주", "대구", "대전", "부산", 
+                "강원", "경기", "경남", "경북", "광주", "대구", "대전", "부산", 
                 "서울", "세종", "울산", "인천", "전북", "전남", "제주", "충북", "충남"
             ];
             const select = document.getElementById('region-select');
