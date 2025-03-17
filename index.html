@@ -15,21 +15,26 @@
             height: 100%; 
             overflow: hidden; 
         }
-        h2 { 
+        #logo { 
             text-align: center; 
             padding: 10px; 
             margin: 0; 
-            position: absolute; 
+            position: fixed; /* 고정 헤더 */
             top: 0; 
             width: 100%; 
             z-index: 100; 
             background: rgba(255, 255, 255, 0.8); 
         }
+        #logo img { 
+            max-width: 300px; /* 이미지 크기 */
+            height: auto; 
+            vertical-align: middle; 
+        }
         #map { 
             width: 100%; 
-            height: calc(100% - 50px); 
+            height: 100%; /* 전체 높이 */
             position: absolute; 
-            top: 50px; 
+            top: 0; /* 초기값, JS에서 동적 조정 */
             z-index: 1; 
         }
         .info-window { 
@@ -48,44 +53,58 @@
             position: absolute; top: -20px; left: -20px; cursor: pointer;
         }
         #region-select { 
-            position: absolute; top: 10px; left: 10px; z-index: 100; padding: 5px; font-size: 16px; 
+            position: absolute; 
+            left: 10px; 
+            z-index: 100; 
+            padding: 5px; 
+            font-size: 16px; 
         }
         #price-select { 
-            position: absolute; top: 10px; left: 160px; z-index: 100; padding: 5px; font-size: 16px; 
+            position: absolute; 
+            left: 160px; 
+            z-index: 100; 
+            padding: 5px; 
+            font-size: 16px; 
         }
         #loading { 
-            position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); 
-            background: rgba(0,0,0,0.7); color: white; padding: 20px; z-index: 200; 
+            position: fixed; 
+            top: 50%; 
+            left: 50%; 
+            transform: translate(-50%, -50%); 
+            background: rgba(0,0,0,0.7); 
+            color: white; 
+            padding: 20px; 
+            z-index: 200; 
             display: none; 
         }
         @media (max-width: 600px) { 
             #region-select { left: 10px; width: 120px; }
             #price-select { left: 140px; width: 120px; }
+            #logo img { max-width: 200px; }
         }
     </style>
 </head>
 <body>
-    <h2>행정안전부 착한가격업소 지도</h2>
+    <div id="logo">
+        <img src="logo.png" alt="행정안전부 착한가격업소 로고">
+    </div>
     <div id="map">
         <select id="region-select">
             <option value="">지역을 선택하세요</option>
-            <option value="강원">강원</option>
-            <option value="경기">경기</option>
-            <option value="경남">경남</option>
-            <option value="경북">경북</option>
+            <option value="서울" selected>서울</option>
             <option value="광주">광주</option>
             <option value="대구">대구</option>
             <option value="대전">대전</option>
             <option value="부산">부산</option>
-            <option value="서울" selected>서울</option>
             <option value="세종">세종</option>
             <option value="울산">울산</option>
             <option value="인천">인천</option>
-            <option value="전북">전북</option>
-            <option value="전남">전남</option>
-            <option value="제주">제주</option>
-            <option value="충북">충북</option>
-            <option value="충남">충남</option>
+			<option value="강원도">강원도</option>
+            <option value="경기도">경기도</option>
+            <option value="경상도">경상도</option>
+            <option value="전라도">전라도</option>
+            <option value="제주도">제주도</option>
+            <option value="충청도">충청도</option>
         </select>
         <select id="price-select">
             <option value="">가격대를 선택하세요</option>
@@ -106,9 +125,27 @@
         let overlays = [];
         let clickAreas = [];
         let currentInfowindow = null;
-        let currentRegion = "서울"; // 초기값 서울
-        let currentPriceRange = "5000"; // 초기값 5000원 이하
+        let currentRegion = "서울";
+        let currentPriceRange = "5000";
         let allStores = [];
+
+        function adjustMapPosition() {
+            const logo = document.getElementById('logo');
+            const mapDiv = document.getElementById('map');
+            const regionSelect = document.getElementById('region-select');
+            const priceSelect = document.getElementById('price-select');
+
+            // #logo의 높이 계산
+            const logoHeight = logo.offsetHeight;
+
+            // #map의 top 값 조정
+            mapDiv.style.top = `${logoHeight}px`;
+            mapDiv.style.height = `calc(100% - ${logoHeight}px)`; // 높이 조정
+
+            // 드롭다운 메뉴 위치 조정
+            regionSelect.style.top = `${ 5}px`;
+            priceSelect.style.top = `${ 5}px`;
+        }
 
         function initMap() {
             const container = document.getElementById('map');
@@ -117,7 +154,7 @@
                 return;
             }
             const options = {
-                center: new kakao.maps.LatLng(37.5665, 126.9780), // 서울 중심
+                center: new kakao.maps.LatLng(37.5665, 126.9780),
                 level: 8
             };
             map = new kakao.maps.Map(container, options);
@@ -139,7 +176,12 @@
             kakao.maps.event.addListener(clusterer, 'clustered', updateOverlays);
             initRegionSelect();
             initPriceSelect();
-            loadStores(currentRegion, currentPriceRange); // 초기 로드
+            loadStores(currentRegion, currentPriceRange);
+
+            // 초기 위치 조정
+            adjustMapPosition();
+            // 창 크기 변경 시 위치 재조정
+            window.addEventListener('resize', adjustMapPosition);
         }
 
         function updateOverlays() {
