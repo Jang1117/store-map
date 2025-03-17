@@ -24,12 +24,23 @@
             width: 100%; 
             z-index: 100; 
             background: rgba(255, 255, 255, 0.8); 
-            cursor: pointer; /* 클릭 가능 표시 */
+            cursor: pointer; 
         }
         #logo img { 
             max-width: 300px; 
             height: auto; 
             vertical-align: middle; 
+        }
+        #credit { 
+            text-align: center; 
+            font-size: 12px; 
+            color: #666; 
+            padding: 5px 0; 
+            position: fixed; 
+            top: 70px; 
+            width: 100%; 
+            z-index: 100; 
+            background: rgba(255, 255, 255, 0.7); 
         }
         #map { 
             width: 100%; 
@@ -57,17 +68,17 @@
             position: fixed; 
             left: 50%; 
             transform: translateX(-50%); 
-            top: 70px; /* 초기값, JS에서 동적 조정 */
+            top: 95px; /* 초기값, JS에서 동적 조정 */
             z-index: 100; 
             text-align: center; 
-            white-space: nowrap; /* 줄 바꿈 방지 */
+            white-space: nowrap; 
         }
         #region-select, #price-select { 
             display: inline-block; 
             padding: 5px; 
             font-size: 16px; 
-            margin: 0 10px; /* 드롭다운 간 간격 */
-            vertical-align: middle; /* 수직 정렬 */
+            margin: 0 10px; 
+            vertical-align: middle; 
         }
         #loading { 
             position: fixed; 
@@ -82,22 +93,29 @@
         }
         @media (max-width: 600px) { 
             #dropdown-container { 
-                top: 60px; /* 모바일에서 로고 크기 조정 반영 */
+                top: 85px; 
             }
             #region-select, #price-select { 
-                display: inline-block; /* 강제로 좌우 배치 */
-                width: 100px; /* 너비 줄여 한 줄에 맞춤 */
-                margin: 0 2px; /* 간격 최소화 */
+                display: inline-block; 
+                width: 100px; 
+                margin: 0 2px; 
                 font-size: 14px; 
-                vertical-align: middle; /* 수직 정렬 유지 */
             }
             #logo img { max-width: 200px; }
+            #credit { 
+                font-size: 10px; 
+                top: 60px; 
+                padding: 3px 0; 
+            }
         }
     </style>
 </head>
 <body>
     <div id="logo">
         <img src="logo.png" alt="행정안전부 착한가격업소 로고">
+    </div>
+    <div id="credit">
+        Made by Jang with ❤️ | 2025
     </div>
     <div id="map">
         <div id="dropdown-container">
@@ -145,26 +163,17 @@
 
         function adjustMapPosition() {
             const logo = document.getElementById('logo');
+            const credit = document.getElementById('credit');
             const mapDiv = document.getElementById('map');
             const dropdownContainer = document.getElementById('dropdown-container');
 
             const logoHeight = logo.offsetHeight;
-            dropdownContainer.style.top = `${logoHeight + 10}px`; // 로고 아래 여유 공간 10px
+            const creditHeight = credit.offsetHeight;
+            const totalHeight = logoHeight + creditHeight;
+
+            dropdownContainer.style.top = `${totalHeight + 10}px`; // 로고 + 크레딧 아래 여유 공간 10px
             mapDiv.style.top = `${logoHeight}px`;
             mapDiv.style.height = `calc(100% - ${logoHeight}px)`;
-        }
-
-        function resetToInitialState() {
-            // 초기화: 서울, 5000원 이하
-            currentRegion = "서울";
-            currentPriceRange = "5000";
-            
-            // 드롭다운 메뉴 값 업데이트
-            document.getElementById('region-select').value = "서울";
-            document.getElementById('price-select').value = "5000";
-
-            // 지도 로드
-            loadStores(currentRegion, currentPriceRange);
         }
 
         function initMap() {
@@ -199,13 +208,17 @@
             });
             kakao.maps.event.addListener(clusterer, 'clustered', updateOverlays);
 
-            // 로고 클릭 이벤트 추가
-            document.getElementById('logo').addEventListener('click', resetToInitialState);
+            // 로고 클릭 시 백그라운드 새 창으로 열기
+            document.getElementById('logo').addEventListener('click', () => {
+                window.open("https://www.goodprice.go.kr/", "_blank");
+                // 새 창에 포커스하지 않음 (백그라운드 유지)
+            });
 
             initRegionSelect();
             initPriceSelect();
             loadStores(currentRegion, currentPriceRange);
 
+            // 초기 위치 조정
             adjustMapPosition();
             window.addEventListener('resize', adjustMapPosition);
         }
@@ -316,15 +329,22 @@
             }
 
             const jsonFile = `stores_by_region/stores_${region}.json.gz`;
-            console.log(`Loading file: ${jsonFile}`);
+            console.log(`Attempting to load file: ${jsonFile}`);
+            
             fetch(jsonFile)
                 .then(response => {
-                    if (!response.ok) throw new Error(`HTTP 오류: ${response.status}`);
+                    console.log(`Fetch response status: ${response.status} ${response.statusText}`);
+                    if (!response.ok) {
+                        throw new Error(`HTTP 오류: ${response.status} - ${response.statusText}`);
+                    }
                     return response.arrayBuffer();
                 })
                 .then(buffer => {
+                    console.log(`File ${jsonFile} loaded successfully, decompressing...`);
                     const decompressed = pako.inflate(buffer, { to: 'string' });
+                    console.log(`Decompressed data (first 100 chars): ${decompressed.substring(0, 100)}...`);
                     const stores = JSON.parse(decompressed).slice(1);
+                    console.log(`Parsed ${stores.length} stores from ${jsonFile}`);
                     allStores = stores;
                     let filteredStores = filterStores(stores, priceRange);
                     loadVisibleMarkers(filteredStores);
@@ -334,12 +354,16 @@
                             if (store[2] && store[3]) bounds.extend(new kakao.maps.LatLng(store[2], store[3]));
                         });
                         map.setBounds(bounds);
+                    } else {
+                        console.warn(`No valid stores found in ${jsonFile} after filtering`);
                     }
                     document.getElementById('loading').style.display = 'none';
                 })
                 .catch(error => {
-                    console.error(`❌ ${region} 데이터 로드 실패:`, error);
+                    console.error(`❌ ${region} 데이터 로드 실패:`, error.message);
+                    console.error(`Full error details:`, error);
                     document.getElementById('loading').style.display = 'none';
+                    alert(`${region} 데이터를 로드하는 데 실패했습니다. 파일이 존재하는지, 형식이 올바른지 확인해주세요.`);
                 });
         }
 
@@ -397,8 +421,17 @@
                 console.error("❌ kakao 객체가 정의되지 않음 - SDK 로드 실패");
                 return;
             }
-            kakao.maps.load(initMap);
+            kakao.maps.load(() => {
+                initMap();
+                // DOMContentLoaded 시 위치 조정
+                adjustMapPosition();
+            });
         });
+
+        // 이미지 로드 완료 후 위치 조정
+        window.onload = function() {
+            adjustMapPosition();
+        };
     </script>
 </body>
 </html>
