@@ -19,22 +19,22 @@
             text-align: center; 
             padding: 10px; 
             margin: 0; 
-            position: fixed; /* 고정 헤더 */
+            position: fixed; 
             top: 0; 
             width: 100%; 
             z-index: 100; 
             background: rgba(255, 255, 255, 0.8); 
         }
         #logo img { 
-            max-width: 300px; /* 이미지 크기 */
+            max-width: 300px; 
             height: auto; 
             vertical-align: middle; 
         }
         #map { 
             width: 100%; 
-            height: 100%; /* 전체 높이 */
+            height: 100%; 
             position: absolute; 
-            top: 0; /* 초기값, JS에서 동적 조정 */
+            top: 0; 
             z-index: 1; 
         }
         .info-window { 
@@ -52,19 +52,19 @@
             width: 40px; height: 40px; background: transparent; border-radius: 50%; 
             position: absolute; top: -20px; left: -20px; cursor: pointer;
         }
-        #region-select { 
-            position: absolute; 
-            left: 10px; 
+        #dropdown-container { 
+            position: fixed; 
+            left: 50%; 
+            transform: translateX(-50%); 
+            top: 70px; /* 초기값, JS에서 동적 조정 */
             z-index: 100; 
-            padding: 5px; 
-            font-size: 16px; 
+            text-align: center; 
         }
-        #price-select { 
-            position: absolute; 
-            left: 160px; 
-            z-index: 100; 
+        #region-select, #price-select { 
+            display: inline-block; 
             padding: 5px; 
             font-size: 16px; 
+            margin: 0 10px; /* 드롭다운 간 간격 */
         }
         #loading { 
             position: fixed; 
@@ -78,8 +78,14 @@
             display: none; 
         }
         @media (max-width: 600px) { 
-            #region-select { left: 10px; width: 120px; }
-            #price-select { left: 140px; width: 120px; }
+            #dropdown-container { 
+                top: 60px; /* 모바일에서 로고 크기 조정 반영 */
+            }
+            #region-select, #price-select { 
+                width: 120px; 
+                margin: 0 5px; /* 모바일에서 간격 줄임 */
+                font-size: 14px; 
+            }
             #logo img { max-width: 200px; }
         }
     </style>
@@ -89,33 +95,35 @@
         <img src="logo.png" alt="행정안전부 착한가격업소 로고">
     </div>
     <div id="map">
-        <select id="region-select">
-            <option value="">지역을 선택하세요</option>
-            <option value="서울" selected>서울</option>
-            <option value="광주">광주</option>
-            <option value="대구">대구</option>
-            <option value="대전">대전</option>
-            <option value="부산">부산</option>
-            <option value="세종">세종</option>
-            <option value="울산">울산</option>
-            <option value="인천">인천</option>
-			<option value="강원도">강원도</option>
-            <option value="경기도">경기도</option>
-            <option value="경상도">경상도</option>
-            <option value="전라도">전라도</option>
-            <option value="제주도">제주도</option>
-            <option value="충청도">충청도</option>
-        </select>
-        <select id="price-select">
-            <option value="">가격대를 선택하세요</option>
-            <option value="10000+">10000원 이상</option>
-            <option value="10000">10000원 이하</option>
-            <option value="9000">9000원 이하</option>
-            <option value="8000">8000원 이하</option>
-            <option value="7000">7000원 이하</option>
-            <option value="6000">6000원 이하</option>
-            <option value="5000" selected>5000원 이하</option>
-        </select>
+        <div id="dropdown-container">
+            <select id="region-select">
+                <option value="">지역을 선택하세요</option>
+                <option value="서울" selected>서울</option>
+                <option value="광주">광주</option>
+                <option value="대구">대구</option>
+                <option value="대전">대전</option>
+                <option value="부산">부산</option>
+                <option value="세종">세종</option>
+                <option value="울산">울산</option>
+                <option value="인천">인천</option>
+                <option value="강원도">강원도</option>
+                <option value="경기도">경기도</option>
+                <option value="경상도">경상도</option>
+                <option value="전라도">전라도</option>
+                <option value="제주도">제주도</option>
+                <option value="충청도">충청도</option>
+            </select>
+            <select id="price-select">
+                <option value="">가격대를 선택하세요</option>
+                <option value="10000+">10000원 이상</option>
+                <option value="10000">10000원 이하</option>
+                <option value="9000">9000원 이하</option>
+                <option value="8000">8000원 이하</option>
+                <option value="7000">7000원 이하</option>
+                <option value="6000">6000원 이하</option>
+                <option value="5000" selected>5000원 이하</option>
+            </select>
+        </div>
     </div>
     <div id="loading">지도 로딩 중...</div>
     <script>
@@ -128,23 +136,17 @@
         let currentRegion = "서울";
         let currentPriceRange = "5000";
         let allStores = [];
+        let isLoadingMarkers = false;
 
         function adjustMapPosition() {
             const logo = document.getElementById('logo');
             const mapDiv = document.getElementById('map');
-            const regionSelect = document.getElementById('region-select');
-            const priceSelect = document.getElementById('price-select');
+            const dropdownContainer = document.getElementById('dropdown-container');
 
-            // #logo의 높이 계산
             const logoHeight = logo.offsetHeight;
-
-            // #map의 top 값 조정
+            dropdownContainer.style.top = `${logoHeight + 10}px`; // 로고 아래 여유 공간 10px
             mapDiv.style.top = `${logoHeight}px`;
-            mapDiv.style.height = `calc(100% - ${logoHeight}px)`; // 높이 조정
-
-            // 드롭다운 메뉴 위치 조정
-            regionSelect.style.top = `${ 5}px`;
-            priceSelect.style.top = `${ 5}px`;
+            mapDiv.style.height = `calc(100% - ${logoHeight}px)`;
         }
 
         function initMap() {
@@ -172,15 +174,17 @@
                 }
             });
             kakao.maps.event.addListener(map, 'zoom_changed', updateOverlays);
-            kakao.maps.event.addListener(map, 'idle', () => loadVisibleMarkers(filterStores(allStores, currentPriceRange)));
+            kakao.maps.event.addListener(map, 'idle', () => {
+                if (!isLoadingMarkers) {
+                    loadVisibleMarkers(filterStores(allStores, currentPriceRange));
+                }
+            });
             kakao.maps.event.addListener(clusterer, 'clustered', updateOverlays);
             initRegionSelect();
             initPriceSelect();
             loadStores(currentRegion, currentPriceRange);
 
-            // 초기 위치 조정
             adjustMapPosition();
-            // 창 크기 변경 시 위치 재조정
             window.addEventListener('resize', adjustMapPosition);
         }
 
@@ -214,19 +218,22 @@
         function filterStores(stores, priceRange) {
             if (!priceRange) return stores;
             const priceLimit = parseInt(priceRange.replace('+', ''), 10);
-            console.log(`Filtering with priceRange: ${priceRange}, priceLimit: ${priceLimit}`);
             return stores.filter(store => {
                 const price = parseInt(store[1].replace(',', ''), 10) || 0;
-                console.log(`Store: ${store[0]}, Raw Price: ${store[1]}, Adjusted Price: ${price}`);
                 return priceRange === "10000+" ? price >= priceLimit : price <= priceLimit;
             });
         }
 
         function loadVisibleMarkers(stores) {
+            if (isLoadingMarkers) return;
+            isLoadingMarkers = true;
+
             const bounds = map.getBounds();
             const visibleStores = stores.filter(store => 
                 store[2] && store[3] && bounds.contain(new kakao.maps.LatLng(store[2], store[3]))
             );
+
+            clearMap();
             loadMarkersInChunks(visibleStores);
         }
 
@@ -272,6 +279,7 @@
                     setTimeout(addNextChunk, 50);
                 } else {
                     updateOverlays();
+                    isLoadingMarkers = false;
                 }
             }
             addNextChunk();
