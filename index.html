@@ -260,7 +260,7 @@
             initPriceSelect();
             loadStores(currentRegion, currentPriceRange);
 
-            // 페이지 로드 시 조회수 증가
+            // 페이지 로드 시 조회수 증가 (initMap에서 호출)
             incrementPageViews();
 
             adjustMapPosition();
@@ -605,8 +605,7 @@
         });
 
         window.onload = function() {
-            // 페이지 로드 시 조회수 증가
-            incrementPageViews();
+            // incrementPageViews 호출 제거, initMap에서 이미 호출됨
             adjustMapPosition();
         };
     </script>
