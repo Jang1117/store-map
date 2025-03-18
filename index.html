@@ -56,9 +56,16 @@
             box-sizing: content-box; position: relative; top: -35px; cursor: pointer;
         }
         .detail-window { 
-            font-size: 14px; padding: 10px; background: white; border: 1px solid #666; 
-            border-radius: 5px; max-width: 300px; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); 
-            line-height: 1.5; cursor: pointer;
+            font-size: 14px; 
+            padding: 10px; 
+            background: white; 
+            border: 1px solid #666; 
+            border-radius: 5px; 
+            max-width: 300px; 
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.3); 
+            line-height: 1.5; 
+            position: relative; 
+            z-index: 20; 
         }
         .detail-window a {
             color: #007bff;
@@ -75,7 +82,7 @@
             position: fixed; 
             left: 50%; 
             transform: translateX(-50%); 
-            top: 95px; /* 로고와 크레딧 높이 기준, JS에서 동적 조정 */
+            top: 95px; 
             z-index: 100; 
             text-align: center; 
             white-space: nowrap; 
@@ -100,7 +107,7 @@
         }
         @media (max-width: 600px) { 
             #dropdown-container { 
-                top: 85px; /* 모바일에서 조정 */
+                top: 85px; 
             }
             #region-select, #price-select { 
                 display: inline-block; 
@@ -126,7 +133,7 @@
         <img src="logo.png" alt="행정안전부 착한가격업소 로고">
     </div>
     <div id="credit">
-        Made by Jang with ❤️ | 2025
+        Made by Jang with ❤️ | 2025 | 홈페이지 조회수: <span id="pageViews">0</span>
     </div>
     <div id="map">
         <div id="dropdown-container">
@@ -171,9 +178,29 @@
         let currentPriceRange = "5000";
         let allStores = [];
         let isLoadingMarkers = false;
+        let isOpeningPopup = false;
 
-        // Kakao Local API REST 키
         const KAKAO_REST_API_KEY = '401f9e3117d91b4a7f7dfbcf81bba69c';
+
+        // 홈페이지 조회수 관리 함수
+        function getPageViews() {
+            return parseInt(localStorage.getItem('pageViews') || '0', 10);
+        }
+
+        function incrementPageViews() {
+            const views = getPageViews() + 1;
+            localStorage.setItem('pageViews', views);
+            document.getElementById('pageViews').textContent = views;
+            console.log(`홈페이지 조회수 업데이트: ${views}`);
+            return views;
+        }
+
+        // 조회수 초기화 (필요 시 사용)
+        function resetPageViews() {
+            localStorage.removeItem('pageViews');
+            document.getElementById('pageViews').textContent = '0';
+            console.log('홈페이지 조회수 초기화 완료');
+        }
 
         function adjustMapPosition() {
             const logo = document.getElementById('logo');
@@ -185,7 +212,7 @@
             const creditHeight = credit.offsetHeight;
             const totalHeight = logoHeight + creditHeight;
 
-            dropdownContainer.style.top = `${totalHeight + 5}px`; // 로고 + 크레딧 아래 5px 여백
+            dropdownContainer.style.top = `${totalHeight + 5}px`;
             mapDiv.style.top = `${logoHeight}px`;
             mapDiv.style.height = `calc(100% - ${logoHeight}px)`;
         }
@@ -208,12 +235,15 @@
                 calculator: [10, 50, 100]
             });
 
+            kakao.maps.event.removeListener(map, 'click');
             kakao.maps.event.addListener(map, 'click', () => {
+                console.log('지도 클릭 이벤트 발생');
                 if (currentInfowindow) {
                     currentInfowindow.setMap(null);
                     currentInfowindow = null;
                 }
             });
+
             kakao.maps.event.addListener(map, 'zoom_changed', updateOverlays);
             kakao.maps.event.addListener(map, 'idle', () => {
                 if (!isLoadingMarkers) {
@@ -229,6 +259,9 @@
             initRegionSelect();
             initPriceSelect();
             loadStores(currentRegion, currentPriceRange);
+
+            // 페이지 로드 시 조회수 증가
+            incrementPageViews();
 
             adjustMapPosition();
             window.addEventListener('resize', adjustMapPosition);
@@ -378,79 +411,164 @@
                 });
         }
 
-		window.toggleStoreDetails = function(name, category, main_item, price, phone, address, lat, lng) {
-			if (currentInfowindow) {
-				currentInfowindow.setMap(null);
-				currentInfowindow = null;
-			}
+        window.toggleStoreDetails = function(name, category, main_item, price, phone, address, lat, lng) {
+            if (isOpeningPopup) {
+                console.log('팝업 생성 중입니다. 잠시 기다려주세요.');
+                return;
+            }
 
-			const kakaoLocalApiUrl = `https://dapi.kakao.com/v2/local/search/keyword.json?query=${encodeURIComponent(name)}&x=${lng}&y=${lat}&radius=500`;
-			fetch(kakaoLocalApiUrl, {
-				headers: {
-					'Authorization': `KakaoAK ${KAKAO_REST_API_KEY}`
-				}
-			})
-			.then(response => {
-				if (!response.ok) throw new Error(`Kakao API 호출 실패: ${response.status}`);
-				return response.json();
-			})
-			.then(data => {
-				console.log('API 응답:', data); // 디버깅용 로그
-				const place = data.documents[0] || {};
-				let kakaoInfo = '';
-				if (place.place_url) {
-					kakaoInfo = `<a href="${place.place_url}" target="_blank">카카오맵에서 더 보기</a><br>`;
-				} else {
-					const searchUrl = `https://map.kakao.com/?q=${encodeURIComponent(place.road_address_name || place.address_name || address)}`;
-					kakaoInfo = `<a href="${searchUrl}" target="_blank">카카오맵에서 검색</a><br>`;
-				}
-				const kakaoAddress = place.road_address_name || place.address_name || address;
-				const kakaoPhone = place.phone || phone;
+            if (currentInfowindow) {
+                currentInfowindow.setMap(null);
+                currentInfowindow = null;
+            }
 
-				const content = `
-					<div class="detail-window" onclick="closeDetailWindow()">
-						<strong>${name}</strong><br>
-						업종: ${category || '정보 없음'}<br>
-						주요 품목: ${main_item || '정보 없음'}<br>
-						가격: ${price ? price + '원' : '정보 없음'}<br>
-						전화번호: ${kakaoPhone || '정보 없음'}<br>
-						주소: ${kakaoAddress || '정보 없음'}<br>
-						${kakaoInfo}
-					</div>
-				`;
-				const markerPosition = new kakao.maps.LatLng(lat, lng);
-				const infowindow = new kakao.maps.InfoWindow({
-					position: markerPosition,
-					content: content,
-					zIndex: 20
-				});
-				infowindow.open(map);
-				currentInfowindow = infowindow;
-			})
-			.catch(error => {
-				console.error('Kakao Local API 오류:', error);
-				const searchUrl = `https://map.kakao.com/?q=${encodeURIComponent(address)}`;
-				const content = `
-					<div class="detail-window" onclick="closeDetailWindow()">
-						<strong>${name}</strong><br>
-						업종: ${category || '정보 없음'}<br>
-						주요 품목: ${main_item || '정보 없음'}<br>
-						가격: ${price ? price + '원' : '정보 없음'}<br>
-						전화번호: ${phone || '정보 없음'}<br>
-						주소: ${address || '정보 없음'}<br>
-						<a href="${searchUrl}" target="_blank">카카오맵에서 검색</a><br>
-					</div>
-				`;
-				const markerPosition = new kakao.maps.LatLng(lat, lng);
-				const infowindow = new kakao.maps.InfoWindow({
-					position: markerPosition,
-					content: content,
-					zIndex: 20
-				});
-				infowindow.open(map);
-				currentInfowindow = infowindow;
-			});
-		};
+            if (!map || typeof map.getProjection !== 'function') {
+                console.error('지도 객체(map)가 초기화되지 않았습니다.');
+                return;
+            }
+
+            isOpeningPopup = true;
+
+            const kakaoLocalApiUrl = `https://dapi.kakao.com/v2/local/search/keyword.json?query=${encodeURIComponent(name)}&x=${lng}&y=${lat}&radius=500`;
+            fetch(kakaoLocalApiUrl, {
+                headers: {
+                    'Authorization': `KakaoAK ${KAKAO_REST_API_KEY}`
+                }
+            })
+            .then(response => {
+                if (!response.ok) throw new Error(`Kakao API 호출 실패: ${response.status}`);
+                return response.json();
+            })
+            .then(data => {
+                console.log('API 응답:', data);
+                const place = data.documents[0] || {};
+                let kakaoInfo = '';
+                if (place.place_url) {
+                    kakaoInfo = `<a href="${place.place_url}" target="_blank">카카오맵에서 더 보기</a><br>`;
+                } else {
+                    const searchUrl = `https://map.kakao.com/?q=${encodeURIComponent(place.road_address_name || place.address_name || address)}`;
+                    kakaoInfo = `<a href="${searchUrl}" target="_blank">카카오맵에서 검색</a><br>`;
+                }
+                const kakaoAddress = place.road_address_name || place.address_name || address;
+                const kakaoPhone = place.phone || phone;
+
+                const content = `
+                    <div class="detail-window">
+                        <strong>${name}</strong><br>
+                        업종: ${category || '정보 없음'}<br>
+                        주요 품목: ${main_item || '정보 없음'}<br>
+                        가격: ${price ? price + '원' : '정보 없음'}<br>
+                        전화번호: ${kakaoPhone || '정보 없음'}<br>
+                        주소: ${kakaoAddress || '정보 없음'}<br>
+                        ${kakaoInfo}
+                    </div>
+                `;
+                const markerPosition = new kakao.maps.LatLng(lat, lng);
+                const infowindow = new kakao.maps.InfoWindow({
+                    position: markerPosition,
+                    content: content,
+                    zIndex: 20
+                });
+
+                infowindow.open(map);
+
+                const mapDiv = document.getElementById('map');
+                const mapWidth = mapDiv.offsetWidth;
+                const mapHeight = mapDiv.offsetHeight;
+
+                const iwContent = document.createElement('div');
+                iwContent.innerHTML = content;
+                document.body.appendChild(iwContent);
+                const iwWidth = iwContent.offsetWidth || 300;
+                const iwHeight = iwContent.offsetHeight || 200;
+                document.body.removeChild(iwContent);
+
+                const projection = map.getProjection();
+                if (projection && typeof projection.pointFromCoords === 'function') {
+                    const point = projection.pointFromCoords(markerPosition);
+                    if (point && typeof point.getX === 'function' && typeof point.getY === 'function') {
+                        const pixelX = point.getX();
+                        const pixelY = point.getY();
+
+                        if (pixelX + iwWidth > mapWidth || pixelY + iwHeight > mapHeight) {
+                            let newPixelX = pixelX;
+                            let newPixelY = pixelY;
+                            if (pixelX + iwWidth > mapWidth) newPixelX = mapWidth - iwWidth;
+                            if (pixelY + iwHeight > mapHeight) newPixelY = mapHeight - iwHeight;
+                            const newPosition = projection.coordsFromPoint(new kakao.maps.Point(newPixelX, newPixelY));
+                            infowindow.setPosition(newPosition);
+                        }
+                    } else {
+                        console.warn('point 객체가 예상된 kakao.maps.Point가 아님. 위치 조정 건너뜀.');
+                    }
+                } else {
+                    console.warn('projection 객체가 유효하지 않음. 위치 조정 건너뜀.');
+                }
+
+                currentInfowindow = infowindow;
+            })
+            .catch(error => {
+                console.error('Kakao API 오류:', error);
+                const searchUrl = `https://map.kakao.com/?q=${encodeURIComponent(address)}`;
+                const content = `
+                    <div class="detail-window">
+                        <strong>${name}</strong><br>
+                        업종: ${category || '정보 없음'}<br>
+                        주요 품목: ${main_item || '정보 없음'}<br>
+                        가격: ${price ? price + '원' : '정보 없음'}<br>
+                        전화번호: ${phone || '정보 없음'}<br>
+                        주소: ${address || '정보 없음'}<br>
+                        <a href="${searchUrl}" target="_blank">카카오맵에서 검색</a><br>
+                    </div>
+                `;
+                const markerPosition = new kakao.maps.LatLng(lat, lng);
+                const infowindow = new kakao.maps.InfoWindow({
+                    position: markerPosition,
+                    content: content,
+                    zIndex: 20
+                });
+
+                infowindow.open(map);
+
+                const mapDiv = document.getElementById('map');
+                const mapWidth = mapDiv.offsetWidth;
+                const mapHeight = mapDiv.offsetHeight;
+
+                const iwContent = document.createElement('div');
+                iwContent.innerHTML = content;
+                document.body.appendChild(iwContent);
+                const iwWidth = iwContent.offsetWidth || 300;
+                const iwHeight = iwContent.offsetHeight || 200;
+                document.body.removeChild(iwContent);
+
+                const projection = map.getProjection();
+                if (projection && typeof projection.pointFromCoords === 'function') {
+                    const point = projection.pointFromCoords(markerPosition);
+                    if (point && typeof point.getX === 'function' && typeof point.getY === 'function') {
+                        const pixelX = point.getX();
+                        const pixelY = point.getY();
+
+                        if (pixelX + iwWidth > mapWidth || pixelY + iwHeight > mapHeight) {
+                            let newPixelX = pixelX;
+                            let newPixelY = pixelY;
+                            if (pixelX + iwWidth > mapWidth) newPixelX = mapWidth - iwWidth;
+                            if (pixelY + iwHeight > mapHeight) newPixelY = mapHeight - iwHeight;
+                            const newPosition = projection.coordsFromPoint(new kakao.maps.Point(newPixelX, newPixelY));
+                            infowindow.setPosition(newPosition);
+                        }
+                    } else {
+                        console.warn('point 객체가 예상된 kakao.maps.Point가 아님. 위치 조정 건너뜀.');
+                    }
+                } else {
+                    console.warn('projection 객체가 유효하지 않음. 위치 조정 건너뜀.');
+                }
+
+                currentInfowindow = infowindow;
+            })
+            .finally(() => {
+                isOpeningPopup = false;
+            });
+        };
 
         window.closeDetailWindow = function() {
             if (currentInfowindow) {
@@ -487,6 +605,8 @@
         });
 
         window.onload = function() {
+            // 페이지 로드 시 조회수 증가
+            incrementPageViews();
             adjustMapPosition();
         };
     </script>
