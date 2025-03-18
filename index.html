@@ -9,123 +9,21 @@
             defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pako/2.1.0/pako.min.js"></script>
     <style>
-        html, body { 
-            margin: 0; 
-            padding: 0; 
-            height: 100%; 
-            overflow: hidden; 
-        }
-        #logo { 
-            text-align: center; 
-            padding: 10px; 
-            margin: 0; 
-            position: fixed; 
-            top: 0; 
-            width: 100%; 
-            z-index: 100; 
-            background: rgba(255, 255, 255, 0.8); 
-            cursor: pointer; 
-        }
-        #logo img { 
-            max-width: 300px; 
-            height: auto; 
-            vertical-align: middle; 
-        }
-        #credit { 
-            text-align: center; 
-            font-size: 12px; 
-            color: #666; 
-            padding: 5px 0; 
-            position: fixed; 
-            top: 70px; 
-            width: 100%; 
-            z-index: 100; 
-            background: rgba(255, 255, 255, 0.7); 
-        }
-        #map { 
-            width: 100%; 
-            height: 100%; 
-            position: absolute; 
-            top: 0; 
-            z-index: 1; 
-        }
-        .info-window { 
-            font-size: 12px; padding: 1px 2px; background: white; border: 1px solid #333; 
-            border-radius: 3px; display: inline-block; white-space: nowrap; width: fit-content; 
-            max-width: 200px; overflow: hidden; text-overflow: ellipsis; margin: 0; 
-            box-sizing: content-box; position: relative; top: -35px; cursor: pointer;
-        }
-        .detail-window { 
-            font-size: 14px; 
-            padding: 10px; 
-            background: white; 
-            border: 1px solid #666; 
-            border-radius: 5px; 
-            max-width: 300px; 
-            box-shadow: 2px 2px 5px rgba(0,0,0,0.3); 
-            line-height: 1.5; 
-            position: relative; 
-            z-index: 20; 
-        }
-        .detail-window a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        .detail-window a:hover {
-            text-decoration: underline;
-        }
-        .click-area { 
-            width: 40px; height: 40px; background: transparent; border-radius: 50%; 
-            position: absolute; top: -20px; left: -20px; cursor: pointer;
-        }
-        #dropdown-container { 
-            position: fixed; 
-            left: 50%; 
-            transform: translateX(-50%); 
-            top: 95px; 
-            z-index: 100; 
-            text-align: center; 
-            white-space: nowrap; 
-        }
-        #region-select, #price-select { 
-            display: inline-block; 
-            padding: 5px; 
-            font-size: 16px; 
-            margin: 0 10px; 
-            vertical-align: middle; 
-        }
-        #loading { 
-            position: fixed; 
-            top: 50%; 
-            left: 50%; 
-            transform: translate(-50%, -50%); 
-            background: rgba(0,0,0,0.7); 
-            color: white; 
-            padding: 20px; 
-            z-index: 200; 
-            display: none; 
-        }
-        @media (max-width: 600px) { 
-            #dropdown-container { 
-                top: 85px; 
-            }
-            #region-select, #price-select { 
-                display: inline-block; 
-                width: 100px; 
-                margin: 0 2px; 
-                font-size: 14px; 
-            }
-            #logo img { max-width: 200px; }
-            #credit { 
-                font-size: 10px; 
-                top: 60px; 
-                padding: 3px 0; 
-            }
-            .detail-window { 
-                font-size: 12px; 
-                max-width: 250px; 
-            }
-        }
+        html, body { margin: 0; padding: 0; height: 100%; overflow: hidden; }
+        #logo { text-align: center; padding: 10px; margin: 0; position: fixed; top: 0; width: 100%; z-index: 100; background: rgba(255, 255, 255, 0.8); cursor: pointer; }
+        #logo img { max-width: 300px; height: auto; vertical-align: middle; }
+        #credit { text-align: center; font-size: 12px; color: #666; padding: 5px 0; position: fixed; top: 70px; width: 100%; z-index: 100; background: rgba(255, 255, 255, 0.7); }
+        #map { width: 100%; height: 100%; position: absolute; top: 0; z-index: 1; }
+        .info-window { font-size: 12px; padding: 1px 2px; background: white; border: 1px solid #333; border-radius: 3px; display: inline-block; white-space: nowrap; width: fit-content; max-width: 200px; overflow: hidden; text-overflow: ellipsis; margin: 0; box-sizing: content-box; position: relative; top: -35px; cursor: pointer; }
+        .detail-window { font-size: 14px; padding: 10px; background: white; border: 1px solid #666; border-radius: 5px; max-width: 300px; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); line-height: 1.5; position: relative; z-index: 20; }
+        .detail-window a { color: #007bff; text-decoration: none; }
+        .detail-window a:hover { text-decoration: underline; }
+        .click-area { width: 40px; height: 40px; background: transparent; border-radius: 50%; position: absolute; top: -20px; left: -20px; cursor: pointer; }
+        #dropdown-container { position: fixed; left: 50%; transform: translateX(-50%); top: 95px; z-index: 100; text-align: center; white-space: nowrap; }
+        #region-select, #price-select { display: inline-block; padding: 5px; font-size: 16px; margin: 0 10px; vertical-align: middle; }
+        #loading { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(0,0,0,0.7); color: white; padding: 20px; z-index: 200; display: none; }
+        #error-message { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(255, 0, 0, 0.8); color: white; padding: 20px; z-index: 200; display: none; }
+        @media (max-width: 600px) { #dropdown-container { top: 85px; } #region-select, #price-select { display: inline-block; width: 100px; margin: 0 2px; font-size: 14px; } #logo img { max-width: 200px; } #credit { font-size: 10px; top: 60px; padding: 3px 0; } .detail-window { font-size: 12px; max-width: 250px; } }
     </style>
 </head>
 <body>
@@ -167,6 +65,7 @@
         </div>
     </div>
     <div id="loading">지도 로딩 중...</div>
+    <div id="error-message"></div> <!-- 에러 메시지 표시용 -->
     <script>
         let map;
         let clusterer;
@@ -179,6 +78,7 @@
         let allStores = [];
         let isLoadingMarkers = false;
         let isOpeningPopup = false;
+        const placeCache = new Map(); // API 호출 결과 캐싱
 
         const KAKAO_REST_API_KEY = '401f9e3117d91b4a7f7dfbcf81bba69c';
 
@@ -217,7 +117,7 @@
         function initMap() {
             const container = document.getElementById('map');
             if (!container) {
-                console.error("❌ 지도 컨테이너 없음");
+                console.error("[INIT] ❌ 지도 컨테이너 없음");
                 return;
             }
             const options = {
@@ -234,7 +134,7 @@
 
             kakao.maps.event.removeListener(map, 'click');
             kakao.maps.event.addListener(map, 'click', () => {
-                console.log('지도 클릭 이벤트 발생');
+                console.log('[MAP] 지도 클릭 이벤트 발생');
                 if (currentInfowindow) {
                     currentInfowindow.setMap(null);
                     currentInfowindow = null;
@@ -255,10 +155,11 @@
 
             initRegionSelect();
             initPriceSelect();
-            loadStores(currentRegion, currentPriceRange, true); // 초기 로드 시 지도 이동 허용
+            loadStores(currentRegion, currentPriceRange, true);
 
             adjustMapPosition();
             window.addEventListener('resize', adjustMapPosition);
+            console.log('[INIT] 지도 초기화 완료');
         }
 
         function updateOverlays() {
@@ -272,6 +173,7 @@
             if (currentInfowindow && level > 5) {
                 currentInfowindow.setMap(null);
             }
+            console.log('[OVERLAY] 오버레이 업데이트, 현재 레벨:', level);
         }
 
         function clearMap() {
@@ -286,6 +188,7 @@
             markers = [];
             overlays = [];
             clickAreas = [];
+            console.log('[CLEAR] 지도 클리어 완료');
         }
 
         function filterStores(stores, priceRange) {
@@ -305,7 +208,7 @@
             const visibleStores = stores.filter(store => 
                 store[2] && store[3] && bounds.contain(new kakao.maps.LatLng(store[2], store[3]))
             );
-
+            console.log('[VISIBLE] Visible stores (first name):', visibleStores[0] ? visibleStores[0][0] : 'No visible stores');
             clearMap();
             loadMarkersInChunks(visibleStores);
         }
@@ -315,7 +218,8 @@
             function addNextChunk() {
                 const chunk = stores.slice(index, index + chunkSize);
                 chunk.forEach(store => {
-                    const [n, p, lt, lg, c, m, ph, a] = store;
+                    const [n, p, lt, lg, c, m, ph, a, kakao_place_id] = store; // kakao_place_id 추가
+                    console.log('[MARKER] Original store name in loadMarkersInChunks:', n);
                     const markerPosition = new kakao.maps.LatLng(lt, lg);
                     const marker = new kakao.maps.Marker({
                         position: markerPosition,
@@ -324,10 +228,13 @@
                     });
                     markers.push(marker);
 
-                    const cleanName = n.trim().replace(/'/g, "\\'");
+                    const cleanName = n.trim()
+                        .replace(/'/g, "\\'")
+                        .replace(/돈까술\s*/, '');
+                    console.log('[MARKER] Cleaned store name in loadMarkersInChunks:', cleanName);
                     const overlay = new kakao.maps.CustomOverlay({
                         position: markerPosition,
-                        content: `<div class="info-window" onclick="toggleStoreDetails('${cleanName}', '${c || ''}', '${m || ''}', '${p || ''}', '${ph || ''}', '${a || ''}', ${lt}, ${lg})">${cleanName}</div>`,
+                        content: `<div class="info-window" onclick="toggleStoreDetails('${cleanName}', '${c || ''}', '${m || ''}', '${p || ''}', '${ph || ''}', '${a || ''}', ${lt}, ${lg}, '${kakao_place_id || ''}')">${cleanName}</div>`,
                         xAnchor: 0.5,
                         yAnchor: 1,
                         zIndex: 10
@@ -343,19 +250,19 @@
                     });
                     clickAreas.push(clickArea);
 
-                    kakao.maps.event.addListener(marker, 'click', () => toggleStoreDetails(cleanName, c, m, p, ph, a, lt, lg));
-                    kakao.maps.event.addListener(clickArea, 'click', () => toggleStoreDetails(cleanName, c, m, p, ph, a, lt, lg));
+                    kakao.maps.event.addListener(marker, 'click', () => toggleStoreDetails(cleanName, c, m, p, ph, a, lt, lg, kakao_place_id));
+                    kakao.maps.event.addListener(clickArea, 'click', () => toggleStoreDetails(cleanName, c, m, p, ph, a, lt, lg, kakao_place_id));
                 });
                 clusterer.addMarkers(markers.slice(index, index + chunkSize));
                 index += chunkSize;
                 if (index < stores.length) {
-                    setTimeout(addNextChunk, 50);
+                    requestAnimationFrame(addNextChunk);
                 } else {
                     updateOverlays();
                     isLoadingMarkers = false;
                 }
             }
-            addNextChunk();
+            requestAnimationFrame(addNextChunk);
         }
 
         function loadStores(region, priceRange, shouldAdjustBounds = false) {
@@ -367,22 +274,32 @@
             }
 
             const jsonFile = `stores_by_region/stores_${region}.json.gz`;
-            console.log(`Attempting to load file: ${jsonFile}`);
+            console.log('[LOAD] Attempting to load file:', jsonFile);
             
             fetch(jsonFile)
                 .then(response => {
-                    console.log(`Fetch response status: ${response.status} ${response.statusText}`);
+                    console.log('[LOAD] Fetch response status:', response.status, response.statusText);
                     if (!response.ok) {
                         throw new Error(`HTTP 오류: ${response.status} - ${response.statusText}`);
                     }
                     return response.arrayBuffer();
                 })
                 .then(buffer => {
-                    console.log(`File ${jsonFile} loaded successfully, decompressing...`);
+                    console.log('[LOAD] File loaded successfully, decompressing...');
                     const decompressed = pako.inflate(buffer, { to: 'string' });
-                    console.log(`Decompressed data (first 100 chars): ${decompressed.substring(0, 100)}...`);
-                    const stores = JSON.parse(decompressed).slice(1);
-                    console.log(`Parsed ${stores.length} stores from ${jsonFile}`);
+                    const rawData = JSON.parse(decompressed);
+                    console.log('[LOAD] Raw parsed data (first 5 stores):', rawData.slice(1, 6).map(store => store[0]));
+                    
+                    const stores = rawData.slice(1);
+                    for (let i = 0; i < stores.length; i++) {
+                        let originalName = stores[i][0];
+                        if (/^(돈까술|맛집|가게|식당)\s*/.test(originalName)) {
+                            console.warn('[LOAD] Contaminated store name detected:', originalName, '-> Cleaned:', originalName.replace(/^(돈까술|맛집|가게|식당)\s*/, ''));
+                            stores[i][0] = originalName.replace(/^(돈까술|맛집|가게|식당)\s*/, '');
+                        }
+                    }
+                    
+                    console.log('[LOAD] Parsed stores (first store name):', stores[0] ? stores[0][0] : 'No stores');
                     allStores = stores;
                     let filteredStores = filterStores(stores, priceRange);
                     loadVisibleMarkers(filteredStores);
@@ -396,16 +313,24 @@
                     document.getElementById('loading').style.display = 'none';
                 })
                 .catch(error => {
-                    console.error(`❌ ${region} 데이터 로드 실패:`, error.message);
-                    console.error(`Full error details:`, error);
+                    console.error('[LOAD] ❌', region, '데이터 로드 실패:', error.message);
+                    console.error('[LOAD] Full error details:', error);
                     document.getElementById('loading').style.display = 'none';
-                    alert(`${region} 데이터를 로드하는 데 실패했습니다. 파일이 존재하는지, 형식이 올바른지 확인해주세요.`);
+                    const errorMessage = document.getElementById('error-message');
+                    errorMessage.textContent = `${region} 데이터를 로드하는 데 실패했습니다: ${error.message}. 기본 지역(서울)으로 이동합니다.`;
+                    errorMessage.style.display = 'block';
+                    setTimeout(() => {
+                        errorMessage.style.display = 'none';
+                        currentRegion = "서울"; // 기본 지역으로 복구
+                        document.getElementById('region-select').value = "서울";
+                        loadStores(currentRegion, currentPriceRange, true);
+                    }, 3000);
                 });
         }
 
-        window.toggleStoreDetails = function(name, category, main_item, price, phone, address, lat, lng) {
+        window.toggleStoreDetails = function(name, category, main_item, price, phone, address, lat, lng, kakao_place_id) {
             if (isOpeningPopup) {
-                console.log('팝업 생성 중입니다. 잠시 기다려주세요.');
+                console.log('[DETAIL] 팝업 생성 중입니다. 잠시 기다려주세요.');
                 return;
             }
 
@@ -415,43 +340,26 @@
             }
 
             if (!map || typeof map.getProjection !== 'function') {
-                console.error('지도 객체(map)가 초기화되지 않았습니다.');
+                console.error('[DETAIL] 지도 객체(map)가 초기화되지 않았습니다.');
                 return;
             }
 
+            console.log('[DETAIL] toggleStoreDetails 호출됨 - 원본 이름:', name, '좌표:', lat, lng, 'kakao_place_id:', kakao_place_id);
             isOpeningPopup = true;
 
-            const kakaoLocalApiUrl = `https://dapi.kakao.com/v2/local/search/keyword.json?query=${encodeURIComponent(name)}&x=${lng}&y=${lat}&radius=500`;
-            fetch(kakaoLocalApiUrl, {
-                headers: {
-                    'Authorization': `KakaoAK ${KAKAO_REST_API_KEY}`
-                }
-            })
-            .then(response => {
-                if (!response.ok) throw new Error(`Kakao API 호출 실패: ${response.status}`);
-                return response.json();
-            })
-            .then(data => {
-                console.log('API 응답:', data);
-                const place = data.documents[0] || {};
-                let kakaoInfo = '';
-                if (place.place_url) {
-                    kakaoInfo = `<a href="${place.place_url}" target="_blank">카카오맵에서 더 보기</a><br>`;
-                } else {
-                    const searchUrl = `https://map.kakao.com/?q=${encodeURIComponent(place.road_address_name || place.address_name || address)}`;
-                    kakaoInfo = `<a href="${searchUrl}" target="_blank">카카오맵에서 검색</a><br>`;
-                }
-                const kakaoAddress = place.road_address_name || place.address_name || address;
-                const kakaoPhone = place.phone || phone;
+            // kakao_place_id가 있으면 바로 사용
+            if (kakao_place_id) {
+                const kakaoInfo = `<a href="https://place.map.kakao.com/${kakao_place_id}" target="_blank">카카오맵에서 더 보기</a><br>`;
+                const displayName = name.replace(/돈까술\s*/, '');
 
                 const content = `
                     <div class="detail-window">
-                        <strong>${name}</strong><br>
+                        <strong>${displayName}</strong><br>
                         업종: ${category || '정보 없음'}<br>
                         주요 품목: ${main_item || '정보 없음'}<br>
                         가격: ${price ? price + '원' : '정보 없음'}<br>
-                        전화번호: ${kakaoPhone || '정보 없음'}<br>
-                        주소: ${kakaoAddress || '정보 없음'}<br>
+                        전화번호: ${phone || '정보 없음'}<br>
+                        주소: ${address || '정보 없음'}<br>
                         ${kakaoInfo}
                     </div>
                 `;
@@ -463,48 +371,102 @@
                 });
 
                 infowindow.open(map);
-
-                const mapDiv = document.getElementById('map');
-                const mapWidth = mapDiv.offsetWidth;
-                const mapHeight = mapDiv.offsetHeight;
-
-                const iwContent = document.createElement('div');
-                iwContent.innerHTML = content;
-                document.body.appendChild(iwContent);
-                const iwWidth = iwContent.offsetWidth || 300;
-                const iwHeight = iwContent.offsetHeight || 200;
-                document.body.removeChild(iwContent);
-
-                const projection = map.getProjection();
-                if (projection && typeof projection.pointFromCoords === 'function') {
-                    const point = projection.pointFromCoords(markerPosition);
-                    if (point && typeof point.getX === 'function' && typeof point.getY === 'function') {
-                        const pixelX = point.getX();
-                        const pixelY = point.getY();
-
-                        if (pixelX + iwWidth > mapWidth || pixelY + iwHeight > mapHeight) {
-                            let newPixelX = pixelX;
-                            let newPixelY = pixelY;
-                            if (pixelX + iwWidth > mapWidth) newPixelX = mapWidth - iwWidth;
-                            if (pixelY + iwHeight > mapHeight) newPixelY = mapHeight - iwHeight;
-                            const newPosition = projection.coordsFromPoint(new kakao.maps.Point(newPixelX, newPixelY));
-                            infowindow.setPosition(newPosition);
-                        }
-                    } else {
-                        console.warn('point 객체가 예상된 kakao.maps.Point가 아님. 위치 조정 건너뜀.');
-                    }
-                } else {
-                    console.warn('projection 객체가 유효하지 않음. 위치 조정 건너뜀.');
-                }
-
                 currentInfowindow = infowindow;
+                adjustInfowindowPosition(markerPosition, content);
+                isOpeningPopup = false;
+                return;
+            }
+
+            // 캐싱된 결과 확인
+            const cacheKey = `${name}|${lat}|${lng}`;
+            if (placeCache.has(cacheKey)) {
+                const cachedPlace = placeCache.get(cacheKey);
+                displayStoreDetails(cachedPlace, name, category, main_item, price, phone, address, lat, lng);
+                isOpeningPopup = false;
+                return;
+            }
+
+            // 이름 기반 검색
+            const kakaoLocalApiUrl = `https://dapi.kakao.com/v2/local/search/keyword.json?query=${encodeURIComponent(name)}&x=${lng}&y=${lat}&radius=1000&category_group_code=FD6`;
+            console.log('[DETAIL] API 호출 URL (이름 기반):', kakaoLocalApiUrl);
+
+            fetch(kakaoLocalApiUrl, {
+                headers: { 'Authorization': `KakaoAK ${KAKAO_REST_API_KEY}` }
+            })
+            .then(response => {
+                console.log('[DETAIL] API 응답 상태 (이름 기반):', response.status, response.statusText);
+                if (!response.ok) throw new Error(`Kakao API 호출 실패: ${response.status}`);
+                return response.json();
+            })
+            .then(data => {
+                console.log('[DETAIL] API 응답 (이름 기반):', data);
+                let place = data.documents[0] || null;
+                if (!place && address) {
+                    // 주소 기반 검색
+                    const addressApiUrl = `https://dapi.kakao.com/v2/local/search/keyword.json?query=${encodeURIComponent(address)}&x=${lng}&y=${lat}&radius=1000&category_group_code=FD6`;
+                    console.log('[DETAIL] API 호출 URL (주소 기반):', addressApiUrl);
+                    return fetch(addressApiUrl, { headers: { 'Authorization': `KakaoAK ${KAKAO_REST_API_KEY}` } })
+                        .then(res => {
+                            console.log('[DETAIL] API 응답 상태 (주소 기반):', res.status, res.statusText);
+                            if (!res.ok) throw new Error(`Kakao API 호출 실패: ${res.status}`);
+                            return res.json();
+                        })
+                        .then(addrData => {
+                            console.log('[DETAIL] API 응답 (주소 기반):', addrData);
+                            place = addrData.documents[0] || null;
+                            if (!place) {
+                                // 좌표 기반 주소 검색
+                                const coordApiUrl = `https://dapi.kakao.com/v2/local/geo/coord2address.json?x=${lng}&y=${lat}`;
+                                console.log('[DETAIL] API 호출 URL (좌표 기반):', coordApiUrl);
+                                return fetch(coordApiUrl, { headers: { 'Authorization': `KakaoAK ${KAKAO_REST_API_KEY}` } })
+                                    .then(coordRes => {
+                                        console.log('[DETAIL] API 응답 상태 (좌표 기반):', coordRes.status, coordRes.statusText);
+                                        if (!coordRes.ok) throw new Error(`Kakao API 호출 실패: ${coordRes.status}`);
+                                        return coordRes.json();
+                                    })
+                                    .then(coordData => {
+                                        console.log('[DETAIL] API 응답 (좌표 기반):', coordData);
+                                        const coordAddress = coordData.documents[0]?.road_address?.address_name || coordData.documents[0]?.address?.address_name;
+                                        if (coordAddress) {
+                                            const retryApiUrl = `https://dapi.kakao.com/v2/local/search/keyword.json?query=${encodeURIComponent(name + ' ' + coordAddress)}&x=${lng}&y=${lat}&radius=1000&category_group_code=FD6`;
+                                            console.log('[DETAIL] API 호출 URL (좌표 기반 주소 재검색):', retryApiUrl);
+                                            return fetch(retryApiUrl, { headers: { 'Authorization': `KakaoAK ${KAKAO_REST_API_KEY}` } })
+                                                .then(retryRes => {
+                                                    console.log('[DETAIL] API 응답 상태 (좌표 기반 주소 재검색):', retryRes.status, retryRes.statusText);
+                                                    if (!retryRes.ok) throw new Error(`Kakao API 호출 실패: ${retryRes.status}`);
+                                                    return retryRes.json();
+                                                })
+                                                .then(retryData => {
+                                                    console.log('[DETAIL] API 응답 (좌표 기반 주소 재검색):', retryData);
+                                                    place = retryData.documents[0] || null;
+                                                    return { place, isAddressSearch: true };
+                                                });
+                                        }
+                                        return { place: null, isAddressSearch: true };
+                                    });
+                            }
+                            return { place, isAddressSearch: true };
+                        });
+                }
+                return { place, isAddressSearch: false };
+            })
+            .then(({ place, isAddressSearch }) => {
+                placeCache.set(cacheKey, place); // 캐싱
+                displayStoreDetails(place, name, category, main_item, price, phone, address, lat, lng);
             })
             .catch(error => {
-                console.error('Kakao API 오류:', error);
-                const searchUrl = `https://map.kakao.com/?q=${encodeURIComponent(address)}`;
+                console.error('[DETAIL] Kakao API 오류:', error);
+                const errorMessage = document.getElementById('error-message');
+                errorMessage.textContent = `가게 정보를 불러오는 데 실패했습니다: ${error.message}`;
+                errorMessage.style.display = 'block';
+                setTimeout(() => {
+                    errorMessage.style.display = 'none';
+                }, 3000);
+
+                const searchUrl = `https://map.kakao.com/?x=${lng}&y=${lat}&q=${encodeURIComponent(name)}&map_type=TYPE_MAP&level=3`;
                 const content = `
                     <div class="detail-window">
-                        <strong>${name}</strong><br>
+                        <strong>${name.replace(/돈까술\s*/, '')}</strong><br>
                         업종: ${category || '정보 없음'}<br>
                         주요 품목: ${main_item || '정보 없음'}<br>
                         가격: ${price ? price + '원' : '정보 없음'}<br>
@@ -521,46 +483,83 @@
                 });
 
                 infowindow.open(map);
-
-                const mapDiv = document.getElementById('map');
-                const mapWidth = mapDiv.offsetWidth;
-                const mapHeight = mapDiv.offsetHeight;
-
-                const iwContent = document.createElement('div');
-                iwContent.innerHTML = content;
-                document.body.appendChild(iwContent);
-                const iwWidth = iwContent.offsetWidth || 300;
-                const iwHeight = iwContent.offsetHeight || 200;
-                document.body.removeChild(iwContent);
-
-                const projection = map.getProjection();
-                if (projection && typeof projection.pointFromCoords === 'function') {
-                    const point = projection.pointFromCoords(markerPosition);
-                    if (point && typeof point.getX === 'function' && typeof point.getY === 'function') {
-                        const pixelX = point.getX();
-                        const pixelY = point.getY();
-
-                        if (pixelX + iwWidth > mapWidth || pixelY + iwHeight > mapHeight) {
-                            let newPixelX = pixelX;
-                            let newPixelY = pixelY;
-                            if (pixelX + iwWidth > mapWidth) newPixelX = mapWidth - iwWidth;
-                            if (pixelY + iwHeight > mapHeight) newPixelY = mapHeight - iwHeight;
-                            const newPosition = projection.coordsFromPoint(new kakao.maps.Point(newPixelX, newPixelY));
-                            infowindow.setPosition(newPosition);
-                        }
-                    } else {
-                        console.warn('point 객체가 예상된 kakao.maps.Point가 아님. 위치 조정 건너뜀.');
-                    }
-                } else {
-                    console.warn('projection 객체가 유효하지 않음. 위치 조정 건너뜀.');
-                }
-
                 currentInfowindow = infowindow;
+                adjustInfowindowPosition(markerPosition, content);
             })
             .finally(() => {
                 isOpeningPopup = false;
             });
         };
+
+        function displayStoreDetails(place, name, category, main_item, price, phone, address, lat, lng) {
+            let kakaoInfo = '';
+            if (place && place.place_url) {
+                kakaoInfo = `<a href="${place.place_url}" target="_blank">카카오맵에서 더 보기</a><br>`;
+            } else {
+                const searchUrl = `https://map.kakao.com/?x=${lng}&y=${lat}&q=${encodeURIComponent(name)}&map_type=TYPE_MAP&level=3`;
+                kakaoInfo = `<a href="${searchUrl}" target="_blank">카카오맵에서 검색</a><br>`;
+            }
+            const displayName = name.replace(/돈까술\s*/, '');
+            const kakaoAddress = place ? (place.road_address_name || place.address_name) : address;
+            const kakaoPhone = place ? place.phone : phone;
+
+            const content = `
+                <div class="detail-window">
+                    <strong>${displayName}</strong><br>
+                    업종: ${category || '정보 없음'}<br>
+                    주요 품목: ${main_item || '정보 없음'}<br>
+                    가격: ${price ? price + '원' : '정보 없음'}<br>
+                    전화번호: ${kakaoPhone || '정보 없음'}<br>
+                    주소: ${kakaoAddress || '정보 없음'}<br>
+                    ${kakaoInfo}
+                </div>
+            `;
+            const markerPosition = new kakao.maps.LatLng(lat, lng);
+            const infowindow = new kakao.maps.InfoWindow({
+                position: markerPosition,
+                content: content,
+                zIndex: 20
+            });
+
+            infowindow.open(map);
+            currentInfowindow = infowindow;
+            adjustInfowindowPosition(markerPosition, content);
+        }
+
+        function adjustInfowindowPosition(markerPosition, content) {
+            const mapDiv = document.getElementById('map');
+            const mapWidth = mapDiv.offsetWidth;
+            const mapHeight = mapDiv.offsetHeight;
+
+            const iwContent = document.createElement('div');
+            iwContent.innerHTML = content;
+            document.body.appendChild(iwContent);
+            const iwWidth = iwContent.offsetWidth || 300;
+            const iwHeight = iwContent.offsetHeight || 200;
+            document.body.removeChild(iwContent);
+
+            const projection = map.getProjection();
+            if (projection && typeof projection.pointFromCoords === 'function') {
+                const point = projection.pointFromCoords(markerPosition);
+                if (point && typeof point.getX === 'function' && typeof point.getY === 'function') {
+                    const pixelX = point.getX();
+                    const pixelY = point.getY();
+
+                    if (pixelX + iwWidth > mapWidth || pixelY + iwHeight > mapHeight) {
+                        let newPixelX = pixelX;
+                        let newPixelY = pixelY;
+                        if (pixelX + iwWidth > mapWidth) newPixelX = mapWidth - iwWidth;
+                        if (pixelY + iwHeight > mapHeight) newPixelY = mapHeight - iwHeight;
+                        const newPosition = projection.coordsFromPoint(new kakao.maps.Point(newPixelX, newPixelY));
+                        currentInfowindow.setPosition(newPosition);
+                    }
+                } else {
+                    console.warn('[DETAIL] point 객체가 예상된 kakao.maps.Point가 아님. 위치 조정 건너뜀.');
+                }
+            } else {
+                console.warn('[DETAIL] projection 객체가 유효하지 않음. 위치 조정 건너뜀.');
+            }
+        }
 
         window.closeDetailWindow = function() {
             if (currentInfowindow) {
@@ -573,7 +572,8 @@
             const select = document.getElementById('region-select');
             select.addEventListener('change', function() {
                 currentRegion = this.value;
-                loadStores(currentRegion, currentPriceRange, true); // 지역 변경 시 지도 이동 허용
+                loadStores(currentRegion, currentPriceRange, true);
+                console.log('[SELECT] 지역 변경:', currentRegion);
             });
         }
 
@@ -582,16 +582,16 @@
             select.addEventListener('change', function() {
                 currentPriceRange = this.value;
                 if (currentRegion) {
-                    // 가격대 변경 시 지도 이동 없이 현재 범위에서 필터링
                     let filteredStores = filterStores(allStores, currentPriceRange);
                     loadVisibleMarkers(filteredStores);
+                    console.log('[SELECT] 가격대 변경:', currentPriceRange);
                 }
             });
         }
 
         document.addEventListener('DOMContentLoaded', function() {
             if (typeof kakao === 'undefined') {
-                console.error("❌ kakao 객체가 정의되지 않음 - SDK 로드 실패");
+                console.error("[INIT] ❌ kakao 객체가 정의되지 않음 - SDK 로드 실패");
                 return;
             }
             kakao.maps.load(() => {
