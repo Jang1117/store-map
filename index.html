@@ -133,7 +133,7 @@
         <img src="logo.png" alt="행정안전부 착한가격업소 로고">
     </div>
     <div id="credit">
-        Made by Jang with ❤️ | 2025 | 홈페이지 조회수: <span id="pageViews">0</span>
+        Made by Jang with ❤️ | 2025
     </div>
     <div id="map">
         <div id="dropdown-container">
@@ -200,25 +200,6 @@
             "충청도": { lat: 36.5184, lng: 127.2495, level: 9 }
         };
 
-        // 홈페이지 조회수 관리 함수
-        function getPageViews() {
-            return parseInt(localStorage.getItem('pageViews') || '0', 10);
-        }
-
-        function incrementPageViews() {
-            const views = getPageViews() + 1;
-            localStorage.setItem('pageViews', views);
-            document.getElementById('pageViews').textContent = views;
-            console.log(`홈페이지 조회수 업데이트: ${views}`);
-            return views;
-        }
-
-        function resetPageViews() {
-            localStorage.removeItem('pageViews');
-            document.getElementById('pageViews').textContent = '0';
-            console.log('홈페이지 조회수 초기화 완료');
-        }
-
         function adjustMapPosition() {
             const logo = document.getElementById('logo');
             const credit = document.getElementById('credit');
@@ -277,7 +258,6 @@
             initPriceSelect();
             loadStores(currentRegion, currentPriceRange, true);
 
-            incrementPageViews();
             adjustMapPosition();
             window.addEventListener('resize', adjustMapPosition);
         }
@@ -411,35 +391,27 @@
                     allStores = stores;
                     let filteredStores = filterStores(stores, priceRange);
                     loadVisibleMarkers(filteredStores);
-
-                    if (shouldAdjustBounds) {
-                        // 필터링된 가게가 있을 경우 해당 범위로 이동
-                        if (filteredStores.length > 0) {
-                            const bounds = new kakao.maps.LatLngBounds();
-                            filteredStores.forEach(store => {
-                                if (store[2] && store[3]) bounds.extend(new kakao.maps.LatLng(store[2], store[3]));
-                            });
-                            map.setBounds(bounds);
+                    if (shouldAdjustBounds && filteredStores.length > 0) {
+                        const bounds = new kakao.maps.LatLngBounds();
+                        filteredStores.forEach(store => {
+                            if (store[2] && store[3]) bounds.extend(new kakao.maps.LatLng(store[2], store[3]));
+                        });
+                        map.setBounds(bounds);
+                    } else if (shouldAdjustBounds) {
+                        const regionInfo = REGION_COORDINATES[region];
+                        if (regionInfo) {
+                            map.setCenter(new kakao.maps.LatLng(regionInfo.lat, regionInfo.lng));
+                            map.setLevel(regionInfo.level);
                         } else {
-                            // 필터링된 가게가 없으면 지역의 기본 좌표와 줌 레벨로 이동
-                            const regionInfo = REGION_COORDINATES[region];
-                            if (regionInfo) {
-                                map.setCenter(new kakao.maps.LatLng(regionInfo.lat, regionInfo.lng));
-                                map.setLevel(regionInfo.level);
-                            } else {
-                                console.warn(`지역 ${region}에 대한 좌표 정보가 없습니다.`);
-                            }
+                            console.warn(`지역 ${region}에 대한 좌표 정보가 없습니다.`);
                         }
                     }
-
                     document.getElementById('loading').style.display = 'none';
                 })
                 .catch(error => {
                     console.error(`❌ ${region} 데이터 로드 실패:`, error.message);
                     console.error(`Full error details:`, error);
                     document.getElementById('loading').style.display = 'none';
-
-                    // 데이터 로드 실패 시에도 지역의 기본 좌표로 이동
                     if (shouldAdjustBounds) {
                         const regionInfo = REGION_COORDINATES[region];
                         if (regionInfo) {
@@ -449,7 +421,6 @@
                             console.warn(`지역 ${region}에 대한 좌표 정보가 없습니다.`);
                         }
                     }
-
                     alert(`${region} 데이터를 로드하는 데 실패했습니다. 파일이 존재하는지, 형식이 올바른지 확인해주세요.`);
                 });
         }
@@ -465,12 +436,67 @@
                 currentInfowindow = null;
             }
 
-            if (!map || typeof map.getProjection !== 'function') {
+            if (!map) {
                 console.error('지도 객체(map)가 초기화되지 않았습니다.');
                 return;
             }
 
             isOpeningPopup = true;
+
+            const markerPosition = new kakao.maps.LatLng(lat, lng);
+
+            function openInfowindow(content) {
+                const infowindow = new kakao.maps.InfoWindow({
+                    position: markerPosition,
+                    content: content,
+                    zIndex: 20
+                });
+                infowindow.open(map);
+                const bounds = map.getBounds();
+                if (!bounds.contain(markerPosition)) {
+                    console.log('마커가 지도 범위 밖에 있음. 지도 이동.');
+                    map.panTo(markerPosition);
+                }
+                currentInfowindow = infowindow;
+                isOpeningPopup = false;
+            }
+
+            function checkMapReady(attempts = 0, maxAttempts = 50) {
+                const projection = map.getProjection();
+                if (projection && typeof projection.pointFromCoords === 'function') {
+                    console.log('지도 준비 완료. infowindow 열기.');
+                    clearInterval(intervalId); // 루프 종료
+                    openInfowindow(`
+                        <div class="detail-window">
+                            <strong>${name}</strong><br>
+                            업종: ${category || '정보 없음'}<br>
+                            주요 품목: ${main_item || '정보 없음'}<br>
+                            가격: ${price ? price + '원' : '정보 없음'}<br>
+                            전화번호: ${phone || '정보 없음'}<br>
+                            주소: ${address || '정보 없음'}<br>
+                        </div>
+                    `);
+                } else if (attempts >= maxAttempts) {
+                    console.error('지도 준비 시간 초과. 기본 infowindow 열기.');
+                    clearInterval(intervalId); // 루프 종료
+                    openInfowindow(`
+                        <div class="detail-window">
+                            <strong>${name}</strong><br>
+                            업종: ${category || '정보 없음'}<br>
+                            주요 품목: ${main_item || '정보 없음'}<br>
+                            가격: ${price ? price + '원' : '정보 없음'}<br>
+                            전화번호: ${phone || '정보 없음'}<br>
+                            주소: ${address || '정보 없음'}<br>
+                        </div>
+                    `);
+                } else {
+                    console.log(`지도 준비 대기 중... (시도 ${attempts + 1}/${maxAttempts})`);
+                    attempts++;
+                }
+            }
+
+            const intervalId = setInterval(checkMapReady, 100); // 100ms 간격으로 체크
+            checkMapReady(); // 초기 호출
 
             const kakaoLocalApiUrl = `https://dapi.kakao.com/v2/local/search/keyword.json?query=${encodeURIComponent(name)}&x=${lng}&y=${lat}&radius=500`;
             fetch(kakaoLocalApiUrl, {
@@ -506,49 +532,9 @@
                         ${kakaoInfo}
                     </div>
                 `;
-                const markerPosition = new kakao.maps.LatLng(lat, lng);
-                const infowindow = new kakao.maps.InfoWindow({
-                    position: markerPosition,
-                    content: content,
-                    zIndex: 20
-                });
-
-                infowindow.open(map);
-
-                const mapDiv = document.getElementById('map');
-                const mapWidth = mapDiv.offsetWidth;
-                const mapHeight = mapDiv.offsetHeight;
-
-                const iwContent = document.createElement('div');
-                iwContent.innerHTML = content;
-                document.body.appendChild(iwContent);
-                const iwWidth = iwContent.offsetWidth || 300;
-                const iwHeight = iwContent.offsetHeight || 200;
-                document.body.removeChild(iwContent);
-
-                const projection = map.getProjection();
-                if (projection && typeof projection.pointFromCoords === 'function') {
-                    const point = projection.pointFromCoords(markerPosition);
-                    if (point && typeof point.getX === 'function' && typeof point.getY === 'function') {
-                        const pixelX = point.getX();
-                        const pixelY = point.getY();
-
-                        if (pixelX + iwWidth > mapWidth || pixelY + iwHeight > mapHeight) {
-                            let newPixelX = pixelX;
-                            let newPixelY = pixelY;
-                            if (pixelX + iwWidth > mapWidth) newPixelX = mapWidth - iwWidth;
-                            if (pixelY + iwHeight > mapHeight) newPixelY = mapHeight - iwHeight;
-                            const newPosition = projection.coordsFromPoint(new kakao.maps.Point(newPixelX, newPixelY));
-                            infowindow.setPosition(newPosition);
-                        }
-                    } else {
-                        console.warn('point 객체가 예상된 kakao.maps.Point가 아님. 위치 조정 건너뜀.');
-                    }
-                } else {
-                    console.warn('projection 객체가 유효하지 않음. 위치 조정 건너뜀.');
+                if (!currentInfowindow) {
+                    openInfowindow(content);
                 }
-
-                currentInfowindow = infowindow;
             })
             .catch(error => {
                 console.error('Kakao API 오류:', error);
@@ -564,52 +550,9 @@
                         <a href="${searchUrl}" target="_blank">카카오맵에서 검색</a><br>
                     </div>
                 `;
-                const markerPosition = new kakao.maps.LatLng(lat, lng);
-                const infowindow = new kakao.maps.InfoWindow({
-                    position: markerPosition,
-                    content: content,
-                    zIndex: 20
-                });
-
-                infowindow.open(map);
-
-                const mapDiv = document.getElementById('map');
-                const mapWidth = mapDiv.offsetWidth;
-                const mapHeight = mapDiv.offsetHeight;
-
-                const iwContent = document.createElement('div');
-                iwContent.innerHTML = content;
-                document.body.appendChild(iwContent);
-                const iwWidth = iwContent.offsetWidth || 300;
-                const iwHeight = iwContent.offsetHeight || 200;
-                document.body.removeChild(iwContent);
-
-                const projection = map.getProjection();
-                if (projection && typeof projection.pointFromCoords === 'function') {
-                    const point = projection.pointFromCoords(markerPosition);
-                    if (point && typeof point.getX === 'function' && typeof point.getY === 'function') {
-                        const pixelX = point.getX();
-                        const pixelY = point.getY();
-
-                        if (pixelX + iwWidth > mapWidth || pixelY + iwHeight > mapHeight) {
-                            let newPixelX = pixelX;
-                            let newPixelY = pixelY;
-                            if (pixelX + iwWidth > mapWidth) newPixelX = mapWidth - iwWidth;
-                            if (pixelY + iwHeight > mapHeight) newPixelY = mapHeight - iwHeight;
-                            const newPosition = projection.coordsFromPoint(new kakao.maps.Point(newPixelX, newPixelY));
-                            infowindow.setPosition(newPosition);
-                        }
-                    } else {
-                        console.warn('point 객체가 예상된 kakao.maps.Point가 아님. 위치 조정 건너뜀.');
-                    }
-                } else {
-                    console.warn('projection 객체가 유효하지 않음. 위치 조정 건너뜀.');
+                if (!currentInfowindow) {
+                    openInfowindow(content);
                 }
-
-                currentInfowindow = infowindow;
-            })
-            .finally(() => {
-                isOpeningPopup = false;
             });
         };
 
@@ -646,7 +589,6 @@
             }
             kakao.maps.load(() => {
                 initMap();
-                adjustMapPosition();
             });
         });
 
