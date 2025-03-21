@@ -23,16 +23,40 @@
         #region-select, #price-select { display: inline-block; padding: 5px; font-size: 16px; margin: 0 10px; vertical-align: middle; }
         #loading { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(0,0,0,0.7); color: white; padding: 20px; z-index: 200; display: none; }
         #error-message { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(255, 0, 0, 0.8); color: white; padding: 20px; z-index: 200; display: none; }
-        @media (max-width: 600px) { #dropdown-container { top: 85px; } #region-select, #price-select { display: inline-block; width: 100px; margin: 0 2px; font-size: 14px; } #logo img { max-width: 200px; } #credit { font-size: 10px; top: 60px; padding: 3px 0; } .detail-window { font-size: 12px; max-width: 250px; } }
+        /* 팝업창 스타일 */
+        #popup-overlay { 
+            position: fixed; 
+            top: 0; 
+            left: 0; 
+            width: 100%; 
+            height: 100%; 
+            background: rgba(0, 0, 0, 0.5); 
+            z-index: 300; 
+            display: none; 
+            justify-content: center; 
+            align-items: center; 
+        }
+        #popup-image { 
+            max-width: 90%; 
+            max-height: 90%; 
+            cursor: pointer; 
+        }
+        @media (max-width: 600px) { 
+            #dropdown-container { top: 85px; } 
+            #region-select, #price-select { display: inline-block; width: 100px; margin: 0 2px; font-size: 14px; } 
+            #logo img { max-width: 200px; } 
+            #credit { font-size: 10px; top: 60px; padding: 3px 0; } 
+            .detail-window { font-size: 12px; max-width: 250px; } 
+        }
     </style>
 </head>
 <body>
     <div id="logo">
         <img src="logo.png" alt="행정안전부 착한가격업소 로고">
     </div>
-	 <div id="credit">
-		Made by Jang with ❤️ | 2025 <span id="view-count">조회수 불러오는 중...</span>
-	</div>
+    <div id="credit">
+        Made by Jang with ❤️ | 2025 <span id="view-count">조회수 불러오는 중...</span>
+    </div>
     <div id="map">
         <div id="dropdown-container">
             <select id="region-select">
@@ -65,10 +89,14 @@
         </div>
     </div>
     <div id="loading">지도 로딩 중...</div>
-    <div id="error-message"></div> <!-- 에러 메시지 표시용 -->
-	<div id="view-counter" style="position: fixed; bottom: 10px; right: 10px; background: rgba(0,0,0,0.7); color: white; padding: 5px 10px; border-radius: 5px;">
-    조회수: 불러오는 중...
-	</div>
+    <div id="error-message"></div>
+    <div id="view-counter" style="position: fixed; bottom: 10px; right: 10px; background: rgba(0,0,0,0.7); color: white; padding: 5px 10px; border-radius: 5px;">
+        조회수: 불러오는 중...
+    </div>
+    <!-- 팝업창 추가 -->
+    <div id="popup-overlay">
+        <img id="popup-image" src="" alt="팝업 이미지">
+    </div>
     <script>
         let map;
         let clusterer;
@@ -81,7 +109,7 @@
         let allStores = [];
         let isLoadingMarkers = false;
         let isOpeningPopup = false;
-        const placeCache = new Map(); // API 호출 결과 캐싱
+        const placeCache = new Map();
 
         const KAKAO_REST_API_KEY = '401f9e3117d91b4a7f7dfbcf81bba69c';
 
@@ -221,7 +249,7 @@
             function addNextChunk() {
                 const chunk = stores.slice(index, index + chunkSize);
                 chunk.forEach(store => {
-                    const [n, p, lt, lg, c, m, ph, a, kakao_place_id] = store; // kakao_place_id 추가
+                    const [n, p, lt, lg, c, m, ph, a, kakao_place_id] = store;
                     console.log('[MARKER] Original store name in loadMarkersInChunks:', n);
                     const markerPosition = new kakao.maps.LatLng(lt, lg);
                     const marker = new kakao.maps.Marker({
@@ -324,7 +352,7 @@
                     errorMessage.style.display = 'block';
                     setTimeout(() => {
                         errorMessage.style.display = 'none';
-                        currentRegion = "서울"; // 기본 지역으로 복구
+                        currentRegion = "서울";
                         document.getElementById('region-select').value = "서울";
                         loadStores(currentRegion, currentPriceRange, true);
                     }, 3000);
@@ -350,7 +378,6 @@
             console.log('[DETAIL] toggleStoreDetails 호출됨 - 원본 이름:', name, '좌표:', lat, lng, 'kakao_place_id:', kakao_place_id);
             isOpeningPopup = true;
 
-            // kakao_place_id가 있으면 바로 사용
             if (kakao_place_id) {
                 const kakaoInfo = `<a href="https://place.map.kakao.com/${kakao_place_id}" target="_blank">카카오맵에서 더 보기</a><br>`;
                 const displayName = name.replace(/돈까술\s*/, '');
@@ -380,7 +407,6 @@
                 return;
             }
 
-            // 캐싱된 결과 확인
             const cacheKey = `${name}|${lat}|${lng}`;
             if (placeCache.has(cacheKey)) {
                 const cachedPlace = placeCache.get(cacheKey);
@@ -389,7 +415,6 @@
                 return;
             }
 
-            // 이름 기반 검색
             const kakaoLocalApiUrl = `https://dapi.kakao.com/v2/local/search/keyword.json?query=${encodeURIComponent(name)}&x=${lng}&y=${lat}&radius=1000&category_group_code=FD6`;
             console.log('[DETAIL] API 호출 URL (이름 기반):', kakaoLocalApiUrl);
 
@@ -405,7 +430,6 @@
                 console.log('[DETAIL] API 응답 (이름 기반):', data);
                 let place = data.documents[0] || null;
                 if (!place && address) {
-                    // 주소 기반 검색
                     const addressApiUrl = `https://dapi.kakao.com/v2/local/search/keyword.json?query=${encodeURIComponent(address)}&x=${lng}&y=${lat}&radius=1000&category_group_code=FD6`;
                     console.log('[DETAIL] API 호출 URL (주소 기반):', addressApiUrl);
                     return fetch(addressApiUrl, { headers: { 'Authorization': `KakaoAK ${KAKAO_REST_API_KEY}` } })
@@ -418,7 +442,6 @@
                             console.log('[DETAIL] API 응답 (주소 기반):', addrData);
                             place = addrData.documents[0] || null;
                             if (!place) {
-                                // 좌표 기반 주소 검색
                                 const coordApiUrl = `https://dapi.kakao.com/v2/local/geo/coord2address.json?x=${lng}&y=${lat}`;
                                 console.log('[DETAIL] API 호출 URL (좌표 기반):', coordApiUrl);
                                 return fetch(coordApiUrl, { headers: { 'Authorization': `KakaoAK ${KAKAO_REST_API_KEY}` } })
@@ -454,7 +477,7 @@
                 return { place, isAddressSearch: false };
             })
             .then(({ place, isAddressSearch }) => {
-                placeCache.set(cacheKey, place); // 캐싱
+                placeCache.set(cacheKey, place);
                 displayStoreDetails(place, name, category, main_item, price, phone, address, lat, lng);
             })
             .catch(error => {
@@ -592,6 +615,45 @@
             });
         }
 
+        // 팝업창 표시 함수
+        function showPopup() {
+            const popupOverlay = document.getElementById('popup-overlay');
+            const popupImage = document.getElementById('popup-image');
+            const errorMessage = document.getElementById('error-message');
+
+            // GitHub raw URL로 이미지 로드
+            const imageUrl = "https://raw.githubusercontent.com/Jang1117/store-map/main/card.jpg";
+            console.log('[POPUP] 이미지 로드 시도:', imageUrl);
+            popupImage.src = imageUrl;
+
+            // 이미지 로드 성공 시 팝업창 표시
+            popupImage.onload = function() {
+                console.log('[POPUP] 이미지가 성공적으로 로드되었습니다:', imageUrl);
+                popupOverlay.style.display = 'flex';
+            };
+
+            // 이미지 로드 실패 시 오류 메시지 표시 및 대체 이미지 로드
+            popupImage.onerror = function() {
+                console.error('[POPUP] 이미지 로드 실패:', imageUrl);
+                errorMessage.textContent = '팝업 이미지를 로드하는 데 실패했습니다.';
+                errorMessage.style.display = 'block';
+                setTimeout(() => {
+                    errorMessage.style.display = 'none';
+                }, 3000);
+
+                // 대체 이미지 로드 (선택 사항)
+                const fallbackImageUrl = "https://via.placeholder.com/300?text=Image+Not+Found";
+                console.log('[POPUP] 대체 이미지 로드 시도:', fallbackImageUrl);
+                popupImage.src = fallbackImageUrl;
+                popupOverlay.style.display = 'flex';
+            };
+
+            // 이미지 클릭 시 팝업창 닫기
+            popupImage.addEventListener('click', function() {
+                popupOverlay.style.display = 'none';
+            });
+        }
+
         document.addEventListener('DOMContentLoaded', function() {
             if (typeof kakao === 'undefined') {
                 console.error("[INIT] ❌ kakao 객체가 정의되지 않음 - SDK 로드 실패");
@@ -600,39 +662,36 @@
             kakao.maps.load(() => {
                 initMap();
                 adjustMapPosition();
+                // 페이지 로드 후 팝업창 표시
+                showPopup();
             });
         });
 
         window.onload = function() {
             adjustMapPosition();
         };
-		
-		// 조회수 증가 함수
-		function incrementViewCount() {
-		  fetch("http://localhost:5000/views/increment", { method: "POST" })
-			.then(() => fetchViewCount())
-			.catch((error) => console.error("조회수 업데이트 실패:", error));
-		}
 
-		function fetchViewCount() {
-			// 조회수 증가 요청
-			fetch("https://jang1117.pythonanywhere.com/views/increment", { method: "POST" })
-				.then(() => {
-					// 조회수 가져오기
-					return fetch("https://jang1117.pythonanywhere.com/views");
-				})
-				.then(response => response.json())
-				.then(data => {
-					// 조회수를 HTML에 추가
-					document.getElementById("view-count").textContent = `조회수: ${data.views}`;
-				})
-				.catch(error => console.error("조회수 불러오기 실패:", error));
-		}
+        function incrementViewCount() {
+            fetch("http://localhost:5000/views/increment", { method: "POST" })
+                .then(() => fetchViewCount())
+                .catch((error) => console.error("조회수 업데이트 실패:", error));
+        }
 
-		// 페이지 로드 시 조회수 증가 및 가져오기
-		window.onload = function () {
-			fetchViewCount();
-		};
+        function fetchViewCount() {
+            fetch("https://jang1117.pythonanywhere.com/views/increment", { method: "POST" })
+                .then(() => {
+                    return fetch("https://jang1117.pythonanywhere.com/views");
+                })
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById("view-count").textContent = `조회수: ${data.views}`;
+                })
+                .catch(error => console.error("조회수 불러오기 실패:", error));
+        }
+
+        window.onload = function () {
+            fetchViewCount();
+        };
     </script>
 </body>
 </html>
